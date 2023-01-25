@@ -1,0 +1,1327 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------
+hungryapp style Sheet
+
+version: 1.1
+author: Jojunghee
+email: jjh@monawa.com
+website: http://www.hungryapp.co.kr/
+--------------------------------*/
+
+#hasp_wrapper {
+    width: 982px;
+}
+
+/*img*/
+
+.hasp_mb1_img {
+    border: #cccccc 1px solid;
+}
+
+.hasp_img_more1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.hasp_img_more2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hasp_btn_gift1 {
+    margin: 5px 0 8px;
+}
+
+.hasp_btn_pro1 {
+    margin: 5px 0 20px;
+}
+
+.hasp_img_clock1 {
+    margin-right: 4px;
+}
+
+.hassp_img_gift1 {
+    border: #cccccc 1px solid;
+}
+
+.hasp_viewA_thumimg {
+    margin: 7px 11px 0 0;
+    float: left;
+}
+
+.hasp_input1 {
+    width: 115px;
+    height: 26px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    border: #d5d5d5 1px solid;
+}
+
+.hasp_input2 {
+    width: 585px;
+    height: 26px;
+    border: #d5d5d5 1px solid;
+}
+
+.hasp_input3 {
+    width: 581px;
+    height: 80px;
+    border: #d5d5d5 1px solid;
+    margin: 10px 0;
+}
+
+.hasp_img_getter {
+    margin-top: 12px;
+}
+
+.hasp_img_me_on {
+    position: absolute;
+    top: 6px;
+    left: 2px;
+}
+
+.hasp_img_me {
+    position: absolute;
+    top: 6px;
+    left: 2px;
+    display: none;
+}
+
+.hasp_mylist_infoimg {
+    float: left;
+    padding-left: 5px;
+}
+
+.hasp_img_mygiftlist1 {
+    position: absolute;
+    left: 20px;
+    top: 19px;
+    width: 25%;
+}
+
+.hasp_img_mygiftlist1b {
+    position: absolute;
+    left: 20px;
+    top: 7px;
+}
+
+.hasp_img_mygiftlist2 {
+    position: absolute;
+    right: 16px;
+    top: 19px;
+}
+
+.has_gift_icon {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 40%;
+}
+
+.has_gift_icon2 {
+    position: absolute;
+    right: 7%;
+    top: 5%;
+    width: 30%;
+}
+
+.hasp_img_clock {
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.hasp_img_lnb {
+    position: relative;
+}
+
+.hasp_img_lnb2 {
+    position: relative;
+    z-index: 11;
+    left: 2px;
+}
+
+.hasp_lnb_on {
+    position: absolute;
+    bottom: -15px;
+    left: 14px;
+    z-index: 10;
+}
+
+.hasp_lnb_off {
+    display: none;
+}
+
+/*etc*/
+
+.has_off {
+    display: none;
+}
+
+/*p태그*/
+
+.hasp_mb1_R_thum_c {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    text-align: left;
+    line-height: 150%;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.hasp_mb1_R_thum_c_on {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    text-align: left;
+    line-height: 150%;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: -1px;
+}
+
+.hasp_price1_c {
+    color: #ff6600;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.hasp_price1_c_on {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0;
+}
+
+.hasp_giftlist_time1 {
+    width: 177px;
+    background-color: #969696;
+    padding: 7px 5px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.hasp_gift_list_c1 {
+    padding: 0 5%;
+    line-height: 150%;
+    color: #444444;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+.hasp_yellow {
+    color: #f6ff00;
+    font-weight: bold;
+}
+
+.hasp_yellow2 {
+    color: #ffde00;
+    font-weight: bold;
+}
+
+.hasp_gift_viewA_c1 {
+    padding: 0px 0 8px;
+    line-height: 140%;
+    color: #444444;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: -1px;
+    border-bottom: #bebdc4 1px dotted;
+}
+
+.hasp_gift_viewA_c2 {
+    padding: 8px 0 8px;
+    line-height: 140%;
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: -1px;
+}
+
+.hasp_gift_viewB_c1 {
+    padding: 15px 0 15px;
+    line-height: 140%;
+    color: #444444;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: -1px;
+    border-bottom: #bebdc4 1px dotted;
+}
+
+.hasp_gift_viewB_c2 {
+    padding: 15px 0 15px;
+    line-height: 140%;
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: -1px;
+}
+
+.hasp_gift_info {
+    padding: 5px 10px 0 15px;
+    font-size: 12px;
+    color: #505050;
+    letter-spacing: -1px;
+}
+
+.hasp_gift_view_btn_c1 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: bold;
+    margin-top: 12px;
+    letter-spacing: -1px;
+}
+
+.hasp_gift_view_btn_c2 {
+    font-size: 14px;
+    letter-spacing: -2px;
+}
+
+.hasp_input1_c1 {
+    position: absolute;
+    top: 25px;
+    left: 43px;
+    color: #b2b2b2;
+    font-weight: bold;
+}
+
+.hasp_getter_c1 {
+    color: #ababab;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 120%;
+}
+
+.hasp_getter_c2 {
+    color: #383838;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.hasp_mylist_c1 {
+    color: #444444;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-left: 203px;
+    padding-top: 20px;
+}
+
+.hasp_mylist_c1b {
+    color: #444444;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-left: 203px;
+    padding-top: 23px;
+}
+
+.hasp_mylist_c2 {
+    color: #1d93dd;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 203px;
+    padding-top: 12px;
+}
+
+.hasp_mylist_c3 {
+    color: #ff6600;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 203px;
+    padding-top: 7px;
+}
+
+.hasp_mylist_c3b {
+    color: #ff6600;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 203px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+.hasp_mylist_c4 {
+    color: #41434f;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    letter-spacing: -1px;
+}
+
+.hasp_pro_list_c1 {
+    padding: 5px 5% 0 5%;
+    height: 20px;
+    line-height: 120%;
+    color: #444444;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+.hasp_price1_c2 {
+    color: #ff6600;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+/*LNB*/
+
+.hasp_lnb {}
+
+.hasp_lnb_el {
+    position: relative;
+}
+
+/* link */
+
+.hasp_tt1_c {
+    position: relative;
+    top: 5px;
+    color: #fff;
+}
+
+a.hasp_tt1_c:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.hasp_tt1_c:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.hasp_tt1_c:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.hasp_tt1_c:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* tab  */
+
+.tabA {
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tab1_bg.png) repeat-x;
+}
+
+.tabA1_1 {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tab1_1.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA1_2 {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tab1_2.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA1_3 {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tab1_3.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA1_4 {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tab1_4.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA1_1_on {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tab1_1_on.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA1_2_on {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tab1_2_on.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA1_3_on {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tab1_3_on.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA1_4_on {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tab1_4_on.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA2_1 {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabA2_1.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA2_2 {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabA2_2.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA2_3 {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabA2_3.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA2_1_on {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabA2_1_on.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA2_2_on {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabA2_2_on.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabA2_3_on {
+    float: left;
+    width: 135px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabA2_3_on.png) no-repeat;
+    margin-right: 3px
+}
+
+.tabB {
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB1_bg.png) repeat-x;
+}
+
+.tabB1_1 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB1_1.png) no-repeat;
+}
+
+.tabB1_2 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB1_2.png) no-repeat;
+}
+
+.tabB1_3 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB1_3.png) no-repeat;
+    border-right: #cccccc 1px solid;
+}
+
+.tabB1_1_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB1_1_on.png) no-repeat;
+}
+
+.tabB1_2_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB1_2_on.png) no-repeat;
+}
+
+.tabB1_3_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB1_3_on.png) no-repeat;
+    border-right: #cccccc 1px solid;
+}
+
+.tabB2_1 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB2_1.png) no-repeat;
+}
+
+.tabB2_2 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB2_2.png) no-repeat;
+}
+
+.tabB2_3 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB2_3.png) no-repeat;
+    border-right: #cccccc 1px solid;
+}
+
+.tabB2_1_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB2_1_on.png) no-repeat;
+}
+
+.tabB2_2_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB2_2_on.png) no-repeat;
+}
+
+.tabB2_3_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB2_3_on.png) no-repeat;
+    border-right: #cccccc 1px solid;
+}
+
+.tabB3_1 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_1.png) no-repeat;
+}
+
+.tabB3_2 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_2.png) no-repeat;
+}
+
+.tabB3_3 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_3.png) no-repeat;
+}
+
+.tabB3_4 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_4.png) no-repeat;
+    border-left: #cccccc 0px solid;
+}
+
+.tabB3_5 {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_5.png) no-repeat;
+}
+
+.tabB3_1_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_1_on.png) no-repeat;
+}
+
+.tabB3_2_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_2_on.png) no-repeat;
+}
+
+.tabB3_3_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_3_on.png) no-repeat;
+}
+
+.tabB3_4_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_4_on.png) no-repeat;
+    border-left: #cccccc 0px solid;
+}
+
+.tabB3_5_on {
+    float: left;
+    width: 134px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/tabB3_5_on.png) no-repeat;
+}
+
+/*테이블부분*/
+
+.hasp_table_1px {
+    width: 100%;
+}
+
+.hasp_table_1px table {
+    width: 100%;
+    border: 1px solid #888693;
+    border-collapse: collapse;
+}
+
+.hasp_table_1px table td.td1 {
+    border: 1px solid #d3d3d3;
+    height: 42px;
+    color: #fff;
+    background-color: #7c7c7c;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hasp_table_1px table td.td2 {
+    border: 1px solid #d3d3d3;
+    height: 42px;
+    padding-left: 16px;
+    color: #505050;
+    background-color: #f7f7f7;
+}
+
+.hasp_table_1px table td.td3 {
+    border: 1px solid #d3d3d3;
+    height: 42px;
+    padding-left: 16px;
+    color: #c3c3c3;
+    background-color: #f7f7f7;
+}
+
+.hasp_btndiv {
+    margin: 20px 0;
+}
+
+/*타이틀_제품목록 기타 공통부분*/
+
+.hasp_wrapper {}
+
+.hasp_wrapper_L {
+    float: left;
+    width: 208px;
+    margin-left: 2px;
+}
+
+.hasp_wrapper_R {
+    float: left;
+    width: 772px;
+}
+
+.hasp_clear {
+    clear: both
+}
+
+.hasp_tt1 {
+    position: relative;
+    height: 44px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/bg1_tt.png) repeat-x;
+    margin-bottom: 10px;
+}
+
+.hasp_tt1_more {
+    height: 22px;
+    position: absolute;
+    right: 0;
+    ;
+    top: 12px;
+    background-color: #b5b5b5;
+    padding: 0 10px 0 17px;
+}
+
+.hasp_gift_list {}
+
+.hasp_gift_listA {
+    float: left;
+    width: 185px;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.hasp_gift_listA_L {
+    float: left;
+    width: 185px;
+    ;
+    text-align: center;
+    position: relative;
+}
+
+.hasp_gift_border {
+    border: #cccccc 1px solid;
+    width: 185px;
+    text-align: center;
+}
+
+.hasp_pro_list {}
+
+.hasp_list_navi {
+    margin: 35px 0;
+}
+
+/*메인배너부분*/
+
+.hasp_mb1_L {
+    width: 535px;
+    position: relative;
+}
+
+.hasp_btn_buy2 {
+    position: absolute;
+    bottom: 28px;
+    left: 15px;
+}
+
+.hasp_mb_price_c1 {
+    color: #ff6600;
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 88px;
+    left: 20px;
+    letter-spacing: -2px;
+}
+
+.hasp_mb2 {
+    position: relative;
+    width: 770px;
+    height: 260;
+    border: #cccccc 1px solid;
+}
+
+.hasp_btn_gift {
+    position: absolute;
+    bottom: 26px;
+    left: 36px;
+}
+
+.hasp_mb2_price_c1 {
+    color: #ff6600;
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 88px;
+    left: 43px;
+    letter-spacing: -2px;
+}
+
+.hasp_slide {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+.hasp_bullet_slide {
+    margin: 0 2px;
+}
+
+/* main */
+
+.hasp_mb1 {
+    position: relative;
+}
+
+.hasp_mb1_R_thum {
+    position: relative;
+    width: 224x;
+    height: 46px;
+    padding: 7px 8px;
+    margin-bottom: 7px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/mainbanner_rollover_bg.png) no-repeat right;
+}
+
+.hasp_mb1_R_thum_over {
+    position: relative;
+    width: 224x;
+    height: 46px;
+    padding: 7px 8px;
+    margin-bottom: 7px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/mainbanner_rollover_bg_over.png) no-repeat right;
+}
+
+.hasp_mb1_R_thum_on {
+    position: relative;
+    width: 224x;
+    height: 46px;
+    padding: 7px 8px;
+    margin-bottom: 7px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/mainbanner_rollover_bg_on.png) no-repeat right;
+}
+
+/*sub1_2*/
+
+.hasp_gift_viewA {
+    float: left;
+    width: 343px;
+    position: relative;
+}
+
+.hasp_gift_viewA_thum {}
+
+.hasp_gift_viewB {
+    float: left;
+    width: 425px;
+}
+
+.hasp_gift_view_btn {
+    float: left;
+    padding: 5px 8px 0 0;
+    width: 136px;
+    height: 86px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/btn_gift_bg.png) no-repeat;
+    position: relative;
+}
+
+.hasp_gift_view_btn_L {
+    float: left;
+    padding: 5px 0 0 0;
+    width: 136px;
+    height: 86px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/btn_gift_bg.png) no-repeat;
+}
+
+.hasp_gaze {
+    width: 422px;
+    padding: 0px 0;
+    background-color: #767676;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 9px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp_img/gaze_bg.png);
+    position: relative;
+}
+
+.hasp_gaze_c1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 15px;
+}
+
+.hasp_gaze_bar {
+    width: 45%;
+    height: 48px;
+}
+
+.hasp_gaze_0 {
+    position: absolute;
+    left: 5px;
+    top: 15px;
+}
+
+.hasp_gaze_100 {
+    position: absolute;
+    right: 5px;
+    top: 15px;
+}
+
+/*sub1_5*/
+
+.hasp_getter {
+    background-color: #f8f8f8;
+    border: #cccccc 1px solid;
+}
+
+.hasp_getter_listA {
+    background-color: #fff;
+    float: left;
+    width: 186px;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.hasp_getter_border {
+    border-right: #cccccc 1px solid;
+    width: 186px;
+    text-align: center;
+}
+
+.hasp_getter_listB {
+    float: left;
+    width: 560px;
+    padding: 11px 0 0 5px;
+}
+
+.hasp_getterB_div {
+    position: relative;
+    float: left;
+    margin-left: 9px;
+    margin-top: 9px;
+    background-color: #fff;
+    width: 98px;
+    height: 105px;
+    border: #cccccc 1px solid;
+}
+
+/*sub1_6*/
+
+.hasp_mylist_div {
+    position: relative;
+    border: #bebebe 1px solid;
+    width: 770px;
+}
+
+.hasp_mylist_info {
+    padding: 12px 0 70px 203px;
+}
+
+.hasp_mylist_infoA {
+    position: relative;
+    float: left;
+    width: 304px;
+    height: 49px;
+}
+
+.hasp_mylist_infoB {
+    position: relative;
+    float: left;
+    width: 304px;
+    height: 49px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp3/bg_mylist.png);
+}
+
+/*sub_1_7*/
+
+.hasp_input1 {
+    width: 115px;
+    height: 26px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    border: #d5d5d5 1px solid;
+}
+
+.hasp_input2 {
+    width: 585px;
+    height: 26px;
+    border: #d5d5d5 1px solid;
+}
+
+.hasp_input3 {
+    width: 581px;
+    height: 80px;
+    border: #d5d5d5 1px solid;
+    margin: 10px 0;
+}
+
+.hasp_input4 {
+    width: 115px;
+    height: 26px;
+    text-align: center;
+    border: #d5d5d5 1px solid;
+    margin: 5px 0;
+}
+
+.hasp_input5 {
+    width: 585px;
+    height: 26px;
+    border: #d5d5d5 1px solid;
+    margin: 0 0 5px 0;
+}
+
+.hasp_input6 {
+    width: 585px;
+    height: 26px;
+    border: #d5d5d5 1px solid;
+    margin: 0 0 10px 0;
+}
+
+.hasp_giftconfirm_c1 {
+    color: #505050;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+/*sub2_2*/
+
+.hasp_btn_buy {
+    padding-bottom: 10px;
+}
+
+.hasp_myasset {
+    width: 422px;
+    padding: 13px 0;
+    background-color: #767676;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+/*sub2_3*/
+
+.hasp_myprolist_c1 {
+    color: #444444;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-left: 272px;
+    padding-top: 20px;
+}
+
+.hasp_myprolist_c2b {
+    color: #1d93dd;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 272px;
+    padding-top: 10px;
+}
+
+.hasp_myprolist_c3c {
+    color: #ff6600;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 272px;
+    padding-top: 10px;
+}
+
+.hasp_myprolist_info {
+    padding: 12px 0 70px 272px;
+}
+
+.hasp_myprolist_infoA {
+    position: relative;
+    float: left;
+    width: 304px;
+    height: 49px;
+}
+
+.hasp_myprolist_infoB {
+    position: relative;
+    float: left;
+    width: 304px;
+    height: 49px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hasp3/bg_mylist.png);
+}
+
+/* ----------popup------------- */
+
+/*img*/
+
+.has_thum_pop {
+    float: left;
+    width: 28%;
+    margin: 2%;
+    border: #e1e1e1 1px solid;
+}
+
+.has_btn_pop {
+    width: 47%;
+    margin: 2% 0;
+}
+
+.has_btn_myemoti {
+    width: 100%;
+}
+
+.has_img_gift {
+    width: 16%;
+    margin: 0 1%;
+}
+
+/*p tag*/
+
+.has_pop_tt {
+    padding: 0% 0% 2%;
+    font-size: 16px;
+    color: #3c3b43;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.has_pop_tt2 {
+    padding: 0% 0% 2%;
+    font-size: 16px;
+    color: #3c3b43;
+    letter-spacing: 0px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 150%;
+}
+
+.has_pop_name {
+    padding: 3% 2% 1% 0%;
+    font-size: 16px;
+    color: #3c3b43;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 150%;
+}
+
+.has_pop_date {
+    padding: 0% 2% 1% 0%;
+    font-size: 16px;
+    color: #3c3b43;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 150%;
+}
+
+.has_pop_price {
+    padding: 0% 2% 1% 0%;
+    font-size: 16px;
+    color: #d50000;
+    text-align: left;
+    line-height: 150%;
+}
+
+.has_pop_name2 {
+    padding: 3% 2% 1% 35px;
+    font-size: 16px;
+    color: #3c3b43;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 150%;
+}
+
+.has_pop_script {
+    padding: 4% 0%;
+    font-size: 16px;
+    color: #3c3b43;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 150%;
+}
+
+.has_pop_script2 {
+    padding: 4% 0%;
+    font-size: 12px;
+    color: #7d7d7d;
+    letter-spacing: 0px;
+    margin-bottom: 2%;
+    line-height: 150%;
+}
+
+.has_pop_red {
+    color: #d50000;
+}
+
+.has_addinfo_c1 {
+    padding: 2% 2% 0% 15px;
+    font-size: 14px;
+    color: #7d7d7d;
+    letter-spacing: -1px;
+    margin-bottom: 2%;
+    line-height: 150%;
+}
+
+.has_myemoti_c2 {
+    position: absolute;
+    top: 23%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.has_myemoti_c3 {
+    position: absolute;
+    top: 53%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fcff00;
+    text-align: center;
+}
+
+.has_pop_bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1500px;
+    z-index: 5;
+}
+
+.has_pop {
+    position: absolute;
+    top: 10%;
+    width: 510px;
+    z-index: 10;
+}
+
+.has_popA {
+    padding: 5% 0;
+    border: #d5d5d5 3px solid;
+    background-color: #FFF;
+    z-index: 10;
+}
+
+.has_pop_contents {
+    width: 95%;
+    position: relative;
+    background-color: #e6e6e6;
+    padding: 2% 0;
+}
+
+.has_pop_tg {
+    float: left;
+    width: 67%;
+}
+
+.has_btngroup {
+    clear: both;
+}
+
+.has_myemoti_btngroup {
+    clear: both;
+}
+
+.has_btn_myemoti_div {
+    position: relative;
+    width: 31%;
+    margin-left: 1.6%;
+    float: left;
+}

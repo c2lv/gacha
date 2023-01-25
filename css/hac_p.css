@@ -1,0 +1,1475 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------
+hungryapp style Sheet
+
+version: 1.1
+author: Jojunghee
+email: jjh@monawa.com
+website: http://www.hungryapp.co.kr/
+--------------------------------*/
+
+/*lnb tab*/
+
+.hacp_lnb_0 {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_0.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_1 {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_1.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_2 {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_2.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_3 {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_3.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_4 {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_4.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_5 {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_5.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_6 {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_6.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_7 {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_7.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_8 {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_8.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_0_on {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_0_on.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_1_on {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_1_on.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_2_on {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_2_on.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_3_on {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_3_on.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_4_on {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_4_on.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_5_on {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_5_on.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_6_on {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_6_on.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_7_on {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_7_on.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_lnb_8_on {
+    position: relative;
+    width: 192px;
+    height: 35px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/menu_tv_8_on.png) no-repeat;
+    margin-bottom: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.hacp_timlist_tab1 {
+    float: left;
+    width: 124px;
+    height: 33px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_black_1.png) no-repeat;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.hacp_timlist_tab2 {
+    float: left;
+    width: 124px;
+    height: 33px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_black_2.png) no-repeat;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.hacp_timlist_tab3 {
+    float: left;
+    width: 124px;
+    height: 33px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_black_3.png) no-repeat;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.hacp_timlist_tab1_on {
+    float: left;
+    width: 124px;
+    height: 33px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_black_1_on.png) no-repeat;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_timlist_tab2_on {
+    float: left;
+    width: 124px;
+    height: 33px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_black_2_on.png) no-repeat;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_timlist_tab3_on {
+    float: left;
+    width: 124px;
+    height: 33px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_black_3_on.png) no-repeat;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+/*
+.hacp_lg_tab1 { float:left; width:190px; height:50px; background:url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_gl_4.png) no-repeat; cursor:pointer; }
+.hacp_lg_tab2 { float:left; width:190px; height:50px; background:url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_gl_2.png) no-repeat; cursor:pointer; }
+.hacp_lg_tab3 { float:left; width:190px; height:50px; background:url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_gl_3.png) no-repeat; cursor:pointer; }
+.hacp_lg_tab4 { float:left; width:190px; height:50px; background:url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_gl_1.png) no-repeat; cursor:pointer; }
+.hacp_lg_tab1_on { float:left; width:190px; height:50px; background:url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_gl_4_on.png) no-repeat; cursor:pointer; }
+.hacp_lg_tab2_on { float:left; width:190px; height:50px; background:url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_gl_2_on.png) no-repeat; cursor:pointer; }
+.hacp_lg_tab3_on { float:left; width:190px; height:50px; background:url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_gl_3_on.png) no-repeat; cursor:pointer; }
+.hacp_lg_tab4_on { float:left; width:190px; height:50px; background:url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_gl_1_on.png) no-repeat; cursor:pointer; }
+*/
+
+.hacp_lg_tab1 {
+    float: left;
+    width: 108px;
+    padding: 15px 0;
+    background-color: #454545;
+    border-right: #000000 1px solid;
+}
+
+.hacp_lg_tab1_l {
+    float: left;
+    width: 106px;
+    padding: 15px 0;
+    background-color: #454545;
+}
+
+.hacp_lg_tab1_on {
+    float: left;
+    width: 108px;
+    padding: 15px 0;
+    background-color: #171717;
+    border-right: #000000 1px solid;
+}
+
+.hacp_lg_tab1_l_on {
+    float: left;
+    width: 106px;
+    padding: 15px 0;
+    background-color: #171717;
+}
+
+.hacp_mc6_tab1 {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_1.png) no-repeat;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_mc6_tab2 {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_2.png) no-repeat;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_mc6_tab3 {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_3.png) no-repeat;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_mc6_tab4 {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_4.png) no-repeat;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_mc6_tab5 {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_5.png) no-repeat;
+    cursor: pointer;
+}
+
+.hacp_mc6_tab1_on {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_1_on.png) no-repeat;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_mc6_tab2_on {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_2_on.png) no-repeat;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_mc6_tab3_on {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_3_on.png) no-repeat;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_mc6_tab4_on {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_4_on.png) no-repeat;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.hacp_mc6_tab5_on {
+    float: left;
+    width: 150px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/tab_cast_5_on.png) no-repeat;
+    cursor: pointer;
+}
+
+.pi_tab1 {
+    float: left;
+    width: 76px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_1.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab2 {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_2.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab3 {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_3.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab4 {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_4.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab5 {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_5.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab6 {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_6.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab7 {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_7.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab8 {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_8.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab9 {
+    float: left;
+    width: 81px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_9.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab10 {
+    float: left;
+    width: 80px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_10.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab1_on {
+    float: left;
+    width: 76px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_1_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab2_on {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_2_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab3_on {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_3_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab4_on {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_4_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab5_on {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_5_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab6_on {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_6_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab7_on {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_7_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab8_on {
+    float: left;
+    width: 75px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_8_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab9_on {
+    float: left;
+    width: 81px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_9_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.pi_tab10_on {
+    float: left;
+    width: 80px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_tab_10_over.png) no-repeat;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+/*form*/
+
+.hacp_jump1 {
+    padding: 8px;
+    border: #c6c6c6 solid 1px;
+    font-size: 11px;
+}
+
+.hacp_input1 {
+    padding: 3px;
+    border: 0;
+    width: 480px;
+    height: 26px;
+    padding-left: 34px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/icon_search.png) #fff no-repeat 4px 5px;
+    margin: 0 5px;
+}
+
+/*img*/
+
+.hacp_img_toplg {}
+
+.hacp_lnb_new1 {
+    position: absolute;
+    left: 69px;
+    top: 9px;
+    display: none;
+}
+
+.hacp_lnb_new4 {
+    position: absolute;
+    left: 100px;
+    top: 9px;
+    display: none;
+}
+
+.hacp_lnb_new5 {
+    position: absolute;
+    left: 87px;
+    top: 9px;
+    display: none;
+}
+
+.hacp_lnb_new6 {
+    position: absolute;
+    left: 116px;
+    top: 9px;
+    display: none;
+}
+
+.hacp_img_llg {
+    margin-bottom: 5px;
+    margin-left: 6px;
+}
+
+.hacp_img_notice {
+    margin-bottom: 5px;
+}
+
+.hacp_img_live {
+    margin-right: 5px;
+}
+
+.hacp_btn_chat {
+    float: left;
+    margin: 0 5px 0 2px;
+}
+
+.hacp_bullet_L1 {
+    margin: 0 16px;
+}
+
+.hacp_bullet_R1 {
+    margin: 0 16px;
+}
+
+.hacp_bullet_L2 {
+    margin: 0 5px;
+}
+
+.hacp_bullet_R2 {
+    margin: 0 5px;
+}
+
+.hacp_play_img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hacp_img_slid {
+    margin: 11px 2px 0;
+}
+
+.hacp_btn_more {
+    margin-right: 15px;
+}
+
+.hacp_logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hacp_ms_img {
+    position: absolute;
+    left: 13px;
+    top: -7px;
+}
+
+.hacp_ms2_img {}
+
+.pi_icon {
+    margin-right: 7px;
+}
+
+.pi_vod {
+    border: #070709 1px solid;
+    margin: 34px 0 0 21px;
+}
+
+.pi_sort {
+    margin-right: 8px;
+}
+
+.pi_time {
+    margin-right: 5px;
+}
+
+.pi_btn_com {
+    position: absolute;
+    right: 102px;
+    top: 11px;
+}
+
+.pi_btn_vod {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+
+.pi_step_img {
+    border: #070709 1px solid;
+    margin: 8px 11px 0 0;
+}
+
+/*p태그*/
+
+.hacp_blue {
+    color: #008aff;
+}
+
+.hacp_mc1_B_c1 {
+    color: #444444;
+    letter-spacing: -0.5px;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 4px 2px 2px;
+}
+
+.hacp_mc1_B_c2 {
+    color: #da0000;
+    font-size: 11px;
+    margin: 2px 2px;
+    position: relative;
+}
+
+.hacp_mc3_c {
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.hacp_mc4_c1 {
+    color: #444444;
+    margin: 4px 0 2px;
+    font-size: 11px;
+}
+
+.hacp_mc6_c1 {
+    color: #474747;
+    margin: 4px 0 2px;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hacp_mc6_c2 {
+    color: #868686;
+    margin: 4px 0 2px;
+    font-size: 11px;
+    position: relative;
+}
+
+.hacp_mc6_c3 {
+    color: #da0000;
+    font-size: 11px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hacp_ms2_2 {
+    float: left;
+    margin: 15px 0 0 8px;
+    line-height: 150%;
+    color: #e0e0e0;
+    letter-spacing: -0.5;
+    width: 84%;
+}
+
+.hacp_ms3_c1 {
+    color: #e0e0e0;
+    letter-spacing: 0px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pi_block1 {
+    float: left;
+    width: 141px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #bdc8d8;
+    font-size: 11px;
+    margin-left: 3px;
+}
+
+.pi_step_c {
+    color: #dbdbdb;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    margin-top: 8px;
+}
+
+/*링크*/
+
+.hacp_notice_c {
+    margin: 10px 0 11px 13px;
+    text-overflow: ellipsis;
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.hasp_link1 {
+    font-size: 11px;
+}
+
+a.hasp_link1:link {
+    color: #949494;
+    text-decoration: none;
+}
+
+a.hasp_link1:visited {
+    color: #949494;
+    text-decoration: none;
+}
+
+a.hasp_link1:active {
+    color: #949494;
+    text-decoration: none;
+}
+
+a.hasp_link1:hover {
+    color: #949494;
+    text-decoration: underline;
+}
+
+.hacp_timelist_c {
+    margin: 0 11px;
+    padding: 6px 0;
+    border-bottom: #76787e dotted 1px;
+}
+
+.hacp_timelist_cl {
+    margin: 0 11px;
+    padding: 6px 0;
+}
+
+.hasp_link2 {
+    font-size: 12px;
+}
+
+a.hasp_link2:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.hasp_link2:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.hasp_link2:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.hasp_link2:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hacp_mc1_c {
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    font-size: 12px;
+    letter-spacing: -0.5px;
+}
+
+a.hacp_mc1_c:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.hacp_mc1_c:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.hacp_mc1_c:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.hacp_mc1_c:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/*공통부분*/
+
+#hacp_wrapper {
+    width: 976px;
+    clear: both;
+    margin-left: 4px
+}
+
+.hasp_clear {
+    clear: both
+}
+
+.hacp_maincon {
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/bg_tvmainb.png) no-repeat right top;
+}
+
+.hacp_con_L {
+    float: left;
+    width: 205px;
+    background-color: #242424;
+}
+
+.hacp_con_R {
+    float: right;
+    width: 763px;
+}
+
+.hasp_list_navi {
+    margin: 35px 0;
+}
+
+/**제휴**/
+
+.TV_cooperate {
+    position: relative;
+    display: inline-block;
+    width: 203px;
+    height: auto;
+    background: #ffffff;
+    border: solid 1px #dddddd;
+    margin: 0 0 0 0;
+}
+
+.TV_cooperate li {
+    display: inline-block;
+    padding: 0 5px 5px 5px;
+}
+
+.TV_BJ {
+    position: relative;
+    display: inline-block;
+    width: 203px;
+    height: auto;
+    background: #f1f1f1;
+    border: solid 1px #dddddd;
+    margin: 7px 0 0 0;
+}
+
+.TV_BJ li {
+    float: left;
+    display: inline-block;
+    padding: 5px 0 5px 7px;
+}
+
+/**VOD**/
+
+.TV_LeftVOD {
+    position: relative;
+    display: inline-block;
+    width: 203px;
+    height: auto;
+    background: #f1f1f1;
+    border: solid 1px #dddddd;
+    margin: 7px 0 0 0;
+}
+
+.TV_LeftVOD li.LeftVODCell1 {
+    display: inline-block;
+    width: 203px;
+    padding: 5px 0 0 0;
+}
+
+.TV_LeftVOD li.LeftVODCell2 {
+    display: inline-block;
+    width: 203px;
+    padding: 5px 0 5px 5px;
+}
+
+input.PM_nameSrc {
+    position: relative;
+    width: 115px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #d7d7d7;
+    color: #444444;
+    vertical-align: middle;
+    font: bold 13px dotum;
+    background: #ffffff;
+}
+
+input.PM_nameSrc:hover {
+    position: relative;
+    width: 115px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #575757;
+    color: #444444;
+    vertical-align: middle;
+    font: bold 13px dotum;
+    background: #ffffff;
+}
+
+input.PM_nameSrc:focus {
+    position: relative;
+    width: 115px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #575757;
+    color: #444444;
+    vertical-align: middle;
+    font: bold 13px dotum;
+    background: #ffffff;
+}
+
+/**VOD RANK**/
+
+.VODRank {
+    position: relative;
+    display: inline-block;
+    width: 203px;
+    background: #ffffff;
+    border-top: solid 1px #dddddd;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+.VODRank li.VODRankTop {
+    display: inline-block;
+    width: 182px;
+    padding: 0 0 0 10px;
+}
+
+.VODRank li.VODRankTop span.TopNum {
+    position: absolute;
+    padding: 3px 0 0 3px;
+}
+
+.VODRank li.VODRankTop span.TopTT {
+    position: absolute;
+    width: 172px;
+    ;
+    z-index: 10;
+    text-align: center;
+    top: 88px;
+    height: 25px;
+    padding: 5px 5px 5px 5px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/TVRe/back_block.png);
+    overflow: hidden;
+}
+
+.VODRank li.VODRankTop span.TopTT a {
+    font: bold 11px "돋움";
+    color: #ffffff;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.VODRank li.VODRankETC {
+    display: inline-block;
+    width: 183px;
+    height: 12px;
+    line-height: 12px;
+    padding: 5px 10px 5px 10px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.VODRank li.VODRankETC a {
+    font: normal 11px "돋움";
+    color: #353537;
+    text-decoration: none;
+}
+
+.VODRank li.VODRankETC img {
+    vertical-align: middle;
+}
+
+/*--코스프레--*/
+
+.cnt_Costum {
+    position: relative;
+    width: 204px;
+    height: 261px;
+    padding: 0 0 0 0;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/common/costume_bg.png') no-repeat;
+}
+
+.cnt_Costum li {
+    position: relative;
+    display: inline-block;
+    width: 204px;
+    paddin: 0 0 0 0;
+    text-align: center;
+    font: normal 11px dotum;
+    color: #a8b7be;
+}
+
+.cnt_Costum li span {
+    position: relative;
+    display: inline-block;
+    width: 204px;
+    paddin: 0 0 0 0;
+    text-align: center;
+    font: bold 11px dotum;
+    color: #a8b7be;
+}
+
+.cnt_Costum li img {
+    padding: 0 0 0 0;
+    margin: 35px 0 8px 0;
+    border-top: solid 1px #8d8d8d;
+    border-left: solid 1px #8d8d8d;
+    border-right: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+}
+
+.TVLeftBnr {
+    margin: 7px 0 7px 0;
+}
+
+/*main*/
+
+.hacp_tvtop {
+    height: 92px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/bg_tvtop.png) repeat-x;
+    position: relative;
+    font-size: 0;
+}
+
+.hacp_main {
+    min-height: 100px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/bg_tvmainb.png) repeat-y;
+}
+
+.hacp_main_L {
+    float: left;
+    width: 205px;
+    background-color: #242424;
+}
+
+.hacp_tvmenu {}
+
+.hacp_leftlg {}
+
+.hacp_notice {
+    padding-bottom: 5px;
+}
+
+.hacp_main_R {
+    float: right;
+    width: 763px;
+}
+
+.hacp_mv_tt {
+    padding: 12px 11px;
+    ;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hacp_mv {
+    margin-bottom: 8px;
+}
+
+.hacp_mv_bot {}
+
+.hacp_mv_bot_L {
+    float: left;
+    margin-right: 8px;
+    width: 361px;
+    height: 224px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/bg_mc2.png) no-repeat;
+}
+
+.hacp_mv_script1 {
+    position: relative;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 10px 5px 15px;
+}
+
+.hacp_mv_script2 {
+    height: 52px;
+    overflow-y: hidden;
+    vertical-align: middle;
+    margin-bottom: 5px
+}
+
+.hacp_ms2_1 {
+    float: left;
+    margin: 10px 0 0 13px;
+}
+
+.hacp_mv_script3 {}
+
+.hacp_ms3 {
+    float: left;
+    margin-left: 9px;
+    width: 166px;
+}
+
+.hacp_ms3_R {
+    float: left;
+    margin-left: 10px;
+    width: 166px;
+}
+
+.hacp_mv_bot_R {
+    float: left;
+    height: 225px;
+}
+
+.hacp_timlist1 {}
+
+.hacp_timlist2 {
+    padding: 11px 0;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    width: 381px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/bg_castlist.png) no-repeat;
+}
+
+.hacp_timlist3 {
+    background-color: #3b3e46;
+    width: 381px;
+    height: 180px;
+}
+
+.hacp_new {
+    display: block;
+}
+
+.hacp_maincon_L {
+    float: left;
+    width: 205px;
+    background-color: #fff;
+}
+
+.hacp_maincon_R {
+    float: right;
+    width: 760px;
+}
+
+.hacp_maincon1 {
+    position: relative;
+}
+
+.hacp_mc1_A {
+    position: absolute;
+    right: 16px;
+    top: 49px;
+    width: 287px;
+}
+
+.hacp_mc1_B {
+    width: 138px;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.hacp_mc1_B2 {
+    width: 138px;
+    float: left;
+}
+
+.hacp_maincon2 {}
+
+.hacp_mc2_A {}
+
+.hacp_mc2_B {}
+
+.hacp_maincon3 {}
+
+.hasp_mc3_L {
+    float: left;
+    width: 379px;
+    position: relative;
+}
+
+.hasp_mc3_R {
+    float: right;
+    width: 379px;
+    position: relative;
+}
+
+.hacp_mc3_bbg {
+    position: absolute;
+    bottom: 0;
+}
+
+.hasp_slide1 {}
+
+.hacp_maincon4 {}
+
+.hacp_mc4 {
+    float: left;
+    width: 120px;
+    text-align: center;
+    margin-right: 7px;
+}
+
+.hacp_mc4_L {
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+
+.hacp_maincon5 {
+    background-color: #ececec;
+    padding: 10px;
+}
+
+.hacp_maincon6 {}
+
+.hacp_mc6 {
+    margin: 11px 0;
+}
+
+.hacp_thum {
+    float: left;
+    margin-bottom: 17px;
+    margin: 0 7px;
+    cursor: pointer
+}
+
+.hacp_thum_L {
+    float: left;
+    margin-bottom: 17px;
+}
+
+/*tv_sub4_pi*/
+
+.hacp_picon1 {
+    width: 763px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_icon_bg.png)
+}
+
+.pi_bgline {
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pi_bgline1.png) repeat-x bottom;
+    height: 2px;
+    margin: 0 20px;
+}
+
+.pi_list {
+    padding: 10px 20px 37px;
+}
+
+.pi_list_l {
+    padding: 10px 20px 30px;
+}
+
+.hacp_picon2 {
+    background-color: #b6b6b6;
+}
+
+.hacp_picon2B {
+    background-color: #2d2d33;
+}
+
+.hacp_picon2_tt {
+    position: relative;
+    height: 31px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pocon_bg.png);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 13px 15px 20px;
+}
+
+.hacp_picon2_c {
+    min-height: 311px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pocon_bg2.png) repeat-y;
+}
+
+.hacp_picon2c_L {
+    float: left;
+}
+
+.hacp_picon2c_R {
+    float: right;
+    width: 321px;
+    margin: 14px 25px 9px 0
+}
+
+.picon2c_R_c1 {}
+
+.picon2c_R_c1_A {
+    position: relative;
+    height: 49px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pocon_bgB1.png);
+}
+
+.picon2c_R_c1_B {
+    width: 296px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pocon_bgB2.png) repeat-y;
+    color: #d4d4d4;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 150%;
+    padding: 10px 10px 10px 15px;
+}
+
+.picon2c_R_c2 {}
+
+.picon2c_R_c2_A {
+    position: relative;
+    height: 45px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/hacp_img/pocon_bgC1.png) no-repeat;
+}
+
+.pi_step_navi {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    color: #dbdbdb;
+}
+
+.picon2c_R_c2_B {}
+
+.pi_step_thum {
+    float: left;
+    width: 80px;
+    text-align: center
+}
+
+.pi_icon {
+    margin-right: 7px;
+    float: left;
+}
+
+.pi_block1 {
+    float: left;
+    width: 141px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #bdc8d8;
+    font-size: 11px;
+    margin-left: 3px;
+}
+
+.pi_block2 {
+    float: left;
+    width: 107px;
+    min-height: 30px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #bdc8d8;
+    font-size: 11px;
+}

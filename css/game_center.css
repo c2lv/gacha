@@ -1,0 +1,1353 @@
+div.wrap-GameCenter {
+    width: 977px;
+    margin: 0 auto
+}
+
+div.wrap-GameCenter h1,
+div.wrap-GameCenter h2,
+div.wrap-GameCenter h3,
+div.wrap-GameCenter ul,
+div.wrap-GameCenter ol,
+div.wrap-GameCenter dl,
+div.wrap-GameCenter li,
+div.wrap-GameCenter dt,
+div.wrap-GameCenter dd,
+div.wrap-GameCenter p,
+div.wrap-GameCenter em,
+div.wrap-GameCenter strong {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+    list-style: none
+}
+
+div.wrap-GameCenter button {
+    cursor: pointer
+}
+
+/* lnb */
+
+div.wrap-GameCenter h2 {
+    float: left;
+    margin: 15px 0 17px 15px
+}
+
+div.wrap-GameCenter div.lnb {
+    width: 200px;
+    float: left
+}
+
+div.wrap-GameCenter div.lnb ul {
+    clear: left;
+    float: left;
+    border-top: 1px solid #ccc
+}
+
+div.wrap-GameCenter div.lnb li {
+    width: 200px;
+    height: 50px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer
+}
+
+div.wrap-GameCenter div.lnb span {
+    display: none
+}
+
+div.wrap-GameCenter div.lnb li.menu01 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_lnb01.gif) no-repeat
+}
+
+div.wrap-GameCenter div.lnb li.menu02 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_lnb02.gif) no-repeat
+}
+
+div.wrap-GameCenter div.lnb li.menu03 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_lnb03.gif) no-repeat
+}
+
+div.wrap-GameCenter div.lnb li.menu04 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_lnb04.gif) no-repeat
+}
+
+div.wrap-GameCenter div.lnb li.menu05 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_lnb05.gif) no-repeat
+}
+
+div.wrap-GameCenter div.lnb li.menu06 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_lnb06.gif) no-repeat
+}
+
+div.wrap-GameCenter div.lnb li.menu07 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_lnb07.gif) no-repeat
+}
+
+div.wrap-GameCenter div.lnb li.active {
+    background-position: -200px 0
+}
+
+/* /lnb */
+
+/* right contents */
+
+div.wrap-GameCenter div.contents {
+    width: 766px;
+    float: left;
+    padding-left: 10px
+}
+
+div.wrap-GameCenter div.contents div.search {
+    margin-bottom: 8px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_search.gif) no-repeat;
+    height: 52px;
+    overflow: hidden;
+    position: relative
+}
+
+div.wrap-GameCenter div.contents div.search h3 {
+    display: none
+}
+
+div.wrap-GameCenter div.contents div.search input {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    width: 562px;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    font-family: Dotum, ë‹ì›€;
+    color: #555;
+    font-size: 12px;
+    height: 35px;
+    padding: 0 10px 0 10px
+}
+
+div.wrap-GameCenter div.contents div.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 100px;
+    height: 35px;
+    border: 0;
+    font-size: 0;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_search.gif) no-repeat;
+}
+
+/*div.wrap-GameCenter ul.tab { border-bottom:2px solid #ff4600; overflow:hidden; font-family:Dotum; font-size:12px; color:#333; letter-spacing:-.1em }
+div.wrap-GameCenter ul.tab li { display:inline; float:left; border:1px solid #999; border-bottom:0; text-align:center; padding:17px 0 17px 0; margin-right:1px; width:106px; cursor:pointer }
+div.wrap-GameCenter ul.tab li.active { background:url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_tab_on.gif) repeat-x bottom #fb9924; border:1px solid #ff4600; border-bottom:0; color:#fff; font-weight:bold }
+div.wrap-GameCenter ul.tab li:last-child { margin-right:0 }
+div.wrap-GameCenter ul.tab li:nth-child(6),div.wrap-GameCenter ul.tab li:nth-child(7) { width:108px }
+*/
+
+/* 20160624 tab ìˆ˜ì • */
+
+div.wrap-GameCenter ul.tab {
+    border-bottom: 2px solid #ff4600;
+    overflow: hidden
+}
+
+div.wrap-GameCenter ul.tab li {
+    display: inline;
+    float: left;
+    border: 1px solid #999;
+    border-bottom: 0;
+    text-align: center;
+    padding: 17px 0 17px 0;
+    margin-right: 1px;
+    width: 150px;
+    cursor: pointer;
+    font: 15px 'NanumGothic', 'Malgun Gothic', 'ë§‘ì€ ê³ ë”•', Gulim, Dotum, ë‹ì›€;
+    color: #333
+}
+
+div.wrap-GameCenter ul.tab li.active {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_tab_on.gif) repeat-x bottom #fb9924;
+    border: 1px solid #ff4600;
+    border-bottom: 0;
+    color: #fff;
+    font-weight: bold
+}
+
+/* /20160624 tab ìˆ˜ì • */
+
+div.wrap-GameCenter div.theme-list {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_theme_btm.gif) no-repeat bottom #f5f5f5;
+    overflow: hidden
+}
+
+div.wrap-GameCenter div.theme-list h3 {
+    font-family: Gulim, êµ´ë¦¼;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    float: left;
+    margin: 15px 0 0 10px
+}
+
+div.wrap-GameCenter div.theme-list em {
+    float: right;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 14px;
+    color: #ff4600;
+    margin: 9px 0 0 0;
+    padding: 4px 0 0 5px;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_game_nums.gif) no-repeat;
+    width: 39px;
+    height: 25px
+}
+
+div.wrap-GameCenter div.theme-list ul {
+    border-right: 1px solid #c9c9c9;
+    margin-bottom: 8px;
+    border-left: 1px solid #c9c9c9;
+    overflow: hidden
+}
+
+div.wrap-GameCenter div.theme-list li {
+    display: inline;
+    float: left;
+    width: 50%;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #fff;
+    margin: 0 -1px 0 -1px
+}
+
+div.wrap-GameCenter div.theme-list li:first-child {
+    border-top: 0;
+    border-left: 0;
+    margin-left: 0
+}
+
+div.wrap-GameCenter div.theme-list li:nth-child(2) {
+    border-top: 0;
+    border-right: 0
+}
+
+div.wrap-GameCenter div.theme-list li:nth-child(3) {
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: 0
+}
+
+div.wrap-GameCenter div.theme-list li:last-child {
+    border-right: 0;
+    border-bottom: 0
+}
+
+div.wrap-GameCenter div.theme-list span.thumb img {
+    width: 381px;
+    height: 144px;
+    margin-top: 10px;
+    border: 0
+}
+
+div.wrap-GameCenter div.game-list {
+    margin-top: 10px
+}
+
+div.wrap-GameCenter div.game-list h3 {
+    font-family: Gulim, êµ´ë¦¼;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-bottom: 5px
+}
+
+div.wrap-GameCenter div.game-list ul.game01 li {
+    display: inline;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    width: 363px;
+    height: 210px
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.icon img {
+    width: 60px;
+    float: left
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.summary {
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #666;
+    word-break: break-all
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.summary strong.title {
+    color: #333;
+    font-size: 14px;
+    float: left;
+    margin: 4px 0 6px 0;
+    word-break: break-all
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.summary strong.title em {
+    color: #999;
+    font-size: 14px;
+    float: left
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.summary span.txt {
+    clear: left;
+    float: left;
+    word-break: break-all
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.summary span.point {
+    clear: left;
+    float: left
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.summary span.point strong {
+    font-weight: bold;
+    color: #333
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.thumb {
+    position: absolute;
+    width: 363px;
+    top: 80px;
+    left: 10px
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.thumb img {
+    width: 363px;
+    height: 137px
+}
+
+div.wrap-GameCenter div.game-list ul.game01 span.btn {
+    position: absolute;
+    right: 19px;
+    bottom: 19px
+}
+
+div.wrap-GameCenter div.game-list ul.game01 button {
+    border: 0;
+    width: 71px;
+    height: 26px;
+    font-size: 0
+}
+
+div.wrap-GameCenter div.game-list ul.game01 button.download {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_download.gif) no-repeat
+}
+
+div.wrap-GameCenter div.game-list ul.game01 button.guide {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_guide.gif) no-repeat
+}
+
+div.wrap-GameCenter ul.depth3 {
+    border-bottom: 2px solid #ccc;
+    overflow: hidden
+}
+
+div.wrap-GameCenter ul.depth3 li {
+    display: inline;
+    float: left;
+    margin: 15px 20px 15px 20px;
+    font-family: Dotum, ë‹ì›€;
+    font-size: 12px;
+    color: #666;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_3depth_tab.gif) no-repeat 0 50%;
+    padding-left: 8px;
+    cursor: pointer
+}
+
+div.wrap-GameCenter ul.depth3 li.active {
+    font-weight: bold;
+    color: #333
+}
+
+div.wrap-GameCenter div.game-list table.game02 {
+    width: 100%
+}
+
+div.wrap-GameCenter div.game-list table.game02 td {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid #ccc
+}
+
+div.wrap-GameCenter div.game-list td.rank,
+div.wrap-GameCenter div.game-list td.updown,
+div.wrap-GameCenter div.game-list td.icon,
+div.wrap-GameCenter div.game-list td.user,
+div.wrap-GameCenter div.game-list td.star {
+    text-align: center
+}
+
+div.wrap-GameCenter div.game-list td.icon img {
+    width: 60px
+}
+
+div.wrap-GameCenter div.game-list td.rank {
+    font-family: Arial;
+    font-size: 30px;
+    color: #555
+}
+
+div.wrap-GameCenter div.game-list td.updown {
+    font-family: Dotum, ë‹ì›€;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444
+}
+
+div.wrap-GameCenter div.game-list td.updown span.up {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_rank_up.gif) no-repeat;
+    0 50%;
+    padding-left: 12px
+}
+
+div.wrap-GameCenter div.game-list td.updown span.down {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_rank_down.gif) no-repeat;
+    0 50%;
+    padding-left: 12px
+}
+
+div.wrap-GameCenter div.game-list td.summary {
+    padding-left: 10px;
+    text-align: left;
+    line-height: 20px;
+    font-family: Gulim, êµ´ë¦¼;
+    font-size: 14px;
+    color: #333
+}
+
+div.wrap-GameCenter div.game-list td.user {
+    font-size: 12px;
+    font-family: Dotum, ë‹ì›€;
+    color: #333
+}
+
+div.wrap-GameCenter div.game-list td.user strong {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e40000;
+    margin-right: 4px
+}
+
+div.wrap-GameCenter div.game-list tr.best3 td {
+    background: #f1f1f1;
+    border-bottom: 1px solid #8b8b8b
+}
+
+div.wrap-GameCenter div.game-list tr.best3 td.rank {
+    font-weight: bold;
+    color: #333
+}
+
+div.wrap-GameCenter div.game-list tr.best3 span.first {
+    color: #cc0000
+}
+
+div.wrap-GameCenter div.game-list ul.event li {
+    display: inline;
+    float: left;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    width: 363px;
+}
+
+div.wrap-GameCenter div.game-list ul.event span.title {
+    font-family: Gulim, ë‹ì›€;
+    font-size: 14px;
+    color: #333
+}
+
+div.wrap-GameCenter div.game-list ul.event span.thumb {
+    width: 363px
+}
+
+div.wrap-GameCenter div.game-list ul.event span.thumb img {
+    width: 100%;
+    margin-top: 10px
+}
+
+/* /right contents */
+
+/* game center view page*/
+
+div.wrap-GameCenter div.summary {
+    width: 746px;
+    height: 65px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_view_header.gif) no-repeat;
+    padding: 10px
+}
+
+div.wrap-GameCenter div.summary p.rank {
+    float: left;
+    width: 65px;
+    height: 60px;
+    padding-top: 5px;
+    margin-right: 5px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_view_rank.gif) no-repeat;
+    text-align: center;
+    font: 25px Arial;
+    color: #d60000
+}
+
+div.wrap-GameCenter span.icon img {
+    float: left;
+    width: 65px;
+    margin-right: 10px
+}
+
+div.wrap-GameCenter div.summary dl {
+    float: left;
+    overflow: hidden;
+    width: 350px
+}
+
+div.wrap-GameCenter div.summary dt {
+    font: 15px Gulim, êµ´ë¦¼;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    float: left
+}
+
+div.wrap-GameCenter div.summary dd {
+    font: 12px Dotum, ë‹ì›€;
+    color: #666;
+    margin-bottom: 4px;
+    clear: left;
+    float: left
+}
+
+div.wrap-GameCenter div.summary button.bookmark {
+    width: 70px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_bookmark.gif) no-repeat;
+    border: 0;
+    font-size: 0px;
+    vertical-align: top;
+    margin: 0 0 0 10px;
+    float: none
+}
+
+div.wrap-GameCenter div.summary ul.point {
+    float: right;
+    margin-top: 20px
+}
+
+div.wrap-GameCenter div.summary ul.point li {
+    display: inline;
+    float: left
+}
+
+div.wrap-GameCenter div.summary ul.point li.user {
+    font: 15px Dotum, ë‹ì›€;
+    color: #333;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_header_user.gif) no-repeat 0 50%;
+    padding-left: 20px;
+    margin-right: 20px
+}
+
+div.wrap-GameCenter div.summary ul.point li.user strong {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px
+}
+
+div.wrap-GameCenter div.game-header div.go img {
+    border: 0
+}
+
+div.wrap-GameCenter div.game-header div.go li {
+    display: inline;
+    float: left
+}
+
+div.wrap-GameCenter div.game-header div.go li.second {
+    clear: left
+}
+
+div.wrap-GameCenter div.game-header div.go li.last {
+    margin-top: -34px
+}
+
+div.wrap-GameCenter button.reply-style {
+    border: 1px solid #c4c4c4;
+    font: 11px Dotum, ë‹ì›€;
+    color: #333;
+    background: #fff;
+    padding: 0 10px 0 10px;
+    height: 25px
+}
+
+div.wrap-GameCenter button.dislike {
+    color: #676767;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn03.gif) no-repeat 10px 50% #fff;
+    padding-left: 28px
+}
+
+div.wrap-GameCenter button.like {
+    color: #3652ad;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn02.gif) no-repeat 10px 50% #fff;
+    padding-left: 28px
+}
+
+div.wrap-GameCenter div.review-write {
+    clear: both;
+    float: left;
+    width: 766px;
+    height: 122px;
+    margin: 8px 0 4px 0;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_review_write.gif) no-repeat
+}
+
+div.wrap-GameCenter div.review-write div.point {
+    text-align: center;
+    width: 160px;
+    float: left;
+    padding: 10px 25px 10px 25px;
+    overflow: hidden;
+    float: left
+}
+
+div.wrap-GameCenter div.review-write div.point span.user {
+    font: 12px Dotum, ë‹ì›€;
+    color: #333
+}
+
+div.wrap-GameCenter div.review-write div.point span.user strong {
+    font-weight: bold;
+    color: #ff4600
+}
+
+div.wrap-GameCenter div.review-write div.point ul.star {
+    margin-top: 6px
+}
+
+div.wrap-GameCenter div.review-write div.point ul.star li {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_ul_star.gif) no-repeat 0 50%;
+    font: 10px Arial;
+    text-align: left;
+    line-height: 15px;
+    padding-left: 14px;
+    color: #666;
+    position: relative
+}
+
+div.wrap-GameCenter div.review-write div.point ul.star img {
+    height: 15px;
+    vertical-align: middle
+}
+
+div.wrap-GameCenter div.review-write div.point span.member {
+    color: #000;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10px
+}
+
+div.wrap-GameCenter div.review-write div.point span.grf {
+    position: absolute;
+    z-index: 1;
+    margin-left: 5px;
+    width: 135px
+}
+
+div.wrap-GameCenter div.review-write div.write {
+    float: left;
+    position: relative;
+    width: 520px;
+    top: 10px;
+    left: 20px
+}
+
+div.wrap-GameCenter div.review-write div.write h3 {
+    font: 12px Dotum, ë‹ì›€;
+    color: #333;
+    margin-bottom: 4px;
+    width: 160px;
+    text-align: center;
+    padding-top: 20px
+}
+
+div.wrap-GameCenter div.review-write div.write strong {
+    font: 18px Arial;
+    font-weight: bold;
+    vertical-align: middle
+}
+
+div.wrap-GameCenter div.review-write div.write span.star img {
+    width: 18px;
+    vertical-align: middle;
+    margin-top: -4px;
+    cursor: pointer
+}
+
+div.wrap-GameCenter div.review-write textarea {
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    padding: 10px;
+    font: 12px Dotum, ë‹ì›€;
+    color: #666;
+    width: 420px;
+    height: 43px;
+    resize: none;
+    position: absolute;
+    left: 190px;
+    top: -15px
+}
+
+div.wrap-GameCenter div.review-write button {
+    width: 80px;
+    height: 65px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_write_view.gif) no-repeat;
+    border: 0;
+    font-size: 0;
+    position: absolute;
+    left: 660px;
+    top: -15px
+}
+
+div.wrap-GameCenter ul.review li.Lbtn {
+    clear: left;
+    float: left
+}
+
+div.wrap-GameCenter ul.review li.Rbtn {
+    float: right
+}
+
+div.wrap-GameCenter div.best-review {
+    clear: left;
+    margin-top: 3px;
+    border: 1px solid #bebebe;
+    background: #f9f9f9;
+    overflow: hidden
+}
+
+div.wrap-GameCenter div.best-review div.best p.tag {
+    padding-top: 6px;
+    width: 72px;
+    height: 96px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_best.gif) no-repeat;
+    text-align: center;
+    color: #fff;
+    font: 35px Arial;
+    margin-top: -11px;
+    float: left
+}
+
+div.wrap-GameCenter div.best-review div.worst p.tag {
+    padding-top: 6px;
+    width: 72px;
+    height: 96px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_worst.gif) no-repeat;
+    text-align: center;
+    color: #fff;
+    font: 35px Arial;
+    margin-top: -11px;
+    float: left
+}
+
+div.wrap-GameCenter div.best-review div.best,
+div.wrap-GameCenter div.best-review div.worst {
+    clear: left;
+    float: left;
+    padding: 10px
+}
+
+div.wrap-GameCenter div.best-review div.worst {
+    border-top: 1px solid #ccc
+}
+
+div.wrap-GameCenter div.best-review ul.review {
+    float: left;
+    margin-left: 10px;
+    font: 12px Dotum, ë‹ì›€;
+    color: #333;
+    width: 662px
+}
+
+div.wrap-GameCenter div.best-review ul.review strong {
+    font-weight: bold;
+    float: left
+}
+
+div.wrap-GameCenter div.best-review ul.review ul.info {
+    float: left;
+    margin-left: 10px
+}
+
+div.wrap-GameCenter div.best-review ul.review ul.info li {
+    display: inline;
+    font-size: 11px;
+    color: #999;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc
+}
+
+div.wrap-GameCenter div.best-review ul.review ul.info em.reply {
+    font-weight: bold;
+    color: #ff4600;
+    margin: 0 2px 0 2px
+}
+
+div.wrap-GameCenter div.best-review ul.review ul.info em.grade {
+    font-weight: bold;
+    color: #333;
+    margin: 0 2px 0 2px
+}
+
+div.wrap-GameCenter div.best-review ul.review ul.info li:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0
+}
+
+div.wrap-GameCenter div.best-review ul.review ul.info span.star img {
+    vertical-align: middle;
+    margin-top: -3px
+}
+
+div.wrap-GameCenter div.best-review ul.review li.txt {
+    clear: left;
+    float: left;
+    margin: 10px 0 10px 0;
+    color: #555;
+    line-height: 18px
+}
+
+div.wrap-GameCenter div.review-list {
+    clear: left
+}
+
+div.wrap-GameCenter div.review-list div.list {
+    clear: left;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden
+}
+
+div.wrap-GameCenter div.review-list ul.review {
+    float: left;
+    padding: 10px 0 10px 0;
+    font: 12px Dotum, ë‹ì›€;
+    color: #333;
+    width: 100%;
+}
+
+div.wrap-GameCenter div.review-list ul.review strong {
+    font-weight: bold;
+    float: left;
+}
+
+div.wrap-GameCenter div.review-list ul.review ul {}
+
+div.wrap-GameCenter div.review-list ul.review ul.info {
+    float: left;
+    margin-left: 10px;
+}
+
+div.wrap-GameCenter div.review-list ul.review ul.info li {
+    display: inline;
+    font-size: 11px;
+    color: #999;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc
+}
+
+div.wrap-GameCenter div.review-list ul.review ul.info em.reply {
+    font-weight: bold;
+    color: #ff4600;
+    margin: 0 2px 0 2px
+}
+
+div.wrap-GameCenter div.review-list ul.review ul.info em.grade {
+    font-weight: bold;
+    color: #333;
+    margin: 0 2px 0 2px
+}
+
+div.wrap-GameCenter div.review-list ul.review ul.info li:last-child {
+    border-right: 0;
+    margin-right: 0;
+    padding-right: 0
+}
+
+div.wrap-GameCenter div.review-list ul.review ul.info span.star img {
+    vertical-align: middle;
+    margin-top: -3px
+}
+
+div.wrap-GameCenter div.review-list ul.review li.txt {
+    clear: left;
+    float: left;
+    margin: 10px 0 10px 0;
+    color: #555;
+    line-height: 18px
+}
+
+div.wrap-GameCenter div.review-list div.comment {
+    clear: left;
+    float: left;
+    padding-left: 100px;
+    background: #f1f1f1;
+    width: 667px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.wrap-GameCenter div.review-list div.comment textarea {
+    border: 1px solid #ccc;
+    resize: none;
+    background: #fff;
+    padding: 10px;
+    width: 576px;
+    height: 33px
+}
+
+div.wrap-GameCenter div.review-list div.comment button.write {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_comment.gif) no-repeat;
+    border: 0;
+    width: 60px;
+    height: 55px;
+    font-size: 0;
+    position: absolute;
+    right: 10px
+}
+
+div.wrap-GameCenter div.review-list div.comment li.Rbtn {
+    margin-right: 10px
+}
+
+div.wrap-GameCenter ul.comment-tab {
+    border-bottom: 1px solid #c4c4c4;
+    overflow: hidden;
+    margin-top: 20px
+}
+
+div.wrap-GameCenter ul.comment-tab li {
+    display: inline;
+    float: left;
+    font: 12px Dotum, ë‹ì›€;
+    #666;
+    text-align: center;
+    width: 100px;
+    border: 1px solid #c4c4c4;
+    border-bottom: 0;
+    margin-right: 1px;
+    padding: 8px 0 8px 0;
+    cursor: pointer
+}
+
+div.wrap-GameCenter ul.comment-tab li.last {
+    border: 0;
+    float: right;
+    width: auto;
+    margin: 0;
+    text-align: right
+}
+
+div.wrap-GameCenter ul.comment-tab li.last strong {
+    font-weight: bold;
+    color: #ff4600;
+    margin: 0 4px 0 4px
+}
+
+div.wrap-GameCenter ul.comment-tab li.active {
+    font-weight: bold;
+    color: #333;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_review_tab.gif) repeat-x bottom
+}
+
+div.wrap-GameCenter div.review-list ul.depth3 {
+    margin-bottom: 10px
+}
+
+div.wrap-GameCenter div.review-list ul.depth3 li {
+    display: inline;
+    float: left;
+    font-family: Dotum, ë‹ì›€;
+    font-size: 12px;
+    color: #666;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_3depth_tab.gif) no-repeat 0 50%;
+    padding-left: 8px;
+    margin: 10px 20px 10px 20px;
+    cursor: pointer
+}
+
+/* 141110ì¶”ê°€ : ê·¸ëž˜í”„ ë…¸ì¶œì‹œ í¬ì¸íŠ¸ ë¶€ë¶„ & ë‹¤ìš´ë¡œë“œë²„íŠ¼*/
+
+div.wrap-GameCenter div.summary ul.grf-point {
+    float: right;
+    margin-top: 8px
+}
+
+div.wrap-GameCenter div.summary ul.grf-point li {
+    float: left;
+    text-align: center
+}
+
+div.wrap-GameCenter div.summary ul.grf-point li.user {
+    font: 15px Dotum, ë‹ì›€;
+    color: #333
+}
+
+div.wrap-GameCenter div.summary ul.grf-point li.user strong {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+div.wrap-GameCenter div.summary ul.grf-point li.btn {
+    margin: -8px 0 0 20px
+}
+
+/* /141110ì¶”ê°€ : ê·¸ëž˜í”„ ë…¸ì¶œì‹œ í¬ì¸íŠ¸ ë¶€ë¶„ & ë‹¤ìš´ë¡œë“œë²„íŠ¼*/
+
+div.wrap-GameCenter div.game-header div.go img {
+    border: 0
+}
+
+div.wrap-GameCenter div.game-header div.go li {
+    display: inline;
+    float: left
+}
+
+div.wrap-GameCenter div.game-header div.go li.second {
+    clear: left
+}
+
+div.wrap-GameCenter div.game-header div.go li.last {
+    margin-top: -34px
+}
+
+/* 141110ì¶”ê°€ : ê·¸ëž˜í”„*/
+
+div.wrap-GameCenter div.gragh {
+    border: 1px solid #575966;
+    border-top: 0;
+    border-bottom: 0;
+    overflow: hidden
+}
+
+div.wrap-GameCenter div.gragh h3 {
+    float: left;
+    margin: 15px 0 0 10px
+}
+
+div.wrap-GameCenter div.gragh div.btn {
+    float: right;
+    font-family: Dotum, ë‹ì›€;
+    margin: 10px 10px 0 0
+}
+
+div.wrap-GameCenter div.gragh div.btn button {
+    font: 11px Dotum, ë‹ì›€;
+    width: 52px;
+    height: 26px;
+    border: 0;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_grf.gif) no-repeat;
+    float: left;
+    margin-left: 4px
+}
+
+div.wrap-GameCenter div.gragh div.cal {
+    float: left;
+    border: 1px solid #666;
+    background: #e8e8e8;
+    width: 120px;
+    height: 25px;
+    margin: 0 4px 0 4px
+}
+
+div.wrap-GameCenter div.gragh div.cal input {
+    border: 0;
+    font: 12px Dotum, ë‹ì›€;
+    color: #333;
+    padding-left: 10px;
+    background: #e8e8e8;
+    width: 80px;
+    float: left;
+    margin-top: 4px
+}
+
+div.wrap-GameCenter div.gragh div.cal button {
+    float: right;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_cal.gif) no-repeat;
+    border: 0;
+    font-size: 0;
+    width: 16px;
+    height: 16px;
+    margin: 4px 5px 0 0
+}
+
+div.wrap-GameCenter div.gragh div.grf {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 10px
+}
+
+div.wrap-GameCenter div.gragh ul.select {
+    clear: left;
+    float: left
+}
+
+div.wrap-GameCenter div.gragh ul.select li {
+    display: inline;
+    float: left;
+    height: 50px;
+    font-size: 0;
+    margin-bottom: -4px;
+    cursor: pointer
+}
+
+div.wrap-GameCenter div.gragh ul.select li.tab01 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_grf_btm01.gif) no-repeat;
+    width: 153px;
+    margin-left: -1px
+}
+
+div.wrap-GameCenter div.gragh ul.select li.tab02 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_grf_btm02.gif) no-repeat;
+    width: 153px
+}
+
+div.wrap-GameCenter div.gragh ul.select li.tab03 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_grf_btm03.gif) no-repeat;
+    width: 152px
+}
+
+div.wrap-GameCenter div.gragh ul.select li.tab04 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_grf_btm04.gif) no-repeat;
+    width: 154px
+}
+
+div.wrap-GameCenter div.gragh ul.select li.tab05 {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_grf_btm05.gif) no-repeat;
+    width: 154px;
+    margin-right: -1px
+}
+
+div.wrap-GameCenter div.gragh ul.select li.active {
+    background-position: 0 -50px
+}
+
+/* /141110ì¶”ê°€ : ê·¸ëž˜í”„*/
+
+/* /game center view page*/
+
+/* í•˜ë‹¨ ê²Œì‹œë¬¼ ë¦¬ìŠ¤íŠ¸ */
+
+div.wrap-GameCenter div.bottom-list {
+    width: 766px;
+    height: 300px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/bg_bottom_list.gif) no-repeat;
+    margin-top: 15px
+}
+
+div.wrap-GameCenter div.bottom-list h3 {
+    float: left;
+    margin-top: 20px
+}
+
+div.wrap-GameCenter div.bottom-list div.left,
+div.wrap-GameCenter div.bottom-list div.right {
+    float: left;
+    width: 363px;
+    padding: 0 10px 0 10px
+}
+
+div.wrap-GameCenter div.bottom-list span.page {
+    float: right;
+    font-size: 11px;
+    color: #666;
+    margin-top: 17px
+}
+
+div.wrap-GameCenter div.bottom-list span.page strong {
+    font-weight: bold;
+    color: #333
+}
+
+div.wrap-GameCenter div.bottom-list span.page button {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    font-size: 0;
+    vertical-align: middle
+}
+
+div.wrap-GameCenter div.bottom-list button.pre {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_page_pre.gif) no-repeat
+}
+
+div.wrap-GameCenter div.bottom-list button.next {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_page_next.gif) no-repeat
+}
+
+div.wrap-GameCenter div.bottom-list div.left span.thumb img {
+    clear: both;
+    float: left;
+    width: 360px;
+    height: 227px;
+    margin-top: 10px
+}
+
+div.wrap-GameCenter div.bottom-list button.more {
+    font-size: 0;
+    border: 0;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_bottom_more.gif) no-repeat;
+    width: 44px;
+    height: 11px;
+    float: right;
+    margin-top: 20px
+}
+
+div.wrap-GameCenter div.bottom-list ul.list {
+    clear: both;
+    float: left;
+    font: 11px Dotum, ë‹ì›€;
+    color: #666;
+    margin-top: 12px;
+    line-height: 17px;
+    width: 100%
+}
+
+div.wrap-GameCenter div.bottom-list ul.list li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 6px;
+    margin-bottom: 6px
+}
+
+div.wrap-GameCenter div.bottom-list ul.list span.thumb img {
+    float: left;
+    width: 100px;
+    height: 65px;
+    margin-right: 10px
+}
+
+div.wrap-GameCenter div.bottom-list ul.list strong {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333
+}
+
+div.wrap-GameCenter div.bottom-list ul.list span.date {
+    margin-right: 10px;
+    color: #999
+}
+
+div.wrap-GameCenter div.bottom-list ul.list span.posted {
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+    color: #999
+}
+
+div.wrap-GameCenter div.bottom-list ul.list li.last {
+    border-bottom: 0
+}
+
+div.wrap-GameCenter div.best-review div.comment {
+    clear: left;
+    float: left;
+    padding-left: 100px;
+    background: #f1f1f1;
+    width: 667px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+div.wrap-GameCenter div.best-review div.comment textarea {
+    border: 1px solid #ccc;
+    resize: none;
+    background: #fff;
+    padding: 10px;
+    width: 576px;
+    height: 33px
+}
+
+div.wrap-GameCenter div.best-review div.comment button.write {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/gamecenter/btn_comment.gif) no-repeat;
+    border: 0;
+    width: 60px;
+    height: 55px;
+    font-size: 0;
+    position: absolute;
+    right: 10px
+}
+
+div.wrap-GameCenter div.best-review div.comment li.Rbtn {
+    margin-right: 10px
+}
+
+/* 20160624 3depth ì¶”ê°€ */
+
+div.RankDepth {
+    margin-bottom: 10px
+}
+
+div.RankDepth ul.Depth3 {
+    border-bottom: 1px solid #ccc;
+    height: 44px
+}
+
+div.RankDepth ul.Depth3 li {
+    width: 150px;
+    text-align: center;
+    height: 30px;
+    padding-top: 13px;
+    margin-right: 1px;
+    border: 1px solid #ccc;
+    display: inline;
+    float: left;
+    font: 14px 'NanumGothic', 'Malgun Gothic', 'ë§‘ì€ ê³ ë”•', Gulim, Dotum, ë‹ì›€;
+    color: #444
+}
+
+div.RankDepth ul.Depth3 li.active {
+    background: #f9f9f9;
+    border-bottom: 0;
+    height: 31px;
+    font-weight: bold;
+    color: #d30000
+}
+
+div.RankDepth ul.GameType {
+    border: 1px solid #ccc;
+    border-top: 0;
+    background: #f9f9f9;
+    overflow: hidden;
+    padding: 10px 20px 10px 20px
+}
+
+div.RankDepth ul.GameType li {
+    display: inline;
+    float: left;
+    margin-right: 15px;
+    font: 13px 'NanumGothic', 'Malgun Gothic', 'ë§‘ì€ ê³ ë”•', Gulim, Dotum, ë‹ì›€;
+    color: #333;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/coupon/blt_games.gif) no-repeat 0 50%;
+    padding-left: 8px;
+    letter-spacing: -.1em
+}
+
+div.RankDepth ul.GameType li.active {
+    font-weight: bold
+}

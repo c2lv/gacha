@@ -1,0 +1,2154 @@
+/*í—ê·¸ë¦¬ì•± newë©”ì¸ ìƒë‹¨ê´‘ê³ */
+
+@charset "utf-8";
+/* CSS Document */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+form,
+fieldset,
+p,
+button,
+option {
+    margin: 0;
+    padding: 0
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+th,
+td,
+input,
+select.textarea {
+    /*color:#474747;*/
+    font-family: "ë‹ì›€", dotum;
+    font-size: 12px;
+    font-weight: normal
+}
+
+hr {
+    display: none
+}
+
+img,
+fieldset {
+    border: 0
+}
+
+ul,
+ol,
+li {
+    list-style: none
+}
+
+input.input_text,
+textarea.input_text {
+    ime-mode: active
+}
+
+img,
+input,
+select,
+textarea {
+    vertical-align: middle
+}
+
+a {
+    color: #454545;
+    text-decoration: none
+}
+
+a:hover {
+    color: #f65c00;
+    text-decoration: underline
+}
+
+a.user {
+    position: relative
+}
+
+.nm_bannersww {
+    padding: 6px 0;
+    width: 980px;
+    float: left;
+}
+
+.nm_bannersww1 {
+    margin: 6px 0 6px 0;
+    float: left;
+}
+
+#main_warp2 {
+    width: 982px;
+    margin: 0 auto 10px auto;
+    clear: both;
+}
+
+/*í—ê·¸ë¦¬ì•± ì™¼ìª½*/
+
+#main_warp2 .lfcont {
+    float: left;
+    width: 750px;
+    padding: 0 5px 0 5px;
+}
+
+/*í—ê·¸ë¦¬ì•± í—¤ë“œë¼ì¸*/
+
+#main_warp2 .lfcont .newhw {
+    float: left;
+    width: 750px;
+    border: 1px solid #23293dc;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/news_bg.gif)
+}
+
+#main_warp2 .lfcont .newhw .head {
+    height: 33px;
+    border: 1px solid #fff;
+    margin: 7px 0 5px 0
+}
+
+#main_warp2 .lfcont .newhw .head h5 span {
+    display: none
+}
+
+#main_warp2 .lfcont .newhw .mhead {
+    height: 1px;
+    border: 1px solid #212532;
+    margin: 1px 0 5px 0
+}
+
+#main_warp2 .lfcont .newhw .mhead h5 span {
+    display: none
+}
+
+#main_warp2 .lfcont .newhw .mfocusw {
+    width: 30px;
+    float: left;
+    position: relative;
+    padding: 7px 0 7px 7px;
+}
+
+#main_warp2 .lfcont .newhw .mfocusw img {
+    width: 330px;
+    height: 265px;
+    border: 1px solid #212532;
+}
+
+#main_warp2 .lfcont .newhw .mfocusw .ntab img {
+    width: 95px;
+    height: 22px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    border: none
+}
+
+#main_warp2 .lfcont .newhw .mfocusw span.bgbw {
+    width: 282px;
+    position: absolute;
+    bottom: 8px;
+    left: 11px;
+    text-align: center;
+    padding: 12px
+}
+
+#main_warp2 .lfcont .newhw .mfocusw span.bgbw a {
+    display: block;
+    height: 12px;
+    width: 282px;
+    font-size: 11px;
+    color: #fff;
+    line-height: 120%;
+    overflow: hidden
+}
+
+#main_warp2 .lfcont .newhw .rightw {
+    float: right;
+    width: 400px;
+    padding: 7px;
+    height: 265px;
+}
+
+#main_warp2 .lfcont .newhw .rightw .topnewsw {
+    height: 90px;
+}
+
+#main_warp2 .lfcont .newhw .rightw .topnewsw p.ntitle a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #474747
+}
+
+#main_warp2 .lfcont .newhw .rightw .topnewsw p.contsw {
+    margin: 10px 0 0 0;
+    width: 445px;
+    height: 66px;
+    overflow: hidden
+}
+
+#main_warp2 .lfcont .newhw .rightw .topnewsw p.contsw a {
+    line-height: 138%;
+    color: #636363;
+}
+
+#main_warp2 .lfcont .newhw .rightw .mtopnewsw {
+    height: 90px;
+}
+
+#main_warp2 .lfcont .newhw .rightw .mtopnewsw p.stitle a {
+    font-family: Dotum;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fb8200;
+    letter-spacing: -1px;
+}
+
+#main_warp2 .lfcont .newhw .rightw .mtopnewsw img {
+    vertical-align: middle;
+    margin: 0 0 0 0
+}
+
+#main_warp2 .lfcont .newhw .rightw .mtopnewsw p.ntitle {
+    margin: 10px 0 10px 0
+}
+
+#main_warp2 .lfcont .newhw .rightw .mtopnewsw p.ntitle a {
+    font-family: Dotum;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: -2px;
+    line-height: 150%
+}
+
+#main_warp2 .lfcont .newhw .rightw .mtopnewsw p.contsw {
+    margin: 10px 0 0 0;
+    width: 445px;
+    height: 66px;
+    overflow: hidden
+}
+
+#main_warp2 .lfcont .newhw .rightw .mtopnewsw p.contsw a {
+    line-height: 138%;
+    color: #636363;
+}
+
+#main_warp2 .lfcont .newhw .rightw .newsw {
+    margin: 105px 0 0 10px;
+}
+
+#main_warp2 .lfcont .newhw .rightw .newsw ul li {
+    float: left;
+    position: relative;
+    width: 87px;
+    height: 65px;
+    margin: 0 10px 0 0
+}
+
+#main_warp2 .lfcont .newhw .rightw .newsw ul li img {
+    width: 87px;
+    height: 65px;
+    border: 1px solid #0f1119
+}
+
+#main_warp2 .lfcont .newhw .rightw .newsw ul li.libor1 div.bor1 {
+    border: 3px solid #f96825;
+    width: 87px;
+    height: 65px;
+    position: absolute;
+    z-index: 999;
+    display: none
+}
+
+#main_warp2 .lfcont .newhw .rightw .newsw ul li.libor2 div.bor2 {
+    border: 3px solid #f96825;
+    width: 87px;
+    height: 65px;
+    position: absolute;
+    z-index: 999;
+    display: none
+}
+
+#main_warp2 .lfcont .newhw .rightw .newsw ul li.libor3 div.bor3 {
+    border: 3px solid #f96825;
+    width: 87px;
+    height: 65px;
+    position: absolute;
+    z-index: 999;
+    display: none
+}
+
+#main_warp2 .lfcont .newhw .rightw .newsw ul li.libor4 div.bor4 {
+    border: 3px solid #f96825;
+    width: 87px;
+    height: 65px;
+    position: absolute;
+    z-index: 999;
+    display: none
+}
+
+/*ë‰´ìŠ¤í…ì •ë³´*/
+
+.news_tep01 {
+    width: 373px;
+    height: 160px;
+    background: #3b3b3b;
+    border: 1px solid #000000;
+    float: left;
+}
+
+.news_tep01 .news_menu {
+    width: 81px;
+    height: 160px;
+    float: left;
+}
+
+.news_tep01 .news_menu li {
+    width: 81px;
+    float: left;
+}
+
+.news_tep01 .news_menu .on {
+    width: 71px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #080808;
+    border-top: 1px solid #464646;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.news_tep01 .news_menu .off {
+    width: 71px;
+    height: 30px;
+    background: #222222;
+    color: #757575;
+    border-bottom: 1px solid #080808;
+    border-top: 1px solid #464646;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+.news_tep01 .news_list {
+    width: 170px;
+    height: 135px;
+    float: left;
+    padding-top: 10px;
+}
+
+.news_tep01 .news_list li {
+    width: 170px;
+    float: left;
+    font-size: 11px;
+}
+
+.news_tep01 .news_list .on {
+    width: 170px;
+    height: 23px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.news_tep01 .news_list .off {
+    width: 170px;
+    height: 23px;
+    line-height: 23px;
+    color: #757575;
+}
+
+.news_tep01 .news_tepimg {
+    width: 94px;
+    height: 115px;
+    padding: 10px;
+    float: left;
+    color: #757575;
+}
+
+.news_tep01 .news_tepimg .newsimg {
+    width: 92px;
+    height: 115px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    margin-top: 3px;
+}
+
+.news_tep01 .news_tepimg .imgtep {
+    width: 94px;
+    height: 22px;
+    line-height: 23px;
+    border-top: 1px solid #000000;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/news_tep1.gif);
+    color: #757575;
+    text-align: center;
+}
+
+.news_tep01 .news_tepimg .imgtep a {
+    width: 22px;
+    height: 22px;
+    display: block;
+    font-size: 0;
+}
+
+.news_tep02 {
+    width: 374px;
+    height: 160px;
+    background: #303030;
+    border: 1px solid #000000;
+    float: left;
+    border-left: none;
+}
+
+.news_tep02 .tit {
+    width: 364px;
+    line-height: 25px;
+    float: left;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.news_tep02 .tit a {
+    color: #ffffff;
+}
+
+.news_tep02 .tit span a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.news_tep02 .list li {
+    width: 360px;
+    float: left;
+    border-bottom: 1px solid #080808;
+    border-top: 1px solid #464646;
+    padding-left: 14px;
+    line-height: 25px;
+    color: #ffffff;
+}
+
+.news_tep02 .list li:last-child {
+    width: 360px;
+    float: left;
+    border-bottom: none;
+    border-top: 1px solid #464646;
+    padding-left: 14px;
+    line-height: 25px;
+}
+
+.news_tep02 .list img {
+    width: 85px;
+    height: 35px;
+}
+
+.news_tep02 .list span {
+    color: #f25a26;
+    font-weight: bold;
+}
+
+.news_tep02 .list span.text {
+    width: 240px;
+    line-height: 17px;
+    float: left;
+    font-size: 11px;
+    padding-left: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.news_tep02 .list span.text01 {
+    width: 240px;
+    line-height: 17px;
+    float: left;
+    font-size: 11px;
+    padding-left: 10px;
+    color: #c3c3c5;
+}
+
+.news_tep02 .list span.text a {
+    color: #c3c3c5;
+}
+
+/*ê²Œìž„ì •ë³´*/
+
+.n_gameinfo {
+    width: 748px;
+    height: 145px;
+    border: 1px solid #000;
+    float: left;
+    margin-top: 6px;
+    border-right: none;
+}
+
+.n_gameinfo li {
+    float: :left;
+}
+
+.n_gameinfo .off {
+    width: 125px;
+    height: 145px;
+    float: left;
+    border-right: 1px solid #000;
+}
+
+.n_gameinfo .off img {
+    width: 125px;
+    height: 145px;
+    float: left;
+}
+
+.n_gameinfo .on {
+    width: 360px;
+    height: 135px;
+    float: left;
+    border: 5px solid #5a70f7;
+    position: relative;
+}
+
+.n_gameinfo .oninfo {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    width: 145px;
+    height: 124px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_info1.png) no-repeat;
+    padding-top: 25px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.n_gameinfo .oninfo li {
+    float: left;
+}
+
+.n_gameinfo .oninfo .tit {
+    width: 140px;
+    height: 20px;
+    color: #8a92c1;
+    font-weight: bold;
+    text-align: right;
+    float: left;
+}
+
+.n_gameinfo .oninfo .info {
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    text-align: right;
+    line-height: 14px;
+    float: left;
+}
+
+/*ì‹ ê·œê²Œìž„ì •ë³´*/
+
+#main_warp2 .lfcont .newinfo2 {
+    width: 375px;
+    float: left;
+}
+
+#main_warp2 .lfcont .newinfo2 .tit {
+    width: 364px;
+    height: 31px;
+    border: 1px solid #00708b;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_title01.gif);
+    float: left;
+    border-right: none;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+#main_warp2 .lfcont .newinfo2 .tit span {
+    float: left;
+    height: 34px;
+    width: 150px;
+    display: block;
+}
+
+#main_warp2 .lfcont .newinfo2 .tit .subject {
+    background-position: 0px -33px;
+    margin-left: 15px;
+    margin-right: 120px;
+}
+
+#main_warp2 .lfcont .newinfo2 .list {
+    width: 374px;
+    float: left;
+    border-bottom: 1px solid #cacaca;
+    border-left: 1px solid #cacaca;
+    padding: 7px 0;
+}
+
+#main_warp2 .lfcont .newinfo2 .list li {
+    width: 100%;
+    line-height: 22px;
+    margin: 0 15px;
+}
+
+#main_warp2 .lfcont .newinfo2 .list span.text {
+    width: 280px;
+    float: left;
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .newinfo2 .list span.reple {
+    color: #f25a26;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#main_warp2 .lfcont .newinfo2 .list span.text a {
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .newinfo2 .list span.num {
+    width: 60px;
+    float: left;
+    font-size: 11px;
+    color: #b3b3b3;
+    text-align: right;
+}
+
+/*ì¶œì‹œì˜ˆì •ê³„ìž„*/
+
+#main_warp2 .lfcont .hotinfo2 {
+    width: 375px;
+    float: right;
+}
+
+#main_warp2 .lfcont .hotinfo2 .tit {
+    width: 363px;
+    height: 31px;
+    border: 1px solid #c04e73;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_title02.gif);
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+#main_warp2 .lfcont .hotinfo2 .list {
+    width: 373px;
+    float: left;
+    border-bottom: 1px solid #cacaca;
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    padding: 7px 0;
+}
+
+#main_warp2 .lfcont .hotinfo2 .list li {
+    width: 100%;
+    line-height: 22px;
+    margin: 0 15px;
+}
+
+#main_warp2 .lfcont .hotinfo2 .list span.text {
+    width: 280px;
+    float: left;
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .hotinfo2 .list span.reple {
+    color: #f25a26;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#main_warp2 .lfcont .hotinfo2 .list span.text a {
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .hotinfo2 .list span.num {
+    width: 60px;
+    float: left;
+    font-size: 11x;
+    color: #b3b3b3;
+    text-align: right;
+}
+
+/*ê²Œìž„ì •ë³´_131014*/
+
+#main_warp2 .lfcont .game_info {
+    width: 748px;
+    float: left;
+    background: #ededed;
+    border: 1px solid #d3d3d3;
+    margin-top: 6px;
+}
+
+#main_warp2 .lfcont .game_info li {
+    width: 186px;
+    float: left;
+    border-right: 1px solid #d3d3d3;
+    text-align: center;
+}
+
+#main_warp2 .lfcont .game_info li:last-child {
+    width: 185px;
+    float: left;
+    border-right: none;
+}
+
+#main_warp2 .lfcont .game_info li span.subject {
+    width: 185px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+    display: block;
+}
+
+#main_warp2 .lfcont .game_info li span.star {
+    width: 185px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 14px;
+    color: #f45827;
+    display: block;
+}
+
+#main_warp2 .lfcont .game_info li span.text {
+    width: 175px;
+    text-align: left;
+    line-height: 15px;
+    font-size: 11px;
+    color: #7a7a7a;
+    padding: 7px;
+    display: block;
+}
+
+/*ê²Œìž„ì—…ê³„ë™í–¥/í•´ì™¸ë‰´ìŠ¤*/
+
+#main_warp2 .lfcont .line {
+    width: 100%;
+    float: left;
+}
+
+#main_warp2 .lfcont .gameinfo {
+    width: 375px;
+    height: 230px;
+    float: left;
+}
+
+#main_warp2 .lfcont .gameinfo .tit {
+    width: 364px;
+    height: 34px;
+    border-left: 1px solid #cccccc;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/middle_title01.gif);
+    float: left;
+    border-right: none;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#main_warp2 .lfcont .gameinfo .tit01 {
+    width: 364px;
+    height: 34px;
+    border-left: 1px solid #cccccc;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/middle_title05.gif);
+    float: left;
+    border-right: none;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#main_warp2 .lfcont .gameinfo .list {
+    width: 374px;
+    float: left;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    padding: 7px 0;
+}
+
+#main_warp2 .lfcont .gameinfo .list li {
+    width: 100%;
+    line-height: 22px;
+    margin: 0 15px;
+}
+
+#main_warp2 .lfcont .gameinfo .list span.text {
+    width: 280px;
+    float: left;
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .gameinfo .list span.reple {
+    color: #f25a26;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#main_warp2 .lfcont .gameinfo .list span.text a {
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .gameinfo .list span.num {
+    width: 60px;
+    float: left;
+    font-size: 11px;
+    color: #b3b3b3;
+    text-align: right;
+}
+
+/*ê²Œìž„ìœ ì €ë¦¬ë·°/í•«ì´ë²¤íŠ¸*/
+
+#main_warp2 .lfcont .gameuser {
+    width: 375px;
+    height: 230px;
+    float: right;
+    background: #f8f8f8;
+}
+
+#main_warp2 .lfcont .gameuser .tit {
+    width: 363px;
+    height: 34px;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/middle_title02.gif);
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#main_warp2 .lfcont .gameuser .tit01 {
+    width: 363px;
+    height: 34px;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/middle_title04.gif);
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#main_warp2 .lfcont .gameuser .list {
+    width: 373px;
+    float: left;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding: 7px 0;
+}
+
+#main_warp2 .lfcont .gameuser .list li {
+    width: 100%;
+    line-height: 22px;
+    margin: 0 15px;
+}
+
+#main_warp2 .lfcont .gameuser .list span.text {
+    width: 280px;
+    float: left;
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .gameuser .list span.reple {
+    color: #f25a26;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#main_warp2 .lfcont .gameuser .list span.text a {
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .gameuser .list span.num {
+    width: 60px;
+    float: left;
+    font-size: 1x;
+    color: #b3b3b3;
+    text-align: right;
+}
+
+/*ê²Œìž„ ë™ì˜ìƒ*/
+
+#main_warp2 .lfcont .gamemovie {
+    width: 375px;
+    height: 400px;
+    float: left;
+    background: #212531;
+    margin-top: 12px;
+}
+
+#main_warp2 .lfcont .gamemovie .tit {
+    width: 365px;
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_movie_title.gif) no-repeat;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#main_warp2 .lfcont .gamemovie .list {
+    width: 365px;
+    float: left;
+    padding: 7px 0;
+    text-align: center;
+}
+
+#main_warp2 .lfcont .gamemovie .list li {
+    width: 170px;
+    text-align: center;
+    float: left;
+    margin-left: 12px;
+}
+
+#main_warp2 .lfcont .gamemovie .list li img {
+    width: 170px;
+    height: 140px;
+    text-align: center;
+}
+
+#main_warp2 .lfcont .gamemovie .list li span.text {
+    width: 170px;
+    float: left;
+    color: #ffffff;
+    line-height: 32px
+}
+
+#main_warp2 .lfcont .gamemovie .list li span.text a {
+    color: #ffffff;
+}
+
+/*ë§ˆì¼ë¦¬ì§€ìƒµ*/
+
+#main_warp2 .lfcont .mileage {
+    width: 375px;
+    height: 400px;
+    float: left;
+    background: #5e669b;
+    margin-top: 12px;
+}
+
+#main_warp2 .lfcont .mileage .tit {
+    width: 350px;
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_mileage_title.gif) no-repeat;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 15px;
+    color: #a8afdc;
+    font-weight: bold;
+}
+
+#main_warp2 .lfcont .mileage .tit span {
+    color: #ffffff;
+}
+
+#main_warp2 .lfcont .mileage .list {
+    width: 375px;
+    float: left;
+    padding: 7px 0;
+    text-align: center;
+}
+
+#main_warp2 .lfcont .mileage .list li {
+    width: 170px;
+    text-align: center;
+    float: left;
+    margin-left: 12px;
+}
+
+#main_warp2 .lfcont .mileage .list li img {
+    width: 170px;
+    height: 140px;
+    text-align: center;
+}
+
+#main_warp2 .lfcont .mileage .list li span.text {
+    width: 170px;
+    float: left;
+    color: #ffffff;
+    line-height: 32px
+}
+
+#main_warp2 .lfcont .mileage .list li span.text a {
+    color: #ffffff;
+}
+
+/*ì»¤ë®¤ë‹ˆí‹°*/
+
+#main_warp2 .lfcont .community {
+    width: 748px;
+    height: 445px;
+    float: left;
+    background: #f8f8f8;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+
+#main_warp2 .lfcont .community .tit_b {
+    width: 748px;
+    height: 36px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/community_title.gif) no-repeat;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#main_warp2 .lfcont .community .tit_b span {
+    width: 715px;
+    height: 30px;
+    float: left;
+    padding-right: 25px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+#main_warp2 .lfcont .community .list_b {
+    width: 748px;
+    float: left;
+    padding: 7px 0;
+}
+
+/*ì»¤ë®¤ë‹ˆí‹°ë¦¬ìŠ¤íŠ¸*/
+
+#main_warp2 .lfcont .n_notice {
+    width: 350px;
+    height: 180px;
+    float: left;
+    background: #ffffff;
+    border: 1px solid #e3dfdf;
+    margin-bottom: 12px;
+    margin-left: 14px;
+}
+
+#main_warp2 .lfcont .n_notice .tit {
+    width: 350px;
+    height: 34px;
+    border-bottom: 1px solid #e3dfdf;
+    float: left;
+}
+
+#main_warp2 .lfcont .n_notice .tit span {
+    height: 34px;
+    display: block;
+    line-height: 34px;
+}
+
+#main_warp2 .lfcont .n_notice .tit .subject {
+    color: #ff8000;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    padding-left: 10px;
+}
+
+#main_warp2 .lfcont .n_notice .tit .more {
+    color: #9d9d9d;
+    font-size: 11px;
+    float: right;
+    padding-right: 10px;
+}
+
+#main_warp2 .lfcont .n_notice .list {
+    width: 350px;
+    float: left;
+    padding: 7px 0;
+}
+
+#main_warp2 .lfcont .n_notice .list li {
+    width: 100%;
+    line-height: 22px;
+    margin: 0 15px;
+}
+
+#main_warp2 .lfcont .n_notice .list span.text {
+    width: 250px;
+    float: left;
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .n_notice .list span.text a {
+    color: #6b6b6b;
+}
+
+#main_warp2 .lfcont .n_notice .list span.reple {
+    color: #f25a26;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#main_warp2 .lfcont .n_notice .list span.num {
+    width: 70px;
+    float: left;
+    font-size: 1x;
+    color: #b3b3b3;
+    text-align: right;
+}
+
+/* ì»¨í…ì¸  ì˜¤ë¥¸ìª½*/
+
+#main_warp2 .rfcont {
+    float: right;
+    width: 220px;
+    padding: 0;
+}
+
+#main_warp2 .rfcont .banner {
+    text-align: center;
+    position: relative;
+    height: 250px;
+}
+
+#main_warp2 .rfcont .banner span.line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+#main_warp2 .rfcont .banner .dot {
+    text-align: center;
+    width: 220px;
+    background: #646974;
+    line-height: 30px;
+}
+
+#main_warp2 .rfcont .banner_r1 {
+    border: 3px solid #dc0072;
+    background: url(http://appdata.hungryapp.co.kr/images/new_main/l_ev_bg.gif);
+    width: 202px;
+    padding: 5px 0 5px 12px;
+    margin-top: 1px;
+    float: left;
+}
+
+#main_warp2 .rfcont .banner_r2 {
+    border-bottom: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    background: #f7f7f7;
+    width: 208px;
+    padding: 12px 0 10px 10px;
+    float: left;
+}
+
+#main_warp2 .rfcont .banner_r3 {
+    border-bottom: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    width: 208px;
+    padding: 10px 0 10px 10px;
+    float: left;
+}
+
+/* ê²Œìž„ìˆœìœ„*/
+
+#main_warp2 .rfcont .rankw {
+    padding-top: 6px;
+    float: left;
+}
+
+#main_warp2 .rfcont .rankw p.attack_rank {
+    width: 200px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/new/l_lanking_bg.gif) no-repeat 0px -81px;
+    border: 1px solid #e7e7e7;
+    border-bottom: none
+}
+
+#main_warp2 .rfcont .rankw p.attack_rank span {
+    display: none
+}
+
+#main_warp2 .rfcont .rankw ul.list {
+    border: 3px solid #414141;
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank {
+    border: 1px solid #e7e7e7;
+    border-top: none;
+    padding: 7px 10px
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span.name {
+    width: 120px;
+    vertical-align: top;
+    padding-top: 3px;
+    overflow: hidden
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span.name a {
+    font-size: 11px;
+    color: #454545;
+    letter-spacing: -1px
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span.name01 {
+    width: 110px;
+    vertical-align: top;
+    padding-top: 3px;
+    overflow: hidden;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span.name01 a {
+    font-size: 11px;
+    color: #454545;
+    letter-spacing: -1px
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span.name02 {
+    width: 110px;
+    height: 14px;
+    vertical-align: top;
+    padding-top: 3px;
+    overflow: hidden;
+    float: right;
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span.name02 a {
+    font-size: 11px;
+    color: #939393;
+    letter-spacing: -1px
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span.rankd {
+    font-size: 11px;
+    color: #9a9a9a;
+    font-weight: bold;
+    font-family: Tahoma
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span.appimg img {
+    width: 18px;
+    height: 18px
+}
+
+#main_warp2 .rfcont .rankw ul.list li.rank span.appimg01 img {
+    width: 45px;
+    height: 45px
+}
+
+/*ì‹ ê·œê²Œìž„*/
+
+#main_warp2 .rfcont .newgame {
+    width: 220px;
+    float: left;
+    margin-bottom: 6px;
+}
+
+#main_warp2 .rfcont .newgame .tit {
+    width: 210px;
+    height: 24px;
+    float: left;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/new_game_title01.gif) no-repeat;
+    text-align: right;
+    font-size: 11px;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: #b0b0b0;
+}
+
+#main_warp2 .rfcont .newgame .list {
+    width: 218px;
+    float: left;
+    border-left: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    background: #f7f7f7;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+#main_warp2 .rfcont .newgame .list img {
+    width: 210px;
+    height: 50px;
+    padding-top: 7px;
+}
+
+/*ì»¤ë®¤ë‹ˆí‹°*/
+
+#main_warp2 .rfcont .commu {
+    width: 220px;
+    float: left;
+    padding-top: 6px;
+}
+
+#main_warp2 .rfcont .commu .tit {
+    width: 218px;
+    height: 34px;
+    border: 1px solid #d6d6d6;
+    background: #f7f7f7;
+    float: left;
+}
+
+#main_warp2 .rfcont .commu .tit span {
+    float: left;
+    height: 34px;
+    width: 150px;
+    display: block;
+    background: transparent url(http://appdata.hungryapp.co.kr/images/new_main/main_tit_text.png) no-repeat;
+}
+
+#main_warp2 .rfcont .commu .tit .subject {
+    background-position: -5px -455px;
+    margin-left: 12px;
+    margin-right: 120px;
+}
+
+#main_warp2 .rfcont .commu .list {
+    width: 206px;
+    float: left;
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    padding: 7px 0 7px 12px;
+    background: #f7f7f7;
+}
+
+#main_warp2 .rfcont .commu .list li {
+    width: 67px;
+    line-height: 22px;
+    float: left
+}
+
+#main_warp2 .rfcont .commu .list li a {
+    font-size: 11px;
+}
+
+/*ì†Œëª¨ìž„*/
+
+#main_warp2 .rfcont .club {
+    width: 220px;
+    float: left;
+}
+
+#main_warp2 .rfcont .club .tit {
+    width: 218px;
+    height: 34px;
+    border: 1px solid #d6d6d6;
+    background: #f7f7f7;
+    float: left;
+}
+
+#main_warp2 .rfcont .club .tit span {
+    float: left;
+    height: 34px;
+    width: 150px;
+    display: block;
+    background: transparent url(http://appdata.hungryapp.co.kr/images/new_main/main_tit_text.png) no-repeat;
+}
+
+#main_warp2 .rfcont .club .tit .subject {
+    background-position: -5px -544px;
+    margin-left: 12px;
+    margin-right: 120px;
+}
+
+#main_warp2 .rfcont .club .list {
+    width: 206px;
+    float: left;
+    border-bottom: 1px solid #cacaca;
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    padding: 7px 0 7px 12px;
+    background: #f7f7f7;
+}
+
+#main_warp2 .rfcont .club .list li {
+    width: 100px;
+    line-height: 22px;
+    float: left
+}
+
+#main_warp2 .rfcont .club .list li a {
+    font-size: 11px;
+    letter-spacing: -1px;
+}
+
+/*ê²Œìž„ìž¥ë¥´*/
+
+#main_warp2 .rfcont .genre {
+    width: 218px;
+    float: left;
+    background: #efefef;
+    border: 1px solid #d6d6d6;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 6px;
+}
+
+#main_warp2 .rfcont .genre .tit {
+    width: 207px;
+    height: 25px;
+    border-bottom: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+    float: left;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+#main_warp2 .rfcont .genre .list {
+    width: 218px;
+    float: left;
+    background: #efefef;
+}
+
+#main_warp2 .rfcont .genre .list li {
+    width: 98px;
+    line-height: 22px;
+    float: left;
+    border-top: 1px solid #ffffff;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    padding-left: 10px;
+}
+
+#main_warp2 .rfcont .genre .list li a {
+    font-size: 11px;
+    letter-spacing: -1px;
+}
+
+/*ë‚˜ë„í•œí‘œ*/
+
+#main_warp2 .rfcont .vote {
+    width: 220px;
+    float: left;
+    margin-top: 6px;
+}
+
+#main_warp2 .rfcont .vote .tit {
+    width: 218px;
+    height: 34px;
+    border: 1px solid #d6d6d6;
+    float: left;
+}
+
+#main_warp2 .rfcont .vote .tit span {
+    float: left;
+    height: 34px;
+    display: block;
+}
+
+#main_warp2 .rfcont .vote .tit .subject {
+    background-position: -5px -603px;
+    margin-left: 12px;
+    width: 100px;
+}
+
+#main_warp2 .rfcont .vote .tit .blank {
+    background-position: -280px -270px;
+    margin-left: 45px;
+    padding-top: 12px;
+    text-align: right;
+    color: #a4a3a3;
+    font-size: 11px;
+    width: 50px;
+}
+
+#main_warp2 .rfcont .vote .list {
+    width: 206px;
+    float: left;
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    padding: 10px 0 10px 12px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_main/l_vote_bg.gif);
+    height: 50px;
+}
+
+#main_warp2 .rfcont .vote .list li {
+    width: 60%;
+    line-height: 22px;
+    float: left;
+}
+
+/*ê³µì§€ì‚¬í•­*/
+
+#main_warp2 .rfcont .notice_r {
+    width: 220px;
+    float: left;
+}
+
+#main_warp2 .rfcont .notice_r .tit {
+    width: 218px;
+    height: 34px;
+    border: 1px solid #d6d6d6;
+    background: #f7f7f7;
+    float: left;
+}
+
+#main_warp2 .rfcont .notice_r .tit span {
+    float: left;
+    height: 32px;
+    display: block;
+    background: transparent url(http://appdata.hungryapp.co.kr/images/new_main/main_tit_text.png) no-repeat;
+}
+
+#main_warp2 .rfcont .notice_r .tit .blank {
+    background-position: -280px -270px;
+    margin-left: 45px;
+    padding-top: 12px;
+    text-align: right;
+    color: #a4a3a3;
+    font-size: 11px;
+    width: 50px;
+}
+
+#main_warp2 .rfcont .notice_r .tit .subject {
+    background-position: -5px -646px;
+    margin-left: 12px;
+    width: 100px;
+}
+
+#main_warp2 .rfcont .notice_r .list {
+    width: 206px;
+    float: left;
+    border-bottom: 1px solid #cacaca;
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    padding: 7px 0 7px 12px;
+    background: #f7f7f7;
+}
+
+#main_warp2 .rfcont .notice_r .list li {
+    width: 100%;
+    line-height: 20px;
+}
+
+#main_warp2 .rfcont .notice_r .list span.text {
+    width: 160px;
+    float: left;
+    color: #6b6b6b;
+}
+
+#main_warp2 .rfcont .notice_r .list span.text a {
+    color: #6b6b6b;
+}
+
+#main_warp2 .rfcont .notice_r .list span.num {
+    width: 60px;
+    float: left;
+    font-size: 1x;
+    color: #b3b3b3;
+    text-align: right;
+}
+
+/*ê°€ìž¥ë§Žì´ë³¸ë‰´ìŠ¤*/
+
+#main_warp2 .rfcont .news_m {
+    width: 220px;
+    float: left;
+    margin-top: 6px;
+}
+
+#main_warp2 .rfcont .news_m .tit {
+    width: 218px;
+    height: 34px;
+    border: 1px solid #d6d6d6;
+    background: #efefef;
+    float: left;
+}
+
+#main_warp2 .rfcont .news_m .tit span {
+    float: left;
+    height: 30px;
+    display: block;
+    background: transparent url(http://appdata.hungryapp.co.kr/images/new_130902/news_view_title.gif) no-repeat;
+}
+
+#main_warp2 .rfcont .news_m .tit .blank {
+    background-position: -280px -270px;
+    margin-left: 45px;
+    padding-top: 12px;
+    text-align: right;
+    color: #a4a3a3;
+    font-size: 11px;
+    width: 50px;
+}
+
+#main_warp2 .rfcont .news_m .tit .subject {
+    background-position: 0px 0px;
+    margin-left: 12px;
+    width: 100px;
+    margin-top: 7px;
+}
+
+#main_warp2 .rfcont .news_m .list {
+    width: 206px;
+    float: left;
+    border-bottom: 1px solid #cacaca;
+    border-left: 1px solid #cacaca;
+    border-right: 1px solid #cacaca;
+    padding: 7px 0 7px 12px;
+}
+
+#main_warp2 .rfcont .news_m .list li {
+    width: 100%;
+    line-height: 20px;
+}
+
+#main_warp2 .rfcont .news_m .list span.text {
+    width: 160px;
+    float: left;
+    color: #6b6b6b;
+}
+
+#main_warp2 .rfcont .news_m .list span.text a {
+    color: #6b6b6b;
+}
+
+#main_warp2 .rfcont .news_m .list span.num {
+    width: 60px;
+    float: left;
+    font-size: 1x;
+    color: #b3b3b3;
+    text-align: right;
+}
+
+/*ì‹¤ì‹œê°„ ê²€ìƒ‰ìˆœìœ„*/
+
+#main_warp2 .rfcont .ingchart {
+    width: 220px;
+    float: left;
+    margin-top: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/searchnum_bg.gif) no-repeat;
+}
+
+#main_warp2 .rfcont .ingchart .tit {
+    width: 218px;
+    height: 34px;
+    float: left;
+}
+
+#main_warp2 .rfcont .ingchart .tit span {
+    float: left;
+    background: transparent url(http://appdata.hungryapp.co.kr/images/new_130902/searchnum_bg.gif) no-repeat;
+    height: 34px;
+    display: block;
+}
+
+#main_warp2 .rfcont .ingchart .tit .blank {
+    background-position: -280px -270px;
+    margin-left: 45px;
+    padding-top: 12px;
+    text-align: right;
+    color: #a4a3a3;
+    font-size: 11px;
+    width: 50px;
+}
+
+#main_warp2 .rfcont .ingchart .tit .subject {
+    background-position: 0px 0px;
+    width: 100px;
+}
+
+#main_warp2 .rfcont .ingchart .list {
+    width: 208px;
+    float: left;
+    padding: 4px 0 7px 12px;
+}
+
+#main_warp2 .rfcont .ingchart .list li {
+    width: 100%;
+    line-height: 22px;
+}
+
+#main_warp2 .rfcont .ingchart .list span.text {
+    width: 140px;
+    float: left;
+    color: #6b6b6b;
+}
+
+#main_warp2 .rfcont .ingchart .list span.text a {
+    color: #6b6b6b;
+}
+
+#main_warp2 .rfcont .ingchart .list span.num {
+    width: 60px;
+    float: left;
+    font-size: 12px;
+    color: #000;
+    text-align: right;
+    font-weight: bold;
+}
+
+/*ê²Œìž„ì§€ìˆ˜*/
+
+#main_warp2 .rfcont .game_graph {
+    width: 220px;
+    float: left;
+    margin-top: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_graph_bg.gif) no-repeat;
+    height: 76px;
+}
+
+#main_warp2 .rfcont .game_graph .tit {
+    width: 80px;
+    height: 34px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+#main_warp2 .rfcont .game_graph .list {
+    width: 90px;
+    float: right;
+    padding: 5px;
+    background: #646974;
+    border: 1px solid #474747;
+    color: #afb6c5;
+    margin: 10px 10px 0 0;
+}
+
+#main_warp2 .rfcont .game_graph .list span {
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    text-align: right;
+    font-weight: bold;
+}
+
+#main_warp2 .rfcont .game_graph .list1 {
+    width: 90px;
+    float: right;
+    padding: 5px;
+    background: #646974;
+    border: 1px solid #474747;
+    color: #afb6c5;
+    margin: 5px 10px 0 0;
+}
+
+#main_warp2 .rfcont .game_graph .list1 span {
+    float: right;
+    font-size: 12px;
+    color: #fff;
+    text-align: right;
+    font-weight: bold;
+}
+
+#footer {
+    width: 100%;
+    clear: both;
+    margin-top: 10px;
+}
+
+#footer .copyright {
+    width: 100%;
+    background: #f9f9f9;
+    border-top: 2px solid #5d5d5d;
+    ;
+}
+
+#footer .copyright li.menu {
+    background: #f9f9f9;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+#footer .copyright li.menu span {
+    font-weight: 100;
+    color: #b8b8b8;
+}
+
+#footer .copyright li.copy_l {
+    width: 100%;
+    margin: 20px auto;
+    line-height: 16px;
+    color: #959595;
+    font-size: 11px;
+    text-align: center;
+}
+
+/* 2014-10-15 í”„ë¡œí•„ */
+
+#mp_wrapper {
+    width: 982px;
+    text-align: center;
+}
+
+#mppop_wrapper {
+    width: 100%;
+}
+
+.mis_clear {
+    clear: both
+}
+
+/*.tt_pop{ background:url(images/tt_pop_bg.jpg) repeat-x;}*/
+
+.tt_pop {}
+
+/*í…Œì´ë¸”ë¶€ë¶„*/
+
+.mp_table_1px {
+    width: 982px;
+}
+
+.mp_table_1px table {
+    width: 974px;
+}
+
+.mp_table_1px table td.td1 {
+    border: 1px solid #d6d6d6;
+    border-top: 1px solid #fff;
+    border-right: 0;
+    padding: 9px 10px;
+    color: #2d2d2d;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mp_table_1px table td.td1a {
+    border: 1px solid #d6d6d6;
+    border-top: 1px solid #fff;
+    border-right: 0;
+    padding: 9px 5px;
+    color: #2d2d2d;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mp_table_1px table td.td2 {
+    border: 1px solid #d6d6d6;
+    border-top: 1px solid #fff;
+    padding: 9px 15px;
+    color: #505050;
+}
+
+.mp_table_1px table td.td2a {
+    border: 1px solid #d6d6d6;
+    border-top: 1px solid #fff;
+    padding: 15px 15px;
+    color: #505050;
+}
+
+.mp2_table_1px {
+    width: 100%;
+}
+
+.mp2_table_1px table {
+    width: 100%;
+}
+
+.mp2_table_1px table td.td1 {
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 2px solid #6d6d6d;
+    padding: 9px 10px;
+    color: #fff;
+    background-color: #9e9e9e;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mp2_table_1px table td.td2 {
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 9px 15px;
+    color: #505050;
+    font-size: 11px;
+    text-align: center;
+}
+
+.mp2_table_1px table td.td2a {
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 9px 15px;
+    color: #505050;
+    font-size: 11px;
+    text-align: left;
+}
+
+.mp2_table_1px table td.td2b {
+    border: 0;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 9px 15px;
+    color: #505050;
+    font-size: 11px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.mp3_table_1px {
+    width: 100%;
+}
+
+.mp3_table_1px table {
+    width: 100%;
+}
+
+.mp3_table_1px table td.td1 {
+    border: 1px solid #d6d6d6;
+    border-top: 1px solid #fff;
+    border-right: 0;
+    border-bottom: 1px solid #848484;
+    padding: 9px 10px;
+    color: #2d2d2d;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mp3_table_1px table td.td2a {
+    border: 1px solid #d6d6d6;
+    border-top: 1px solid #fff;
+    border-right: 0;
+    border-bottom: 1px solid #848484;
+    padding: 15px 15px;
+    color: #505050;
+}
+
+.mp3_table_1px table td.td2b {
+    border: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 15px;
+    color: #2d2d2d;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mp3_table_1px table td.td2c {
+    border: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 15px 0;
+    color: #2d2d2d;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mp3_table_1px table td.td2d {
+    border: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 15px 8px 15px 15px;
+    color: #2d2d2d;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*tab*/
+
+/*.mp_tab_wrapper	{ width:100%; background:url(images/bg_tab_bot.jpg) bottom repeat-x; margin:20px 0 15px;	}*/
+
+.mp_tab_wrapper {
+    width: 100%;
+    margin: 20px 0 15px;
+}
+
+/*.mp_tab		 { float:left; width:126px; height:38px; background:url(images/bg_tab.png); border:#cccccc 1px solid; border-right:0; }*/
+
+.mp_tab {
+    float: left;
+    width: 126px;
+    height: 38px;
+    border: #cccccc 1px solid;
+    border-right: 0;
+}
+
+.mp_tab_on {
+    float: left;
+    width: 126px;
+    height: 38px;
+    background: #fff;
+    border: #cccccc 1px solid;
+    border-top: #ff5e01 2px solid;
+    border-right: 0;
+    border-bottom: 0;
+    color: #ff5e01;
+}
+
+.mp_tablast {
+    border-right: #cccccc 1px solid;
+}
+
+/*img*/
+
+.mp_btn1 {
+    float: left;
+}
+
+.mp_btn2 {
+    margin: 3px 0px;
+}
+
+.mp_btn3 {
+    float: left;
+    margin-left: -29px;
+}
+
+.mp_btn4 {
+    float: right;
+    margin-bottom: 9px;
+}
+
+.mp_btn5 {
+    float: right;
+}
+
+.mp_thum1 {
+    border: #ababab 1px solid
+}
+
+.mp_bob {
+    float: left;
+    width: 3%;
+    margin-left: 5px;
+}
+
+.mp_btnbot {
+    margin: 25px;
+}
+
+/*etc*/
+
+/*píƒœê·¸*/
+
+.mp_c1 {
+    float: left;
+    width: 215px;
+    padding: 7px;
+}
+
+.mp_c2 {
+    float: left;
+    padding: 7px;
+}
+
+.mp_c3 {
+    float: left;
+    padding: 7px;
+    line-height: 150%;
+}
+
+.mp_c4 {
+    margin-top: 14px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mp_orange {
+    float: left;
+    padding: 7px 0 0 10px;
+    font-weight: bold;
+    color: #ff5e01;
+}
+
+.mp_sp_orange {
+    font-weight: bold;
+    color: #ff5e01;
+}
+
+.mp_sp_orange2 {
+    color: #ff5e01;
+}
+
+.mp_sp_blue {
+    color: #004eff
+}
+
+.mp_input1 {
+    float: left;
+    width: 687px;
+    height: 72px;
+    border: #d5d5d5 1px solid;
+}
+
+.mp_input2 {
+    float: left;
+    width: 238px;
+    height: 26px;
+    border: #d5d5d5 1px solid;
+}
+
+.mp_input3 {
+    float: left;
+    width: 99%;
+    height: 72px;
+    border: #d5d5d5 1px solid;
+}
+
+.mp_table_1px table td.td2b {
+    border: 1px solid #d6d6d6;
+    border-top: 1px solid #fff;
+    border-right: 0;
+    padding: 9px 15px;
+    color: #505050;
+}
+
+.mp_icon {
+    margin-right: 5px;
+}
+
+.mp_c4 {
+    float: right;
+    padding: 7px;
+    font-weight: bold;
+    color: #0c7e00;
+}
+
+.mp_c5 {
+    float: left;
+    padding: 7px;
+    color: #689100;
+}
+
+/* ë©”ì¸ ê³µì§€ div íŒì—…*/
+
+div.TodayPopup {
+    background: #EFEFEF;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    box-shadow: 0 0 5px 0 #000;
+    width: 100%;
+}
+
+div.TodayPopup img {
+    width: 100%;
+}
+
+div.TodayPopup p.cont {
+    padding: 10px;
+    margin: 0
+}
+
+div.TodayPopup p.close {
+    border-top: 1px solod #ccc;
+    background: #efefef;
+    text-align: right;
+    font: 12px Doutm, ë‹ì›€;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px
+}
+
+div.TodayPopup p.close input {
+    vertical-align: middle;
+    margin-right: 5px
+}

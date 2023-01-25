@@ -1,0 +1,2117 @@
+@charset "utf-8";
+/* 서브메인레이아웃 */
+
+.sub_main_layout {
+    width: 772px;
+    float: left;
+}
+
+.sub_menu_layout {
+    width: 202px;
+    float: left;
+    margin-right: 6px;
+}
+
+/* menu */
+
+.submenu_nm {
+    width: 202px;
+    float: left;
+    border-bottom: 1px solid #b5bbc4;
+}
+
+.submenu_title {
+    width: 182px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/menu_title_bg.gif) no-repeat;
+    height: 24px;
+    padding: 8px 10px;
+    float: left;
+}
+
+.submenu_list {
+    width: 200px;
+    border-left: 1px solid #b5bbc4;
+    border-right: 1px solid #b5bbc4;
+    float: left;
+}
+
+.submenu_list li {
+    width: 170px;
+    border-top: 1px solid #f8f8f9;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 35px;
+    padding-left: 30px;
+    background: #eff0f2 url(http://appdata.hungryapp.co.kr/images/new_130902/common_menu_tep.gif) no-repeat;
+    background-position: 10px 15px;
+    color: #5c5c5c;
+    font-weight: bold;
+}
+
+/* 추천공략커뮤니티 */
+
+.recom_title {
+    width: 750px;
+    float: left;
+    border: 1px solid #495470;
+    background: #6c758b;
+    padding: 7px 10px;
+}
+
+.recom_list {
+    width: 770px;
+    float: left;
+    border: 1px solid #c2c2c2;
+    background: #f5f5f5;
+    border-bottom: none;
+}
+
+.recom_list ul.icon {
+    line-height: 100px;
+}
+
+.recom_list li {
+    width: 153px;
+    float: left;
+    border-right: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.recom_list li.last {
+    width: 154px;
+    float: left;
+    border-right: none;
+}
+
+.recom_list ul.info {
+    float: left;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000;
+    background: #e1e1e1;
+}
+
+.recom_list ul span {
+    font-weight: 100;
+    color: #999999;
+}
+
+/* 스마트 게임센터 검색*/
+
+.com_search {
+    width: 772px;
+    float: left;
+    margin-top: 10px;
+}
+
+.com_search .search_title {
+    width: 750px;
+    float: left;
+    border: 1px solid #6e6e6e;
+    background: #898989;
+    padding: 5px 10px;
+    position: relative;
+    line-height: 32px;
+}
+
+.com_search .search_title input {
+    width: 440px;
+    border: 0px;
+    padding: 0 0 0 40px;
+    line-height: 32px;
+    height: 32px;
+    background: #ffffff url(http://appdata.hungryapp.co.kr/images/new_130902/icon_search.png) no-repeat;
+    background-position: 10px 5px;
+    margin-left: 10px;
+}
+
+.com_search .search_title .srcbtn {
+    border: 1px solid #c2c2c2;
+    border: 1px solid #6d6d6d;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/btn_bg01.png) repeat-x;
+    padding: 0 10px;
+    display: block;
+    color: #fff;
+    text-align: center;
+    width: 60px;
+    float: left;
+    line-height: 32px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-weight: bold;
+}
+
+.com_search .search_list {
+    width: 740px;
+    float: left;
+    border: 1px solid #c2c2c2;
+    background: #f5f5f5;
+    padding: 5px 15px;
+}
+
+.com_search .search_list li.line {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #c2c2c2;
+    line-height: 35px;
+}
+
+.com_search .search_list li {
+    width: 100%;
+    float: left;
+    line-height: 30px;
+}
+
+.com_search .search_list li span.title {
+    width: 80px;
+    float: left;
+    font-weight: bold;
+}
+
+.com_search .search_list li span {
+    width: 132px;
+    float: left;
+}
+
+/* 공략커뮤니티 메인 탭 */
+
+.com_tep {
+    width: 772px;
+    float: left;
+    margin-top: 10px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/com_tep_bg.png) no-repeat;
+}
+
+.com_tep li {
+    width: 193px;
+    float: left;
+    text-align: center;
+    height: 32px;
+    padding-top: 15px;
+}
+
+.com_tep li.on {
+    width: 193px;
+    float: left;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/com_tep_bg_ov.png) no-repeat;
+}
+
+/* 공략커뮤니티 메인 탭 리스트*/
+
+.com_tep_list {
+    width: 770px;
+    float: left;
+    border: 1px solid #c2c2c2;
+    border-bottom: none;
+    margin-top: 10px;
+    background: #d3d3d3;
+}
+
+.com_tep_list li {
+    width: 143px;
+    float: left;
+    border-right: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    text-align: center;
+    padding: 0 0 0 10px;
+    background: #f1f1f1 url(http://appdata.hungryapp.co.kr/images/new_130902/com_arow.png) no-repeat;
+    background-position: 132px 10px;
+    text-align: left;
+    line-height: 32px;
+}
+
+.com_tep_list li.last {
+    width: 144px;
+    float: left;
+    border-right: none;
+}
+
+/* 추천공략커뮤니티 */
+
+.com_gamelist {
+    width: 772px;
+    float: left;
+    margin-top: 10px;
+}
+
+.com_gamelist .line {
+    width: 770px;
+    float: left;
+    border: 1px solid #495470;
+    background: #6c758b;
+    height: 2px;
+}
+
+.com_gamelist .game_list {
+    width: 770px;
+    float: left;
+    border: 1px solid #c2c2c2;
+    border-bottom: none;
+}
+
+.com_gamelist .game_list li {
+    width: 184px;
+    float: left;
+    border-right: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    text-align: left;
+    padding: 0 0 0 7px;
+    line-height: 40px;
+}
+
+.com_gamelist .game_list li.second {
+    background: #ffffff;
+}
+
+.com_gamelist .game_list li.last {
+    width: 186px;
+    float: left;
+    border-right: none;
+    background: #ffffff;
+}
+
+/* 게임센터 탭메뉴 */
+
+.game_tep {
+    width: 772px;
+    float: left;
+    margin-top: 10px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/center_tep_bg2.png) no-repeat;
+}
+
+.game_tep li {
+    width: 109px;
+    float: left;
+    text-align: center;
+    height: 35px;
+    padding-top: 12px;
+}
+
+.game_tep li:last-child {
+    width: 118px;
+    float: left;
+    text-align: center;
+}
+
+.game_tep li.on {
+    width: 109px;
+    float: left;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/center_tep_bg_ov.png) no-repeat;
+}
+
+.game_tep li.on_last {
+    width: 118px;
+    float: left;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/center_tep_bg_ov01.png) no-repeat;
+}
+
+/* 오늘의 게임지수 */
+
+.game_graph {
+    width: 386px;
+    float: left;
+    height: 190px;
+}
+
+.graph_title {
+    width: 364px;
+    float: left;
+    border: 1px solid #232d44;
+    background: #6d758c;
+    padding: 7px 10px;
+    height: 24px;
+    border-right: 1px solid #6d758c;
+    line-height: 24px;
+}
+
+.graph_title span {
+    float: right;
+    color: #fff;
+    font-size: 11px;
+}
+
+.graph_list {
+    position: relative;
+    width: 355px;
+    float: left;
+    border: 1px solid #c2c2c2;
+    background: #f5f5f5;
+    height: 120px;
+    border-right: 1px solid #f5f5f5;
+    line-height: 24px;
+    padding: 14px;
+}
+
+.graph_list li {
+    float: left;
+    width: 100%;
+}
+
+.graph_list li span {
+    float: right;
+}
+
+.graph_list li.info {
+    color: #ea3901;
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+    margin-bottom: 10px;
+    line-height: 35px;
+}
+
+.graph_list .info_tb {
+    width: 255px;
+    border: 1px solid #c2c2c2;
+}
+
+.graph_list .info_tb td {
+    line-height: 30px;
+    color: #000;
+    text-align: center;
+}
+
+.graph_list .info_tb th {
+    line-height: 30px;
+    color: #fff;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_graph_bg.png) repeat-x;
+    border-right: 1px solid #c2c2c2;
+    text-align: center;
+}
+
+.graph_list li.graph {
+    float: left;
+    height: 70px;
+    background: #ffd7c2;
+}
+
+.graph_list .graph_view {
+    position: absolute;
+    top: 59px;
+    left: 14px;
+}
+
+/* 게임 대 게임 */
+
+.game_vs {
+    width: 384px;
+    float: right;
+    background: #444e66;
+    border: 1px solid #232d44;
+    height: 188px;
+}
+
+.vs_title {
+    width: 364px;
+    float: left;
+    padding: 7px 10px;
+    height: 24px;
+    position: relative;
+}
+
+.vs_title p.arow {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 40%;
+    color: #8d96aa;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.vs_title span {
+    float: right;
+    color: #fff;
+    font-size: 11px;
+}
+
+.vs_list {
+    position: relative;
+    width: 356px;
+    float: left;
+    height: 120px;
+    line-height: 24px;
+}
+
+.vs_list span.vs_img {
+    position: absolute;
+    top: 35px;
+    left: 44%;
+}
+
+.vs_list table {
+    height: 75px;
+    margin-left: 15px;
+    width: 163px;
+    text-align: left;
+}
+
+.vs_list table td.kind {
+    color: #aab0c1;
+    text-align: left;
+}
+
+.vs_list table td.name {
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    font-size: 12px;
+    height: 25px;
+    padding-top: 10px;
+}
+
+.vs_list table td.num01 {
+    color: #ea3901;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.vs_list table td.num02 {
+    color: #007ff4;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.vs_list ul.left {
+    float: left;
+    width: 178px;
+    height: 65px;
+}
+
+.vs_list li.name {
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+}
+
+.vs_list li.num {
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    width: 100%;
+}
+
+.vs_list ul.right {
+    float: right;
+    background: #272728;
+    border: 1px solid #000;
+    width: 170px;
+    height: 110px;
+}
+
+/* 게임센터리스트 */
+
+.center_list {
+    width: 772px;
+    float: left;
+    position: relative;
+}
+
+.center_list ul {
+    width: 772px;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px 0;
+    height: 60px;
+    color: #000;
+}
+
+.center_list li {
+    float: left;
+    text-align: center;
+    margin: 0 5px;
+    height: 46px;
+    line-height: 23px;
+    padding: 7px 0;
+}
+
+.center_list li p {
+    font-weight: 100;
+    font-size: 12px;
+    width: 100%;
+    color: #8c8c8c;
+}
+
+.center_list li p.down1 {
+    font-weight: bold;
+    font-size: 11px;
+    width: 100%;
+    color: #8c8c8c;
+}
+
+.center_list li span {
+    font-weight: 100;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.center_list li.lank {
+    width: 60px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/center_list_bg01.png) no-repeat;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.center_list li.icon {
+    width: 60px;
+    padding: 0;
+}
+
+.center_list li.info {
+    width: 180px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.center_list li.down {
+    width: 145px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/center_list_bg02.png) no-repeat;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.center_list li.star {
+    width: 170px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.center_list li.btn {
+    width: 90px;
+    padding: 0;
+}
+
+/* 게임센터 */
+
+.gcenter_info {
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/cent_bg.gif) no-repeat;
+    height: 108px;
+    width: 772px;
+}
+
+/* 게임센터 게임정보 */
+
+.gcenter_info li {
+    float: left;
+}
+
+.gcenter_info li.lank {
+    float: left;
+    color: #f83b00;
+    font-size: 18px;
+    line-height: 109px;
+    width: 85px;
+    text-align: center;
+    font-weight: bold;
+    height: 108px;
+    padding-left: 5px;
+}
+
+.gcenter_info li.icon {
+    float: left;
+    color: f83b00;
+    width: 80px;
+    padding-top: 15px;
+}
+
+.gcenter_info li.info {
+    float: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 240px;
+    line-height: 15px;
+    font-size: 11px;
+}
+
+.gcenter_info li.info p {
+    line-height: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+.gcenter_info li.star {
+    float: left;
+    background: #bdbdbd;
+    color: #fff;
+    border: 1px solid #b7b7b7;
+    width: 170px;
+    height: 65px;
+    margin-top: 15px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.gcenter_info li.btn {
+    float: left;
+    padding-top: 15px;
+}
+
+/* 게임센터 타이틀 */
+
+.gcenter_title {
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/center_title_bg.gif) repeat-x;
+    height: 32px;
+    width: 755px;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+    padding-left: 15px;
+    padding-top: 10px;
+    float: left;
+    border-top: 1px solid #c4c4c4;
+}
+
+/* 게임센터 평가정보 */
+
+.gcenter_menu {
+    background: #ececec;
+    width: 770px;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+    padding: 10px 0;
+    float: left;
+}
+
+.gcenter_menu span.star {
+    padding: 10px 20px;
+    float: left;
+}
+
+.gcenter_menu span.star_info {
+    color: #f45827;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 12px 5px 0 5px;
+    float: left;
+}
+
+.gcenter_menu span.star_info01 {
+    font-weight: bold;
+    margin: 2px 10px 0 10px;
+    float: left;
+    background: #fff;
+    padding: 7px 10px;
+    text-align: center;
+}
+
+.gcenter_menu span.star_text {
+    margin: 10px 5px 0 5px;
+    float: left;
+    width: 450px;
+}
+
+.gcenter_pic {
+    width: 320px;
+    float: left;
+    padding: 15px 10px 15px 0;
+}
+
+.gcenter_pic li {
+    width: 160px;
+    float: left;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* 게임센터 탭메뉴 */
+
+.gcenter_reply {
+    background: #ececec;
+    width: 770px;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.gcenter_reply .list {
+    background: #f8f8f8;
+    float: left;
+    border-right: 1px solid #c4c4c4;
+    padding: 0 10px;
+}
+
+.gcenter_reply .list table {
+    padding: 5px 0;
+}
+
+.gcenter_reply .list table td {
+    line-height: 20px;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.gcenter_reply .wirte {
+    float: left;
+    padding: 10px 20px 0 20px;
+    width: 530px;
+}
+
+.gcenter_reply .wirte p {
+    float: left;
+    padding: 7px 0 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* 게임센터 탭메뉴 */
+
+.gcenter_tep {
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_tep_bg01.gif);
+    width: 772px;
+    float: left;
+    text-align: center;
+}
+
+.gcenter_tep li {
+    float: left;
+}
+
+.gcenter_tep li a {
+    float: left;
+    width: 257px;
+    padding-top: 10px;
+    height: 35px;
+}
+
+.gcenter_tep li a.on {
+    float: left;
+    width: 257px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_tep_bg.gif);
+}
+
+/* 게임센터 탭리스트 */
+
+.gcenter_tep_list {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.gcenter_tep_list ul {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+.gcenter_tep_list li {
+    float: left;
+    line-height: 18px;
+}
+
+.gcenter_tep_list li.star {
+    float: left;
+    line-height: 50px;
+    width: 18%;
+}
+
+.gcenter_tep_list li.text {
+    float: left;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.gcenter_tep_list li.name {
+    float: left;
+    width: 17%;
+    text-align: right;
+    line-height: 50px;
+}
+
+.gcenter_tep_list li.btn {
+    float: right;
+    width: 15%;
+    text-align: right;
+}
+
+.gcenter_tep_list li.btn a.good {
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    float: right;
+}
+
+.gcenter_tep_list li.btn a.bad {
+    padding: 5px;
+    background: #eeeeee;
+    border: 1px solid #cccccc;
+    border-left: none;
+    float: right;
+}
+
+/* 게임센터 뉴스리스트 */
+
+.gcenter_news_list {
+    width: 770px;
+    float: left;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+}
+
+.gcenter_news_list ul {
+    width: 100%;
+    float: left;
+    padding: 7px 0;
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.gcenter_news_list ul.last {
+    width: 100%;
+    float: left;
+    padding: 7px 0;
+}
+
+.gcenter_news_list li {
+    float: left;
+}
+
+.gcenter_news_list li.img {
+    width: 15%;
+    float: left;
+    text-align: center;
+    float: left;
+}
+
+.gcenter_news_list li.text {
+    width: 66%;
+    float: left;
+    float: left;
+}
+
+.gcenter_news_list li.text p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    line-height: 25px;
+}
+
+.gcenter_news_list li.name {
+    width: 18%;
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+    float: left;
+}
+
+/* 쿠폰 left메뉴 */
+
+.gcoupon_menu {
+    width: 188px;
+    background: #f2f2f6;
+    border: 1px solid #c8ced1;
+    padding: 10px 6px;
+    float: left;
+    margin-right: 6px;
+}
+
+.gcoupon_menu li {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+/* 쿠폰 탭메뉴 */
+
+.gcoupon_tep {
+    width: 772px;
+    float: left;
+    margin-bottom: 10px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/gcoupon_tep_bg01.jpg) no-repeat;
+}
+
+.gcoupon_tep li {
+    float: left;
+}
+
+.gcoupon_tep li a {
+    float: left;
+    width: 154px;
+    padding-top: 18px;
+    height: 37px;
+    text-align: center;
+}
+
+.gcoupon_tep li a.on {
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/gcoupon_tep_bg.jpg) no-repeat;
+}
+
+.gcoupon_list {
+    width: 772px;
+    float: left;
+}
+
+.gcoupon_list ul {
+    width: 772px;
+    float: left;
+    margin-bottom: 12px;
+}
+
+.gcoupon_list ul.my {
+    width: 772px;
+    float: left;
+    margin-bottom: 12px;
+    background: #ebecf1;
+}
+
+.gcoupon_list li.title {
+    width: 110px;
+    float: left;
+    position: relative;
+}
+
+.gcoupon_list li.my {
+    width: 188px;
+    float: left;
+    border: 1px solid #bdbdbd;
+    border-left: none;
+    height: 113px;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 25px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.gcoupon_list li.img {
+    width: 660px;
+    float: left;
+    border: 1px solid #797979;
+}
+
+.gcoupon_list li.myimg {
+    width: 580px;
+    float: left;
+    border: 1px solid #bdbdbd;
+    position: relative;
+}
+
+.gcoupon_list .arow {
+    position: absolute;
+    top: 40px;
+    right: -10px;
+}
+
+.gcoupon_list .number {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: #585874;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+/* 쿠폰상세정보 */
+
+.gcenter_menu li.btn {
+    width: 33.3%;
+    text-align: center;
+    float: left;
+}
+
+.gcoupon_title {
+    background: #e6e6e6;
+    height: 32px;
+    width: 755px;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+    border-bottom: 3px solid #cacaca;
+    padding-left: 15px;
+    padding-top: 10px;
+    float: left;
+    border-top: 1px solid #c4c4c4;
+}
+
+.gcoupon_contents {
+    background: #fff;
+    height: 32px;
+    width: 740px;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+    text-align: center;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 15px;
+    float: left;
+    border-top: 1px solid #c4c4c4;
+}
+
+/* 메뉴마이정보 */
+
+.sub_menu_my {
+    width: 202px;
+    float: left;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/sub_my_bg.gif) repeat-y;
+    margin-bottom: 6px;
+}
+
+.sub_menu_my img {
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.sub_menu_my ul {
+    float: left;
+    width: 100%;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/sub_my_top.gif) no-repeat;
+}
+
+.sub_menu_my li {
+    float: left;
+}
+
+.sub_menu_my li.line {
+    width: 202px;
+    float: left;
+    height: 3px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/sub_my_line.gif) no-repeat;
+}
+
+.sub_menu_my li.title {
+    float: left;
+    padding-left: 13px;
+    height: 28px;
+    padding-top: 7px;
+    position: relative;
+    width: 189px;
+}
+
+.sub_menu_my .more {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 13px;
+    font-size: 11px;
+}
+
+.sub_menu_my .more a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.sub_menu_my li.info {
+    float: left;
+    padding-left: 13px;
+    line-height: 20px;
+    width: 189px;
+}
+
+.sub_menu_my li.bottom {
+    width: 202px;
+    float: left;
+    height: 3px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/sub_my_bottom.gif) no-repeat;
+}
+
+/* 커뮤니티 게임정보 */
+
+.sm_game_info {
+    width: 980px;
+    height: 110px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_info_bg.jpg) no-repeat;
+    margin-bottom: 6px;
+    position: relative;
+}
+
+.sm_game_info li {
+    float: left;
+}
+
+.sm_game_info span.btn {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+}
+
+.sm_game_info li.icon {
+    width: 90px;
+    padding: 10px;
+}
+
+.sm_game_info li.navi {
+    width: 860px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.sm_game_info li.info {
+    width: 860px;
+    line-height: 18px;
+    padding-left: 10px;
+}
+
+.info_menu_tep {
+    width: 686px;
+    height: 49px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_info_tep.gif) no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 1px;
+}
+
+.info_menu_tep li span {
+    background: #fa6a25;
+    border: 1px solid #cb541b;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+
+.info_menu_tep li {
+    float: left;
+    width: 157px;
+}
+
+.info_menu_tep li.star {
+    float: left;
+    width: 215px;
+}
+
+.info_menu_tep li a {
+    text-align: center;
+    height: 37px;
+    display: block;
+    padding-top: 12px;
+}
+
+.info_menu_tep li a.on {
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/game_info_bg.gif) repeat-x;
+}
+
+/*미션/활동지수*/
+
+.mission_list {
+    width: 770px;
+    border: 1px solid #c7c7c7;
+    float: left;
+    border-bottom: none;
+    margin-top: 10px;
+}
+
+.mission_list ul {
+    float: left;
+    width: 100%;
+    background: #ececec;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.mission_list ul.end {
+    float: left;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.mission_list li {
+    float: left;
+    width: 750px;
+    padding: 10px;
+    position: relative;
+}
+
+.mission_list li.info {
+    float: left;
+    width: 620px;
+    padding: 10px;
+    position: relative;
+    line-height: 20px;
+}
+
+.mission_list li.table {
+    float: left;
+    width: 100px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.mission_list li.title {
+    float: left;
+    width: 750px;
+    padding: 10px;
+    background: #787878;
+}
+
+.mission_list li span {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.mission_list li p {
+    font-weight: bold;
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.mission_list .arow {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+/* 미션 탭 */
+
+.mission_tep {
+    width: 772px;
+    float: left;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/mission_tep_bg.png) no-repeat;
+}
+
+.mission_tep li {
+    width: 193px;
+    float: left;
+    text-align: center;
+    height: 35px;
+    padding-top: 12px;
+}
+
+.mission_tep li.on {
+    width: 193px;
+    float: left;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/com_tep_bg_ov.png) no-repeat;
+}
+
+/* 랭킹 탭 */
+
+.lank_tep {
+    width: 772px;
+    float: left;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/lank_tep_bg.png) no-repeat;
+}
+
+.lank_tep li {
+    width: 193px;
+    float: left;
+    text-align: center;
+    height: 35px;
+    padding-top: 12px;
+}
+
+.lank_tep li.on {
+    width: 193px;
+    float: left;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/com_tep_bg_ov.png) no-repeat;
+}
+
+/* 랭킹 테이블 */
+
+.lank_table {
+    width: 772px;
+    float: left;
+}
+
+.lank_table table {
+    width: 772px;
+    float: left;
+    text-align: center;
+    border-top: 1px solid #ababab;
+    border-left: 1px solid #ababab;
+    margin-top: 10px;
+}
+
+.lank_table table th {
+    text-align: center;
+    line-height: 35px;
+    background: #c4c4c4;
+    color: #000;
+    font-weight: bold;
+    border-bottom: 3px solid #ababab;
+    border-right: 1px solid #ababab;
+}
+
+.lank_table table td {
+    text-align: center;
+    border-bottom: 1px solid #c7c7c7;
+    border-right: 1px solid #ababab;
+    line-height: 32px;
+}
+
+.lank_table table tr.gray {
+    background: #ececec;
+}
+
+.lank_table table tr.my {
+    background: #fafce7;
+}
+
+/* 알리미팝업 */
+
+.allimi_pop {
+    width: 450px;
+    background: #f5f5f5;
+    border: 1px solid #d0d0d0;
+    float: left;
+    border-bottom: none;
+}
+
+.allimi_pop a {
+    text-decoration: none;
+}
+
+.allimi_pop ul {
+    width: 430px;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 0 10px;
+    float: left;
+}
+
+.allimi_pop ul.btn {
+    padding: 10px;
+}
+
+.allimi_pop ul.title {
+    line-height: 25px;
+    background: #fffddf;
+    border-bottom: 1px solid #d0d0d0;
+    font-weight: bold;
+}
+
+.allimi_pop ul.list {
+    height: 55px;
+    border-bottom: 1px solid #d0d0d0;
+    border-top: 1px solid #ffffff;
+}
+
+.allimi_pop ul.list img {
+    vertical-align: middle;
+}
+
+.allimi_pop li {
+    float: left;
+}
+
+.allimi_pop li img {
+    vertical-align: middle;
+    line-height: 55px;
+}
+
+.allimi_pop li.check {
+    line-height: 55px;
+    width: 30px;
+    height: 55px;
+}
+
+.allimi_pop li.proimg {
+    line-height: 55px;
+    width: 50px;
+}
+
+.allimi_pop li.text {
+    line-height: 20px;
+    width: 250px;
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+.allimi_pop li.text p {
+    font-weight: 100;
+    color: #727272;
+}
+
+.allimi_pop li.time {
+    line-height: 55px;
+    width: 75px;
+}
+
+.allimi_pop li.del {
+    line-height: 55px;
+    width: 25px;
+}
+
+/* 쪽지팝업 */
+
+.message_layout {
+    width: 585px;
+    height: 680px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/message_bg.jpg);
+    float: left;
+}
+
+.message_title {
+    width: 545px;
+    border-bottom: 3px solid #c74200;
+    padding: 7px 20px;
+    background: #ff5400;
+    float: left;
+    line-height: 30px;
+}
+
+.message_num {
+    width: 545px;
+    padding: 15px 20px;
+    float: left;
+    line-height: 30px;
+}
+
+.message_num table td {
+    font-weight: bold;
+    color: #fe5000;
+    text-align: left;
+}
+
+.message_search {
+    width: 545px;
+    padding: 15px 20px;
+    float: left;
+    line-height: 30px;
+}
+
+.message_list {
+    width: 545px;
+    margin: 0 auto;
+}
+
+.message_list a {
+    text-decoration: none;
+}
+
+.message_list ul {
+    width: 525px;
+    border-bottom: 1px solid #d0d0d0;
+    padding: 0 10px;
+    float: left;
+}
+
+.message_list ul.btn {
+    padding: 15px 0;
+    width: 545px;
+}
+
+.message_list ul.list {
+    height: 75px;
+    border-bottom: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    width: 523px;
+}
+
+.message_list ul.list img {
+    vertical-align: middle;
+}
+
+.message_list ul.list_on {
+    height: 75px;
+    border-bottom: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    background: #fffdee;
+    width: 523px;
+}
+
+.message_list ul.list_on img {
+    vertical-align: middle;
+}
+
+.message_list li {
+    float: left;
+    text-align: center;
+}
+
+.message_list li.check {
+    line-height: 75px;
+    width: 30px;
+}
+
+.message_list li.proimg {
+    line-height: 75px;
+    width: 90px;
+}
+
+.message_list li.text {
+    line-height: 18px;
+    width: 280px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.message_list li.text p {
+    font-weight: 100;
+    color: #727272;
+}
+
+.message_list li.time {
+    line-height: 75px;
+    width: 95px;
+}
+
+.message_list ul.title {
+    line-height: 25px;
+    background: #6d6d6d;
+    border-bottom: 1px solid #d0d0d0;
+    font-weight: bold;
+    color: #ffffff;
+    width: 525px;
+}
+
+.message_list ul.list01 {
+    height: 50px;
+    border-bottom: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    width: 523px;
+}
+
+.message_list ul.list01 img {
+    vertical-align: middle;
+}
+
+.message_list ul.list01_on {
+    height: 50px;
+    border-bottom: 1px solid #d0d0d0;
+    border-left: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    background: #fffdee;
+    width: 523px;
+}
+
+.message_list ul.list01_on img {
+    vertical-align: middle;
+}
+
+.message_list li.proimg01 {
+    line-height: 50px;
+    width: 50px;
+    text-align: left;
+}
+
+.message_list li.id {
+    line-height: 50px;
+    width: 370px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.message_list li.btn {
+    line-height: 50px;
+    width: 90px;
+    float: left;
+}
+
+/* 공략커뮤니티 메인 탭 */
+
+.message_tep {
+    width: 545px;
+    float: left;
+    margin: 0 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/message_tep_bg.png) no-repeat;
+}
+
+.message_tep li {
+    width: 164px;
+    float: left;
+    text-align: center;
+    height: 47px;
+    line-height: 47px;
+}
+
+.message_tep li.on {
+    width: 164px;
+    float: left;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/message_tep_ov.png) no-repeat;
+}
+
+/* 게임센터 팝업 */
+
+.gcenter_pop {
+    width: 465px;
+    height: 400px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/message_bg.jpg);
+    float: left;
+}
+
+.gcenter_pop_tit {
+    width: 425px;
+    border-bottom: 3px solid #c74200;
+    padding: 7px 20px;
+    background: #ff5400;
+    float: left;
+    line-height: 30px;
+}
+
+.gcenter_pop_table {
+    width: 425px;
+    padding: 15px 20px;
+    float: left;
+    line-height: 30px;
+}
+
+.gcenter_pop_table table {
+    width: 425px;
+    border: 1px solid #bfbfbf;
+    border-bottom: none;
+}
+
+.gcenter_pop_table table th {
+    width: 90px;
+    border-bottom: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    height: 25px;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #000;
+    padding-left: 10px;
+    background: #fff5dc;
+    text-align: left;
+}
+
+.gcenter_pop_table table td {
+    width: 315px;
+    border-bottom: 1px solid #bfbfbf;
+    height: 25px;
+    padding-top: 5px;
+    color: #000;
+    padding-left: 10px;
+    background: #ffffff;
+    text-align: left;
+}
+
+.gcenter_pop_btn {
+    width: 425px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* 게임친구리스트 */
+
+.gfriend_list {
+    width: 772px;
+    float: left;
+    position: relative;
+}
+
+.gfriend_list ul {
+    width: 772px;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px 0;
+    height: 50px;
+    color: #000;
+}
+
+.gfriend_list li {
+    float: left;
+    text-align: center;
+    margin: 0 5px;
+    height: 46px;
+    line-height: 23px;
+    padding: 7px 0;
+}
+
+.gfriend_list li p {
+    font-weight: 100;
+    font-size: 12px;
+    width: 100%;
+    color: #8c8c8c;
+}
+
+.gfriend_list li p.down1 {
+    font-weight: bold;
+    font-size: 11px;
+    width: 100%;
+    color: #8c8c8c;
+}
+
+.gfriend_list li span {
+    font-weight: 100;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+.gfriend_list li.icon {
+    width: 60px;
+    padding: 0;
+}
+
+.gfriend_list li.info {
+    width: 280px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gfriend_list li.info1 {
+    width: 500px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gfriend_list li.star {
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.gfriend_list li.btn {
+    width: 124px;
+    padding: 0;
+    float: right;
+    text-align: right;
+}
+
+/* 게임아이디 등록 */
+
+.gfriend_write {
+    width: 772px;
+    height: 390px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/friend_write_bg.png) no-repeat top;
+    margin-bottom: 10px;
+}
+
+.gfriend_write .input {
+    width: 720px;
+    margin: 180px 26px 0 26px;
+    float: left;
+}
+
+.gfriend_write table tr {
+    height: 46px;
+}
+
+/* 게임친구등록팝업 */
+
+.gfriend_pop_choise {
+    width: 360px;
+    background: #f4f4f4;
+    border: 1px solid #cfcfcf;
+    float: left;
+}
+
+.gfriend_pop_choise li {
+    float: left;
+}
+
+.gfriend_pop_choise li.icon {
+    width: 50px;
+    padding: 7px;
+}
+
+.gfriend_pop_choise li.info {
+    width: 280px;
+    padding: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    position: relative;
+}
+
+.gfriend_pop_choise span.close {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+}
+
+.gfriend_pop_choise li.info p {
+    font-size: 12px;
+    font-weight: 100;
+    color: #8a8a8a;
+}
+
+.gfriend_pop_choise li.title {
+    background: #f45827;
+    border-top: 1px solid #d14012;
+    border-bottom: 1px solid #d14012;
+    padding: 5px 7px;
+    width: 346px;
+}
+
+.gfriend_pop_choise li.list {
+    border-bottom: 1px solid #cfcfcf;
+    padding: 5px 7px;
+    width: 346px;
+    position: relative;
+    float: left;
+    height: 30px;
+    line-height: 35px;
+}
+
+.gfriend_pop_choise li.list span {
+    position: absolute;
+    top: 5px;
+    right: 7px;
+}
+
+.gfriend_pop_choise li.list_on {
+    background: #fefdee;
+    border-top: 1px solid #d14012;
+    border-bottom: 1px solid #cfcfcf;
+    padding: 5px 7px;
+    width: 346px;
+    position: relative;
+    float: left;
+    height: 30px;
+    line-height: 35px;
+}
+
+.gfriend_pop_choise li.list_on span {
+    position: absolute;
+    top: 5px;
+    right: 7px;
+}
+
+.gfriend_pop_choise li.text {
+    font-size: 11px;
+    line-height: 15px;
+    padding: 7px;
+}
+
+.gfriend_pop_choise li.btn {
+    position: relative;
+    width: 346px;
+    padding: 10px 7px;
+}
+
+.gfriend_pop_choise li.btn span {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+/* 게임친추가팝업 */
+
+.gfriend_pop_add {
+    width: 348px;
+    background: #f4f4f4;
+    border: 1px solid #cfcfcf;
+    float: left;
+}
+
+.gfriend_pop_add li {
+    float: left;
+}
+
+.gfriend_pop_add li.title {
+    width: 348px;
+}
+
+.gfriend_pop_add li.text {
+    width: 348px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.gfriend_pop_add li.table {
+    width: 320px;
+    padding: 0 14px;
+    text-align: center;
+}
+
+.gfriend_pop_add li.table td {
+    padding: 7px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gfriend_pop_add li.text1 {
+    width: 320px;
+    padding: 10px 14px;
+    text-align: left;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+/* 게임아이디 */
+
+.view_game_id {
+    width: 630px;
+    height: 35px;
+    float: left;
+}
+
+.view_game_id li.title {
+    width: 145px;
+    float: left;
+}
+
+.view_game_id li.info {
+    width: 468px;
+    height: 23px;
+    background: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    float: left;
+    color: #f66025;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+/* 회원가입 */
+
+.nw_member_layout {
+    width: 985px;
+    float: left;
+}
+
+.nw_member_layout p.title {
+    width: 985px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.nw_member_layout p.tep {
+    width: 985px;
+    float: left;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nw_member_layout p.s_tit {
+    width: 955px;
+    float: left;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.nw_member_input {
+    width: 890px;
+    margin-left: 47px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/member_box_bg.jpg) repeat-y;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.nw_member_input li.info {
+    width: 400px;
+    margin-left: 30px;
+    float: left;
+}
+
+.nw_member_input li.input {
+    width: 830px;
+    margin-left: 30px;
+    float: left;
+    padding: 10px 0;
+}
+
+.nw_member_input input.mem_text {
+    width: 350px;
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/member_input_bg01.jpg) no-repeat;
+    padding: 5px;
+    border: 0;
+}
+
+.nw_member_input input.mem_phone {
+    width: 108px;
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/member_input_bg02.jpg) no-repeat;
+    padding: 5px;
+    border: 0;
+    text-align: center;
+}
+
+.nw_member_input input.mem_text01 {
+    width: 202px;
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/new_130902/member_input_bg03.jpg) no-repeat;
+    padding: 5px;
+    border: 0;
+}
+
+/* 사전 등록 모집*/
+
+.oj_main {
+    width: 772px;
+    height: 161px;
+    float: left;
+    margin-bottom: 5px;
+    position: relative;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/oj/main_bgm.jpg) no-repeat;
+    ;
+}
+
+.oj_main2 {
+    width: 772px;
+    height: 181px;
+    float: left;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.oj_chechk1 {
+    position: absolute;
+    left: 133px;
+    top: 87px;
+}
+
+.oj_chechk2 {
+    position: absolute;
+    left: 212px;
+    top: 87px;
+}
+
+.oj_chechk3 {
+    position: absolute;
+    left: 29px;
+    top: 132px;
+}
+
+.oj_chechk4 {
+    position: absolute;
+    left: 242px;
+    top: 132px;
+}
+
+.oj_jump {
+    position: absolute;
+    left: 292px;
+    top: 87px;
+    width: 70px;
+    height: 26px;
+    font-size: 18px;
+    border: 0px;
+    font-weight: bold;
+}
+
+.oj_input {
+    position: absolute;
+    left: 306px;
+    top: 87px;
+    width: 275px;
+    height: 26px;
+    text-align: center;
+    border: 0px;
+    background-color: #fff;
+    color: #3b2300;
+    font-size: 18px;
+}
+
+.oj_btn1 {
+    position: absolute;
+    left: 621px;
+    top: 33px;
+}
+
+.oj_btn2 {
+    position: absolute;
+    left: 745px;
+    top: 3px;
+}
+
+.oj_btn3 {
+    position: absolute;
+    left: 616px;
+    top: 67px;
+}

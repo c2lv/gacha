@@ -1,0 +1,85 @@
+.input_text {
+    ime-mode: inactive
+}
+
+:root .input_text {
+    ;
+}
+
+.input_text.focus {
+    background: #8c929a !important;
+}
+
+.input_text.focusnot {
+    background: #8c929a !important;
+}
+
+#user_id {
+    background: url(http://appdata.hungryapp.co.kr/images/join_/bg_inputid.gif) no-repeat 0px 0px;
+}
+
+#user_pwd {
+    background: url(http://appdata.hungryapp.co.kr/images/join_/bg_inputpwd.gif) no-repeat 0px 0px;
+}
+
+.topinput_text.focus {
+    background: #ffffff !important;
+}
+
+.topinput_text.focusnot {
+    background: #ffffff !important;
+}
+
+#topuser_id {
+    background: #ffffff url(http://appdata.hungryapp.co.kr/images/common_/bg_id.gif) no-repeat;
+    0px 0px;
+}
+
+#topuser_pwd {
+    background: #ffffff url(http://appdata.hungryapp.co.kr/images/common_/bg_pwd.gif) no-repeat;
+    0px 0px;
+}
+
+#gamesearch {
+    background: #ffffff url(http://appdata.hungryapp.co.kr/images/common_/bg_tgsearch.gif) no-repeat;
+    0px 0px;
+}
+
+#gamesearch1 {
+    background: #ffffff url(http://appdata.hungryapp.co.kr/images/common_/bg_gsearch.gif) no-repeat;
+    0px 0px;
+}
+
+.combo_box {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: 1px solid #e4e4e4;
+    position: absolute;
+    top: 35px;
+    left: 0px;
+    background: #fff;
+    z-index: 9999
+}
+
+.combo_box a {
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none
+}
+
+.combo_box a:hover {
+    background: #efefef
+}
+
+.wbox100 {
+    width: 118px
+}
+
+.wbox180 {
+    width: 140px
+}
+
+.wbox200 {
+    width: 218px
+}

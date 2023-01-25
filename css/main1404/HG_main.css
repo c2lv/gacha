@@ -1,0 +1,2396 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------
+hungryapp style Sheet
+
+version: 1.1
+author: Jojunghee
+email: jjh@monawa.com
+website: http://www.hungryapp.co.kr/
+--------------------------------*/
+
+#hg_MainCntL {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 750px;
+    height: auto;
+    vertical-align: top;
+    padding: 0 0 0 5px;
+    margin: 0;
+}
+
+#hg_MainCntR {
+    position: relative;
+    float: right;
+    overflow: hidden;
+    width: 220px;
+    height: auto;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+/*-- gameInfo --*/
+
+.mainGame {
+    position: relative;
+    width: 750px;
+    height: 368px;
+    padding: 0 0 0 0;
+}
+
+ul.GameView {
+    position: relative;
+    display: inline-block;
+    width: 750px;
+    height: 244px;
+    background: #000000;
+}
+
+ul.GameView li.view1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 370px;
+    height: 238px;
+    padding: 3px 0 0 3px;
+}
+
+ul.GameView li.view2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 370px;
+    height: 238px;
+    padding: 3px 0 0 4px;
+}
+
+ul.GameViewList {
+    position: relative;
+    display: inline-block;
+    width: 750px;
+    height: 124px;
+    padding: 0 0 0 2px;
+    background: #f1f1f1;
+    border: solid 1px #dfdfdf;
+    top: -4px;
+}
+
+ul.GameViewList li {
+    width: 96px;
+    float: left;
+    overflow: hidden;
+    padding: 10px 0 0 9px;
+    text-align: center;
+}
+
+ul.GameViewList li image {
+    width: 94px;
+    height: 72px;
+    border: solid 1px #bdbdbd;
+}
+
+ul.GameViewList li span {
+    width: 94px;
+    height: 14px;
+    display: inline-block;
+    padding: 3px 0 0 2px;
+    overflow: hidden;
+    color: #444444;
+    font: normal 11px '돋음', dotum, Arial;
+    line-height: 16px;
+    ;
+    vertical-align: middle;
+}
+
+ul.GameViewList li span.listTT {
+    height: 13px;
+    color: #444444;
+    font: normal 11px '돋음', dotum, Arial;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+.GameSlider1 {
+    position: relative;
+    display: inline-block;
+    width: 750px;
+    height: 4px;
+    top: -4px;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/slider.png') no-repeat;
+}
+
+.GameSlider2 {
+    position: relative;
+    display: inline-block;
+    width: 750px;
+    height: 4px;
+    top: -4px;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/slider.png') no-repeat;
+    background-position: left -4px;
+}
+
+.GameSlider3 {
+    position: relative;
+    display: inline-block;
+    width: 750px;
+    height: 4px;
+    top: -4px;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/slider.png') no-repeat;
+    background-position: left -8px;
+}
+
+.GameSlider4 {
+    position: relative;
+    display: inline-block;
+    width: 750px;
+    height: 4px;
+    top: -4px;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/slider.png') no-repeat;
+    background-position: left -12px;
+}
+
+.GameSlider5 {
+    position: relative;
+    display: inline-block;
+    width: 750px;
+    height: 4px;
+    top: -4px;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/slider.png') no-repeat;
+    background-position: left -16px;
+}
+
+.GameSlider6 {
+    position: relative;
+    display: inline-block;
+    width: 750px;
+    height: 4px;
+    top: -4px;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/slider.png') no-repeat;
+    background-position: left -20px;
+}
+
+.mainBlock1 {
+    position: relative;
+    width: 750px;
+    height: 217px;
+    padding: 7px 0 0 0;
+}
+
+/*-- 컨텐츠 타이틀--*/
+
+.mainTT {
+    position: relative;
+    display: inline-block;
+    width: 374px;
+    height: 40px;
+    padding: 0 0 3px 0;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/tt_bg.jpg') repeat-x;
+}
+
+.mainTTCell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 310px;
+    height: 40px;
+}
+
+.mainTTCell2 {
+    position: relative;
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    padding: 10px 0 0 0;
+}
+
+.mainTT2 {
+    position: relative;
+    display: inline-block;
+    width: 373px;
+    height: 40px;
+    padding: 0 0 3px 0;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/tt_bg.jpg') repeat-x;
+}
+
+.mainTT2Cell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 309px;
+    height: 40px;
+}
+
+.mainTT2Cell2 {
+    position: relative;
+    display: inline-block;
+    width: 64px;
+    height: 40px;
+    padding: 10px 0 0 0;
+}
+
+.mainTT3 {
+    position: relative;
+    display: inline-block;
+    width: 373px;
+    height: 40px;
+    padding: 0 0 0 0;
+}
+
+.mainTT3Cell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 316px;
+    height: 40px;
+}
+
+.mainTT3Cell2 {
+    position: relative;
+    display: inline-block;
+    width: 57px;
+    height: 40px;
+    padding: 15px 0 0 0;
+}
+
+.mainTT4 {
+    position: relative;
+    display: inline-block;
+    width: 748px;
+    height: 40px;
+    padding: 0 0 0 0;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/tt_bg.jpg') repeat-x;
+}
+
+.mainTT4Cell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 316px;
+    height: 40px;
+}
+
+.mainTT4Cell2 {
+    position: relative;
+    display: inline-block;
+    width: 57px;
+    height: 40px;
+    padding: 15px 0 0 0;
+}
+
+/*-- 업계동향/게이머존/게임만평/영상스샷 --*/
+
+.mainCell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 373px;
+    height: 216px;
+    border: solid 1px #dfdfdf;
+    background: #ffffff;
+}
+
+.cnt_listCell {
+    position: relative;
+    float: left;
+    width: 69px;
+    height: 217px;
+}
+
+.cnt_listCell li {
+    position: relative;
+    float: left;
+    width: 69px;
+    height: 54px;
+}
+
+.cnt_listView {
+    position: relative;
+    float: left;
+    width: 304px;
+    padding: 10px 0 0 0;
+    background: #ffffff;
+}
+
+ul.cnt_ViewCell {
+    position: relative;
+    float: left;
+    width: 304px;
+    height: 51px;
+    padding: 0 0 10px 0;
+}
+
+ul.cnt_ViewCell li.Tocell1 {
+    position: relative;
+    width: 58px;
+    height: 49px;
+    float: left;
+    display: inline-block;
+    padding: 0px 6px 0px 13px;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul.cnt_ViewCell li.Tocell1 image {
+    border: solid 1px #e4e4e4;
+}
+
+ul.cnt_ViewCell li.Tocell2 {
+    position: relative;
+    width: 210px;
+    height: 13px;
+    float: left;
+    display: inline-block;
+    padding: 2px 0px 0px 0;
+    line-height: 13px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+}
+
+ul.cnt_ViewCell li.Tocell2 a {
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.cnt_ViewCell li.Tocell2 a:hover {
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+ul.cnt_ViewCell li.Tocell3 {
+    position: relative;
+    width: 210px;
+    height: 26px;
+    float: left;
+    padding: 5px 10px 0px 0;
+    line-height: 16px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #5c5c5c;
+    overflow: hidden;
+}
+
+.cnt_numCell {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px 5px 0 0;
+    width: 289px;
+    height: 15px;
+    background: #f1f1f1;
+    text-align: right;
+}
+
+.cnt_numCell span {
+    font: bold 11px dotum;
+}
+
+.cnt_listCell {
+    position: relative;
+    width: 69px;
+    padding: 0 0 0 0;
+}
+
+.cnt_listCell li {
+    position: relative;
+    width: 69px;
+    height: 54px;
+}
+
+.cnt_listCell img {
+    display: none;
+}
+
+.cnt_listCell li.subBtn_01 {
+    position: relative;
+    display: inline-block;
+    width: 69px;
+    height: 54px;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/comm_tab1_on.jpg') 0px 0px no-repeat;
+}
+
+.cnt_listCell li.subBtn_01_on {
+    position: relative;
+    display: inline-block;
+    width: 69px;
+    height: 54px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    color: #453636;
+    overflow: hidden;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/comm_tab1_on.jpg') 0px 0px no-repeat;
+    background-position: left -54px;
+}
+
+.cnt_listCell li.subBtn_02 {
+    position: relative;
+    display: inline-block;
+    width: 69px;
+    height: 54px;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/comm_tab2_on.jpg') 0px 0px no-repeat;
+}
+
+.cnt_listCell li.subBtn_02_on {
+    position: relative;
+    display: inline-block;
+    width: 69px;
+    height: 54px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    color: #453636;
+    overflow: hidden;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/comm_tab2_on.jpg') 0px 0px no-repeat;
+    background-position: left -54px;
+}
+
+.cnt_listCell li.subBtn_03 {
+    position: relative;
+    display: inline-block;
+    width: 69px;
+    height: 54px;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/comm_tab3_on.jpg') 0px 0px no-repeat;
+}
+
+.cnt_listCell li.subBtn_03_on {
+    position: relative;
+    display: inline-block;
+    width: 69px;
+    height: 54px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    color: #453636;
+    overflow: hidden;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/comm_tab3_on.jpg') 0px 0px no-repeat;
+    background-position: left -54px;
+}
+
+.cnt_listCell li.subBtn_04 {
+    position: relative;
+    display: inline-block;
+    width: 69px;
+    height: 54px;
+    padding: 0 0 0 0;
+    overflow: hidden;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/comm_tab4_on.jpg') 0px 0px no-repeat;
+}
+
+.cnt_listCell li.subBtn_04_on {
+    position: relative;
+    display: inline-block;
+    width: 69px;
+    height: 54px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    color: #453636;
+    overflow: hidden;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/comm_tab4_on.jpg') 0px 0px no-repeat;
+    background-position: left -54px;
+}
+
+/*-- 게임리뷰--*/
+
+.mainCell2 {
+    position: relative;
+    float: left;
+    width: 374px;
+    height: 216px;
+    border-top: solid 1px #dfdfdf;
+    border-bottom: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+    background: #ffffff;
+}
+
+ul.cnt_reViewCell {
+    position: relative;
+    float: left;
+    width: 304px;
+    height: 51px;
+    padding: 6px 0 0 0;
+}
+
+ul.cnt_reViewCell li.Tocell1 {
+    position: relative;
+    width: 45px;
+    height: 45px;
+    float: left;
+    display: inline-block;
+    padding: 0px 6px 0px 13px;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul.cnt_reViewCell li.Tocell1 image {
+    border: solid 1px #e4e4e4;
+}
+
+ul.cnt_reViewCell li.Tocell2 {
+    position: relative;
+    float: left;
+    width: 210px;
+    height: 13px;
+    display: inline-block;
+    padding: 2px 0px 3px 0;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+}
+
+ul.cnt_reViewCell li.Tocell2 a {
+    width: 210px;
+    height: 13px;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.cnt_reViewCell li.Tocell2 a:hover {
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+ul.cnt_reViewCell li.Tocell3 {
+    float: left;
+    width: 210px;
+    height: 24px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #5c5c5c;
+    overflow: hidden;
+}
+
+/*-- 헝그리앱 방송--*/
+
+.mainTV {
+    position: relative;
+    width: 748px;
+    height: 342px;
+    padding: 0 0 0 0;
+    margin: 7px 0 0 0;
+    background: #3b3e40;
+    border: solid 1px #000000;
+}
+
+.mainLive {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 365px;
+    height: 331px;
+    padding: 9px 0 0 9px;
+}
+
+.mainTVPlay {
+    position: relative;
+    display: block;
+    width: 365px;
+    height: 236px;
+}
+
+.mainTVTT {
+    position: relative;
+    display: block;
+    width: 365px;
+    height: 25px;
+    padding: 3px 0 0 0;
+}
+
+ul.mainVOD {
+    position: relative;
+    float: left;
+    width: 365px;
+    height: 54px;
+    padding: 0 0 0 3px;
+}
+
+ul.mainVOD li {
+    float: left;
+    display: inline-block;
+    padding: 0 5px 0 0;
+    margin: 0 0 0 0;
+}
+
+ul.mainVOD li a {
+    display: inline-block;
+    width: 84px;
+    height: 54px;
+    border: solid 1px #000000;
+}
+
+ul.mainVOD li a:hover {
+    display: inline-block;
+    width: 84px;
+    height: 54px;
+    border: solid 1px #e72013;
+}
+
+/*-- 방송 편성표--*/
+
+.mainMake {
+    position: relative;
+    float: left;
+    width: 360px;
+    height: 342px;
+    padding: 10px 0 0 10px;
+}
+
+.MakeTTCell1 {
+    position: relative;
+    float: left;
+    width: 255px;
+    height: 31px;
+    vetical-align: middle;
+}
+
+.MakeTTCell2 {
+    position: relative;
+    float: left;
+    width: 105px;
+    height: 31px;
+    top: -4px;
+}
+
+.mainMakeTab {
+    position: relative;
+    float: left;
+    width: 357px;
+    height: 29px;
+    border-left: solid 1px #d4d4d4;
+}
+
+.mainMakeTab li {
+    position: relative;
+    float: left;
+    width: 51px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mainMakeTab li.MakeOff a {
+    position: relative;
+    display: inline-block;
+    width: 51px;
+    height: 29px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    overflow: hidden;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/main_make_tab.jpg) 0px 0px no-repeat;
+}
+
+.mainMakeTab li.MakeOff a:hover {
+    text-decoration: none;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/main_make_tab.jpg) 0px 0px no-repeat;
+    color: #a41100;
+    background-position: left -29px;
+}
+
+.mainMakeTab li.MakeOn {
+    position: relative;
+    display: inline-block;
+    width: 51px;
+    height: 29px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    color: #453636;
+    overflow: hidden;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/main_make_tab.jpg) 0px 0px no-repeat;
+    background-position: left -29px;
+}
+
+.mainMakeTab li.MakeOn a {
+    position: relative;
+    display: inline-block;
+    width: 51px;
+    height: 29px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    color: #453636;
+    overflow: hidden;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/main_make_tab.jpg) 0px 0px no-repeat;
+    background-position: left -29px;
+}
+
+.mainMakelist {
+    position: relative;
+    float: left;
+    width: 356px;
+    height: 250px;
+    padding: 10px 0 0;
+    background: #ffffff;
+    border-left: solid 1px #d4d4d4;
+    border-right: solid 1px #d4d4d4;
+    border-bottom: solid 1px #d4d4d4;
+}
+
+ul.mainMakeCell {
+    position: relative;
+    float: left;
+    width: 356px;
+    height: 45px;
+    padding: 5px 10px 0 0;
+    overflow: hidden;
+}
+
+ul.mainMakeCell li.makeCell1 {
+    position: relative;
+    width: 38px;
+    height: 45px;
+    float: left;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    line-height: 18px;
+    text-align: left;
+}
+
+ul.mainMakeCell li.makeCell2 {
+    position: relative;
+    width: 290px;
+    float: left;
+    display: inline-block;
+    padding: 3px 0px 4px 0;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #066bb8;
+    overflow: hidden;
+}
+
+ul.mainMakeCell li.makeCell3 {
+    position: relative;
+    width: 290px;
+    height: 13px;
+    float: left;
+    padding: 0 0 0 0;
+    line-height: 16px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+}
+
+ul.mainMakeCell li.makeCell3 a {
+    width: 290px;
+    height: 13px;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.mainMakeCell li.makeCell3 a:hover {
+    width: 290px;
+    height: 13px;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+.mainMakeNone {
+    position: relative;
+    display: inline-block;
+    width: 356px;
+    height: auto;
+    padding: 100px 0 0;
+    text-align: center;
+}
+
+.mainBBS1 {
+    position: relative;
+    width: 750px;
+    height: 506px;
+    padding: 7px 0 0 0;
+}
+
+/*-- 추천 지식 베스트 --*/
+
+.mainCell3 {
+    position: relative;
+    float: left;
+    width: 374px;
+    height: 233px;
+    border-top: solid 1px #dfdfdf;
+    border-left: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+    background: #ffffff;
+}
+
+ul.cnt_knowCell {
+    position: relative;
+    float: left;
+    width: 374px;
+    height: 51px;
+    padding: 6px 0 0 0;
+}
+
+ul.cnt_knowCell li {
+    display: inline-block;
+    padding: 10px 0 1px 0;
+}
+
+ul.cnt_knowCell li span.knowCell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 230px;
+    height: 13px;
+    padding: 0 0 0 12px;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #787878;
+    overflow: hidden;
+}
+
+ul.cnt_knowCell li span.knowCell1 a {
+    width: 230px;
+    height: 13px;
+    font: normal 11px dotum;
+    color: #787878;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.cnt_knowCell li span.knowCell1 a:hover {
+    font: normal 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+ul.cnt_knowCell li span.knowCell2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 55px;
+    height: 13px;
+    padding: 0 0 0 10px;
+    line-height: 18px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #9c9c9c;
+    overflow: hidden;
+}
+
+ul.cnt_knowCell li span.knowCell3 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 40px;
+    height: 13px;
+    padding: 0 15px 0 5px;
+    line-height: 18px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #9c9c9c;
+    overflow: hidden;
+}
+
+/*-- 추천 베스트 게임 --*/
+
+.mainCell4 {
+    position: relative;
+    float: left;
+    width: 373px;
+    height: 233px;
+    border-top: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+    background: #efefef;
+}
+
+ul.cnt_gameCell {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 175px;
+    height: 82px;
+    padding: 0 0 0 0;
+    margin: 5px 0px 5px 8px;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/best_game_bg2.jpg') no-repeat;
+}
+
+ul.cnt_gameCell li.Tocell1 {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    float: left;
+    display: inline-block;
+    padding: 0 0 0 0;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul.cnt_gameCell li.Tocell1 image {
+    width: 75px;
+    height: 75px;
+}
+
+ul.cnt_gameCell li.Tocell2 {
+    position: relative;
+    float: left;
+    width: 87px;
+    height: 13px;
+    display: inline-block;
+    padding: 12px 5px 0 8px;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+}
+
+ul.cnt_gameCell li.Tocell2 a {
+    width: 87px;
+    height: 13px;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.cnt_gameCell li.Tocell2 a:hover {
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+ul.cnt_gameCell li.Tocell3 {
+    position: relative;
+    float: left;
+    width: 87px;
+    height: 13px;
+    display: inline-block;
+    padding: 13px 5px 0 8px;
+    line-height: 18px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #0070b7;
+    overflow: hidden;
+}
+
+ul.cnt_gameCell li.Tocell4 {
+    position: relative;
+    float: left;
+    width: 87px;
+    height: 18px;
+    display: inline-block;
+    padding: 5px 0 0 8px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul.cnt_gameCell li.Tocell4 img {
+    width: 13px;
+    height: 18px;
+    float: left;
+    padding: 0;
+    marigin: 0;
+}
+
+/*-- 신규게임 정보 --*/
+
+.mainCell5 {
+    position: relative;
+    float: left;
+    width: 374px;
+    height: 271px;
+    border: solid 1px #dfdfdf;
+    background: #ffffff;
+}
+
+ul.cnt_NewGameCell {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 366px;
+    height: 57px;
+    padding: 10px 0 4px 10px;
+}
+
+ul.cnt_NewGameCell li.NewGcell1 {
+    position: relative;
+    width: 94px;
+    height: 57px;
+    float: left;
+    display: inline-block;
+    padding: 0 0 0 0;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul.cnt_NewGameCell li.NewGcell1 image {
+    width: 94px;
+    height: 57px;
+    border: solid 1px #e7e7e7;
+}
+
+ul.cnt_NewGameCell li.NewGcell2 {
+    position: relative;
+    float: left;
+    width: 259px;
+    height: 13px;
+    display: inline-block;
+    padding: 10px 5px 0 8px;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+}
+
+ul.cnt_NewGameCell li.NewGcell2 a {
+    width: 259px;
+    height: 13px;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.cnt_NewGameCell li.NewGcell2 a:hover {
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+ul.cnt_NewGameCell li.NewGcell3 {
+    position: relative;
+    float: left;
+    width: 259px;
+    height: 25px;
+    display: inline-block;
+    padding: 5px 5px 0 8px;
+    line-height: 18px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #787878;
+    overflow: hidden;
+}
+
+/*-- 출시예정게임 --*/
+
+.mainCell6 {
+    position: relative;
+    float: left;
+    width: 373px;
+    height: 271px;
+    border-top: solid 1px #dfdfdf;
+    border-bottom: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+    background: #ffffff;
+}
+
+ul.cnt_openCell {
+    position: relative;
+    float: left;
+    width: 373px;
+    height: 271px;
+    padding: 10px 0 0 15px;
+}
+
+ul.cnt_openCell li {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 163px;
+    height: 94px;
+    padding: 0 0 0 0;
+    margin: 0px 15px 10px 0;
+    border: solid 1px #e5e5e5;
+}
+
+ul.cnt_openCell li a {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 163px;
+    height: 94px;
+    padding: 0 0 0 0;
+    margin: 0;
+    border: solid 1px #e5e5e5;
+}
+
+ul.cnt_openCell li a:hover {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 163px;
+    height: 94px;
+    padding: 0 0 0 0;
+    margin: 0;
+    border: solid 1px #e72013;
+    font: bold 11px dotum;
+    color: #fcff00;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+ul.cnt_openCell span.opencell1 {
+    position: relative;
+    width: 163px;
+    height: 94px;
+    float: left;
+    display: inline-block;
+    padding: 0 0 0 0;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul.cnt_openCell span.opencell1 image {
+    width: 163px;
+    height: 94px;
+}
+
+ul.cnt_openCell span.opencell2 {
+    position: relative;
+    float: left;
+    width: 157px;
+    height: 19px;
+    top: -25px;
+    padding: 6px 3px 0 3px;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+    font: bold 11px dotum;
+    color: #ffffff;
+    overflow: hidden;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/back_block.png');
+}
+
+/*-- BEST 컨텐츠 --*/
+
+.mainBBS2 {
+    position: relative;
+    width: 750px;
+    height: 427px;
+    margin: 7px 0 0 0;
+    padding: 0 0 0 0;
+    background: #f6f5f5;
+    border: solid 1px #dbdbdb;
+}
+
+.mainCell7 {
+    position: relative;
+    float: left;
+    width: 374px;
+    height: 198px;
+    border-right: solid 1px #dbdbdb;
+    border-bottom: solid 1px #dbdbdb;
+}
+
+.mainCell8 {
+    position: relative;
+    float: left;
+    width: 373px;
+    height: 198px;
+    border-right: solid 1px #dbdbdb;
+    border-bottom: solid 1px #dbdbdb;
+}
+
+.mainCell9 {
+    position: relative;
+    float: left;
+    width: 374px;
+    height: 227px;
+    border-right: solid 1px #dbdbdb;
+}
+
+.mainCell10 {
+    position: relative;
+    float: left;
+    width: 373px;
+    height: 227px;
+    border-right: solid 1px #dbdbdb;
+}
+
+ul.cnt_BestNCell {
+    position: relative;
+    float: left;
+    width: 373px;
+    height: 51px;
+    padding: 0 0 0 0;
+}
+
+ul.cnt_BestNCell li {
+    display: inline-block;
+    padding: 10px 0 1px 0;
+}
+
+ul.cnt_BestNCell li span.BestNCell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 217px;
+    height: 13px;
+    padding: 0 0 0 20px;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #787878;
+    overflow: hidden;
+}
+
+ul.cnt_BestNCell li span.BestNCell1 a {
+    width: 217px;
+    height: 13px;
+    font: normal 11px dotum;
+    color: #787878;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.cnt_BestNCell li span.BestNCell1 a:hover {
+    font: normal 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+ul.cnt_BestNCell li span.BestNCell2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 13px;
+    padding: 0 10px 0 10px;
+    line-height: 18px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #9c9c9c;
+    overflow: hidden;
+}
+
+ul.cnt_BestNCell li span.BestNCell3 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 40px;
+    height: 13px;
+    padding: 0 20px 0 5px;
+    line-height: 18px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #9c9c9c;
+    overflow: hidden;
+}
+
+ul.cnt_BestNCell2 {
+    position: relative;
+    float: left;
+    width: 356px;
+    height: 35px;
+    padding: 9px 10px 0 0px;
+    overflow: hidden;
+}
+
+ul.cnt_BestNCell2 li.BNCell1 {
+    position: relative;
+    width: 51px;
+    height: 20px;
+    float: left;
+    display: inline-block;
+    padding: 0px 5px 0px 20px;
+    line-height: 18px;
+    text-align: left;
+}
+
+ul.cnt_BestNCell2 li.BNCell2 {
+    position: relative;
+    width: 280px;
+    height: 13px;
+    float: left;
+    display: inline-block;
+    padding: 1px 0px 0 0;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #787878;
+    overflow: hidden;
+}
+
+ul.cnt_BestNCell2 li.BNCell2 a {
+    width: 280px;
+    height: 13px;
+    font: bold 11px dotum;
+    color: #787878;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.cnt_BestNCell2 li.BNCell2 a:hover {
+    width: 280px;
+    height: 13px;
+    font: bold 11px dotum;
+    color: #787878;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+ul.cnt_BestNCell2 li.BNCell3 {
+    position: relative;
+    width: 356px;
+    height: 13px;
+    float: left;
+    padding: 0 0 0 20px;
+    line-height: 16px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #787878;
+    overflow: hidden;
+}
+
+/*-- 게임동영상 --*/
+
+.mainMv {
+    position: relative;
+    width: 750px;
+    height: 210px;
+    padding: 0 0 0 0;
+    margin: 7px 0 0 0;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/bg_gamevod.jpg) no-repeat;
+}
+
+ul.cnt_mainMvCell {
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 51px;
+    padding: 50px 0 0 30px;
+}
+
+ul.cnt_mainMvCell li.MvCell1 {
+    position: relative;
+    width: 150px;
+    height: 128px;
+    float: left;
+    display: inline-block;
+    padding: 0px 0 0px 0;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+ul.cnt_mainMvCell li.MvCell2 {
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 13px;
+    display: inline-block;
+    padding: 10px 0 0 0;
+    line-height: 18px;
+    text-align: center;
+    font: normal 11px dotum;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+ul.cnt_mainMvCell li.MvCell2 a {
+    width: 150px;
+    height: 13px;
+    font: normal 11px dotum;
+    color: #ffffff;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.cnt_mainMvCell li.MvCell2 a:hover {
+    font: normal 11px dotum;
+    color: #ffffff;
+    overflow: hidden;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/*-- 마일리지샵 --*/
+
+.mainMge {
+    position: relative;
+    width: 750px;
+    height: 230px;
+    padding: 0 0 0 0;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/bg_mileage.jpg) no-repeat;
+}
+
+ul.cnt_mainMgeCell {
+    position: relative;
+    float: left;
+    width: 175px;
+    height: 51px;
+    padding: 10px 0 0 10px;
+}
+
+ul.cnt_mainMgeCell li.MgeCell1 {
+    position: relative;
+    width: 170px;
+    height: 140px;
+    float: left;
+    display: inline-block;
+    padding: 0px 0 0 0;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+    border: solid 2px #f8ad91;
+}
+
+ul.cnt_mainMgeCell li.MgeCell2 {
+    position: relative;
+    float: left;
+    width: 170px;
+    height: 13px;
+    display: inline-block;
+    padding: 10px 0 0 0;
+    line-height: 18px;
+    text-align: center;
+    font: normal 11px dotum;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+ul.cnt_mainMgeCell li.MgeCell2 a {
+    width: 170px;
+    height: 13px;
+    font: normal 11px dotum;
+    color: #ffffff;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.cnt_mainMgeCell li.MgeCell2 a:hover {
+    font: normal 11px dotum;
+    color: #ffffff;
+    overflow: hidden;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.Mge_numCell {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 20px 10px 0 0;
+    width: 730px;
+    height: 20px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.Mge_numCell span {
+    font: bold 11px dotum;
+    color: #ffffff;
+}
+
+/*-- 커뮤니티 --*/
+
+.mainBBS3 {
+    position: relative;
+    width: 748px;
+    height: 418px;
+    padding: 0 0 0 0;
+    margin: 7px 0 0 0;
+    background: #f5f5f5;
+    border: solid 1px #dfdfdf;
+}
+
+.cnt_commBlock {
+    position: relative;
+    float: left;
+    width: 353px;
+    height: 171px;
+    margin: 6px 0 0 6px;
+    padding: 7px 5px 0 5px;
+    background: #ffffff;
+    border: solid 1px #dfdfdf;
+}
+
+.cnt_commTT {
+    position: relative;
+    float: left;
+    width: 343px;
+    height: 20px;
+    padding: 0 5px 10px 5px;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.cnt_commTT li {
+    position: relative;
+    float: left;
+    width: 293px;
+}
+
+.cnt_commTT li.commMore {
+    position: relative;
+    width: 50px;
+    height: 20px;
+    line-height: 30px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+ul.cnt_commCell {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 353px;
+    height: auto;
+    padding: 5px 0 0 0;
+}
+
+ul.cnt_commCell li {
+    display: inline-block;
+    padding: 10px 0 1px 0;
+}
+
+ul.cnt_commCell li span.commCell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 207px;
+    height: 13px;
+    padding: 0 0 0 10px;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #787878;
+    overflow: hidden;
+}
+
+ul.cnt_commCell li span.commCell1 a {
+    width: 207px;
+    height: 13px;
+    font: normal 11px dotum;
+    color: #787878;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.cnt_commCell li span.commCell1 a:hover {
+    font: normal 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+ul.cnt_commCell li span.commCell2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 50px;
+    height: 13px;
+    padding: 0 10px 0 10px;
+    line-height: 18px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #9c9c9c;
+    overflow: hidden;
+}
+
+ul.cnt_commCell li span.commCell3 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 40px;
+    height: 13px;
+    padding: 0 20px 0 5px;
+    line-height: 18px;
+    text-align: right;
+    font: normal 11px dotum;
+    color: #9c9c9c;
+    overflow: hidden;
+}
+
+/*-- 컨텐츠 중앙배너 --*/
+
+.mainBnr {
+    position: relative;
+    width: 750px;
+    height: 80px;
+    padding: 7px 0 0 2px;
+}
+
+.mainBnr li {
+    float: left;
+    width: 246px;
+    height: 80px;
+    padding: 0 4px 0 0;
+}
+
+/*-- 메인 롤링 배너--*/
+
+.mainRollBnr {
+    position: relative;
+    width: 220px;
+    height: 244px;
+    padding: 0 0 0 0;
+    background: #000000;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+.EvtBnr {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    padding: 0 0 0 0;
+    display: inline-block;
+}
+
+ul.evtNum {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 16px;
+    background: #000000;
+    padding: 8px 0 0 0;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+ul.evtNum img {
+    position: relative;
+    width: 8px;
+    height: 7px;
+    z-index: 3;
+    display: inline-block;
+    padding: 0 2px 0 0;
+    text-align: center;
+}
+
+ul.evtNum li {
+    position: relative;
+    width: 8px;
+    height: 7px;
+    padding: 0 0 5px 0;
+    vertical-align: top;
+    text-align: center;
+}
+
+.mainRBnr1 {
+    position: relative;
+    width: 220px;
+    height: 86px;
+    padding: 0 0 0 0;
+    margin: 2px 0 0 0;
+}
+
+.mainRBnr2 {
+    position: relative;
+    width: 220px;
+    height: auto;
+    padding: 0 0 0 0;
+}
+
+/*-- 게임 지수--*/
+
+.gameEX {
+    position: relative;
+    width: 220px;
+    height: 90px;
+    padding: 0 0 0 0;
+    margin: 7px 0 0 0;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/quotient_bg.jpg');
+}
+
+ul.gameEXNum {
+    position: relative;
+    float: left;
+    width: 109px;
+    display: inline-block;
+}
+
+ul.gameEXNum li.EXNumCell1 {
+    position: relative;
+    float: left;
+    width: 109px;
+    padding: 15px 0 0 0;
+    text-align: center;
+}
+
+ul.gameEXNum li.EXNumCell2 {
+    position: relative;
+    float: left;
+    width: 30px;
+    padding: 10px 0 0 15px;
+}
+
+ul.gameEXNum li.EXNumCell3 {
+    position: relative;
+    float: left;
+    width: 17px;
+    padding: 10px 0 0 0;
+}
+
+ul.gameEXToday {
+    position: relative;
+    display: inline-block;
+    width: 111px;
+    padding: 10px 0 0 0;
+}
+
+ul.gameEXToday li {
+    position: relative;
+    display: inline-block;
+    width: 111px;
+}
+
+ul.gameEXToday li.EXTodayCell1 {
+    position: relative;
+    display: inline-block;
+    width: 101px;
+    padding: 0 10px 15px 0;
+    font: bold 14px dotum;
+    color: #e9e9e9;
+    text-align: center;
+}
+
+ul.gameEXToday li.EXTodayCell2 {
+    position: relative;
+    display: inline-block;
+    width: 51px;
+    padding: 0 0 5px 10px;
+    font: bold 11px dotum;
+    color: #e9e9e9;
+    text-align: left;
+}
+
+ul.gameEXToday li.EXTodayCell3 {
+    display: inline-block;
+    width: 30px;
+    font: bold 11px dotum;
+    color: #fcff00;
+    text-align: right;
+}
+
+/*-- 게임 순위--*/
+
+.gameRank {
+    position: relative;
+    width: 214px;
+    height: 422px;
+    padding: 0 3px 0 3px;
+    margin: 7px 0 0 0;
+    background: #3b3e40;
+}
+
+/*--큰놈--*/
+
+ul.cnt_RankCell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 202px;
+    height: 42px;
+    padding: 5px 6px 10px 6px;
+    background: #ffffff;
+}
+
+ul.cnt_RankCell2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 202px;
+    height: 42px;
+    padding: 5px 6px 10px 6px;
+    background: #f2f2f2;
+}
+
+.RankCell1 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    float: left;
+    display: inline-block;
+    padding: 15px 5px 0 0;
+}
+
+.RankCell2 {
+    position: relative;
+    width: 45px;
+    height: auto;
+    float: left;
+    display: inline-block;
+    padding: 0 0 0 0;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.RankCell3 {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 13px;
+    padding: 7px 5px 0 8px;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+}
+
+.RankCell3 a {
+    width: 90px;
+    height: 13px;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.RankCell3 a:hover {
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+.RankCell4 {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 13px;
+    padding: 7px 5px 0 8px;
+    line-height: 18px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #0070b7;
+    overflow: hidden;
+}
+
+.RankCell5 {
+    position: absolute;
+    float: right;
+    width: 30px;
+    height: 25px;
+    padding: 15px 0 0 0;
+    line-height: 18px;
+    text-align: right;
+    right: 5px;
+    font: bold 11px dotum;
+    color: #ed1800;
+    overflow: hidden;
+}
+
+.RankCell6 {
+    position: absolute;
+    float: right;
+    width: 30px;
+    height: 25px;
+    padding: 15px 0 0 0;
+    line-height: 18px;
+    text-align: right;
+    right: 5px;
+    font: bold 11px dotum;
+    color: #2286eb;
+    overflow: hidden;
+}
+
+/*--작은놈--*/
+
+ul.cnt_RankCell3 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 202px;
+    height: 21px;
+    padding: 5px 6px 5px 6px;
+    background: #f2f2f2;
+}
+
+ul.cnt_RankCell4 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 202px;
+    height: 21px;
+    padding: 5px 6px 5px 6px;
+    background: #ffffff;
+}
+
+.RankCellS1 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    float: left;
+    display: inline-block;
+    padding: 3px 5px 0 0;
+}
+
+.RankCellS2 {
+    position: relative;
+    width: 21px;
+    height: auto;
+    float: left;
+    display: inline-block;
+    padding: 0 0 0 0;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.RankCellS3 {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 13px;
+    padding: 5px 5px 0 8px;
+    line-height: 18px;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+}
+
+.RankCellS3 a {
+    width: 85px;
+    height: 13px;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.RankCellS3 a:hover {
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+.RankCellS4 {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 13px;
+    padding: 7px 5px 0 8px;
+    line-height: 18px;
+    text-align: left;
+    font: normal 11px dotum;
+    color: #0070b7;
+    overflow: hidden;
+}
+
+.RankCellS5 {
+    position: absolute;
+    float: right;
+    width: 35px;
+    height: 25px;
+    padding: 5px 0 0 0;
+    line-height: 18px;
+    text-align: right;
+    right: 5px;
+    font: bold 11px dotum;
+    color: #ed1800;
+    overflow: hidden;
+}
+
+.RankCellS6 {
+    position: absolute;
+    float: right;
+    width: 30px;
+    height: 25px;
+    padding: 5px 0 0 0;
+    line-height: 18px;
+    text-align: right;
+    right: 5px;
+    font: bold 11px dotum;
+    color: #2286eb;
+    overflow: hidden;
+}
+
+/*--가장많이 본 뉴스--*/
+
+.mainRightCell {
+    position: relative;
+    width: 218px;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 7px 0 0 0;
+    background: #ffffff;
+    border: solid 1px #dfdfdf;
+}
+
+.mainRightCell2 {
+    position: relative;
+    width: 218px;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background: #ffffff;
+    border-left: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+}
+
+ul.mainRnews {
+    position: relative;
+    display: inline-block;
+    width: 208px;
+    height: 111px;
+    padding: 5px 5px 5px 5px;
+}
+
+ul.mainRnews li {
+    position: relative;
+    display: inline-block;
+    width: 208px;
+    height: 13px;
+    padding: 5px 0 5px 0;
+}
+
+ul.mainRnews li span {
+    display: inline-block;
+    padding: 0 5px 0 0;
+    height: 13px;
+}
+
+ul.mainRnews li a {
+    display: inline-block;
+    width: 130px;
+    height: 13px;
+    padding: 0 5px 0 0;
+    font: normal 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.mainRnews li a:hover {
+    font: normal 11px dotum;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+/*--실시간 검색순위--*/
+
+.mainRealtime {
+    position: relative;
+    width: 210px;
+    height: 157px;
+    padding: 0 5px 0 5px;
+    margin: 0 0 0 0;
+    background: #3b3e40;
+}
+
+ul.mainRealCell {
+    position: relative;
+    display: inline-block;
+    width: 190px;
+    height: 112px;
+    padding: 5px 10px 5px 10px;
+    background: #ffffff;
+}
+
+ul.mainRealCell li {
+    position: relative;
+    display: inline-block;
+    padding: 4px 0 3px 0;
+    width: 180px;
+    height: 15px;
+    overflow: hidden;
+    vetical-align: middle;
+}
+
+ul.mainRealCell li img {
+    width: 15px;
+    height: 15px;
+    padding: 0 5px 0 0;
+    vetical-align: middle;
+}
+
+ul.mainRealCell li a {
+    display: inline-block;
+    width: 130px;
+    height: 15px;
+    padding: 0 5px 0 0;
+    font: normal 11px dotum;
+    color: #444444;
+    line-height: 18px;
+    overflow: hidden;
+    text-decoration: none;
+    vetical-align: middle;
+}
+
+ul.mainRealCell li a:hover {
+    font: normal 11px dotum;
+    color: #444444;
+    line-height: 18px;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+/*--게임장르--*/
+
+ul.mainGenre {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 96px;
+    padding: 10px 10px 10px 10px;
+}
+
+ul.mainGenre li {
+    position: relative;
+    display: inline-block;
+    padding: 4px 0 3px 0;
+    width: 98px;
+    height: 15px;
+    overflow: hidden;
+    vetical-align: middle;
+}
+
+ul.mainGenre li img {
+    width: 11px;
+    height: 11px;
+    padding: 0 5px 0 0;
+    vetical-align: middle;
+}
+
+ul.mainGenre li a {
+    display: inline-block;
+    height: 15px;
+    padding: 0 5px 0 0;
+    font: normal 11px dotum;
+    color: #444444;
+    line-height: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    vetical-align: middle;
+}
+
+ul.mainGenre li a:hover {
+    font: normal 11px dotum;
+    color: #444444;
+    line-height: 16px;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+/*--어플다운--*/
+
+.mainApp {
+    position: relative;
+    width: 220px;
+    height: 186px;
+    padding: 0 0 0 0;
+    margin: 7px 0 0 0;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/main/down_bg.jpg');
+}
+
+.mainAppCell1 {
+    position: relative;
+    display: inline-block;
+    width: 210px;
+    height: 66px;
+    padding: 5px 0 5px 5px;
+}
+
+.mainAppCell2 {
+    position: relative;
+    width: 210px;
+    height: 66px;
+    padding: 0 0 0 5px;
+}
+
+/*--커뮤니티--*/
+
+ul.mainRComm {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 68px;
+    padding: 5px 0px 5px 0px;
+}
+
+ul.mainRComm li {
+    position: relative;
+    float: left;
+    display: inline-block;
+    padding: 4px 5px 5px 3px;
+    width: 105px;
+    height: 15px;
+    overflow: hidden;
+    vetical-align: middle;
+}
+
+ul.mainRComm li img {
+    width: 11px;
+    height: 11px;
+    padding: 0 5px 0 0;
+    vetical-align: middle;
+}
+
+ul.mainRComm li a {
+    height: 15px;
+    display: inline-block;
+    padding: 0 0 0 0;
+    font: normal 11px dotum;
+    color: #444444;
+    line-height: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    vetical-align: middle;
+}
+
+ul.mainRComm li a:hover {
+    font: normal 11px dotum;
+    color: #444444;
+    line-height: 16px;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+/*--소모임--*/
+
+ul.mainClub {
+    position: relative;
+    display: inline-block;
+    width: 250px;
+    height: 68px;
+    padding: 5px 0px 5px 0px;
+}
+
+ul.mainClub li {
+    position: relative;
+    display: inline-block;
+    padding: 4px 0 3px 2px;
+    width: 105px;
+    height: 15px;
+    overflow: hidden;
+    vetical-align: middle;
+}
+
+ul.mainClub li img {
+    width: 11px;
+    height: 11px;
+    padding: 0 2px 0 0;
+    vetical-align: middle;
+}
+
+ul.mainClub li a {
+    display: inline-block;
+    height: 15px;
+    padding: 0 5px 0 0;
+    font: normal 11px dotum;
+    color: #444444;
+    line-height: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    vetical-align: middle;
+}
+
+ul.mainClub li a:hover {
+    font: normal 11px dotum;
+    color: #444444;
+    line-height: 16px;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+/*--공지사항--*/
+
+ul.mainRNotice {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 108px;
+    padding: 10px 10px 10px 10px;
+}
+
+ul.mainRNotice li {
+    position: relative;
+    display: inline-block;
+    padding: 4px 0 3px 0;
+    width: 200px;
+    height: 15px;
+    overflow: hidden;
+    vetical-align: middle;
+}
+
+ul.mainRNotice li a {
+    display: inline-block;
+    width: 200px;
+    height: 15px;
+    padding: 0 5px 0 0;
+    font: normal 11px dotum;
+    color: #787878;
+    line-height: 16px;
+    overflow: hidden;
+    text-decoration: none;
+    vetical-align: middle;
+}
+
+ul.mainRNotice li a:hover {
+    font: normal 11px dotum;
+    color: #787878;
+    line-height: 16px;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+.mainRCos {
+    position: relative;
+    width: 206px;
+    height: 270px;
+    padding: 8px 8px 0 8px;
+    margin: 7px 0 0 0;
+    background: #000000;
+}
+
+.mainAppDw {
+    position: relative;
+    width: 220px;
+    height: 186px;
+    padding: 0;
+    background: #000;
+}
+
+.link_community {}
+
+a.link_community:link {
+    color: #818181;
+    text-decoration: none;
+}
+
+a.link_community:visited {
+    color: #818181;
+    text-decoration: none;
+}
+
+a.link_community:active {
+    color: #818181;
+    text-decoration: none;
+}
+
+a.link_community:hover {
+    color: #f56025;
+    text-decoration: underline;
+}

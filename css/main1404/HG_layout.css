@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------
+hungryapp style Sheet
+
+version: 1.1
+author: Jojunghee
+email: jjh@monawa.com
+website: http://www.hungryapp.co.kr/
+--------------------------------*/
+
+#hg_TopWarp {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 980px;
+    height: auto;
+    min-height: 48px;
+}
+
+#LogoWarp {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#TopEtc {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#hg_bodyLayout {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 980px;
+    height: auto;
+    min-height: 930px;
+    background: #ffffff url(http://appdata.hungryapp.co.kr/images/main1404/common/hg_bg_test_01.jpg) center top no-repeat;
+    float: left;
+}
+
+#hg_Warp {
+    position: relative;
+    width: 1105px;
+    height: auto;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -555px;
+    z-index: 100;
+}
+
+#TopArea {
+    position: relative;
+    width: 980px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    z-index: 2;
+}
+
+#hg_BlockL {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 982px;
+    height: auto;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+#hg_BlockR {
+    position: relative;
+    float: right;
+    overflow: hidden;
+    width: 120px;
+    height: auto;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    top: 109px;
+}
+
+#hg_top {
+    position: relative;
+    width: 982px;
+    height: 110px;
+    padding: 0;
+    margin: 0;
+}
+
+#hg_Topmenu {
+    position: relative;
+    width: 982px;
+    height: 210px;
+    padding: 0;
+    margin: 0;
+    background: #fb6b24;
+}
+
+#hg_Topbnr {
+    position: relative;
+    width: 982px;
+    height: 95px;
+    padding: 5px 0 0 0;
+    margin: 0;
+    background: #00ffea;
+}

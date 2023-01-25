@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>우마무스메 캐릭터 뽑기 시뮬레이터</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="generator" content="" />
+    <meta name="keyword" content="">
+    <meta http-equiv=Cache-Control content=No-Cache>
+    <link rel="shortcut icon" type="image/x-icon" href="" />
+    <!-- S : css -->
+    <link href="css/default_150402.css" rel="stylesheet" type="text/css">
+    <link href="css/style_130429.css?211027" rel="stylesheet" type="text/css">
+    <link href="css/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+    <link href="css/new_sub.css" rel="stylesheet" type="text/css" />
+    <link href="css/etc.css" rel="stylesheet" type="text/css">
+    <link href="css/main_140117.css" rel="stylesheet" type="text/css">
+    <!-- S : PC 메인페이지 -->
+    <link type="text/css" href="css/HG_main_1407.css?160601" rel="stylesheet" />
+    <!-- E : PC 메인페이지 -->
+    <!-- S : 1404 메인 리뉴얼 / 방송페이지 -->
+    <link type="text/css" href="css/main1404/HG_layout.css?140716" rel="stylesheet" />
+    <link type="text/css" href="css/main1404/HG_main.css?141006_2" rel="stylesheet" />
+    <link type="text/css" href="css/main1404/HG_cmn.css?140716" rel="stylesheet" />
+    <link type="text/css" href="css/main1404/HG_main_cast.css?140716" rel="stylesheet" />
+    <!-- E : 1404 메인 리뉴얼 / 방송페이지 -->
+    <!-- S : 헝앱샵 -->
+    <link type="text/css" href="css/has_p.css" rel="stylesheet" />
+    <!-- E : 헝앱샵 -->
+    <!-- S : 방송 리뉴얼 -->
+    <link type="text/css" href="css/hac_p.css?140825" rel="stylesheet" />
+    <!-- E :  방송 리뉴얼 -->
+    <!-- S : 방송 메인 리뉴얼 -->
+    <link type="text/css" href="css/hungryapp_TV_main.css?151029" rel="stylesheet" />
+    <!-- E :  방송 메인 리뉴얼 -->
+    <!-- S : 게시판 보기 화면 변경 -->
+    <link type="text/css" href="css/board.css?v=003" rel="stylesheet" />
+    <!-- E :  게시판 보기 화면 변경 -->
+    <!-- S : 게임센터 -->
+    <link type="text/css" href="css/game_center.css?v=5" rel="stylesheet" />
+    <!-- E :  게임센터 -->
+    <!-- S : 시뮬레이터 -->
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <!-- E : 시뮬레이터 -->
+    <!-- E : css -->
+    <!-- S : js -->
+    <script src="js/LAB.min.js" async ></script>
+    <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.outside.min.js"></script>
+    <script type="text/javascript" src="js/common_v1.kjd.js?ver=1673258124"></script>
+    <script type="text/javascript" src="js/checkform_v1.04.js?ver=201611041119"></script>
+    <script type="text/javascript" src="js/ui/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="js/ui/jquery.ui.datepicker.js"></script>
+    <script type="text/javascript" src="js/dynamicdate.js?201901021"></script>
+    <script type="text/javascript" src="vars/badword.js?ver=140328"></script>
+    <script type="text/javascript" src="js/jquery.rolling.js"></script>
+    <!-- E : js -->
+</head>
+<body>
+    <div id="simulData">
+    </div>
+    <input type="hidden" id="get_ea3" value="0">
+    <input type="hidden" id="get_ea2" value="0">
+    <input type="hidden" id="get_ea1" value="0">
+
+    <div class="sim_wrap">
+        <div class="sim_title">
+            <img src="images/simul.png" alt="우마무스메 캐릭터 뽑기 시뮬레이터">
+        </div>
+        <div class="sim_box" style="overflow: hidden;">
+            <!-- 뽑기 결과물 : 차일드 -->
+            <div class="sim_simul">
+                <!-- 1회 뽑기 결과물 레이어 -->
+                <div class="uma_1ro">
+                    <div class="uma_1ro_img" id="small_list">
+                    </div>
+                </div>
+                <!-- 10회 뽑기 결과물 레이어 -->
+                <div class="uma_10ro" id="big_list">
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                    <ul></ul>
+                </div>
+
+                <div id="simul_bg">
+                    <img id="mainImg1" src="images/main_img.jpg" alt="">
+                    <img id="mainImg2" src="images/result_img.jpg" style="display: none;" alt="">
+                </div>
+            </div>
+
+            <!-- 시뮬레이터 매인 > 오른쪽 > 공지배너, 소환 버튼, 소환결과 -->
+            <div class="sim_right">
+                <table border="0" cellpadding="0" cellspacing="0" class="sim_select">
+                    <colgroup>
+                        <col width="314px">
+                    </colgroup>
+                    <tr>
+                        <th class="th_1">픽업 선택</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <select id="lineUp" >
+                                <option data-idx="1">초기 뽑기</option>
+                                <option data-idx="2">오페라오 픽업</option>
+                                <option data-idx="3">미호노부르봉 픽업</option>
+                                <option data-idx="4">비와 하야히데 픽업</option>
+                                <option data-idx="5">불닭 테이오/빙닭 맥퀸 픽업</option>
+                                <option data-idx="6">카렌짱 픽업</option>
+                                <option data-idx="7">타이신 픽업</option>
+                                <option data-idx="8">팔콘 픽업</option>
+                                <option data-idx="9">나리타 브라이언 픽업</option>
+                                <option data-idx="10">웨딩 탑건/그루브 픽업</option>
+                                <option data-idx="11">세이운 픽업</option>
+                                <option data-idx="12">히시 아마존 픽업</option>
+                                <option data-idx="13">판타지 엘콘/그래스 픽업</option>
+                                <option data-idx="14">후지 키세키 픽업</option>
+                                <option data-idx="15">골드 시티 픽업</option>
+                                <option data-idx="16">수루젠/수페 픽업</option>
+                                <option data-idx="17">도토 픽업</option>
+                                <option data-idx="18">에이신플래시 픽업</option>
+                                <option data-idx="19">풀아머 후쿠키타루 픽업</option>
+                                <option data-idx="20">히시 아케보노 픽업</option>
+                                <option data-idx="21">아그네스 디지털 픽업</option>
+                                <option data-idx="22">할로윈 라이스/크릭 픽업</option>
+                                <option data-idx="23">카와카미 프린세스 픽업</option>
+                                <option data-idx="24">맨하탄 카페 픽업</option>
+                                <option data-idx="25">축제 루돌프/골드시티 픽업</option>
+                                <option data-idx="26">토센 조던 픽업</option>
+                                <option data-idx="27">메지로 도베르 픽업</option>
+                                <option data-idx="28">클구리/클비와 픽업</option>
+                                <option data-idx="29">파인 모션 픽업</option>
+                                <option data-idx="30">타마모 크로스 픽업</option>
+                                <option data-idx="31">새해 우라라/오페라오 픽업</option>
+                                <option data-idx="32">복귀 뽑기(픽업 X)</option>
+                                <option data-idx="33">사쿠라 치요노 오 픽업</option>
+                                <option data-idx="34">발렌타인 미호노부르봉/에이신플래시 픽업</option>
+                                <option data-idx="35">메지로 아르당 픽업</option>
+                                <option data-idx="36">어드마이어 베가 픽업</option>
+                                <option data-idx="s1">[1회 한정] 3성 확정 스타트 대시 뽑기</option>
+                                <option data-idx="s2">[제 1R] 2성 이상 확정 메이크 데뷔 뽑기</option>
+                                <option data-idx="s3">3성 확정 메이크 데뷔 뽑기</option>
+                                <option data-idx="s4">[1회 한정] 3성 확정 반주년 뽑기</option>
+                                <option data-idx="s5">[제 2R] 3성 확정 메이크 데뷔 뽑기</option>
+                                <option data-idx="s6">[제 2R] 2성 이상 확정 메이크 데뷔 뽑기</option>
+                                <option data-idx="s7">[1회 한정] 3성 확정 2023년 새해 뽑기</option>
+                            </select>
+                        </th>
+                    </tr>
+                </table>
+                <ul class="sim_btn">
+                    <li class="sim_banner"><img src="images/banner/banner1.png" alt=""></li>
+                    <li class="btnMiddle" title="1일 1회 뽑기">
+                        <a href="javascript:void(0);" onclick="selectCard(1, 1)" ><img src="images/btn_01.png" alt=""></a>
+                    </li>
+                    <li class="btnLeft" title="1회 뽑기">
+                        <a href="javascript:void(0);" onclick="selectCard(1, 2)" ><img src="images/btn_01.png" alt=""></a>
+                    </li>
+                    <li class="btnRight" title="10회 뽑기(2성 이상 1명 확정/SR 이상 1장 확정)">
+                        <a href="javascript:void(0);" onclick="selectCard(10, 3)"><img src="images/btn_02.png" alt=""></a>
+                    </li>
+                    <li class="btnLeft" title="1회 뽑기(무료)">
+                        <a href="javascript:void(0);" onclick="selectCard(1, 4)" ><img src="images/btn_01.png" alt=""></a>
+                    </li>
+                    <li class="btnRight" title="10회 뽑기(무료)">
+                        <a href="javascript:void(0);" onclick="selectCard(10, 4)"><img src="images/btn_02.png" alt=""></a>
+                    </li>
+                    <li class="btnReset">
+                        <a href="javascript:void(0);" onclick="onReset()"><img src="images/btn_03.png" alt=""></a>
+                    </li>
+                </ul>
+                <table border="0" cellpadding="0" cellspacing="0" class="sim_result">
+                    <colgroup>
+                        <col width="16%">
+                        <col width="28%">
+                        <col width="*">
+                        <col width="28%">
+                    </colgroup>
+                    <tr>
+                        <th class="th_1" colspan="4">뽑기 결과</th>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            쥬얼 <span class="col_orange" id="infoCost_total">0</span> 개 사용
+                            (획득 카드 <span class="col_orange" id="totalCnt">0</span> 장)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="th_1">등급</th>
+                        <th class="th_1">3성</th>
+                        <th class="th_1">2성</th>
+                        <th class="th_1">1성</th>
+                    </tr>
+                    <tr>
+                        <th class="th_1">결과</th>
+                        <td><span id="get_cnt3">0</span>장 (<span id="get_persent3">0%</span>)</td>
+                        <td><span id="get_cnt2">0</span>장 (<span id="get_persent2">0%</span>)</td>
+                        <td><span id="get_cnt1">0</span>장 (<span id="get_persent1">0%</span>)</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="uma_list">
+        <div class="uma_list_t">
+        </div>
+        <div class="list_icon">
+            <ul id="simul_list">
+            </ul>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

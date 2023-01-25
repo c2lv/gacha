@@ -1,0 +1,2260 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------
+hungryapp style Sheet
+
+version: 1.1
+author: Jojunghee
+email: jjh@monawa.com
+website: http://www.hungryapp.co.kr/
+--------------------------------*/
+
+/*img */
+
+.img_5_cast_bannerA {
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+
+.img_realtime_mi {
+    position: relative;
+    top: 7px;
+    left: 6px;
+}
+
+.img_realtime_thum {
+    border: #bfbfbf 1px solid;
+}
+
+.img_realtime_thum_on {
+    border: #e60000 2px solid;
+}
+
+.img_event_thum {
+    float: left;
+    border: #bfbfbf 1px solid;
+}
+
+.img_new_thum {
+    float: left;
+    border: #bfbfbf 1px solid;
+}
+
+.img_pop_thum {
+    border: #bfbfbf 1px solid;
+}
+
+.img_staff_thum {
+    float: left;
+}
+
+.img_cast_rank {
+    position: relative;
+}
+
+/*링크모음*/
+
+.link_add1 {
+    font-size: 12px;
+}
+
+a.link_add1:link {
+    color: #555555;
+    text-decoration: none;
+}
+
+a.link_add1:visited {
+    color: #555555;
+    text-decoration: none;
+}
+
+a.link_add1:active {
+    color: #555555;
+    text-decoration: none;
+}
+
+a.link_add1:hover {
+    color: #555555;
+    text-decoration: underline;
+}
+
+.link_add2 {
+    font-size: 12px;
+}
+
+a.link_add2:link {
+    color: #0070b7;
+    text-decoration: none;
+}
+
+a.link_add2:visited {
+    color: #0070b7;
+    text-decoration: none;
+}
+
+a.link_add2:active {
+    color: #0070b7;
+    text-decoration: none;
+}
+
+a.link_add2:hover {
+    color: #0070b7;
+    text-decoration: underline;
+}
+
+.link_add3 {
+    font-size: 12px;
+}
+
+a.link_add3:link {
+    color: #869aa7;
+    text-decoration: none;
+}
+
+a.link_add3:visited {
+    color: #869aa7;
+    text-decoration: none;
+}
+
+a.link_add3:active {
+    color: #869aa7;
+    text-decoration: none;
+}
+
+a.link_add3:hover {
+    color: #869aa7;
+    text-decoration: underline;
+}
+
+.link_add4 {
+    font-size: 12px;
+}
+
+a.link_add4:link {
+    color: #0070b7;
+    text-decoration: none;
+}
+
+a.link_add4:visited {
+    color: #0070b7;
+    text-decoration: none;
+}
+
+a.link_add4:active {
+    color: #0070b7;
+    text-decoration: none;
+}
+
+a.link_add4:hover {
+    color: #0070b7;
+    text-decoration: underline;
+}
+
+.link_add5 {
+    font-size: 11px;
+}
+
+a.link_add5:link {
+    color: #717171;
+    text-decoration: none;
+}
+
+a.link_add5:visited {
+    color: #717171;
+    text-decoration: none;
+}
+
+a.link_add5:active {
+    color: #717171;
+    text-decoration: none;
+}
+
+a.link_add5:hover {
+    color: #717171;
+    text-decoration: underline;
+}
+
+.link_add6 {
+    font-size: 12px;
+}
+
+a.link_add6:link {
+    color: #424242;
+    text-decoration: none;
+}
+
+a.link_add6:visited {
+    color: #424242;
+    text-decoration: none;
+}
+
+a.link_add6:active {
+    color: #424242;
+    text-decoration: none;
+}
+
+a.link_add6:hover {
+    color: #424242;
+    text-decoration: underline;
+}
+
+.link_add7 {
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+    margin: 2px 0 0 5px;
+}
+
+a.link_add7:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.link_add7:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.link_add7:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.link_add7:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.link_add8 {
+    font-size: 11px;
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 110px;
+    text-align: left;
+    margin: 2px 0 0 5px;
+}
+
+a.link_add8:link {
+    color: #828181;
+    text-decoration: none;
+}
+
+a.link_add8:visited {
+    color: #828181;
+    text-decoration: none;
+}
+
+a.link_add8:active {
+    color: #828181;
+    text-decoration: none;
+}
+
+a.link_add8:hover {
+    color: #828181;
+    text-decoration: underline;
+}
+
+.link_add_onA {
+    color: #f13e0b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*-- 컨텐츠 타이틀--*/
+
+.castTT {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/tt_bg.jpg) repeat-x;
+}
+
+/**/
+
+.castTT_sub {
+    position: relative;
+    display: inline-block;
+    width: 757px;
+    height: 39px;
+    padding: 0;
+    background: #fff url(http://appdata.hungryapp.co.kr/images/main1404/main/tt_sub_bg.jpg) repeat-x;
+    margin: 10px 0 9px;
+    border: #c5c4c4 1px solid;
+}
+
+/**/
+
+.castTT_sub2 {
+    position: relative;
+    display: inline-block;
+    width: 757px;
+    height: 39px;
+    padding: 0;
+    background: #fff url(http://appdata.hungryapp.co.kr/images/main1404/main/tt_sub_bg.jpg) repeat-x;
+    margin: 10px 0 0px;
+    border: #c5c4c4 1px solid;
+    border-bottom: 0;
+}
+
+/**/
+
+.castTTCell1 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    height: 40px;
+}
+
+.castTTCell2 {
+    position: absolute;
+    height: 20px;
+    right: 5px;
+    top: 10px;
+}
+
+.castTTCell3 {
+    position: absolute;
+    height: 20px;
+    left: 239px;
+    top: 8px;
+}
+
+.castTTCell4 {
+    position: absolute;
+    height: 20px;
+    left: 239px;
+    top: 8px;
+}
+
+.castTTCell5 {
+    position: absolute;
+    height: 20px;
+    right: 15px;
+    top: 13px;
+}
+
+.castTTCell6 {
+    position: absolute;
+    height: 20px;
+    right: 6px;
+    top: 7px;
+}
+
+/*span */
+
+.textCellA {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+    padding: 0 0 0 11px;
+    text-align: left;
+    font: bold 12px dotum;
+    color: #555555;
+}
+
+.textCellA_pop {
+    position: relative;
+    display: inline-block;
+    width: 165px;
+    padding: 6px 0 0 0;
+    text-align: center;
+    font: bold 12px dotum;
+    color: #555555;
+}
+
+.textCellB {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font: bold 12px dotum;
+    color: #424242;
+    margin-top: 8px;
+}
+
+.textCellB_realtime {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font: bold 12px dotum;
+    color: #424242;
+    margin-top: 6px;
+}
+
+.textCellB_event {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 185px;
+    text-align: left;
+    font: bold 12px dotum;
+    color: #424242;
+    margin: 6px 0 0 9px;
+}
+
+.textCellB_event2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 185px;
+    text-align: left;
+    font: 12px dotum;
+    color: #848484;
+    margin: 6px 0 0 9px;
+    line-height: 150%;
+}
+
+.textCellB_event2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 185px;
+    text-align: left;
+    font: 12px dotum;
+    color: #848484;
+    margin: 6px 0 0 9px;
+    line-height: 150%;
+}
+
+.textCellB_new {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 230px;
+    text-align: left;
+    font: bold 12px dotum;
+    color: #424242;
+    margin: 7px 0 0 11px;
+}
+
+.textCellB_new2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 230px;
+    text-align: left;
+    font: 12px dotum;
+    color: #848484;
+    margin: 9px 0 0 11px;
+    line-height: 150%;
+}
+
+.textCellB_rank {
+    position: relative;
+    top: 2px;
+    width: 80%;
+    text-align: left;
+    font: 12px dotum;
+    color: #869aa7;
+    margin-left: 3px;
+}
+
+.textCellB_staff {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+    font: bold 12px dotum;
+    color: #0070b7;
+    line-height: 150%;
+}
+
+.textCellB_staff2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+    font: bold 12px dotum;
+    color: #848484;
+    line-height: 150%;
+    margin-top: 1px;
+}
+
+.textCellB_staff3 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 130px;
+    text-align: left;
+    font: 12px dotum;
+    color: #848484;
+    line-height: 150%;
+}
+
+.cast_nameA {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font: 11px dotum;
+    color: #424242;
+    margin-top: 1px;
+}
+
+.cast_nameB {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    font: 11px dotum;
+    color: #424242;
+    margin-top: 4px;
+}
+
+.cast_dateA {
+    position: absolute;
+    right: 11px;
+    top: 0px;
+    text-align: left;
+    font: normal 12px dotum;
+    color: #438ac1;
+}
+
+.blue {
+    font-size: 12px;
+    color: #193efb;
+}
+
+.grayA {
+    color: #424242;
+}
+
+.grayB {
+    color: #bfbfbf;
+}
+
+.red {
+    color: #e72013;
+}
+
+.white {
+    color: white
+}
+
+#cast_MainCntL {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 205px;
+    height: auto;
+    vertical-align: top;
+    padding: 0;
+    margin: 0 0 0 7px;
+}
+
+#cast_MainCntR {
+    position: relative;
+    float: right;
+    width: 759px;
+    padding: 0;
+    margin: 0 2px 0 0;
+}
+
+.cast_1_LNB {
+    width: 203px;
+    position: relative;
+    display: inline-block;
+    border: solid 1px #dfdfdf;
+}
+
+.cast_LNB_menu1 {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu1.jpg) no-repeat;
+}
+
+.cast_LNB_menu2 {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu2.jpg) no-repeat;
+}
+
+.cast_LNB_menu3 {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu3.jpg) no-repeat;
+}
+
+.cast_LNB_menu4 {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu4b.jpg) no-repeat;
+}
+
+.cast_LNB_menu5 {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu5.jpg) no-repeat;
+}
+
+.cast_LNB_menu1_on {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu1_on.jpg) no-repeat;
+}
+
+.cast_LNB_menu2_on {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu2_on.jpg) no-repeat;
+}
+
+.cast_LNB_menu3_on {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu3_on.jpg) no-repeat;
+}
+
+.cast_LNB_menu4_on {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu4b_on.jpg) no-repeat;
+}
+
+.cast_LNB_menu5_on {
+    width: 203px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_LNB_menu5_on.jpg) no-repeat;
+}
+
+.cast_2_partner {
+    width: 205px;
+    height: 179px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/2_cast_partner2.jpg) no-repeat;
+}
+
+.cast_3_quick {
+    width: 205px;
+    height: 103px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/3_cast_quick.jpg) no-repeat;
+}
+
+.cast_4_ranking {
+    position: relative;
+    width: 205px;
+    height: 521px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/4_cast_ranking.jpg) no-repeat;
+}
+
+.cast_serach {
+    position: relative;
+}
+
+.search_input_cast {
+    width: 124px;
+    height: 23px;
+    padding-left: 5px;
+    border: #0c161d 2px solid;
+    margin: 0 5px 0 0px;
+}
+
+.cast_ranktop {
+    position: relative;
+    width: 180px;
+    height: 90px;
+    border: #2e2e2e 1px solid;
+}
+
+.cast_ranktop_num {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.cast_rank {
+    padding-left: 15px;
+    margin-bottom: 7px;
+}
+
+.cast_rank_more {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 2px 0;
+}
+
+.cast_5_bannerA {
+    width: 205px;
+    height: 205px;
+}
+
+.cast_6_costume {
+    width: 205px;
+    height: 193px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/6_cast_costume.jpg) no-repeat;
+}
+
+/*-- 실시간 --*/
+
+.cast_7_realtime {
+    float: left;
+    display: inline-block;
+    width: 479px;
+    height: 451px;
+    margin-top: 10px;
+    border: solid 1px #dfdfdf;
+    margin-bottom: 9px;
+}
+
+.realtimeA {
+    position: relative;
+    float: left;
+    height: 302px;
+}
+
+.realtimeB {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 117px;
+}
+
+.realtimeC {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    margin: 7px 2px;
+}
+
+.realtimeD {
+    position: relative;
+    display: block;
+    width: 107px;
+    height: 60px;
+}
+
+.realtime_thum_on {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+/*-- 공지사항 --*/
+
+.cast_8_notice {
+    float: left;
+    display: inline-block;
+    width: 277px;
+    height: 180px;
+    margin-top: 10px;
+    border-top: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+}
+
+.ul_notice {
+    position: relative;
+    float: left;
+    height: 51px;
+    padding: 11px 0 0 0;
+}
+
+.ul_notice li {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+/*-- 이벤트 --*/
+
+.cast_9_event {
+    float: left;
+    display: inline-block;
+    width: 277px;
+    height: 270px;
+    border-top: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.cast_eventA {
+    padding-top: 3px;
+}
+
+.cast_eventB {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 7px 0 6px 7px;
+}
+
+.event_dot {
+    border-bottom: #d5d5d5 1px dotted;
+    margin: 0 10px;
+}
+
+/*-- vod --*/
+
+.cast_10_vod {
+    float: left;
+    display: inline-block;
+    width: 759px;
+    margin-bottom: 9px;
+}
+
+.cast_vodA {
+    position: relative;
+    height: 295px;
+}
+
+.cast_vodB {
+    position: absolute;
+    bottom: 60px;
+    right: 17px;
+}
+
+.cast_vodC {
+    position: absolute;
+    top: 72px;
+    left: 17px;
+}
+
+.cast_vodD {
+    position: absolute;
+    top: 72px;
+    right: 17px;
+}
+
+/*방송편성표*/
+
+.cast_11_list {
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: 757px;
+    border: solid 1px #dfdfdf;
+    margin-bottom: 9px;
+}
+
+.cast_list_tabA {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.cast_list_tab1 {
+    float: right;
+    width: 59px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab1.jpg) no-repeat;
+}
+
+.cast_list_tab2 {
+    float: right;
+    width: 59px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab2.jpg) no-repeat;
+}
+
+.cast_list_tab3 {
+    float: right;
+    width: 59px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab3.jpg) no-repeat;
+}
+
+.cast_list_tab4 {
+    float: right;
+    width: 59px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab4.jpg) no-repeat;
+}
+
+.cast_list_tab5 {
+    float: right;
+    width: 59px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab5.jpg) no-repeat;
+}
+
+.cast_list_tab6 {
+    float: right;
+    width: 59px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab6.jpg) no-repeat;
+}
+
+.cast_list_tab7 {
+    float: right;
+    width: 59px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab7.jpg) no-repeat;
+}
+
+.cast_list_tab1_on {
+    float: right;
+    width: 59px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab1_on.jpg) no-repeat;
+}
+
+.cast_list_tab2_on {
+    float: right;
+    width: 59px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab2_on.jpg) no-repeat;
+}
+
+.cast_list_tab3_on {
+    float: right;
+    width: 59px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab3_on.jpg) no-repeat;
+}
+
+.cast_list_tab4_on {
+    float: right;
+    width: 59px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab4_on.jpg) no-repeat;
+}
+
+.cast_list_tab5_on {
+    float: right;
+    width: 59px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab5_on.jpg) no-repeat;
+}
+
+.cast_list_tab6_on {
+    float: right;
+    width: 59px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab6_on.jpg) no-repeat;
+}
+
+.cast_list_tab7_on {
+    float: right;
+    width: 59px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_list_tab7_on.jpg) no-repeat;
+}
+
+/*방송list*/
+
+.cast_sub_list {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 9px;
+}
+
+.cast_sub_listA {
+    border-top: solid 1px #dfdfdf;
+}
+
+.cast_sublist_tabA {
+    position: relativee;
+    top: 0px;
+    left: 0px;
+}
+
+.cast_sublist_tab1 {
+    float: left;
+    width: 77px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab1.jpg) no-repeat;
+}
+
+.cast_sublist_tab2 {
+    float: left;
+    width: 97px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab2.jpg) no-repeat;
+}
+
+.cast_sublist_tab3 {
+    float: left;
+    width: 87px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab3.jpg) no-repeat;
+}
+
+.cast_sublist_tab4 {
+    float: left;
+    width: 87px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab4.jpg) no-repeat;
+}
+
+.cast_sublist_tab5 {
+    float: left;
+    width: 98px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab5.jpg) no-repeat;
+}
+
+.cast_sublist_tab1_on {
+    float: left;
+    width: 77px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab1_on.jpg) no-repeat;
+}
+
+.cast_sublist_tab2_on {
+    float: left;
+    width: 97px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab2_on.jpg) no-repeat;
+}
+
+.cast_sublist_tab3_on {
+    float: left;
+    width: 87px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab3_on.jpg) no-repeat;
+}
+
+.cast_sublist_tab4_on {
+    float: left;
+    width: 87px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab4_on.jpg) no-repeat;
+}
+
+.cast_sublist_tab5_on {
+    float: left;
+    width: 98px;
+    height: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab5_on.jpg) no-repeat;
+}
+
+/*테이블부분*/
+
+.cast_table_1px {
+    width: 100%;
+}
+
+.cast_table_1px table {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.cast_table_1px table td.td1 {
+    border: 0;
+    height: 40px;
+    text-align: right;
+    padding-right: 2px;
+}
+
+.cast_table_1px table td.td2 {
+    border: 0;
+    height: 40px;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 18px;
+}
+
+.cast_table_1px table td.td3 {
+    border: 0;
+    height: 40px;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.cast_table_1px table td.td4 {
+    border: 0;
+    height: 40px;
+    text-align: left;
+    font-size: 11px;
+    padding-left: 21px;
+}
+
+.cast_gray {
+    background-color: #f1f1f1;
+}
+
+.cast_12_bannerM {
+    float: left;
+    display: inline-block;
+    width: 759px;
+    height: 337px;
+    background: url() no-repeat;
+}
+
+/*-- 신규방송 --*/
+
+.cast_13_new {
+    float: left;
+    display: inline-block;
+    width: 378px;
+    height: 313px;
+    border: solid 1px #dfdfdf;
+}
+
+.cast_newA {
+    height: 273px;
+}
+
+.cast_newB {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 11px 0 3px 15px;
+}
+
+/*-- 인기방송 --*/
+
+.cast_14_pop {
+    float: left;
+    display: inline-block;
+    width: 378px;
+    height: 313px;
+    border-top: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.cast_popA {
+    padding-top: 5px;
+    background-color: #f0f0f0;
+    height: 268px;
+}
+
+.cast_popB {
+    position: relative;
+    display: inline-block;
+    width: 165px;
+    margin: 10px 5px;
+}
+
+/*-- 방송소개 --*/
+
+.cast_15_intro {
+    float: left;
+    display: inline-block;
+    width: 378px;
+    height: 285px;
+    border-left: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.cast_introA {
+    background-color: #f0f0f0;
+    height: 235px;
+    padding-top: 10px;
+}
+
+.cast_introB {
+    position: relative;
+    display: inline-block;
+    width: 163px;
+    margin: 5px;
+    border: #bebebe 1px solid;
+}
+
+/*-- 출연진소개 --*/
+
+.cast_16_staff {
+    float: left;
+    display: inline-block;
+    width: 378px;
+    height: 285px;
+    border-right: solid 1px #dfdfdf;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.cast_staffA {
+    height: 245px;
+    padding-top: 7px;
+}
+
+.cast_staffB {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    margin: 8px 0;
+}
+
+.cast_staffC {
+    position: relative;
+    display: inline-block;
+    width: 73px;
+}
+
+.cast_staffD {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    left: 10px;
+    top: 2px;
+}
+
+/*---------------------------------------- sub1 방송리스트 --------------------------------------------*/
+
+/*img btn input*/
+
+.castlist_search_input {
+    width: 180px;
+    height: 28px;
+    padding-left: 5px;
+    border: #9a9a9a solid 1px;
+    background-color: #fafafa;
+    position: relative;
+    top: 2px;
+}
+
+.searchlist_jump {
+    padding: 6px;
+    border: #9a9a9a solid 1px;
+    position: relative;
+    top: 2px;
+    font-size: 12px;
+    margin-left: 11px;
+}
+
+.img_sublist_thumA {
+    position: absolute;
+    top: 1px;
+    ;
+    left: 1px;
+    border: #bdbdbd 1px solid;
+}
+
+.icon_cast_new {
+    position: relative;
+    width: 18px;
+    height: 18px;
+}
+
+.img_cast_new {
+    position: absolute;
+    top: -4px;
+    left: 3px
+}
+
+/*방송list*/
+
+.cast_sub_list {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 9px;
+}
+
+.cast_sub_listA {
+    border: solid 1px #c5c4c4;
+}
+
+.cast_sublist_tabA {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cast_sublist_tab1 {
+    float: left;
+    width: 77px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab1.jpg) no-repeat;
+}
+
+.cast_sublist_tab2 {
+    float: left;
+    width: 97px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab2.jpg) no-repeat;
+}
+
+.cast_sublist_tab3 {
+    float: left;
+    width: 87px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab3.jpg) no-repeat;
+}
+
+.cast_sublist_tab4 {
+    float: left;
+    width: 87px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab4.jpg) no-repeat;
+}
+
+.cast_sublist_tab5 {
+    float: left;
+    width: 98px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab5.jpg) no-repeat;
+}
+
+.cast_sublist_tab1_on {
+    float: left;
+    width: 77px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab1_on.jpg) no-repeat;
+}
+
+.cast_sublist_tab2_on {
+    float: left;
+    width: 97px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab2_on.jpg) no-repeat;
+}
+
+.cast_sublist_tab3_on {
+    float: left;
+    width: 87px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab3_on.jpg) no-repeat;
+}
+
+.cast_sublist_tab4_on {
+    float: left;
+    width: 87px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab4_on.jpg) no-repeat;
+}
+
+.cast_sublist_tab5_on {
+    float: left;
+    width: 98px;
+    height: 41px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/cast_sublist_tab5_on.jpg) no-repeat;
+}
+
+.castlist_search {
+    position: relative;
+    width: 100%;
+}
+
+.castlist_searchB {
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.cast_sub_listB {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.cast_sub_listB2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0;
+    background-color: #f3f3f3;
+}
+
+.cast_sub_listC {
+    position: relative;
+    display: inline-block;
+    width: 181px;
+    margin: 7px 0px;
+    left: -2px;
+}
+
+.cast_sub_listD {
+    position: relative;
+    display: block;
+    width: 181px;
+    height: 108px;
+}
+
+/*---------------------------------------- sub1b 방송view --------------------------------------------*/
+
+/*img btn input*/
+
+.btn_castview_more {
+    position: absolute;
+    right: 8px;
+    top: 7px;
+}
+
+.castview_thum {
+    float: left;
+    border: #b6b6b6 1px solid;
+}
+
+/*p span*/
+
+.textCellB_event2 {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 185px;
+    text-align: left;
+    font: 12px dotum;
+    color: #848484;
+    margin: 6px 0 0 9px;
+    line-height: 150%;
+}
+
+.textCellC1 {
+    position: relative;
+    display: block;
+    width: 407px;
+    text-align: left;
+    font: bold 16px dotum;
+    color: #424242;
+    margin-top: 8px;
+}
+
+.textCellC2 {
+    position: relative;
+    display: block;
+    width: 407px;
+    text-align: left;
+    font: 12px dotum;
+    color: #424242;
+    margin-top: 8px;
+}
+
+.textCellC3 {
+    position: relative;
+    display: block;
+    width: 407px;
+    text-align: left;
+    font: 12px dotum;
+    color: #424242;
+    margin-top: 8px;
+}
+
+/*방송 view*/
+
+.castview_vod {}
+
+.castview_vodA {
+    float: left;
+    width: 526px;
+    height: 332px;
+}
+
+.castview_vodB {
+    float: left;
+    width: 233px;
+    height: 332px;
+    position: relative;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/castview_bg.jpg) no-repeat;
+}
+
+.castview_vodB_list {
+    padding-top: 38px;
+}
+
+.castview_vodB_listB {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 4px 0 4px 9px;
+}
+
+.castview_vodcon {}
+
+.castview_vodconA {
+    width: 526px;
+    float: left;
+    position: relative;
+}
+
+.btn_rec {
+    position: absolute;
+    right: 5px;
+    width: 109px;
+    height: 91px;
+}
+
+.castview_vodconB {
+    float: left;
+}
+
+.castview_detail_on {}
+
+.castview_detail_box {
+    background-color: #fafafa;
+    border: #e1e1e1 1px solid;
+    padding: 15px;
+    line-height: 170%;
+    font-size: 12px;
+    color: #292929;
+}
+
+.castview_detail_off {}
+
+.reply {}
+
+/*-- OnAir --*/
+
+.TV_OnAirBlock {
+    position: relative;
+    width: 763px;
+}
+
+.TV_onAirTT {
+    position: relative;
+    width: 763px;
+    height: 35px;
+    background: #2d2d2d url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/TV_titlebar.jpg)left no-repeat;
+    color: #ffffff;
+    font: bold 14px "돋움"
+}
+
+.TV_onAirTT li {
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.TV_onAirTT li.onAir_TTCell1 {
+    width: 105px;
+    text-align: center;
+    padding: 0;
+}
+
+.TV_onAirTT li.onAir_TTCell2 {
+    width: 470px;
+    padding: 0 0 0 15px;
+    overflow: hidden;
+}
+
+.TV_onAirTT li.onAir_TTCell3 {
+    width: 150px;
+    padding: 0 10px 0 0;
+    text-align: right;
+    font: bold 12px "돋움";
+    line-height: 35px;
+    vertical-align: middle;
+}
+
+.TV_onAirSum {
+    position: relative;
+    width: 761px;
+    height: 100px;
+    background: #e9e9e9;
+    border: solid 1px #cfcfcf;
+}
+
+.TV_onAirSum ul.onAir_SumBlock {
+    position: relative;
+    display: inline-block;
+    width: 761px;
+    padding: 10px 0 10px 10px;
+    margin: 0 0 10 0;
+}
+
+.TV_onAirSum ul.onAir_SumBlock li {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 140px;
+    padding: 0 10px 0 0;
+    margin: 0 0 0 0;
+    color: #ffffff;
+    font: normal 11px "돋움";
+}
+
+.TV_onAirSum ul.onAir_SumBlock li span {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 16px;
+    top: -20px;
+    padding: 4px 0 0 0;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main_cast/back_block.png) repeat-x;
+}
+
+/*-- 공지/이벤트 --*/
+
+.TV_NocticeBlock {
+    position: relative;
+    width: 203px;
+    height: auto;
+    padding: 0 0 0 0;
+    margin: 7px 0 0 0;
+    background: #ffffff;
+    border: solid 1px #dfdfdf;
+}
+
+ul.mainRNotice {
+    position: relative;
+    display: inline-block;
+    width: 203px;
+    height: auto;
+    padding: 0;
+}
+
+ul.mainRNotice li.RNoticeCell1 {
+    position: relative;
+    display: inline-block;
+    width: 193px;
+    height: 15px;
+    padding: 6px 5px 6px 5px;
+}
+
+ul.mainRNotice li.RNoticeCell2 {
+    position: relative;
+    display: inline-block;
+    width: 193px;
+    background: #f2f2f2;
+    padding: 6px 5px 6px 5px;
+}
+
+ul.mainRNotice li a {
+    display: inline-block;
+    width: 193px;
+    height: 15px;
+    font: normal 11px dotum;
+    line-height: 18px;
+    color: #444444;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul.mainRNotice li a:hover {
+    display: inline-block;
+    font: normal 11px dotum;
+    color: #444444;
+    height: 15px;
+    line-height: 18px;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+/*-- 20140508 방송메인페이지 리뉴얼 --*/
+
+/**방송 메인 레이아웃**/
+
+#TVMainBlock {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 973px;
+    height: auto;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+#TVMainBlockL {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 205px;
+    height: auto;
+    vertical-align: top;
+    padding: 7px 0 0 0;
+    margin: 0;
+}
+
+#TVMainBlockR {
+    position: relative;
+    float: right;
+    overflow: hidden;
+    width: 759px;
+    height: auto;
+    vertical-align: top;
+    padding: 7px 0 0 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+/**공지사항**/
+
+.TVMainNocite_box {
+    position: relative;
+    display: inline-block;
+    width: 199px;
+    height: auto;
+    background: #ebebeb;
+    border: solid 3px #353537;
+    padding: 0 0 5px 0;
+}
+
+.TVMainNocite_box li.TT {
+    display: inline-block;
+    width: 199px;
+    height: 40px;
+    background: #353537;
+    margin: 0 0 5px 0;
+}
+
+.TVMainNocite_box li {
+    display: inline-block;
+    width: 189px;
+    margin: 0 5px 0 5px;
+}
+
+.TVMainNocite_box li.Cnt {
+    display: inline-block;
+    width: 189px;
+    overflow: hidden;
+    border-bottom: dotted 1px #afafaf;
+}
+
+.TVMainNocite_box li a {
+    display: inline-block;
+    ;
+    height: 12px;
+    font: normal 11px "돋움";
+    text-decoration: none;
+    color: #444444;
+    margin: 7px 0 7px 0;
+    overflow: hidden;
+}
+
+.TVMainNocite_box li a:hover {
+    display: inline-block;
+    height: 12px;
+    font: normal 11px "돋움";
+    text-decoration: underline;
+    color: #444444;
+    margin: 7px 0 7px 0;
+    overflow: hidden;
+}
+
+/**티비방송 메뉴**/
+
+.TVMainMenu_box {
+    position: relative;
+    display: inline-block;
+    width: 199px;
+    height: auto;
+    background: #ebebeb;
+    border: solid 3px #353537;
+    padding: 0 0 7px 0;
+}
+
+.TVMainMenu_box li.TT {
+    display: inline-block;
+    width: 199px;
+    height: 37px;
+    background: #353537;
+    margin: 0 0 5px 0;
+}
+
+.TVMainMenu_box li {
+    display: inline-block;
+    width: 189px;
+    height: 29px;
+    padding: 2px 0 2px 0;
+    margin: 0 5px;
+    overflow: hidden;
+    line-height: 16px;
+}
+
+.TVMainMenu_box li.Cnt {
+    display: inline-block;
+    width: 189px;
+    height: 29px;
+    padding: 2px 0 2px 0;
+    margin: 0 5px;
+    overflow: hidden;
+    line-height: 16px;
+    border-bottom: solid 1px #d3d3d3;
+}
+
+/**제휴**/
+
+.TV_cooperate {
+    position: relative;
+    display: inline-block;
+    width: 203px;
+    height: auto;
+    background: #ffffff;
+    border: solid 1px #dddddd;
+    margin: 7px 0 0 0;
+}
+
+.TV_cooperate li {
+    display: inline-block;
+    padding: 0 5px 5px 5px;
+}
+
+.TV_BJ {
+    position: relative;
+    display: inline-block;
+    width: 203px;
+    height: auto;
+    background: #f1f1f1;
+    border: solid 1px #dddddd;
+    margin: 7px 0 0 0;
+}
+
+.TV_BJ li {
+    float: left;
+    display: inline-block;
+    padding: 5px 0 5px 7px;
+}
+
+/**VOD**/
+
+.TV_LeftVOD {
+    position: relative;
+    display: inline-block;
+    width: 203px;
+    height: auto;
+    background: #f1f1f1;
+    border: solid 1px #dddddd;
+    margin: 7px 0 0 0;
+}
+
+.TV_LeftVOD li.LeftVODCell1 {
+    display: inline-block;
+    width: 203px;
+    padding: 5px 0 0 0;
+}
+
+.TV_LeftVOD li.LeftVODCell2 {
+    display: inline-block;
+    width: 203px;
+    padding: 5px 0 5px 5px;
+}
+
+input.PM_nameSrc {
+    position: relative;
+    width: 115px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #d7d7d7;
+    color: #444444;
+    vertical-align: middle;
+    font: bold 13px dotum;
+    background: #ffffff;
+}
+
+input.PM_nameSrc:hover {
+    position: relative;
+    width: 115px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #575757;
+    color: #444444;
+    vertical-align: middle;
+    font: bold 13px dotum;
+    background: #ffffff;
+}
+
+input.PM_nameSrc:focus {
+    position: relative;
+    width: 115px;
+    height: 13px;
+    margin: 0 5px 0 0;
+    padding: 6px 10px 6px 10px;
+    border: 1px solid #575757;
+    color: #444444;
+    vertical-align: middle;
+    font: bold 13px dotum;
+    background: #ffffff;
+}
+
+/**VOD RANK**/
+
+ul.VODRank {
+    position: relative;
+    display: inline-block;
+    width: 203px;
+    background: #ffffff;
+    border-top: solid 1px #dddddd;
+    margin: 0;
+    padding: 0 0 5px 0;
+}
+
+ul.VODRank li.VODRankTop {
+    display: inline-block;
+    width: 182px;
+    padding: 0 0 0 10px;
+}
+
+ul.VODRank li.VODRankTop span.TopNum {
+    position: absolute;
+    padding: 3px 0 0 3px;
+}
+
+ul.VODRank li.VODRankTop span.TopTT {
+    position: absolute;
+    width: 172px;
+    ;
+    z-index: 10;
+    text-align: center;
+    top: 88px;
+    height: 25px;
+    padding: 5px 5px 5px 5px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/TVRe/back_block.png);
+    overflow: hidden;
+}
+
+ul.VODRank li.VODRankTop span.TopTT a {
+    font: bold 11px "돋움";
+    color: #ffffff;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+ul.VODRank li.VODRankETC {
+    display: inline-block;
+    width: 183px;
+    height: 12px;
+    line-height: 12px;
+    padding: 5px 10px 5px 10px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+ul.VODRank li.VODRankETC a {
+    font: normal 11px "돋움";
+    color: #353537;
+    text-decoration: none;
+}
+
+ul.VODRank li.VODRankETC img {
+    vertical-align: middle;
+}
+
+.TVLeftBnr {
+    margin: 7px 0 7px 0;
+}
+
+/**실시간방송**/
+
+.TV_onAirTT2 {
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/TVRe/onair_TT_bg.jpg) repeat-x;
+    vertical-align: middle;
+}
+
+.TV_onAirTT2 img {
+    vertical-align: middle;
+    padding: 0 5px 0 10px;
+}
+
+.TV_onAirTT2 li.onAir_TTCell1 {
+    display: inline-block;
+    width: 500px;
+    color: #ffffff;
+    font: bold 13px "돋움";
+}
+
+.TV_onAirTT2 li.onAir_TTCell2 {
+    display: inline-block;
+    width: 234px;
+    text-align: right;
+    color: #999999;
+    font: bold 11px "돋움";
+}
+
+/**실시간방송 컨텐츠**/
+
+.TV_LiveCnt {
+    position: relative;
+    height: 231px;
+    line-height: 36px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/TVRe/onair_cnt_bg.jpg) repeat-x;
+}
+
+.TV_LiveChat {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 360px;
+    padding: 15px 10px 10px 10px;
+}
+
+.TV_LiveChat li {
+    display: inline-block;
+    width: 360px;
+    height: 201px;
+    background: #000000;
+    border: solid 1px #606060;
+}
+
+ul.TV_LiveCnt_Box {
+    position: relative;
+    display: inline-block;
+    width: 355px;
+    padding: 15px 10px 10px 10px;
+}
+
+ul.TV_LiveCnt_Box li.TV_LiveCntCell1 {
+    position: relative;
+    display: inline-block;
+    width: 355px;
+    height: 12px;
+    vertical-align: middle;
+    padding: 5px 0 0 0;
+    font: bold 12px "돋움";
+    color: #fea700;
+    overflow: hidden;
+}
+
+ul.TV_LiveCnt_Box li.TV_LiveCntCell2 {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 165px;
+    padding: 7px 0 10px 0;
+}
+
+ul.TV_LiveCnt_Box li.TV_LiveCntCell3 {
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    padding: 10px 0 0 10px;
+    line-height: 16px;
+    color: #ffffff;
+    font: normal 12px "돋움"
+}
+
+ul.TV_LiveCnt_Box li.TV_LiveCntCell3 p {
+    display: block;
+    height: 20px;
+}
+
+ul.TV_LiveCnt_Box li.TV_LiveCntCell3 img {
+    padding: 0 5px 0 0;
+}
+
+ul.TV_LiveCnt_Box li.TV_LiveCntCell4 {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    line-height: auto;
+    font: normal 11px "돋움";
+    border: solid 1px #606060;
+    background: #3c3c3c;
+    padding: 5px;
+    overflow: hidden;
+}
+
+/**핫예고편 (2014.05.20 수정 - jjh) **/
+
+.TVHotNotice {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 368px;
+    height: 243px;
+    border: solid 1px #d4d4d4;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 9px;
+}
+
+.TVChart {
+    position: relative;
+    display: inline-block;
+    width: 373px;
+    height: 243px;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 6px;
+    background: #f2f2f2;
+    border-top: solid 1px #d4d4d4;
+    border-right: solid 1px #d4d4d4;
+    border-bottom: solid 1px #d4d4d4;
+}
+
+/*-- 메인 롤링 배너 (2014.05.20 추가 - jjh)--*/
+
+.TVBnr {
+    position: relative;
+    width: 359px;
+    height: 225px;
+    padding: 8px 0 0 0;
+    display: inline-block;
+}
+
+ul.TVBnrNum {
+    position: absolute;
+    display: inline-block;
+    width: 359px;
+    height: 16px;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/TVRe/back_block.png');
+    padding: 5px 0 0 0;
+    margin: 213px auto 0 auto;
+    text-align: center;
+    z-index: 3;
+}
+
+ul.TVBnrNum img {
+    position: relative;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    padding: 0 2px 0 0;
+    text-align: center;
+}
+
+ul.TVBnrNum li {
+    position: relative;
+    width: 11px;
+    height: 11px;
+    padding: 0 0 5px 0;
+    vertical-align: top;
+    text-align: center;
+    display: inline;
+}
+
+/**방송편성표**/
+
+ul.TVMakeTab {
+    position: relative;
+    float: left;
+    width: 365px;
+    height: 29px;
+    border-left: solid 1px #d4d4d4;
+}
+
+ul.TVMakeTab li {
+    position: relative;
+    float: left;
+    width: 52px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.TVMakeTab li.MakeOff a {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 29px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    overflow: hidden;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/main_make_tab.jpg) 0px 0px no-repeat;
+}
+
+ul.TVMakeTab li.MakeOn {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 29px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    color: #453636;
+    overflow: hidden;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/main_make_tab.jpg) 0px 0px no-repeat;
+    background-position: left -29px;
+}
+
+ul.TVMakeTabb li.MakeOn a {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 29px;
+    padding: 0 0 0 0;
+    text-decoration: none;
+    color: #453636;
+    overflow: hidden;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/main/main_make_tab.jpg) 0px 0px no-repeat;
+    background-position: left -29px;
+}
+
+ul.TVMakelist {
+    position: relative;
+    float: left;
+    width: 362px;
+    height: 162px;
+    padding: 5px 0 0 0;
+    background: #ffffff;
+    border-left: solid 1px #d4d4d4;
+    border-right: solid 1px #d4d4d4;
+    border-bottom: solid 1px #d4d4d4;
+}
+
+ul.TVMakelist li {
+    position: relative;
+    display: inline-block;
+    width: 342px;
+    height: 20px;
+    float: left;
+    padding: 5px 10px 0 10px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: left;
+    font: bold 11px dotum;
+    color: #444444;
+    overflow: hidden;
+}
+
+ul.TVMakelist li img {
+    vertical-align: middle;
+    padding: 0 5px 0 0;
+}
+
+/**방송별**/
+
+.TVGroup {
+    position: relative;
+    float: right;
+    overflow: hidden;
+    width: 759px;
+    margin: 10px 0 0 0;
+}
+
+ul.TVGroupTab {
+    position: relative;
+    float: left;
+    width: 758px;
+    height: 43px;
+    border-left: solid 1px #d4d4d4;
+}
+
+ul.TVGroupTab li {
+    position: relative;
+    float: left;
+    width: 151px;
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.TVGroupCell {
+    position: relative;
+    width: 758px;
+    display: inline-block;
+    padding: 10px 0 0 9px;
+}
+
+ul.TVGroupCell li {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 178px;
+    border: solid 1px #d4d4d4;
+    background: #f2f2f2;
+    padding: 0 0 7px 0;
+    margin: 0 7px 0 0;
+}
+
+ul.TVGroupCell li span {
+    display: inline-block;
+    width: 178px;
+    height: 12px;
+    color: #444444;
+    text-align: center;
+    padding: 7px 0 0 0;
+    overflow: hidden;
+}
+
+ul.TVGroupCell li a {
+    color: #444444;
+    text-decoration: none;
+    font: normal 11px "돋움";
+}

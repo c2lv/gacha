@@ -1,0 +1,9472 @@
+@charset "utf-8";
+input.input_text,
+textarea.input_text {
+    ime-mode: active
+}
+
+/*게시판(일반) - 좌측영역*/
+
+#bbs_warp {
+    width: 982px
+}
+
+.bbsw_lf {
+    float: left;
+    width: 209px;
+    padding: 0 0 0 1px;
+}
+
+.bbsw_lf .grankw {
+    width: 202px;
+    height: 32px;
+    position: relative;
+    margin: 8px 0 6px 0
+}
+
+.bbsw_lf .grankw h4 {
+    position: absolute;
+    height: 32px;
+    width: 89px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_rank5.gif) no-repeat 0px 0px
+}
+
+.bbsw_lf .grankw h4 span {
+    display: none
+}
+
+.bbsw_lf .grankw span.mask {
+    position: absolute;
+    width: 68px;
+    height: 10px;
+    top: 10px;
+    left: 107px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starpbg.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+.bbsw_lf .grankw span.bar {
+    position: absolute;
+    display: block;
+    width: 68px;
+    height: 10px;
+    top: 10px;
+    left: 107px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starp.png) no-repeat
+}
+
+.bbsw_lf .grankw span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background: #f4222a
+}
+
+.bbsw_lf .grankw span.score {
+    position: absolute;
+    top: 9px;
+    left: 180px;
+    font-weight: bold;
+    color: #f4222a
+}
+
+.leftmn_warp {
+    margin: 0 0 5px 0
+}
+
+.leftmn_warp a {
+    font-family: Gulim
+}
+
+.leftmn_warp ul.leftmn_list {
+    width: 200px;
+    padding: 0 0 0 0;
+    border: 1px solid #cccccc;
+    border-top: none;
+    margin: 0 0 5px 0
+}
+
+.leftmn_warp ul.leftmn_list li.lfmt {
+    width: 200px;
+    position: relative;
+    margin: 0 0 0 0;
+    border-bottom: 1px solid #efefef
+}
+
+.leftmn_warp ul.leftmn_list li.lfmt span.titlebg {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f75a21 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -27px;
+    border: 1px solid #da3b0b;
+    margin: 0 0 0 -1px
+}
+
+.leftmn_warp ul.leftmn_list li.lfmlist {
+    width: 176px;
+    padding: 0 12px 0 12px;
+    position: relative
+}
+
+.leftmn_warp ul.leftmn_list li.lfmlist a {
+    display: inline-block;
+    width: 160px;
+    text-decoration: none;
+    padding: 7px 0 7px 16px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bu_leftmn.gif) no-repeat 5px 11px
+}
+
+.leftmn_warp ul.leftmn_list li.lfmlist a span.num {
+    color: #F60;
+    font-size: 11px
+}
+
+.leftmn_warp ul.leftmn_list li.lfmlist:hover {
+    background:
+}
+
+.leftmn_warp ul.leftmn_list li.lfmlist:hover a.bt_bbsw {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 140px;
+    width: 53px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_write_s.gif);
+    padding: 0;
+    z-index: 10
+}
+
+.leftmn_warp ul.leftmn_list li.lfmlist a.bt_bbsw {
+    display: none;
+    position: absolute;
+    top: 4px;
+    left: 130px;
+    width: 53px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_write_s.gif);
+    padding: 0;
+    z-index: 10
+}
+
+.leftmn_warp ul.leftmn_list li.lfmlist {
+    width: 176px;
+    padding: 0 12px 0 12px
+}
+
+.leftmn_warp ul.leftmn_list li.lfmlist a.bt_bbsw span {
+    display: none
+}
+
+.leftmn_warp ul.leftmn_list li.set a {
+    display: inline-block;
+    width: 160px;
+    text-decoration: none;
+    padding: 8px 0 8px 16px;
+    background: #eeeeee;
+    font-size: 11px;
+    color: #7c7c7c
+}
+
+.leftmn_warp ul.leftmn_list li.set a:hover {
+    background: #eeeeee;
+    color: #f65c00
+}
+
+div.bestlist {
+    width: 200px;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    margin: -4px 0 6px 0
+}
+
+div.bestlist ul {
+    width: 100%
+}
+
+div.bestlist li {
+    background: #fff;
+    border-bottom: 1px solid #cccccc;
+    padding: 4px 10px
+}
+
+div.bestlist li img {
+    width: 18px;
+    height: 18px
+}
+
+div.bestlist li a {
+    color: #434343
+}
+
+p.lfmt {
+    width: 200px;
+    position: relative;
+    margin: 0 0 0 0
+}
+
+p.lfmt span.title01 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px 0px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt span.title02 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -27px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt span {
+    display: none
+}
+
+p.lfmt a.veiwall {
+    position: absolute;
+    top: 7px;
+    left: 132px;
+    font-size: 11px;
+    color: #fff
+}
+
+ul.lfmn01 {
+    width: 200px;
+    padding: 6px 0;
+    border: 1px solid #cccccc;
+    border-top: none;
+    margin: 0 0 0 0
+}
+
+ul.lfmn01 li.lfmlist {
+    width: 176px;
+    padding: 0 12px 0 12px;
+    position: relative
+}
+
+ul.lfmn01 li.lfmlist a {
+    display: inline-block;
+    width: 160px;
+    text-decoration: none;
+    padding: 7px 0 7px 16px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bu_leftmn.gif) no-repeat 5px 11px
+}
+
+ul.lfmn01 li.lfmlist a span.num {
+    color: #F60;
+    font-size: 11px
+}
+
+ul.lfmn01 li.lfmlist:hover {
+    background:
+}
+
+ul.lfmn01 li.lfmlist:hover a.bt_bbsw {
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 140px;
+    width: 53px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_write_s.gif);
+    padding: 0;
+    z-index: 10
+}
+
+ul.lfmn01 li.lfmlist a.bt_bbsw {
+    display: none;
+    position: absolute;
+    top: 4px;
+    left: 130px;
+    width: 53px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_write_s.gif);
+    padding: 0;
+    z-index: 10
+}
+
+ul.lfmn01 li.lfmlist {
+    width: 176px;
+    padding: 0 12px 0 12px
+}
+
+ul.lfmn01 li.lfmlist a.bt_bbsw span {
+    display: none
+}
+
+ul.lfmn01 li.set a {
+    display: inline-block;
+    width: 160px;
+    text-decoration: none;
+    padding: 8px 0 8px 16px;
+    background: #eeeeee;
+    font-size: 11px;
+    color: #7c7c7c
+}
+
+ul.lfmn01 li.set a:hover {
+    background: #eeeeee;
+    color: #f65c00
+}
+
+p.lfmt02 {
+    width: 200px;
+    position: relative;
+    margin: 12px 0 0 0
+}
+
+p.lfmt02 span.title03 {
+    display: block;
+    width: 200px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -54px;
+    border: 1px solid #cccccc;
+    border-bottom: none
+}
+
+p.lfmt02 span span,
+p.lfmt span span {
+    display: none
+}
+
+ul.lfmn02 {
+    position: relative;
+    width: 200px;
+    margin: 0
+}
+
+ul.lfmn02 li.lftabm a.tabm01 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100px;
+    height: 15px;
+    padding-top: 3px;
+    text-align: center;
+    background: #f1f1f1;
+    border: 1px solid #cccccc;
+    border-bottom: 1px solid #f05526;
+    color: #696a6a;
+    font-size: 11px;
+    z-index: 10
+}
+
+ul.lfmn02 li.lftabm a.tabm02 {
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    display: block;
+    width: 100px;
+    height: 15px;
+    padding-top: 3px;
+    text-align: center;
+    background: #f1f1f1;
+    border: 1px solid #cccccc;
+    border-bottom: 1px solid #f05526;
+    color: #696a6a;
+    font-size: 11px;
+    z-index: 1
+}
+
+ul.lfmn02 li.lftabm a.select {
+    background: #f05526;
+    color: #fff;
+    border: 1px solid #f05526;
+    font-weight: bold
+}
+
+ul.lfmn02 li.lftabm ul {
+    width: 180px;
+    margin: 0 0 0 0;
+    border: 1px solid #f05526;
+    padding: 24px 10px 7px 10px
+}
+
+ul.lfmn02 li.lftabm ul li {
+    margin: 3px 0 3px 0
+}
+
+ul.lfmn02 li.lftabm ul li a {
+    font-size: 11px;
+    margin: 6px 0 0 0;
+    height: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 174px;
+    display: inline-block
+}
+
+p.lfmt02 span.title04 {
+    display: block;
+    width: 200px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -85px;
+    border: 1px solid #cccccc;
+    border-bottom: none
+}
+
+ul.lfmn03 {
+    width: 200px;
+    border: 1px solid #cccccc;
+    border-top: none;
+    margin: 0 0 14px 0
+}
+
+ul.lfmn03 li.lfst a.lfst01 {
+    display: block;
+    width: 200px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -116px;
+    border: 1px solid #dedede;
+    border-left: none;
+    border-right: none
+}
+
+ul.lfmn03 li.lfst a.lfst02 {
+    display: block;
+    width: 200px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -141px;
+    border: 1px solid #dedede;
+    border-left: none;
+    border-right: none
+}
+
+ul.lfmn03 li.lfst a.lfst03 {
+    display: block;
+    width: 200px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -166px;
+    border: 1px solid #dedede;
+    border-left: none;
+    border-right: none
+}
+
+ul.lfmn03 li.lfst a span {
+    display: none
+}
+
+ul.lfmn03 li.lfst ul {
+    width: 180px;
+    padding: 10px 10px 4px 10px;
+    margin: 3px 0 0 0
+}
+
+ul.lfmn03 li.lfst ul a {
+    font-size: 11px;
+    line-height: 120%;
+    letter-spacing: -1px;
+    font-family: Dotum;
+    color: #666
+}
+
+ul.lfmn03 li.lfst ul li {
+    margin: 0 0 6px 0
+}
+
+/*게시판(일반) 목록 - 우측영역*/
+
+.bbsw_rt {
+    float: left;
+    width: 772px
+}
+
+.bbstitle {
+    width: 770px;
+    height: 37px;
+    padding: 8px 0 0 0;
+    position: relative;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_bbs_title.gif);
+    border: 1px solid #f76225;
+    margin: 0 0 10px 0
+}
+
+.bbstitle h4 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+    height: 24px;
+    padding: 4px 0 0 0
+}
+
+.bbstitle h4 img {
+    width: 30px;
+    height: 30px;
+    margin: -5px 0 0 0
+}
+
+.bbstitle a.bt_dwn {
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 100px;
+    width: 109px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_download_s.gif) no-repeat
+}
+
+.bbstitle a.bt_dwn span {
+    display: none
+}
+
+.bbstitle a.bt_fav {
+    display: block;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    width: 60px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/ic_favor.gif) no-repeat 0px 0px;
+    padding: 0 0 0 17px;
+    color: 34d5b6a;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Gulim
+}
+
+.bbsm {
+    with: 100%
+}
+
+.bbsm ul {
+    float: left;
+    margin: 0 0 0 1px
+}
+
+.bbsm ul.gmenu li {
+    float: left
+}
+
+.bbsm ul.gmenu li a {
+    display: block;
+    padding: 12px 20px;
+    border: 1px solid #dfdfe1;
+    margin: 0 0 0 -1px;
+    color: #959595;
+    font-weight: bold
+}
+
+.bbsm ul.gmenu li a:hover {
+    color: #fa6a25
+}
+
+.bbs_cate {
+    clear: left;
+    with: 100%
+}
+
+.bbs_cate ul {
+    float: left;
+    margin: 5px 0 0 1px
+}
+
+.bbs_cate ul.category li {
+    float: left
+}
+
+.bbs_cate ul.category li a {
+    display: block;
+    padding: 8px 15px;
+    border: 1px solid #dfdfe1;
+    margin: 0 0 0 -1px;
+    color: #777777;
+    font-weight: bold;
+    background: #f1f1f1;
+    border: 1px solid #a7a7a7;
+    border-bottom: none
+}
+
+.bbs_cate ul.category li a:hover,
+.bbs_cate ul.category li a.select {
+    color: #fff;
+    background: #676767;
+    border: 1px solid #676767;
+    border-bottom: none
+}
+
+.bbs_cate02 {
+    clear: left;
+    with: 100%;
+    height: 34px;
+    border-bottom: 2px solid #666
+}
+
+.bbs_cate02 ul {
+    float: left;
+    margin: 5px 0 0 1px;
+    padding: 0;
+    height: 34px;
+}
+
+.bbs_cate02 ul.category li {
+    float: left;
+    height: 34px;
+}
+
+.bbs_cate02 ul.category li a {
+    display: block;
+    padding: 8px 15px;
+    width: 105px;
+    text-align: center;
+    border: 1px solid #dfdfe1;
+    margin: 0 0 0 -1px;
+    color: #777777;
+    font-weight: bold;
+    background: #f1f1f1;
+    border: 1px solid #a7a7a7;
+    border-bottom: none;
+    height: 12px
+}
+
+.bbs_cate02 ul.category li a:hover,
+.bbs_cate02 ul.category li a.select {
+    color: #fff;
+    background: #676767;
+    border: 1px solid #676767;
+    border-bottom: none
+}
+
+.bbs_cate03 {
+    clear: left;
+    width: 100%;
+    height: 34px;
+    border-bottom: 2px solid #666
+}
+
+.bbs_cate03 ul {
+    float: left;
+    margin: 5px 0 0 1px
+}
+
+.bbs_cate03 ul.category li {
+    float: left
+}
+
+.bbs_cate03 ul.category li a {
+    display: block;
+    padding: 8px 15px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid #dfdfe1;
+    margin: 0 0 0 -1px;
+    color: #777777;
+    font-weight: bold;
+    background: #f1f1f1;
+    border: 1px solid #a7a7a7;
+    border-bottom: none
+}
+
+.bbs_cate03 ul.category li a:hover,
+.bbs_cate03 ul.category li a.select {
+    color: #fff;
+    background: #676767;
+    border: 1px solid #676767;
+    border-bottom: none
+}
+
+table.tablef {
+    clear: left;
+    width: 100%;
+}
+
+table.tablef span.tag {
+    background: #FF6;
+    color: #000;
+    font-weight: bold;
+    padding: 0;
+    display: inline-block
+}
+
+table.tablef span.blind {
+    color: #999
+}
+
+table.tablef th {
+    padding: 10px 0;
+    border-top: 2px solid #676767;
+    border-bottom: 1px solid #d1d1d1;
+    background: #fff;
+    font-size: 11px;
+    color: #999;
+    font-weight: normal;
+    Gulim
+}
+
+table.tablef th.th01 {
+    width: 72px
+}
+
+table.tablef th.seleth {
+    width: 20px
+}
+
+table.tablef th.th02 {
+    width: 405px;
+    padding: 0 10px
+}
+
+table.tablef th.th03 {
+    width: 140px;
+}
+
+table.tablef th.th05 {
+    width: 55px
+}
+
+table.tablef th.th02 a {
+    color: #454545
+}
+
+table.tablef th.th03 a.user {
+    color: #454545;
+}
+
+table.tablef th.th03 a {
+    color: #454545
+}
+
+/* 룬 view */
+
+table.tablel {
+    clear: left;
+    width: 100%;
+}
+
+table.tablel span.tag {
+    background: #FF6;
+    color: #000;
+    font-weight: bold;
+    padding: 0;
+    display: inline-block
+}
+
+table.tablel span.blind {
+    color: #999
+}
+
+table.tablel th {
+    padding: 10px 0;
+    border-top: 2px solid #676767;
+    border-bottom: 1px solid #d1d1d1;
+    background: #000;
+    font-size: 11px;
+    color: #fff;
+    font-weight: normal;
+    Gulim
+}
+
+table.tablel th.th01 {
+    width: 72px
+}
+
+table.tablel th.seleth {
+    width: 20px
+}
+
+table.tablel th.th02 {
+    width: 405px;
+    padding: 0 10px
+}
+
+table.tablel th.th03 {
+    width: 140px;
+}
+
+table.tablel th.th05 {
+    width: 55px
+}
+
+table.tablel th.th02 a {
+    color: #454545
+}
+
+table.tablel th.th03 a.user {
+    color: #454545;
+}
+
+table.tablel th.th03 a {
+    color: #454545
+}
+
+.bbs_notice {
+    height: 37px;
+    overflow: hidden;
+    clear: left;
+    border-bottom: 1px solid #676767;
+}
+
+table.tablef tr.notitr td {
+    background: #f7f7f7;
+    z-index: 9;
+}
+
+table.tablef {
+    clear: left;
+    width: 100%;
+}
+
+table.tablef span.tag {
+    background: #FF6;
+    color: #000;
+    font-weight: bold;
+    padding: 0;
+    display: inline-block
+}
+
+table.tablef span.blind {
+    color: #999
+}
+
+table.tablef td.td01 {
+    width: 72px;
+    text-align: center;
+    font-size: 11px;
+    color: #818181;
+    font-family: Tahoma
+}
+
+table.tablef td.seletd {
+    width: 20px
+}
+
+table.tablef td.td02 {
+    width: 405px;
+    padding: 8px 10px;
+    white-space: normal;
+    overflow: hidden;
+    font-family: Gulim
+}
+
+table.tablef td.td02 a {
+    color: #111;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: Gulim
+}
+
+table.tablef td.td03 a.user {
+    color: #454545;
+    font-family: Gulim
+}
+
+table.tablef td.td03 {
+    width: 140px;
+}
+
+table.tablef td.td03 a.user {
+    display: inline-block;
+    font-family: Gulim
+}
+
+table.tablef td.td03 a.user img {
+    vertical-align: middle;
+    margin: 0 0 4px 3px
+}
+
+table.tablef td.notice a.user {
+    display: inline-block;
+    font-family: Gulim
+}
+
+table.tablef td.notice a.user img {
+    vertical-align: middle;
+    margin: 0 0 3px 4px
+}
+
+table.tablef td.td04 {
+    width: 55px;
+    text-align: center;
+    font-size: 11px;
+    color: #828282;
+    font-family: Tahoma
+}
+
+table.tablef td.td04 span.today {
+    width: 55px;
+    text-align: center;
+    font-size: 11px;
+    color: #f05526;
+    font-family: Tahoma
+}
+
+table.tablef td.td05 {
+    width: 55px;
+    text-align: center;
+    font-size: 11px;
+    color: #818181;
+    font-family: Tahoma
+}
+
+table.tablef td {
+    white-space: nowrap;
+    padding: 0 0;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff
+}
+
+table.tablef td.best {
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fef0c7
+}
+
+table.tablef td a {
+    color: #656565;
+    line-height: 130%
+}
+
+table.tablef td.best a.contt {
+    color: #f65c00;
+    font-weight: bold
+}
+
+table.tablef td.notice a.contt {
+    color: #333;
+    font-weight: bold
+}
+
+table.tablef td.notice a.user {
+    color: #333
+}
+
+table.tablef td span.renum {
+    color: #319db6;
+    font-size: 11px
+}
+
+table.tablef td span.bnum {
+    color: #ff6200;
+    font-size: 11px
+}
+
+div.bbs_btn {
+    height: 45px;
+    position: relative;
+    clear: left
+}
+
+div.bbs_btn a.select_all {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    display: block;
+    width: 75px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_all.gif)
+}
+
+div.bbs_btn a.bt_admin {
+    display: inline-block;
+    width: 75px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_bbsadm.gif);
+    margin: 8px 0 0 0;
+    vertical-align: middle
+}
+
+div.bbs_btn a.bt_adminr {
+    display: inline-block;
+    width: 83px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_replyadm.gif);
+    margin: 8px 0 0 0;
+    vertical-align: middle
+}
+
+div.bbs_btn a.bt_list {
+    display: inline-block;
+    width: 83px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_list.gif);
+    margin: 8px 0 0 0;
+    vertical-align: middle
+}
+
+div.bbs_btn span.checkb {
+    display: inline-block;
+    padding: 10px 0 0 0;
+    vertical-align: middle
+}
+
+div.bbs_btn a.bt_write {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    display: block;
+    width: 75px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_write.gif)
+}
+
+div.bbs_btn a span {
+    display: none
+}
+
+/*게시판 검색*/
+
+.bbs_sch {
+    width: 100%
+}
+
+.bbs_sch ul.select_bbs {
+    float: left;
+    width: 710px;
+    position: relative;
+    text-align: center;
+    background: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    padding: 10px 0 10px 60px
+}
+
+.bbs_sch ul.select_bbs li {
+    width: 560px;
+    float: left;
+    position: relative;
+    text-align: left;
+    padding: 0 0 0 10px
+}
+
+.bbs_sch ul.select_bbs li.select_box {
+    width: 115px;
+    padding: 0
+}
+
+.bbs_sch ul.select_bbs li.select_box .combo_box {
+    z-index: 999;
+    border: 1px solid #999
+}
+
+.bbs_sch ul.select_bbs li.select_box input.select_sch {
+    width: 103px;
+    border: 1px solid #d9d9d9;
+    padding: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_input.gif) repeat;
+    margin: 0 0 0 0
+}
+
+.bbs_sch ul.select_bbs li.select_box img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer
+}
+
+.bbs_sch ul.select_bbs li input.input_sch {
+    border: 1px solid #d9d9d9;
+    padding: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_input.gif) repeat;
+    width: 180px;
+    margin: 0 0 0 0
+}
+
+.bbs_sch ul.select_bbs li a.bt_sch {
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_search.gif) no-repeat;
+    vertical-align: middle
+}
+
+.bbs_sch ul.select_bbs li a.bt_cancel {
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_cancel.gif) no-repeat;
+    vertical-align: middle
+}
+
+.bbs_sch ul.select_bbs li a.bt_sch span,
+.bbs_sch ul.select_bbs li a.bt_cancel span {
+    display: none
+}
+
+.bbs_sch ul.select_bbs li {
+    font-size: 11px;
+    color: #808080;
+    padding: 0 0 0 10px
+}
+
+.bbs_sch ul.select_bbs li span.desc {
+    font-size: 11px;
+    color: #808080;
+    padding: 0 0 0 10px
+}
+
+.bbs_sch ul.select_bbs li span.desc a.go {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #808080
+}
+
+/*게시글 헤더*/
+
+.veiw_head {
+    width: 100%;
+    clear: left;
+    padding: 0;
+    margin: 0
+}
+
+.vh_list {
+    position: relative;
+    border-top: 2px solid #676767;
+    border-bottom: 1px solid #676767;
+    padding: 0 0 8px 90px;
+    margin: 0;
+}
+
+.vh_list li {
+    display: inline-block
+}
+
+.vh_list li.profile img {
+    position: absolute;
+    top: 10px;
+    left: 12px
+}
+
+.vh_list li.nick {
+    width: 100%;
+    margin: 14px 0 0 0
+}
+
+.vh_list li.nick span.wuser {
+    display: inline-block;
+    width: 30%
+}
+
+.vh_list li.nick span.wuser a {
+    font-weight: bold;
+    color: #454545;
+    font-family: Gulim
+}
+
+.vh_list li.nick span.wdate {
+    display: inline-block;
+    width: 68%;
+    color: #999;
+    text-align: right;
+    font-size: 12px;
+    font-family: Tahoma
+}
+
+.vh_list li.ctitle {
+    width: 100%
+}
+
+.vh_list li.ctitle span.wuser {
+    display: inline-block;
+    width: 30%
+}
+
+.vh_list li.ctitle span.wuser a {
+    font-weight: bold;
+    font-family: Gulim
+}
+
+.vh_list li.ctitle {
+    margin: 15px 0 0 0
+}
+
+.vh_list li.ctitle span.ct {
+    display: inline-block;
+    width: 672px;
+    color: #333;
+    font-size: 16px;
+    vertical-align: top;
+    margin: 8px 0 0 0;
+    overflow: hidden;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 150%
+}
+
+span.hbtn {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    text-align: right;
+    padding: 8px 0;
+    background: #fff;
+    border-bottom: 1px solid #fff
+}
+
+span.hbtn a.bt_cmodi {
+    display: inline-block;
+    width: 49px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_modify_s.gif) no-repeat;
+    vertical-align: top
+}
+
+span.hbtn a.bt_cdel {
+    display: inline-block;
+    width: 49px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_delete_s.gif) no-repeat;
+    vertical-align: top
+}
+
+span.hbtn a {
+    font-size: 11px;
+    color: #777777
+}
+
+span.hbtn a.bt_cmodi span {
+    display: none
+}
+
+span.hbtn a.bt_cdel span {
+    display: none
+}
+
+span.hbtn a.bt_blind,
+span.hbtn a.bt_secret,
+span.hbtn a.bt_police {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0
+}
+
+span.hbtn a.bt_blind span,
+span.hbtn a.bt_secret span,
+span.hbtn a.bt_police span {
+    display: inline-block;
+    padding: 0 0
+}
+
+/*컨텐츠 영역*/
+
+/*.bbs_cont{width:732px;padding:20px;overflow:hidden;line-height:160%;color:#333} 모든게시판 폰트 12pt이상에서 글자 겹치는 원인 line-height 제거 */
+
+.bbs_cont {
+    width: 732px;
+    padding: 20px;
+    overflow: hidden;
+    color: #333;
+    line-height: 160%;
+}
+
+/* 2018-12-07 김정득 기본 9pt에서 넣게 보이게 할려고 겹치는거 포기*/
+
+.bbs_cont img {
+    max-width: 100%
+}
+
+.bt_chidden {
+    width: 100%;
+    height: 20px;
+    position: relative;
+    margin: 20px 0 0 0
+}
+
+.bt_chidden a {
+    position: absolute;
+    top: 3px;
+    right: 0px;
+    font-size: 12px;
+    height: 16px;
+    display: block;
+    width: 120px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/ic_hidden.gif) no-repeat 0px 0px;
+    padding: 0 0 0 20px;
+    text-decoration: underline;
+    color: #676767;
+    font-family: Gulim
+}
+
+.bbs_cont ul li {
+    list-style: disc;
+    padding: 4px 10px 4px 0
+}
+
+.bbs_cont ol li {
+    list-style: decimal;
+    padding: 4px 10px 4px 0
+}
+
+.bbs_cont hr {
+    display: block
+}
+
+/*추천정보*/
+
+ul.recommend {
+    width: 295px;
+    margin: 0 auto
+}
+
+ul.recommend li.recomnum {
+    padding: 4px;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    background: #dde7f4;
+    font-family: Gulim
+}
+
+ul.recommend li.recomnum span.num {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f05526;
+    font-family: Tahoma
+}
+
+ul.recommend li.recomnum a.bt_recom {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Dotum
+}
+
+ul.recommend li.recommem {
+    padding: 6px;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    margin: -1px 0 0 0;
+    font-size: 12px;
+    color: #848484;
+    font-family: Tahoma
+}
+
+/*픽업*/
+
+.pickup_wrap {
+    width: 100%;
+    margin: 20px 0 12px 0;
+    font-family: Gulim
+}
+
+ul.pickup {
+    position: relative;
+    height: 68px;
+    border: 1px solid #e1e1e1;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_pickup.gif)
+}
+
+ul.pickup li.msg {
+    position: absolute;
+    top: 28px;
+    left: 26px;
+    font-weight: bold;
+    color: #2c2c2c
+}
+
+ul.pickup li.bt_sns {
+    position: absolute;
+    top: 20px;
+    left: 130px
+}
+
+ul.pickup li.rank {
+    position: absolute;
+    top: 6px;
+    left: 340px;
+    font-weight: bold;
+    color: #2c2c2c
+}
+
+ul.pickup li.rank ul {
+    display: inline-block;
+    width: 200px;
+    font-size: 12px;
+    font-weight: normal;
+    vertical-align: middle;
+    margin: 0 0 0 30px
+}
+
+ul.pickup li.puhelp {
+    position: absolute;
+    top: 46px;
+    right: 25px
+}
+
+ul.pickup li.puhelp a {
+    font-size: 12px;
+    color: #2e8daf;
+    text-decoration: underline
+}
+
+/*리플목록*/
+
+.replay_wrap {
+    width: 100%;
+    margin: 10px 0 6px 0
+}
+
+.reply_head {
+    clear: left;
+    width: 100%
+}
+
+.reply_head h4 {
+    width: 60px;
+    display: inline;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 0 0 28px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bu_reply.png) no-repeat 12px 1px;
+    vertical-align: middle;
+    font-family: Gulim
+}
+
+.reply_head span.reply_info {
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    color: #828282;
+    margin: 0 0 0 5px;
+    font-family: Tahoma
+}
+
+.reply_list {
+    width: 100%;
+    position: relative;
+    border-top: 1px solid #e2e2e2
+}
+
+ul.rlist li {
+    float: left
+}
+
+ul.rlist li {
+    font-family: Gulim
+}
+
+ul.rlist li.reply {
+    width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 10px 0 10px 0;
+    clear: left
+}
+
+ul.rlist li.re01 {
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_re.gif) no-repeat 20px 35px
+}
+
+ul.rlist li.re02 {
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_re.gif) no-repeat 60px 35px
+}
+
+ul.rlist li.re01 div.rewrap {
+    width: 95%;
+    margin: 0 0 0 40px
+}
+
+ul.rlist li.re02 div.rewrap {
+    width: 90%;
+    margin: 0 0 0 80px
+}
+
+ul.rlist li.re01 div.reply_modi {
+    width: 95%;
+    margin: 0 0 0 40px
+}
+
+ul.rlist li.re02 div.reply_modi {
+    width: 90%;
+    margin: 0 0 0 80px
+}
+
+ul.rlist li.re01 div.reply_rew {
+    width: 95%;
+    margin: 0 0 0 40px
+}
+
+ul.rlist li.re02 div.reply_rew {
+    width: 90%;
+    margin: 0 0 0 80px
+}
+
+ul.rlist li.re02 div.reply_rew p.nickw {
+    margin: 0 0 5px 0
+}
+
+ul.rlist li.re02 div.reply_rew p.nickw span.nick {
+    font-weight: bold;
+    color: #808080;
+    font-size: 11px;
+    padding: 0 24px
+}
+
+ul.rlist li.re02 div.reply_rew p.nickw span.desc {
+    font-size: 11px;
+    color: #808080
+}
+
+ul.rlist li.re01 div.reply_rew p.nickw {
+    margin: 0 0 5px 0
+}
+
+ul.rlist li.re01 div.reply_rew p.nickw span.nick {
+    font-weight: bold;
+    color: #808080;
+    font-size: 11px;
+    padding: 0 24px
+}
+
+ul.rlist li.re01 div.reply_rew p.nickw span.desc {
+    font-size: 11px;
+    color: #808080
+}
+
+ul.rlist li.reply div.reply_rew p.nickw {
+    margin: 0 0 5px 0
+}
+
+ul.rlist li.reply div.reply_rew p.nickw span.nick {
+    font-weight: bold;
+    color: #808080;
+    font-size: 11px;
+    padding: 0 24px
+}
+
+ul.rlist li.reply div.reply_rew p.nickw span.desc {
+    font-size: 11px;
+    color: #808080
+}
+
+ul.rlist li.re01 div.reply_modi p.nickw {
+    margin: 0 0 5px 0
+}
+
+ul.rlist li.re01 div.reply_modi p.nickw span.nick {
+    font-weight: bold;
+    color: #808080;
+    font-size: 11px;
+    padding: 0 17px
+}
+
+ul.rlist li.re01 div.reply_modi p.nickw span.desc {
+    font-size: 11px;
+    color: #808080
+}
+
+ul.rlist li.re02 div.reply_modi p.nickw {
+    margin: 0 0 5px 0
+}
+
+ul.rlist li.re02 div.reply_modi p.nickw span.nick {
+    font-weight: bold;
+    color: #808080;
+    font-size: 11px;
+    padding: 0 17px
+}
+
+ul.rlist li.re02 div.reply_modi p.nickw span.desc {
+    font-size: 11px;
+    color: #808080
+}
+
+ul.rlist li.reply div.reply_modi p.nickw {
+    margin: 0 0 5px 0
+}
+
+ul.rlist li.reply div.reply_modi p.nickw span.nick {
+    font-weight: bold;
+    color: #808080;
+    font-size: 11px;
+    padding: 0 24px
+}
+
+ul.rlist li.reply div.reply_modi p.nickw span.desc {
+    font-size: 11px;
+    color: #808080
+}
+
+ul.rlist li span.rcont {
+    font-family: Dotum
+}
+
+ul.rlist li.best {
+    background: #fffcdd
+}
+
+ul.rlist div.rplf {
+    float: left;
+    text-align: center;
+    position: relative;
+    padding: 0 10px 0 10px
+}
+
+ul.rlist div.rplf span.best {
+    display: block;
+    position: absolute;
+    width: 22px;
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/ic_best.png) no-repeat
+}
+
+ul.rlist li.reply span.bestw {
+    width: 60px;
+    display: block;
+    margin: 4px 0 0 0;
+    color: #f65c00;
+    text-align: center;
+    font-size: 11px
+}
+
+ul.rlist div.rprt {
+    position: relative
+}
+
+ul.rlist div.rprt span.user_nick {
+    display: inline-block;
+    width: 30%
+}
+
+ul.rlist div.rprt span.user_nick a {
+    font-weight: bold;
+    font-family: Gulim
+}
+
+ul.rlist div.rprt span.time {
+    position: absolute;
+    top: 0px;
+    right: 10px
+}
+
+ul.rlist div.rprt span.time a {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    font-weight: normal;
+    padding: 0 5px 0 10px;
+    border-left: 1px solid #dfdfdf;
+    font-family: Gulim
+}
+
+ul.rlist div.rprt span.time span {
+    font-size: 11px;
+    color: #828282;
+    font-family: Tahoma
+}
+
+ul.rlist div.rprt span.time a.bno {
+    border: none
+}
+
+ul.rlist div.rprt span.today {
+    font-weight: normal;
+    color: #f65c00
+}
+
+ul.rlist div.rprt span.rcont {
+    display: block;
+    margin: 6px 0 0 83px;
+    line-height: 16px;
+    line-height: 160%;
+    word-break: break-all
+}
+
+ul.rlist div.rprt span.recom,
+ul.rlist div.rprt span.bt_re {
+    display: inline-block
+}
+
+ul.rlist div.rprt div.re_btn {
+    text-align: right;
+    margin: 7px 0 0 0;
+    padding: 0 10px 10px 10px
+}
+
+ul.rlist div.rprt div.re_btn a.recom {
+    display: inline-block;
+    padding: 1px 0 1px 15px;
+    margin: 0 10px 0 0;
+    color: #ff6200;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/ic_bnum.gif) no-repeat 0px 1px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: Tahoma
+}
+
+ul.rlist div.rprt div.re_btn span.bt_re {
+    dispaly: inline-block;
+    padding: 2px 0 2px 18px;
+    color: #ff6200;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/ic_reply.gif) no-repeat 0px 0px;
+    vertical-align: middle;
+}
+
+ul.rlist div.rprt div.re_btn span.bt_re a {
+    font-size: 12px;
+    font-family: Gulim;
+    text-decoration: underline;
+    color: #319db6;
+    font-weight: bold
+}
+
+/*리플페이징*/
+
+.rpaging {
+    clear: left;
+    padding: 10px 0 0 10px;
+    font-size: 12px;
+    color: #656565;
+    font-family: Gulim
+}
+
+.rpaging a span {
+    display: none
+}
+
+.rpaging a {
+    display: inline-block;
+    height: 17px;
+    border: 1px solid #e0e0e0;
+    color: #8b8b8b;
+    padding: 5px 7px 0 7px;
+    vertical-align: middle
+}
+
+.rpaging a.on {
+    display: inline-block;
+    height: 17px;
+    padding: 5px 7px 0 7px;
+    border: 1px solid #ef4843;
+    color: #ef4843;
+    font-weight: bold
+}
+
+.rpaging a.home {
+    width: 22px;
+    height: 22px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_common.gif) no-repeat 0px 0px;
+    padding: 0;
+    vertical-align: bottom
+}
+
+.rpaging a.pre {
+    width: 22px;
+    height: 22px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_common.gif) no-repeat -22px 0px;
+    padding: 0;
+    vertical-align: bottom
+}
+
+.rpaging a.next {
+    width: 22px;
+    height: 22px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_common.gif) no-repeat -44px 0px;
+    padding: 0;
+    vertical-align: bottom
+}
+
+.rpaging a.end {
+    width: 22px;
+    height: 22px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_common.gif) no-repeat -66px 0px;
+    padding: 0;
+    vertical-align: bottom
+}
+
+/*리플작성*/
+
+.reply_write {
+    position: relative;
+    margin: 10px 0 0 0;
+    border: 2px solid #e4e4e4;
+    padding: 10px
+}
+
+/*원본 :리플쓰기 밀림으로 인해 수정
+.reply_write h4{width:60px;font-weight:bold;padding:0 0 0 15px;background:url(http://appdata.hungryapp.co.kr/images/bbs_/bu_reply.png) no-repeat 0px 1px;color:#606060;margin:0 0 4px 0;font-family:Gulim}
+*/
+
+.reply_write h4 {
+    font-size: 1.2em;
+    width: 60px;
+    font-weight: bold;
+    padding: 0 0 0 12px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bu_reply.png) no-repeat 0px 1px;
+    color: #606060;
+    margin: 0 0 4px 0;
+    font-family: Gulim
+}
+
+.reply_write span.pimgw {
+    display: inline-block;
+    vertical-align: top;
+    width: 70px
+}
+
+.reply_write span.replyip {
+    display: inline-block;
+    vertical-align: top;
+    width: 74%
+}
+
+.reply_write span.replyip span.secret {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    font-size: 11px;
+    color: #808080;
+    font-family: Dotum;
+    letter-spacing: -1px
+}
+
+.reply_write span.replyip textarea {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    padding: 9px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_input.gif) repeat;
+    font-size: 12px;
+    font-family: Dotum;
+    line-height: 16px
+}
+
+.reply_write span.replybt {
+    display: inline-block;
+    vertical-align: top;
+    width: 89px
+}
+
+.reply_write span.replybt input {
+    width: 89px;
+    height: 60px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_rpreg.gif);
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 25px
+}
+
+/*비회원 리플작성*/
+
+.reply_write02 {
+    position: relative;
+    margin: 10px 0 0 0;
+    border: 2px solid #e4e4e4;
+    padding: 10px
+}
+
+.reply_write02 h4 {
+    width: 60px;
+    font-weight: bold;
+    padding: 0 0 0 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bu_reply.png) no-repeat 0px 1px;
+    color: #606060;
+    margin: 0 0 4px 0
+}
+
+.reply_write02 span.pimgw {
+    display: inline-block;
+    vertical-align: top;
+    width: 70px
+}
+
+.reply_write02 span.replyip {
+    display: inline-block;
+    vertical-align: top;
+    width: 74%
+}
+
+.reply_write02 span.replyip span.secret {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    font-size: 11px;
+    color: #808080;
+    font-family: Dotum;
+    letter-spacing: -1px
+}
+
+.reply_write02 span.replyip textarea {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    padding: 9px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_input.gif) repeat;
+    font-size: 12px;
+    font-family: Dotum;
+    line-height: 16px
+}
+
+.reply_write02 span.replybt {
+    display: inline-block;
+    vertical-align: top;
+    width: 89px
+}
+
+.reply_write02 span.replybt input {
+    width: 89px;
+    height: 60px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_rpreg.gif);
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 25px
+}
+
+.reply_write02 p.nickw {
+    margin: 0 0 5px 0
+}
+
+.reply_write02 p.nickw span.nick {
+    font-weight: bold;
+    color: #808080;
+    font-size: 11px;
+    padding: 0 17px
+}
+
+.reply_write02 p.nickw span.desc {
+    font-size: 11px;
+    color: #808080
+}
+
+/*리플수정*/
+
+.reply_modi {
+    position: relative;
+    margin: 0 0 0 0;
+    padding: 0 0 10px 0
+}
+
+.reply_modi h4 {
+    width: 60px;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    color: #e94e1b;
+    margin: 0 0 4px 0;
+    font-family: Gulim
+}
+
+.reply_modi span.pimgw {
+    display: inline-block;
+    vertical-align: top;
+    width: 84px;
+    text-align: center
+}
+
+.reply_modi span.replyip {
+    display: inline-block;
+    vertical-align: top;
+    width: 72.5%
+}
+
+li.re01 .reply_modi span.replyip {
+    display: inline-block;
+    vertical-align: top;
+    width: 71%
+}
+
+li.re02 .reply_modi span.replyip {
+    display: inline-block;
+    vertical-align: top;
+    width: 69%
+}
+
+.reply_modi span.replyip span.secret {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: -3px;
+    font-size: 11px;
+    color: #808080;
+    padding: 0 0 -3px 0;
+    font-family: Dotum;
+    letter-spacing: -1px
+}
+
+.reply_modi span.replyip textarea {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    padding: 9px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_input.gif) repeat;
+    font-size: 12px;
+    font-family: Dotum;
+    line-height: 16px
+}
+
+li.reply .reply_modi span.replybt {
+    display: inline-block;
+    vertical-align: top;
+    width: 89px
+}
+
+li.reply .reply_modi span.replybt input {
+    width: 89px;
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_rpmodi02.gif);
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 25px
+}
+
+li.reply .reply_modi span.replybt a.bno {
+    display: inline-block;
+    width: 89px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_rcancel.gif);
+    border: none;
+    cursor: pointer;
+    margin: 2px 0 0 25px
+}
+
+li.reply .reply_modi span.replybt a.bno span {
+    display: none
+}
+
+/*답글작성*/
+
+.reply_rew {
+    position: relative;
+    margin: 0 0 0 0;
+    padding: 0 0 10px 0
+}
+
+.reply_rew h4 {
+    width: 200px;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    color: #e94e1b;
+    margin: 0 0 4px 0;
+    font-family: Gulim
+}
+
+.reply_rew span.pimgw {
+    display: inline-block;
+    vertical-align: top;
+    width: 84px;
+    text-align: center
+}
+
+.reply_rew span.replyip {
+    display: inline-block;
+    vertical-align: top;
+    width: 72.5%
+}
+
+li.re01 .reply_rew span.replyip {
+    display: inline-block;
+    vertical-align: top;
+    width: 71%
+}
+
+li.re02 .reply_rew span.replyip {
+    display: inline-block;
+    vertical-align: top;
+    width: 69%
+}
+
+.reply_rew span.replyip span.secret {
+    position: absolute;
+    display: inline-block;
+    right: 10px;
+    top: -3px;
+    font-size: 11px;
+    color: #808080;
+    padding: 0 0 -3px 0;
+    font-family: Dotum;
+    letter-spacing: -1px
+}
+
+.reply_rew span.replyip textarea {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d9d9d9;
+    padding: 9px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_input.gif) repeat;
+    font-size: 12px;
+    font-family: Dotum;
+    line-height: 16px
+}
+
+li.reply .reply_rew span.replybt {
+    display: inline-block;
+    vertical-align: top;
+    width: 89px
+}
+
+li.reply .reply_rew span.replybt input {
+    width: 89px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_rpreg02.gif);
+    border: none;
+    cursor: pointer;
+    margin: 0 0 0 25px
+}
+
+li.reply .reply_rew span.replybt a.bno {
+    display: inline-block;
+    width: 89px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_rcancel.gif);
+    border: none;
+    cursor: pointer;
+    margin: 2px 0 0 25px
+}
+
+li.reply .reply_rew span.replybt a.bno span {
+    display: none
+}
+
+/*글작성*/
+
+.write_head {
+    clear: left;
+    padding: 10px 0 0 0
+}
+
+.write_head .wrwrap {
+    width: 100%;
+    float: left;
+    border-top: 2px solid #646464;
+    border-bottom: 1px solid #646464;
+    background: #f7f7f7
+}
+
+.write_head .wrwrap .wh_lf {
+    width: 9%;
+    float: left;
+    padding: 10px;
+    text-align: center
+}
+
+.write_head .wrwrap .wh_rt {
+    width: 88%;
+    float: right;
+    background: #fff
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li {
+    border: 1px solid #e4e4e4;
+    border-top: none;
+    padding: 0 0 4px 0
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li span.th {
+    display: inline-block;
+    width: 96px;
+    font-size: 11px;
+    color: #717171;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 6px 0 0 0;
+    padding: 0 0 0 20px
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li span.td {
+    display: inline-block;
+    width: 80%;
+    font-size: 11px;
+    color: #494949;
+    vertical-align: middle;
+    margin: 6px 0 0 0
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li span.td span.colorp {
+    position: relative;
+    display: inline-block
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li span.td .color {
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    border: 1px solid #d3d3d3;
+    z-index: 9999
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.menu span.th {
+    margin: 0 0 0 0
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.menu input {
+    width: 200px
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.title {
+    height: 40px
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.title input {
+    width: 95%
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.option {
+    height: 40px
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.option span {
+    margin: 12px 0 0 0
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.option input.input_text {
+    width: 34px;
+    height: 6px;
+    margin: 2px 10px 0 10px
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.deco input.input_text {
+    width: 100px;
+    margin: 2px 5px 0 10px
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.deco a.pale {
+    display: inline-block;
+    width: 64px;
+    height: 32px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_palette.gif) no-repeat;
+    vertical-align: middle
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.deco a span {
+    display: none
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li.deco span.td span {
+    color: #3098be;
+    margin: 0 0 0 30px
+}
+
+.write_head .wrwrap .wh_rt ul.wh_list li ul li {
+    border: none
+}
+
+div.editer {
+    clear: left;
+    padding: 10px 0 10px 0
+}
+
+div.bbs_btn a.bt_pre {
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    display: block;
+    width: 95px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_previous.gif)
+}
+
+div.bbs_btn a.bt_reg {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    display: block;
+    width: 75px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_reg.gif)
+}
+
+div.bbs_btn a.bt_reging {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    display: block;
+    width: 75px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_writing.gif)
+}
+
+div.bbs_btn a.bt_icon {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    display: block;
+    width: 75px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_icon.gif)
+}
+
+div.bbs_btn a.bt_icon_emo {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    display: block;
+    width: 75px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_icon_emo.gif)
+}
+
+/*이미지첨부영역*/
+
+.imgboxw ul.imgbox {
+    float: left;
+    width: 745px;
+    border: 1px solid #d4d4d4;
+    padding: 13px;
+    text-align: center
+}
+
+.imgboxw ul.imgbox li {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    float: left;
+    margin: 0 10px 0 10px
+}
+
+.imgboxw ul.imgbox li a {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_del.gif)
+}
+
+.imgboxw ul.imgbox li a span {
+    display: none
+}
+
+.imgboxw ul.imgbox li img {
+    width: 100px;
+    height: 70px
+}
+
+/*갤러리목록*/
+
+ul.gallery {
+    width: 100%;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+}
+
+ul.gallery li.glist {
+    float: left;
+    width: 25%;
+}
+
+ul.gallery li.glist ul.gcont {
+    width: 93%;
+    border: 1px solid #d4d4d4;
+    padding: 4px;
+    margin: 0 0 5px 0
+}
+
+ul.gallery li.glist ul.gcont li.img span.gimg img {
+    width: 100%;
+    height: 140px
+}
+
+ul.gallery li.glist ul.gcont li span.hidden {
+    display: none
+}
+
+ul.gallery li.glist ul.gcont li.view span.vnum,
+ul.gallery li.glist ul.gcont li.view span.date {
+    display: inline-block;
+    width: 48%;
+    margin: 0 0 5px 0;
+    font-size: 11px;
+    color: #818181
+}
+
+ul.gallery li.glist ul.gcont li.view span.date {
+    text-align: right
+}
+
+ul.gallery li.glist ul.gcont li.recomm {
+    width: 90%;
+    position: relative;
+    dispaly: inline-block;
+    height: 18px;
+    margin: 0 10px 0 0;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/ic_bnum.gif) no-repeat 0px 0px;
+    padding: 0 0 0 15px
+}
+
+ul.gallery li.glist ul.gcont li.recomm a.recom {
+    color: #ff6200;
+    text-decoration: none
+}
+
+ul.gallery li.glist ul.gcont li.title span.gtitle a {
+    display: block;
+    font-size: 12px;
+    color: #454545;
+    font-weight: bold;
+    margin: 5px auto 5px auto;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* IE, Safari */
+    -o-text-overflow: ellipsis;
+    /* Opera under 10.7 */
+    overflow: hidden;
+    /* "overflow" value must be different from "visible" */
+    -moz-binding: url('ellipsis.xml#ellipsis');
+}
+
+ul.gallery li.glist ul.gcont li.recomm span.nick {
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    font-size: 11px
+}
+
+ul.gallery li.glist ul.gcont li.recomm span.nick a {
+    color: #656565
+}
+
+ul.gallery li.glist ul.gcont li.recomm span.nick a img {
+    margin-top: -4px;
+}
+
+/*친구찾기 목록*/
+
+.fsearchw {
+    clear: left;
+    border: 1px solid #e0e0e2;
+    padding: 0 0 17px 22px;
+    margin: 6px 0 0 0
+}
+
+.fsearchw .searcht h5 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fa6a25
+}
+
+.fsearchw .searcht p.desc {
+    display: inline-block;
+    color: #919191;
+    font-size: 11px
+}
+
+.fsearchw ul.searcha {
+    position: relative
+}
+
+.fsearchw ul.searcha li {
+    line-height: 27px
+}
+
+.fsearchw ul.searcha li span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #717171;
+    font-weight: bold;
+    margin: 3px 0 0 0
+}
+
+.fsearchw ul.searcha li span.th01 {
+    width: 110px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_arrow.gif) no-repeat 0px 9px;
+    padding: 0 0 0 10px
+}
+
+.fsearchw ul.searcha li span.th02 {
+    width: 88px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_arrow.gif) no-repeat 0px 9px;
+    padding: 0 0 0 10px
+}
+
+.fsearchw ul.searcha li span.th03 {
+    width: 54px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_arrow.gif) no-repeat 0px 9px;
+    padding: 0 0 0 10px
+}
+
+.fsearchw ul.searcha li span.td {
+    width: 160px
+}
+
+.fsearchw ul.searcha li span input {
+    padding: 5px
+}
+
+.fsearchw ul.searcha li span.td_input input {
+    width: 60px
+}
+
+.fsearchw ul.searcha li ul.select_bbs li.select_box {
+    position: relative;
+    width: 80px
+}
+
+.fsearchw ul.searcha li ul.select_bbs li.select_box span.select_bt {
+    position: absolute;
+    top: -5px;
+    right: 8px;
+    cursor: pointer
+}
+
+.fsearchw li.btsearch {
+    position: absolute;
+    bottom: 0px;
+    right: 55px
+}
+
+.fsearchw li.btsearch a {
+    width: 75px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_fsearch.gif);
+    display: block
+}
+
+.fsearchw li.btsearch a span {
+    display: none
+}
+
+.flistw {
+    clear: left
+}
+
+.flistw table.flist {
+    width: 100%;
+    border-top: 2px solid #646464;
+    border-bottom: 1px solid #646464
+}
+
+.flistw table.flist td {
+    border-bottom: 1px solid #e5e5e5;
+    line-height: 20px;
+    padding: 8px 6px
+}
+
+.flistw table.flist td.img {
+    width: 11%;
+    vertical-align: top;
+    text-align: center
+}
+
+.flistw table.flist td.info {
+    vertical-align: top;
+    padding-left: 0px;
+    padding-right: 0px
+}
+
+.flistw table.flist td.info span.nick {
+    float: left;
+    width: 70px
+}
+
+.flistw table.flist td.info ul.uinfo {
+    float: left;
+    width: 380px;
+    padding: 2px 0 0 0
+}
+
+.flistw table.flist td.info ul.uinfo li {
+    float: left;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_article.gif) no-repeat 0px 7px;
+    padding: 0 6px 0 6px;
+    font-size: 11px;
+    color: #a1a1a1;
+    line-height: 16px
+}
+
+.flistw table.flist td.info ul.uinfo li.td01 {
+    width: 110px
+}
+
+.flistw table.flist td.info ul.uinfo li.td02 {
+    width: 240px
+}
+
+.flistw table.flist td.info ul.uinfo li.td03 {
+    width: 110px
+}
+
+.flistw table.flist td.info ul.uinfo li.td04 {
+    width: 240px
+}
+
+.flistw table.flist td.info a.user {
+    color: #656565;
+    font-weight: bold
+}
+
+.flistw table.flist td.info p.title {
+    clear: left;
+    color: 3656565;
+    padding: 8px 0 0 0
+}
+
+.flistw table.flist td.info p.title span {
+    color: #319db6;
+    font-size: 11px
+}
+
+.flistw table.flist td.kakao {
+    width: 14%;
+    vertical-align: middle;
+    text-align: center;
+    color: #929292
+}
+
+.flistw table.flist td.view {
+    width: 13%;
+    vertical-align: middle;
+    text-align: center;
+    color: #656565
+}
+
+.flistw table.flist td span.vnum,
+.flistw table.flist td span.kacount {
+    font-size: 11px;
+    display: block;
+    color: #656565
+}
+
+.flistw table.flist td span.vnum span {
+    color: #818181
+}
+
+div.bbs_btn a.bt_addf {
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    width: 110px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_addf.gif) no-repeat
+}
+
+/*친구찾기 상세보기*/
+
+.fshw {
+    width: 100%
+}
+
+.fshw ul.fsh {
+    border-bottom: 1px solid #d0d0d0;
+    background: #f4f8fc;
+    padding: 19px 0
+}
+
+.fshw ul.fsh li {
+    border-left: 1px solid #d1d1d1;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 15px
+}
+
+.fshw ul.fsh li.start {
+    border-left: none
+}
+
+.fshw ul.fsh li span {
+    line-height: 16px
+}
+
+.fshw ul.fsh li span.th {
+    font-size: 11px;
+    font-weight: bold;
+    color: #717171;
+    text-align: center;
+    display: block
+}
+
+.fshw ul.fsh li span.td {
+    font-size: 11px;
+    color: #717171;
+    text-align: center;
+    display: block
+}
+
+/*게시판 메인*/
+
+.bbs_mainw {
+    margin: 7px 0 0 0
+}
+
+.bbs_mainw .indexw {
+    float: left;
+    width: 750px;
+    border: 1px solid #d0d0d0;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_verti.gif) repeat-y;
+    padding: 14px 10px;
+    margin: 0 0 10px 0
+}
+
+.bbs_mainw .indexhot {
+    float: left;
+    width: 750px;
+    border: 1px solid #d0d0d0;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_verti.gif) repeat-y;
+    padding: 14px 10px;
+    margin: 0 0 10px 0
+}
+
+.bbs_mainw .indexgw {
+    float: left;
+    width: 750px;
+    border: 1px solid #d0d0d0;
+    padding: 14px 10px;
+    margin: 0 0 10px 0;
+    position: relative
+}
+
+.bbs_mainw h5 {}
+
+.bbs_mainw h5.hot {
+    height: 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 0px -17px
+}
+
+.bbs_mainw h5.all {
+    height: 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 0px -69px
+}
+
+.bbs_mainw h5.besthot {
+    height: 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 0px -119px
+}
+
+.bbs_mainw h5.besthotrp {
+    height: 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 0px -170px
+}
+
+.bbs_mainw h5.friend {
+    height: 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 0px -219px
+}
+
+.bbs_mainw h5.mranking {
+    height: 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 0px -269px
+}
+
+.bbs_mainw h5.galle {
+    height: 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 0px -320px
+}
+
+.bbs_mainw h5.sell {
+    height: 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 0px -370px
+}
+
+.bbs_mainw h5.buy {
+    height: 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 0px -421px
+}
+
+mm .bbs_mainw h5 {
+    margin: 0;
+    padding: 0
+}
+
+.bbs_mainw h5 span {
+    display: none
+}
+
+.bbs_mainw .hotw,
+.bbs_mainw .besthotw,
+.bbs_mainw .friendw,
+.bbs_mainw .sellw {
+    float: left;
+    width: 50%;
+    position: relative
+}
+
+.bbs_mainw .allw,
+.bbs_mainw .besthotrpw,
+.bbs_mainw .mrankingw,
+.bbs_mainw .buyw {
+    float: right;
+    width: 48%;
+    position: relative
+}
+
+ul.imglist li span.img {
+    position: relative
+}
+
+ul.imglist li span.img img {
+    width: 364px;
+    height: 206px;
+    margin: 10px 0 0 0
+}
+
+ul.imglist li span.title {
+    width: 344px;
+    display: block;
+    position: absolute;
+    top: 189px;
+    left: 0px;
+    padding: 15px 10px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_btitle.png);
+    vertical-align: middle;
+    text-align: center
+}
+
+ul.imglist li span.title a {
+    color: #fff
+}
+
+span.morew {
+    position: absolute;
+    top: 2px;
+    right: 0px
+}
+
+span.morew a {
+    display: block;
+    width: 45px;
+    height: 16px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_arrow_rt.gif) no-repeat 35px 2px;
+    font-size: 11px;
+    color: #8d8d8d
+}
+
+ul.nlist {
+    margin: 10px 0 0 0
+}
+
+ul.nlist li {
+    line-height: 20px;
+    padding: 0 0 0 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_article.gif) no-repeat 5px 8px
+}
+
+ul.nlist li a {
+    color: #434343
+}
+
+ul.galist {
+    margin: 10px 0 0 0;
+    text-align: center
+}
+
+ul.galist li {
+    width: 100px
+}
+
+ul.galist li {
+    display: inline-block;
+    margin: 0 10px 0 10px
+}
+
+ul.galist li span.thum {
+    display: block;
+    text-align: center
+}
+
+ul.galist li span.thum img {
+    width: 100px;
+    height: 70px
+}
+
+ul.galist li span.title {
+    display: block;
+    margin: 5px 0 0 0
+}
+
+ul.galist li span.title a {
+    font-size: 11px;
+    color: #434343
+}
+
+.indexgw span.morew {
+    position: absolute;
+    top: 15px;
+    right: 10px
+}
+
+ul.list_lf li {
+    width: 117px;
+    float: left;
+    font-size: 11px;
+    margin: 5px 1px 0 0
+}
+
+ul.list_lf li ul li {
+    padding: 0 0 5px 10px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+ul.list_lf li ul li a {
+    color: #656565
+}
+
+ul.list_lf li.title {
+    text-align: center;
+    color: #fff;
+    background: #8c929a;
+    padding: 8px 0
+}
+
+ul.list_rt li {
+    width: 177px;
+    float: left;
+    font-size: 11px;
+    margin: 5px 1px 0 0
+}
+
+ul.list_rt li ul li a {
+    color: #656565
+}
+
+ul.list_rt li ul li {
+    padding: 0 0 5px 10px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+ul.list_rt li.title {
+    text-align: center;
+    color: #fff;
+    background: #8c929a;
+    padding: 8px 0
+}
+
+/*게임순위 상세보기*/
+
+.bbslf_title {
+    margin: 0 0 10px 0
+}
+
+p.lfmt span.title05 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -191px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt span.title06 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -218px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt span.title07 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -245px;
+    border: 1px solid #da3b0b
+}
+
+.bbstitle span.rute {
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_route.gif) no-repeat 0px 3px;
+    padding: 0 0 0 17px;
+    color: 8a8a8a;
+    font-size: 11px
+}
+
+.bbstitle span.rute a {
+    font-weight: normal;
+    color: #8a8a8a
+}
+
+.sgcwarp {
+    float: left;
+    width: 772px
+}
+
+.ginfo {
+    float: left;
+    width: 422px;
+    height: 166px;
+    position: relative;
+    border: 1px solid #e2e2e2;
+    background: #fffaee;
+    margin: 10px 0 10px 0
+}
+
+.ginfo p.appimg {
+    width: 134px;
+    float: left;
+    padding: 14px 0 14px 14px
+}
+
+.ginfo p.appimg img {
+    width: 120px;
+    height: 120px
+}
+
+.ginfo ul {
+    float: right;
+    width: 267px;
+    margin: 18px 0 0 0
+}
+
+.ginfo ul li {
+    margin: 6px 0 0 0;
+    font-size: 11px
+}
+
+.ginfo ul li.apptitle {
+    font-size: 16px;
+    font-weight: bold
+}
+
+.ginfo ul li.genre {
+    margin: 10px 0 0 0;
+    color: #828282;
+}
+
+.ginfo ul li.com {
+    margin: 8px 0 0 0;
+    color: #828282;
+}
+
+.ginfo ul li.store {
+    font-size: 11px;
+    color: #828282;
+}
+
+.ginfo ul li.store span.apple {
+    display: inline-block;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/ic_apple01.png) no-repeat 0px -2px;
+    padding: 2px 10px 2px 17px
+}
+
+.ginfo ul li.store span.storen {
+    display: none
+}
+
+.ginfo ul li.store span.google {
+    display: inline-block;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/ic_google01.png) no-repeat 0px -1px;
+    padding: 2px 0 2px 17px
+}
+
+.ginfo ul li.bbs {
+    text-align: right
+}
+
+.ginfo ul li.bbs a.gobbs {
+    display: inline-block;
+    position: absolute;
+    bottom: 14px;
+    right: 4px;
+    width: 127px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bt_gobbs.gif) no-repeat;
+    margin: 6px 10px 0 0
+}
+
+.ginfo ul li.store span.storen,
+.ginfo ul li.price span.appprice span,
+.ginfo ul li.bbs a.gobbs span,
+.graf ul.rank li.apprank span.rankn {
+    display: none
+}
+
+.graf ul.rank li.apprank {
+    width: 72px;
+    height: 90px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_rank.png) no-repeat 5px 10px;
+    padding: 52px 0 0 0
+}
+
+.ginfo ul li.price {
+    position: absolute;
+    bottom: 14px;
+    left: 155px
+}
+
+.ginfo ul li.price span.appprice span.free {
+    width: 35px;
+    display: block;
+    padding: 4px 0;
+    background: #7ec505;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff
+}
+
+.ginfo ul li.price span.appprice span.nfree {
+    width: 35px;
+    display: block;
+    padding: 4px 0;
+    background: #fd9336;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff
+}
+
+.graf {
+    float: right;
+    width: 338px;
+    position: relative;
+    border: 1px solid #e2e2e2;
+    margin: 10px 0 10px 0
+}
+
+.graf ul.rank {
+    float: left;
+    width: 83px;
+    text-align: center
+}
+
+.graf ul.rank li {
+    font-size: 11px;
+    color: #828282
+}
+
+.graf ul.rank li span.num {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #f24209;
+    margin: 0 0 4px 0;
+    font-family: Tahoma
+}
+
+.graf ul.rank li.rankd {
+    position: absolute;
+    bottom: 8px;
+    left: 4px
+}
+
+.graf p.grafz {
+    float: right;
+    width: 247px;
+    padding: 8px 8px 8px 0
+}
+
+.sgcwarp p.dtitle {
+    clear: left;
+    line-height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_dtitle.png) no-repeat 5px 5px;
+    border-bottom: 2px solid #646464;
+    font-size: 16px;
+    color: #474747;
+    margin: 10px 0 0 0;
+    padding: 0 0 5px 20px;
+    font-weight: bold
+}
+
+ul.appdown {
+    float: left;
+    width: 260px;
+    padding: 24px 0 0 12px
+}
+
+ul.appdown li {
+    float: left;
+    padding: 0;
+    margin: 0
+}
+
+ul.appdown li a {
+    display: inline-block;
+    width: 80px;
+    height: 21px;
+    margin: 0 5px 5px 0;
+    padding: 10px 0 0 35px;
+    color: #676767
+}
+
+ul.appdown li a span {
+    display: none
+}
+
+ul.appdown li a.google {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store02.gif) no-repeat -1px -1px
+}
+
+ul.appdown li a.appstore {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store02.gif) no-repeat -1px -33px
+}
+
+ul.appdown li a.uplus {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store02.gif) no-repeat -1px -65px
+}
+
+ul.appdown li a.tstore {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store02.gif) no-repeat -1px -97px;
+    width: 60px;
+    padding: 10px 0 0 55px
+}
+
+ul.appdown li a.olleh {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store02.gif) no-repeat -1px -129px;
+    width: 65px;
+    padding: 10px 0 0 50px
+}
+
+ul.appdown li a.naver {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store02.gif) no-repeat -1px -161px;
+    width: 65px;
+    padding: 10px 0 0 50px
+}
+
+ul.appdown li a.onestore {
+    width: 65px;
+    padding: 10px 0 0 50px;
+    background: url('http://appdata.hungryapp.co.kr/images/gamedb/bg_store04.gif') no-repeat -1px -193px;
+}
+
+ul.appdown li a.google_d {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store03.gif) no-repeat -1px -1px
+}
+
+ul.appdown li a.appstore_d {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store03.gif) no-repeat -1px -33px
+}
+
+ul.appdown li a.uplus_d {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store03.gif) no-repeat -1px -65px
+}
+
+ul.appdown li a.tstore_d {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store03.gif) no-repeat -1px -97px;
+    width: 60px;
+    padding: 10px 0 0 55px
+}
+
+ul.appdown li a.olleh_d {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store03.gif) no-repeat -1px -129px;
+    width: 65px;
+    padding: 10px 0 0 50px
+}
+
+ul.appdown li a.naver_d {
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_store03.gif) no-repeat -1px -161px;
+    width: 65px;
+    padding: 10px 0 0 50px
+}
+
+ul.appdown li a.onestore_d {
+    width: 65px;
+    padding: 10px 0 0 50px;
+    background: url('http://appdata.hungryapp.co.kr/images/gamedb/bg_store05.gif') no-repeat -1px -193px;
+}
+
+p.hungryapp {
+    float: right;
+    width: 434px;
+    padding: 21px 0 0 66px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/ic_down.png) no-repeat 0px 21px;
+    font-size: 11px;
+    color: #676767;
+    line-height: 14px
+}
+
+p.hungryapp span.btn {
+    display: block;
+    margin: 10px 0 0 0
+}
+
+p.hungryapp span.btn a span {
+    display: none
+}
+
+p.hungryapp span.btn a.sms {
+    display: inline-block;
+    width: 195px;
+    height: 27px;
+    color: #fff;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bt_sms.gif) no-repeat
+}
+
+p.hungryapp span.btn a.down {
+    display: inline-block;
+    width: 195px;
+    height: 27px;
+    color: #fff;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bt_down.gif) no-repeat;
+    margin: 0 0 0 10px
+}
+
+.sgcwarp01 {
+    float: left;
+    position: relative;
+    margin: 20px 0 0 0
+}
+
+.sgcwarp01 p.dtitle {
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_dtitle.png) no-repeat 5px 5px;
+    font-size: 16px;
+    color: #474747;
+    padding: 0 0 0 20px;
+    margin: 0 0 8px 0;
+    font-weight: bold
+}
+
+.revieww {
+    float: left;
+    width: 772px;
+    border-top: 2px solid #676767;
+    border-bottom: 1px solid #e3e3e3;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_review.gif) repeat-y
+}
+
+.revieww .revlf {
+    float: left;
+    width: 227px;
+    background: #f8f8f8
+}
+
+.revieww .revrt {
+    float: right;
+    width: 543px
+}
+
+p.nowpoint {
+    position: relative;
+    height: 81px;
+    background: #fdfbf5;
+    border-bottom: 1px solid #f0efec
+}
+
+p.nowpoint span.desc {
+    display: block;
+    color: #fa6a25;
+    font-size: 11px;
+    padding: 20px 0 0 10px
+}
+
+p.nowpoint span.mask {
+    position: absolute;
+    width: 133px;
+    height: 23px;
+    top: 40px;
+    left: 10px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starpbg01.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+p.nowpoint span.bar {
+    position: absolute;
+    display: block;
+    width: 133px;
+    height: 23px;
+    top: 40px;
+    left: 10px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starp01.png) no-repeat
+}
+
+p.nowpoint span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 23px;
+    background: #f4222a
+}
+
+p.nowpoint span.score {
+    position: absolute;
+    top: 40px;
+    right: 25px;
+    font-weight: bold;
+    color: #3098be;
+    font-size: 25px
+}
+
+p.before {
+    position: relative;
+    height: 36px;
+    background: #fdfbf5;
+    border-bottom: 1px solid #f0efec
+}
+
+p.before span.desc {
+    display: block;
+    color: #fa6a25;
+    font-size: 11px;
+    padding: 14px 0 0 10px
+}
+
+p.before span.mask {
+    position: absolute;
+    width: 88px;
+    height: 15px;
+    top: 11px;
+    left: 80px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starpbg02.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+p.before span.bar {
+    position: absolute;
+    display: block;
+    width: 88px;
+    height: 15px;
+    top: 11px;
+    left: 80px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starp02.png) no-repeat
+}
+
+p.before span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background: #f4222a
+}
+
+p.before span.score {
+    position: absolute;
+    top: 11px;
+    right: 25px;
+    font-weight: bold;
+    color: #4f4f4f;
+    font-size: 16px
+}
+
+p.after {
+    position: relative;
+    height: 36px;
+    background: #fdfbf5;
+    border-bottom: 1px solid #f0efec
+}
+
+p.after span.desc {
+    display: block;
+    color: #fa6a25;
+    font-size: 11px;
+    padding: 14px 0 0 10px
+}
+
+p.after span.mask {
+    position: absolute;
+    width: 88px;
+    height: 15px;
+    top: 11px;
+    left: 80px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starpbg02.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+p.after span.bar {
+    position: absolute;
+    display: block;
+    width: 88px;
+    height: 15px;
+    top: 11px;
+    left: 80px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starp02.png) no-repeat
+}
+
+p.after span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background: #f4222a
+}
+
+p.after span.score {
+    position: absolute;
+    top: 11px;
+    right: 25px;
+    font-weight: bold;
+    color: #4f4f4f;
+    font-size: 16px
+}
+
+ul.percent {
+    padding: 20px 0 6px 25px;
+    position: relative
+}
+
+ul.percent li {
+    position: relative;
+    height: 22px
+}
+
+ul.percent li.parti {
+    text-align: right;
+    padding: 12px 20px 0 0;
+    font-size: 11px;
+    color: #878787
+}
+
+ul.percent li span.point {
+    font-size: 11px;
+    color: #535353;
+    text-decoration: underline
+}
+
+.percent li span.mask {
+    position: absolute;
+    width: 68px;
+    height: 10px;
+    top: 0px;
+    left: 44px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starpbg.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+.percent li span.bar {
+    position: absolute;
+    display: block;
+    width: 68px;
+    height: 10px;
+    top: 0px;
+    left: 44px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starp.png) no-repeat
+}
+
+.percent li span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background: #f4222a
+}
+
+.percent li span.score {
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    color: #878787
+}
+
+.percent li.five span.score {
+    position: absolute;
+    top: 0px;
+    left: 130px;
+    color: #f4222a
+}
+
+p.wreview {
+    position: relative;
+    padding: 24px 0 0 0;
+    height: 40px
+}
+
+p.wreview span.desc {
+    display: block;
+    color: #fa6a25;
+    font-size: 11px;
+    padding: 14px 0 0 10px
+}
+
+p.wreview span.mask {
+    position: absolute;
+    width: 88px;
+    height: 15px;
+    top: 26px;
+    left: 17px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starpbg02.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+p.wreview span.bar {
+    position: absolute;
+    display: block;
+    width: 88px;
+    height: 15px;
+    top: 26px;
+    left: 17px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starp02.png) no-repeat
+}
+
+p.wreview span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background: #f4222a
+}
+
+p.wreview span.score {
+    position: absolute;
+    top: 26px;
+    left: 108px;
+    font-weight: bold;
+    color: #4f4f4f;
+    font-size: 16px
+}
+
+p.wreview span.title {
+    position: absolute;
+    top: 28px;
+    left: 150px;
+    display: block;
+    width: 57px;
+    height: 12px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_revieww.gif) no-repeat
+}
+
+p.wreview span.title span {
+    display: none
+}
+
+p.wreview span.input input {
+    width: 210px;
+    padding: 6px;
+    position: absolute;
+    top: 20px;
+    left: 220px
+}
+
+p.wreview span.btn input {
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    width: 81px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bt_review.gif) no-repeat;
+    border: none;
+    cursor: pointer
+}
+
+ul.revlist {
+    position: relative;
+    border-top: 1px solid #f05526;
+    margin: 30px 20px 0 20px
+}
+
+ul.revlist li.rl a.tabm01 {
+    position: absolute;
+    top: -33px;
+    left: 0px;
+    display: block;
+    width: 78px;
+    height: 21px;
+    padding-top: 10px;
+    text-align: center;
+    background: #f1f1f1;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    color: #696a6a;
+    font-size: 11px;
+    z-index: 10
+}
+
+ul.revlist li.rl a.tabm02 {
+    position: absolute;
+    top: -33px;
+    left: 78px;
+    display: block;
+    width: 78px;
+    height: 21px;
+    padding-top: 10px;
+    text-align: center;
+    background: #f1f1f1;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    color: #696a6a;
+    font-size: 11px;
+    z-index: 1
+}
+
+ul.revlist li.rl a.select {
+    background: #fff;
+    color: #f05526;
+    border: 1px solid #f05526;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+    z-index: 99
+}
+
+ul.recently {
+    padding: 20px 0 6px 0;
+    position: relative
+}
+
+ul.recently li {
+    position: relative;
+    line-height: 16px;
+    font-size: 11px;
+    color: #434343;
+    margin: 0 0 5px 0
+}
+
+ul.recently li span {
+    vertical-align: top
+}
+
+ul.recently li span.num {
+    color: #ff6200
+}
+
+ul.recently li span.rev {
+    display: inline-block;
+    width: 260px;
+    overflow: hidden;
+    padding: 0 0 0 80px;
+    word-break: break-all
+}
+
+ul.recently li .lmenuw {
+    position: absolute;
+    top: 0px;
+    right: 0px
+}
+
+ul.recently li span.writer a.user {
+    display: inline-block;
+    position: relative
+}
+
+ul.recently li span.lnum {
+    display: inline-block;
+    width: 45px;
+    text-align: center;
+    color: #878787
+}
+
+ul.recently li a {
+    color: #656565;
+    font-size: 12px
+}
+
+ul.recently li.parti {
+    text-align: right;
+    padding: 0 20px 0 0;
+    font-size: 11px;
+    color: #878787
+}
+
+ul.recently li span.point {
+    font-size: 11px;
+    color: #535353;
+    text-decoration: underline
+}
+
+ul.recently li span.mask {
+    position: absolute;
+    width: 68px;
+    height: 10px;
+    top: 3px;
+    left: 49px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starpbg.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+ul.recently li span.bar {
+    position: absolute;
+    display: block;
+    width: 68px;
+    height: 10px;
+    top: 3px;
+    left: 49px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starp.png) no-repeat
+}
+
+ul.recently li span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background: #f4222a
+}
+
+.revrt .ppaging {
+    margin: 0 0 0 0
+}
+
+.gameinfow {
+    border-top: 2px solid #676767;
+    float: left;
+    width: 772px
+}
+
+.gameinfow .review {
+    clear: left;
+    padding: 10px 0
+}
+
+.gameinfow .screens {
+    clear: left;
+    padding: 10px 0
+}
+
+.gameinfow .movie {
+    clear: left;
+    padding: 10px 0
+}
+
+.gameinfow ul.head {
+    position: relative;
+    float: left;
+    width: 100%
+}
+
+.gameinfow ul.head li {
+    float: left;
+    vertical-align: middle
+}
+
+.gameinfow ul.head li.pimgw {}
+
+.gameinfow ul.head li.unick {
+    padding: 10px 5px 0 5px
+}
+
+.gameinfow ul.head li.unick a {
+    font-size: 11px;
+    color: #6e6e6e
+}
+
+.gameinfow ul.head li.title {
+    width: 500px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    padding: 7px 0 0 0;
+    line-height: 18px
+}
+
+.gameinfow ul.head li.gorev {
+    float: right
+}
+
+.gameinfow ul.head li.gorev a.bt_gorev {
+    display: block;
+    width: 117px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bt_goreview.gif) no-repeat;
+    margin: 4px 0 0 0
+}
+
+.gameinfow ul.head li.gorev a.bt_gorev span {
+    display: none
+}
+
+.gameinfow .contents {
+    clear: left;
+    padding: 20px;
+    margin: 0 0 20px 0
+}
+
+.gameinfow .close {
+    height: 320px;
+    overflow: hidden
+}
+
+.gameinfow p.bt_chidden {
+    float: right
+}
+
+.gameinfow p.bt_chidden a {
+    width: 40px
+}
+
+.sgcwarp02 {
+    float: left;
+    width: 770px;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 0;
+    border: 1px solid #cdcdcd
+}
+
+.sgcwarp02 .rnewsw {
+    float: left;
+    position: relative;
+    width: 306px;
+    border-right: 1px solid #cdcdcd;
+    padding: 10px
+}
+
+.sgcwarp02 .rnewsw span.morew {
+    display: block;
+    top: 18px;
+    right: 5px
+}
+
+.sgcwarp02 .revww span.morew {
+    display: block;
+    top: 18px;
+    right: 5px
+}
+
+.sgcwarp02 .rnewsw h5.newst {
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 8px -465px;
+    margin: 0
+}
+
+.sgcwarp02 .revww h5.reviewt {
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_indext.png) no-repeat 8px -518px;
+    margin: 0
+}
+
+.sgcwarp02 .rnewsw h5.newst span,
+.sgcwarp02 .revww h5.reviewt span {
+    display: none
+}
+
+.sgcwarp02 .revww {
+    float: right;
+    position: relative;
+    width: 423px;
+    border-left: 1px solid #cdcdcd;
+    margin: 0 0 0 -1px;
+    padding: 10px
+}
+
+.sgcwarp02 .revww span.cont {
+    display: inline-block;
+    width: 280px;
+    vertical-align: top
+}
+
+.sgcwarp02 .revww li span.writer {
+    padding: 0 0 0 10px
+}
+
+.sgcwarp02 .revww li span.writer a {
+    font-size: 11px;
+    color: #2c2c2c
+}
+
+ul.nlist {
+    margin: 10px 0 0 0
+}
+
+ul.nlist li {
+    line-height: 20px;
+    padding: 0 0 0 15px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_article.gif) no-repeat 5px 8px
+}
+
+ul.nlist li a {
+    color: #434343
+}
+
+.movie table.moviet {
+    width: 100%
+}
+
+.movie table.moviet td.td01 {
+    text-align: center;
+    border-right: 1px solid #dadada;
+    padding: 0 10px
+}
+
+.movie table.moviet td.td02 {
+    text-align: center;
+    vertical-align: top
+}
+
+.movie table.moviet td.td01 span.title {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: #010101;
+    padding: 3px 0 3px 5px
+}
+
+/*게임순위 목록*/
+
+.sgsw {
+    float: left;
+    margin: 0 0 8px 0
+}
+
+.sgsw .sgsbox {
+    float: left;
+    position: relative;
+    width: 730px;
+    border: 1px solid #e0e0e2;
+    padding: 15px 20px;
+    height: 140px
+}
+
+.sgsw .sgsbox .sgsearch span {
+    display: inline-block
+}
+
+.sgsw .sgsbox .sgsearch span.select input {
+    padding: 6px 5px
+}
+
+.sgsw .sgsbox .sgsearch span.inputf {
+    padding: 0 0 0 10px
+}
+
+.sgsw .sgsbox .sgsearch span.inputf input {
+    width: 500px;
+    padding: 6px 5px
+}
+
+.sgsw .sgsbox .sgsearch span.select li.select {
+    width: 100px
+}
+
+.sgsw .sgsbox .sgsearch span.select li.select_box {
+    width: 120px;
+    position: relative
+}
+
+.sgsw .sgsbox .sgsearch span.select li.select_box input {
+    width: 100%
+}
+
+.sgsw .sgsbox .sgsearch span.select li.select_box span.select_bt {
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    cursor: pointer
+}
+
+.sgsw .sgsbox h5 {
+    font-size: 12px;
+    color: #fa6a25;
+    font-weight: bold;
+    margin: 14px 0 14px 0
+}
+
+.sgsw .sgsbox ul.sgs li {
+    line-height: 18px;
+    height: 22px;
+    margin: 0 0 6px 0;
+    float: left;
+    line-height: 140%;
+}
+
+.sgsw .sgsbox ul.sgs li.td01 {
+    width: 70px
+}
+
+.sgsw .sgsbox ul.sgs li.td02 {
+    width: 40px;
+    text-align: center
+}
+
+.sgsw .sgsbox ul.sgs li.td03 {
+    width: 600px;
+}
+
+.sgsw .sgsbox ul.sgs li span {
+    display: inline-block;
+    padding: 0 10px
+}
+
+.sgsw .sgsbox ul.sgs li span.th {
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    color: #959595;
+    font-weight: bold;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_arrowr.gif) no-repeat 0px 4px
+}
+
+.sgsw .sgsbox ul.sgs li.td03 {
+    width: 590px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.sgsw .sgsbox ul.sgs li.td03 input {
+    margin: 0 2px 0 6px;
+    padding: 0
+}
+
+.sgsw .sgsbox ul.sgs li a {
+    display: inline-block;
+    color: #595959;
+    padding: 0 3px
+}
+
+.sgsw .sgsbox ul.sgs li a:hover {
+    color: #595959;
+    background: #fef0c7;
+    text-decoration: none
+}
+
+.sgcwarp table.list {
+    clear: left;
+    width: 100%;
+    border-bottom: 1px solid #676767
+}
+
+.sgcwarp table.list td {
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 5px 10px
+}
+
+.sgcwarp table.list td.td01 span.rank {
+    display: block;
+    width: 67px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_rank.png) no-repeat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f24209;
+    text-align: center;
+    padding: 42px 0 0 0;
+    font-family: Tahoma
+}
+
+.sgcwarp table.list td.td01 span.up {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_up.gif) no-repeat 0px 2px;
+    padding: 0 0 0 10px;
+    color: #9a9a9a;
+    font-size: 11px;
+    font-weight: bold;
+    ;
+    font-family: Tahoma
+}
+
+.sgcwarp table.list td.td01 span.down {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_dwon.gif) no-repeat 0px 2px;
+    padding: 0 0 0 10px;
+    color: #9a9a9a;
+    font-size: 11px;
+    font-weight: bold;
+    ;
+    font-family: Tahoma
+}
+
+.sgcwarp table.list td.td02 span.appimgw img {
+    width: 90px;
+    height: 90px
+}
+
+.sgcwarp table.list td.td03 ul li {
+    line-height: 16px;
+    padding: 3px 0
+}
+
+.sgcwarp table.list td.td03 ul li.title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0d0d0d;
+}
+
+.sgcwarp table.list td.td03 ul li.desc {
+    color: #0d0d0d
+}
+
+.sgcwarp table.list td.td03 ul li.desc span.inst {
+    color: #4c87c3;
+    font-weight: bold
+}
+
+.sgcwarp table.list td.td03 ul li.desc span.player {
+    color: #f65c00;
+    font-weight: bold
+}
+
+.sgcwarp table.list td.td03 ul li.view {
+    font-size: 11px;
+    color: #828282;
+}
+
+.sgcwarp table.list td.td03 ul li.view span.divi {
+    color: #c6c6c6
+}
+
+.sgcwarp table.list td.td03 span.free {
+    width: 35px;
+    display: inline-block;
+    padding: 2px 0 1px 0;
+    background: #7ec505;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+    ;
+    vertical-align: top;
+    font-weight: normal;
+    margin: 0 0 0 0
+}
+
+.sgcwarp table.list td.td03 span.nfree {
+    width: 35px;
+    display: inline-block;
+    padding: 2px 0 1px 0;
+    background: #fd9336;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+    vertical-align: top;
+    font-weight: normal;
+    margin: 0 0 0 0
+}
+
+.sgcwarp table.list td.td05 ul li.point span.desc {
+    display: block;
+    font-size: 11px;
+    color: #656565;
+    text-align: center
+}
+
+.sgcwarp table.list td.td05 ul li.point span.num {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #3098be;
+    text-align: center;
+    ;
+    font-family: Arial
+}
+
+.sgcwarp table.list td.td05 ul li.parti {
+    font-size: 11px;
+    color: #656565;
+    text-align: center
+}
+
+.sgcwarp table.list td.td06 {
+    text-align: center
+}
+
+.sgcwarp table.list td.td06 span {
+    display: block;
+    font-size: 11px;
+    color: #656565;
+    margin: 5px 0 0 0
+}
+
+.sgcwarp table.list td.td01 {
+    width: 67px
+}
+
+.sgcwarp table.list td.td02 {
+    width: 90px
+}
+
+.sgcwarp table.list td.td04 {
+    width: 50px
+}
+
+.sgcwarp table.list td.td05 {
+    width: 80px
+}
+
+.sgcwarp table.list td.td06 {
+    width: 60px
+}
+
+td.td05 ul li.starb {
+    position: relative;
+    margin: 10px 0 0 0
+}
+
+td.td05 ul li.starb span.mask {
+    position: absolute;
+    width: 68px;
+    height: 10px;
+    top: 0px;
+    left: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starpbg.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+td.td05 ul li.starb span.bar {
+    position: absolute;
+    display: block;
+    width: 68px;
+    height: 10px;
+    top: 0px;
+    left: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starp.png) no-repeat
+}
+
+td.td05 ul li.starb span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background: #f4222a
+}
+
+td.td05 ul li.starb span.score {
+    position: absolute;
+    top: 0px;
+    left: 6px;
+    color: #878787
+}
+
+.sgcwarp table.list02 {
+    clear: left;
+    width: 100%;
+    border-bottom: 1px solid #676767
+}
+
+.sgcwarp table.list02 td {
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 5px 10px
+}
+
+.sgcwarp table.list02 td.td01 span.rank {
+    display: block;
+    width: 67px;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_rank.png) no-repeat;
+    font-size: 14px;
+    font-weight: bold;
+    color: #f24209;
+    text-align: center;
+    padding: 42px 0 0 0;
+    font-family: Tahoma
+}
+
+.sgcwarp table.list02 td.td01 span.up {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_up.gif) no-repeat 0px 2px;
+    padding: 0 0 0 10px;
+    color: #9a9a9a;
+    font-size: 11px;
+    font-weight: bold;
+    ;
+    font-family: Tahoma
+}
+
+.sgcwarp table.list02 td.td01 span.down {
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_dwon.gif) no-repeat 0px 2px;
+    padding: 0 0 0 10px;
+    color: #9a9a9a;
+    font-size: 11px;
+    font-weight: bold;
+    ;
+    font-family: Tahoma
+}
+
+.sgcwarp table.list02 td.td02 span.appimgw img {
+    width: 38px;
+    height: 38px
+}
+
+.sgcwarp table.list02 td.td03 ul li {
+    line-height: 16px;
+    padding: 1px 0;
+    display: inline-block
+}
+
+.sgcwarp table.list02 td.td03 ul li.title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0d0d0d;
+}
+
+.sgcwarp table.list02 td.td07 ul li.title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0d0d0d;
+}
+
+.sgcwarp table.list02 td.td07 ul li.title span.tnum {
+    font-size: 16px;
+    color: #3098be;
+    font-weight: normal
+}
+
+.sgcwarp table.list02 td.td03 ul li.desc {
+    color: #0d0d0d
+}
+
+.sgcwarp table.list02 td.td03 ul li.desc span.inst {
+    color: #4c87c3;
+    font-weight: bold
+}
+
+.sgcwarp table.list02 td.td03 ul li.desc span.player {
+    color: #f65c00;
+    font-weight: bold
+}
+
+.sgcwarp table.list02 td.td03 ul li.view {
+    font-size: 11px;
+    color: #828282;
+}
+
+.sgcwarp table.list02 td.td03 ul li.view span.divi {
+    color: #c6c6c6
+}
+
+.sgcwarp table.list02 td.td09 ul li {
+    line-height: 16px;
+    padding: 1px 0;
+    display: inline
+}
+
+.sgcwarp table.list02 td.td09 ul li.title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0d0d0d;
+}
+
+.sgcwarp table.list02 td.td09 ul li.title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #0d0d0d;
+}
+
+.sgcwarp table.list02 td.td09 ul li.desc {
+    color: #0d0d0d
+}
+
+.sgcwarp table.list02 td.td09 ul li.desc span.inst {
+    color: #4c87c3;
+    font-weight: bold
+}
+
+.sgcwarp table.list02 td.td09 ul li.desc span.player {
+    color: #f65c00;
+    font-weight: bold
+}
+
+.sgcwarp table.list02 td.td09 ul li.view {
+    font-size: 11px;
+    color: #828282;
+}
+
+.sgcwarp table.list02 td.td09 ul li.view span.divi {
+    color: #c6c6c6
+}
+
+.sgcwarp table.list02 td.td12 ul li.view {
+    font-size: 11px;
+    color: #828282;
+}
+
+.sgcwarp table.list02 td.td12 ul li.view span.divi {
+    color: #c6c6c6
+}
+
+.sgcwarp table.list02 td.td12 ul li.view span.pnum {
+    color: #3098be;
+    font-weight: bold
+}
+
+.sgcwarp table.list02 td.td05 .grapw2 {
+    border: 1px solid #fff;
+    padding: 0;
+    width: 54px
+}
+
+td.td11 ul {
+    margin: 17px 0 0 -8px;
+    padding: 0;
+}
+
+td.td11 ul li.starb {
+    position: relative;
+    margin: 10px 0 0 0
+}
+
+td.td11 ul li.starb span.mask {
+    position: absolute;
+    width: 68px;
+    height: 10px;
+    top: -15px;
+    left: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starpbg.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+td.td11 ul li.starb span.bar {
+    position: absolute;
+    display: block;
+    width: 68px;
+    height: 10px;
+    top: -15px;
+    left: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starp.png) no-repeat
+}
+
+td.td11 ul li.starb span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background: #f4222a;
+    position: absolute;
+    top: 0px;
+    left: 0px
+}
+
+.sgcwarp table.list02 td.td03 span.free {
+    width: 35px;
+    display: inline-block;
+    padding: 2px 0 1px 0;
+    background: #7ec505;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+    ;
+    vertical-align: top;
+    font-weight: normal;
+    margin: 0 0 0 0
+}
+
+.sgcwarp table.list02 td.td03 span.nfree {
+    width: 35px;
+    display: inline-block;
+    padding: 2px 0 1px 0;
+    background: #fd9336;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+    vertical-align: top;
+    font-weight: normal;
+    margin: 0 0 0 0
+}
+
+.sgcwarp table.list02 td.td10 span.free {
+    width: 30px;
+    display: inline-block;
+    padding: 3px 0 2px 0;
+    background: #7ec505;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+    ;
+    vertical-align: top;
+    font-weight: normal;
+    margin: 0 0 0 0
+}
+
+.sgcwarp table.list02 td.td10 span.nfree {
+    width: 30px;
+    display: inline-block;
+    padding: 3px 0 2px 0;
+    background: #fd9336;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff;
+    vertical-align: top;
+    font-weight: normal;
+    margin: 0 0 0 0
+}
+
+.sgcwarp table.list02 td.td05 ul li.point span.desc {
+    display: block;
+    font-size: 11px;
+    color: #656565;
+    text-align: center
+}
+
+.sgcwarp table.list02 td.td05 ul li.point span.num {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #3098be;
+    text-align: center;
+    ;
+    font-family: Arial
+}
+
+.sgcwarp table.list02 td.td05 ul li.parti {
+    font-size: 11px;
+    color: #656565;
+    text-align: center
+}
+
+.sgcwarp table.list02 td.td06 {
+    text-align: center
+}
+
+.sgcwarp table.list02 td.td06 span {
+    display: block;
+    font-size: 11px;
+    color: #656565;
+    margin: 5px 0 0 0
+}
+
+.sgcwarp table.list02 td.td01 {
+    width: 50px
+}
+
+.sgcwarp table.list02 td.td02 {
+    width: 38px
+}
+
+.sgcwarp table.list02 td.td04 {
+    width: 50px
+}
+
+.sgcwarp table.list02 td.td05 {
+    width: 60px
+}
+
+.sgcwarp table.list02 td.td09 {
+    width: 300px
+}
+
+.sgcwarp table.list02 td.td12 {
+    width: 230px
+}
+
+.sgcwarp table.list02 td.td11 {
+    width: 70px
+}
+
+.sgcwarp table.list02 td.td10 {
+    width: 40px
+}
+
+/*게임순위 목록*/
+
+.rankwarp p.date {
+    text-align: right;
+    margin: 10px 0
+}
+
+.rankwarp p.date a.bt_prev {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_prevm.gif) no-repeat;
+    vertical-align: middle
+}
+
+.rankwarp p.date a.bt_next {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_nextm.gif) no-repeat;
+    vertical-align: middle
+}
+
+.rankwarp p.date a.bt_prev span,
+.rankwarp p.date a.bt_next span {
+    display: none
+}
+
+.rankwarp p.date span.date {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #606060;
+    font-weight: bold;
+    vertical-align: middle
+}
+
+.rankwarp table.head {
+    width: 100%;
+    border-top: 2px solid #646464;
+    border-bottom: 1px solid #646464;
+    background: #f9f9f9
+}
+
+.rankwarp table.notice {
+    width: 100%
+}
+
+.rankwarp table td {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.rankwarp table.list {
+    width: 100%
+}
+
+.rankwarp table.head th {
+    color: #777777;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px
+}
+
+.rankwarp table.head th.th01 {
+    width: 81px
+}
+
+.rankwarp table.head th.th02 {
+    width: 80px
+}
+
+.rankwarp table.notice td.td01 {
+    width: 81px;
+    text-align: center
+}
+
+.rankwarp table.notice td.td02 {
+    width: 80px;
+    text-align: center
+}
+
+.rankwarp table.notice td.td03 {
+    width: 410px;
+    padding: 5px 0
+}
+
+.rankwarp table.notice td.td04 {
+    width: 90px;
+    text-align: center
+}
+
+.rankwarp table.notice td.td01 span.rank {
+    display: block;
+    width: 100%;
+    height: 38px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_rank.png) no-repeat center;
+    text-align: center;
+    padding-top: 42px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f24209
+}
+
+.rankwarp table.notice td.td02 span.up {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #737373;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_up02.png) no-repeat center;
+    padding: 40px 0 0 0
+}
+
+.rankwarp table.notice td.td02 span.down {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #737373;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_down02.png) no-repeat center;
+    padding: 40px 0 0 0
+}
+
+.rankwarp table.notice td.td05 div.grafs {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #e2e2e2;
+    margin: 0 auto
+}
+
+.rankwarp table.notice td.td03 span.appimgw {
+    width: 100px;
+    height: 90px;
+    float: left
+}
+
+.rankwarp table.notice td.td03 span.appimgw img {
+    width: 90px;
+    height: 90px
+}
+
+.rankwarp table.notice td.td03 ul {
+    float: left;
+    position: relative;
+    width: 298px;
+    margin: 10px 0 0 0
+}
+
+.rankwarp table.notice td.td03 ul li {
+    line-height: 16px
+}
+
+.rankwarp table.notice td.td03 ul li.genrew,
+.rankwarp table.notice td.td03 ul li.devw {
+    font-size: 11px;
+    color: #7f7f7f
+}
+
+.rankwarp table.notice td.td03 ul span.title {
+    width: 170px;
+    display: block;
+    font-size: 16px;
+    color: #0d0d0d;
+    font-weight: bold;
+    margin: 0 0 10px 0
+}
+
+.rankwarp table.notice td.td03 ul span.genrea {
+    display: inline-block;
+    width: 35px;
+    height: 14px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_article.png) no-repeat 0px 1px;
+    vertical-align: middle
+}
+
+.rankwarp table.notice td.td03 ul span.deva {
+    display: inline-block;
+    width: 35px;
+    height: 14px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/bg_article.png) no-repeat 0px -29px;
+    vertical-align: middle
+}
+
+.rankwarp table.notice td.td03 ul span.genrea span,
+.rankwarp table.notice td.td03 ul span.deva span {
+    display: none
+}
+
+.rankwarp table.notice td.td03 span.free {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    width: 35px;
+    display: block;
+    padding: 2px 0 0 0;
+    background: #7ec505;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff
+}
+
+.rankwarp table.notice td.td03 span.nfree {
+    position: absolute;
+    right: 0px;
+    top: 25px;
+    width: 35px;
+    display: block;
+    padding: 2px 0 0 0;
+    background: #fd9336;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff
+}
+
+.rankwarp table.notice td.td03 ul li.star span.mask {
+    position: absolute;
+    width: 88px;
+    height: 15px;
+    top: 0px;
+    right: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starpbg02.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+.rankwarp table.notice td.td03 ul li.star span.bar {
+    position: absolute;
+    display: block;
+    width: 88px;
+    height: 15px;
+    top: 0px;
+    right: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/gamedb/img_starp02.png) no-repeat
+}
+
+.rankwarp table.notice td.td03 ul li.star span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 15px;
+    background: #f4222a
+}
+
+.rankwarp table.notice td.td03 ul li.star span.score {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-weight: bold;
+    color: #4f4f4f;
+    font-size: 16px
+}
+
+.rankwarp table.notice td.td04 a.bt_down {
+    display: block;
+    width: 77px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_download.gif) no-repeat;
+    margin: 0 auto 5px auto
+}
+
+.rankwarp table.notice td.td04 a.bt_rating {
+    display: block;
+    width: 77px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_rating.gif) no-repeat;
+    margin: 0 auto
+}
+
+.rankwarp table.notice td.td04 a span {
+    display: none
+}
+
+.rankwarp table.list {
+    border-bottom: 1px solid #646464
+}
+
+.rankwarp table.list td.td01 {
+    width: 81px;
+    text-align: center
+}
+
+.rankwarp table.list td.td02 {
+    width: 80px;
+    text-align: center
+}
+
+.rankwarp table.list td.td03 {
+    width: 410px;
+    padding: 5px 0
+}
+
+.rankwarp table.list td.td04 {
+    width: 90px;
+    text-align: center
+}
+
+.rankwarp table.list td.td01 span.rank {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #f24209;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_rank02.png) no-repeat center 0px;
+    padding: 20px 0 5px 0
+}
+
+.rankwarp table.list td.td02 span.up {
+    display: block;
+    font-size: 11px;
+    color: #737373;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_up03.png) no-repeat center 12px;
+    padding: 30px 0 10px 0
+}
+
+.rankwarp table.list td.td02 span.down {
+    display: block;
+    font-size: 11px;
+    color: #737373;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_down03.png) no-repeat center 12px;
+    padding: 30px 0 10px 0
+}
+
+.rankwarp table.list td.td03 span {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.rankwarp table.list td.td03 span.appimgw {
+    width: 40px;
+    height: 30px
+}
+
+.rankwarp table.list td.td03 span.appimgw img {
+    width: 30px;
+    height: 30px
+}
+
+.rankwarp table.list td.td03 {
+    position: relative
+}
+
+.rankwarp table.list td.td03 span.title {
+    width: 190px;
+    display: inline-block;
+    font-size: 12px;
+    color: #0d0d0d;
+    font-weight: bold;
+    margin: 0 0 0 0
+}
+
+.rankwarp table.list td.td03 span.free {
+    display: inline-block;
+    width: 35px;
+    display: block;
+    padding: 2px 0 0 0;
+    background: #7ec505;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff
+}
+
+.rankwarp table.list td.td03 span.nfree {
+    display: inline-block;
+    width: 35px;
+    display: block;
+    padding: 2px 0 0 0;
+    background: #fd9336;
+    text-align: center;
+    font-size: 11px;
+    color: #ffffff
+}
+
+.rankwarp table.list td.td03 span.mask {
+    position: absolute;
+    width: 68px;
+    height: 10px;
+    top: 20px;
+    right: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starpbg.png) no-repeat 0px 0px;
+    z-index: 10
+}
+
+.rankwarp table.list td.td03 span.bar {
+    position: absolute;
+    display: block;
+    width: 68px;
+    height: 10px;
+    top: 20px;
+    right: 40px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_starp.png) no-repeat
+}
+
+.rankwarp table.list td.td03 span.bar span.star {
+    display: block;
+    width: 100%;
+    height: 10px;
+    background: #f4222a
+}
+
+.rankwarp table.list td.td03 span.score {
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    font-weight: bold;
+    color: #f4222a
+}
+
+.rankwarp table.list td.td04 a.bt_down {
+    display: block;
+    width: 77px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_download.gif) no-repeat;
+    margin: 0 auto 0 auto
+}
+
+.rankwarp table.list td.td05 a.bt_rating {
+    display: block;
+    width: 77px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_rating.gif) no-repeat;
+    margin: 0 auto
+}
+
+.rankwarp table.list td.td04 a span,
+.rankwarp table.list td.td05 a span {
+    display: none
+}
+
+/*게임스케줄 목록*/
+
+.schwarp p.date {
+    clear: left;
+    text-align: center;
+    line-height: 35px;
+    padding: 0 0 0 20px;
+    color: #727272;
+    margin: 10px 0 0 0
+}
+
+.schwarp p.date a.bt_prev {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_spre.png);
+    vertical-align: middle
+}
+
+.schwarp p.date a.bt_next {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_snext.png);
+    vertical-align: middle
+}
+
+.schwarp p.date a.bt_prev span,
+.schwarp p.date a.bt_next span {
+    display: none
+}
+
+.schwarp p.date span.date {
+    display: inline-block;
+    font-size: 18px;
+    color: #3e3e3e;
+    font-weight: bold;
+    vertical-align: middle
+}
+
+.calwrap table.calendar {
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3
+}
+
+.calwrap table.calendar th {
+    font-weight: bold;
+    color: #ffffff;
+    padding: 8px;
+    width: 14.29%
+}
+
+.calwrap table.calendar th {
+    background: #a0a5ab
+}
+
+.calwrap table.calendar th.th01 {
+    background: #fe960f
+}
+
+.calwrap table.calendar th.th07 {
+    background: #3098be
+}
+
+.calwrap table.calendar td {
+    height: 90px;
+    border-top: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    vertical-align: top;
+    padding: 8px
+}
+
+.calwrap table.calendar td.td01 {
+    border-left: 1px solid #e3e3e3
+}
+
+.calwrap table.calendar td p.day {
+    font-size: 12px;
+    font-weight: bold;
+    color: #878787;
+    font-family: Verdana
+}
+
+.calwrap table.calendar td p.schd {
+    color: #6f6f6f;
+    margin: 5px 0 0 0
+}
+
+.calwrap table.calendar td.issue01 {
+    background: #fffaee
+}
+
+.calwrap table.calendar td.issue02 {
+    background: #f8f8f8
+}
+
+.calwrap table.calendar td.issue03 {
+    background: #f8f8f8
+}
+
+.calwrap table.calendar td.issue04 {
+    background: #f8f8f8
+}
+
+.calwrap table.calendar td.issue05 {
+    background: #f8f8f8
+}
+
+.calwrap table.calendar td.issue06 {
+    background: #f8f8f8
+}
+
+.calwrap table.calendar td.issue07 {
+    background: #f4f8fc
+}
+
+.calwrap table.calendar td.td01 p.day {
+    color: #fe960f
+}
+
+.calwrap table.calendar td.td07 p.day {
+    color: #3098be
+}
+
+.sclistw table.sclist {
+    width: 100%;
+    margin: 20px 0
+}
+
+.sclistw table.sclist th {
+    background: #f9f9f9;
+    border-bottom: 1px solid #646464;
+    border-top: 2px solid #646464;
+    font-weight: bold;
+    font-size: 11px;
+    color: #777777;
+    padding: 8px
+}
+
+.sclistw table.sclist td {
+    border-bottom: 1px solid #e5e5e5;
+    color: #656565;
+    text-align: center;
+    padding: 8px
+}
+
+.sclistw table.sclist td.td02 {
+    text-align: left
+}
+
+.sclistw table.sclist td.td03,
+.sclistw table.sclist td.td04 {
+    font-size: 11px
+}
+
+.sclistw table.sclist td.today {
+    color: #f05526
+}
+
+    {
+    font-size: 11px
+}
+
+.sclistw table.sclist td.td02 a {
+    color: #656565
+}
+
+.sclistw table.sclist td.td02 span.num {
+    font-size: 11px;
+    color: #319db6
+}
+
+.sclistw table.sclist td.td02 span.rnum {
+    font-size: 11px;
+    color: #ff6200
+}
+
+.sclistw table.sclist th.th01 {
+    width: 70px
+}
+
+.sclistw table.sclist th.th03 {
+    width: 80px
+}
+
+.sclistw table.sclist th.th04 {
+    width: 70px
+}
+
+/*게임스케줄 글보기*/
+
+.schd_head {
+    position: relative;
+    border-top: 2px solid #676767;
+    border-bottom: 1px solid #676767;
+    padding: 6px 0 14px 90px
+}
+
+.schd_head li {
+    display: inline-block
+}
+
+.schd_head li.profile img {
+    position: absolute;
+    top: 10px;
+    left: 10px
+}
+
+.schd_head li.schdw {
+    width: 100%;
+    margin: 0 0 0 0
+}
+
+.schd_head li.schdw span.wuser {
+    display: inline-block;
+    width: 30%
+}
+
+.schd_head li.schdw span.wuser a {
+    font-weight: bold
+}
+
+.schd_head li.schdw span.wdate {
+    display: inline-block;
+    width: 68%;
+    color: #828282;
+    text-align: right;
+    font-size: 11px
+}
+
+.schd_head li.schdw span.schd {
+    display: inline-block;
+    width: 30%;
+    color: #828282;
+    font-size: 11px
+}
+
+.schd_head li.ctitle {
+    width: 100%;
+    margin: 10px 0 0 0
+}
+
+.schd_head li.ctitle span.ct {
+    display: inline-block;
+    width: 95%;
+    color: #454545;
+    font-size: 12px;
+    vertical-align: top;
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 14px;
+    overflow: hidden
+}
+
+.schd_head li.genrew {
+    width: 100%;
+    position: relative;
+    margin: 10px 0 0 0;
+    font-size: 11px;
+    color: #828282
+}
+
+span.hbtn a.bt_down {
+    display: inline-block;
+    width: 108px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_download.gif) no-repeat;
+    vertical-align: middle
+}
+
+span.hbtn a.bt_down span {
+    display: none
+}
+
+span.hbtn a.bt_gobbs {
+    display: inline-block;
+    width: 84px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_gobbs.gif) no-repeat;
+    vertical-align: middle
+}
+
+span.hbtn a.bt_gobbs span {
+    display: none
+}
+
+.schd_head li.genrew a span {
+    display: none
+}
+
+.schd_head li.ctitle a {
+    font-size: 11px;
+    color: #777777
+}
+
+.schd_head li.ctitle a.bt_blind,
+.vh_list li.ctitle a.bt_secret,
+.vh_list li.ctitle a.bt_police {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 3px
+}
+
+.schd_head li.ctitle a.bt_police {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC
+}
+
+.schd_head li.ctitle a.bt_blind span,
+.vh_list li.ctitle a.bt_secret span,
+.vh_list li.ctitle a.bt_police span {
+    display: block
+}
+
+/*게임일정등록*/
+
+.write_head {
+    clear: left;
+    padding: 10px 0 0 0
+}
+
+.write_head .scwrwrap {
+    width: 100%;
+    float: left;
+    border-top: 2px solid #646464;
+    border-bottom: 1px solid #646464;
+    background: #f7f7f7
+}
+
+.write_head .scwrwrap .wh_rt {
+    width: 100%;
+    float: left;
+    background: #fff
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li {
+    border: 1px solid #e4e4e4;
+    border-top: none;
+    padding: 6px 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.option {
+    padding: 16px 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.start ul.select_div {
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.start ul.select_div li.select_box {
+    float: left;
+    position: relative;
+    padding: 0;
+    margin: 0 0 0 6px
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.start span.checkw {
+    float: left;
+    display: inline-block;
+    padding: 10px 0 0 0;
+    line-height: 130%
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.start span.checkw input {
+    margin: 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.start ul.select_div li.select_box span.select_bt {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    cursor: pointer
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.start ul.select_div li.select_box input {
+    width: 80px
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.end ul.select_div {
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.end ul.select_div li.select_box {
+    float: left;
+    position: relative;
+    padding: 0;
+    margin: 0 0 0 6px;
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.end span.checkw {
+    float: left;
+    display: inline-block;
+    padding: 10px 0 0 0;
+    line-height: 130%
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.end span.checkw input {
+    margin: 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.end ul.select_div li.select_box span.select_bt {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    cursor: pointer
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.end ul.select_div li.select_box input {
+    width: 80px
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li input {
+    margin: 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li span.th {
+    display: inline-block;
+    width: 96px;
+    font-size: 11px;
+    color: #717171;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 0 0 0 0;
+    padding: 0 0 0 20px
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li span.td {
+    display: inline-block;
+    width: 80%;
+    font-size: 11px;
+    color: #494949;
+    vertical-align: middle;
+    margin: 0 0 0 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li span.td span.colorp {
+    position: relative;
+    display: inline-block
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li span.td .color {
+    position: absolute;
+    top: 32px;
+    left: 0px;
+    border: 1px solid #d3d3d3
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.menu span.th {
+    margin: 0 0 0 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.menu input {
+    width: 200px
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.title input {
+    width: 100%
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.schg input {
+    width: 50%
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.schg span.apps img {
+    display: inline-block;
+    width: 30px;
+    height: 30px
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.schg button {
+    width: 50px;
+    height: 32px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_file.gif) no-repeat;
+    vertical-align: middle;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px 0 5px
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.menu ul.select_div li.select_box {
+    padding: 0
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.menu ul.select_div li.select_box span.select_bt {
+    position: absolute;
+    top: 2px;
+    right: 0px;
+    cursor: pointer;
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.schg span.apps a.del {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_del02.gif) no-repeat;
+    vertical-align: middle
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li.schg span.apps a.del span,
+.write_head .scwrwrap .wh_rt ul.wh_list li.schg button span {
+    display: none
+}
+
+.write_head .scwrwrap .wh_rt ul.wh_list li ul li {
+    border: none
+}
+
+div.bbs_btn a.bt_sreg {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    display: block;
+    width: 89px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_sreg.gif)
+}
+
+/*게임vs게임 글리스트*/
+
+.vswarp .notiwarp table.noti {
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    margin: 10px 0 0 0
+}
+
+.vswarp .notiwarp table.noti td {
+    background: #fffaee;
+    padding: 7px 20px
+}
+
+.vswarp .notiwarp table.noti td.td02 {
+    width: 100px
+}
+
+.vswarp .notiwarp table.noti td.td03 {
+    width: 60px
+}
+
+.vswarp .notiwarp table.noti span.num {
+    color: #319db6;
+    font-size: 11px
+}
+
+.vswarp .notiwarp table.noti span.rnum {
+    color: #ff6200;
+    font-size: 11px
+}
+
+.vswarp .notiwarp table.noti span.date {
+    color: #818181;
+    font-size: 11px
+}
+
+.vswarp .notiwarp table.noti span.today {
+    color: #ff6200;
+    font-size: 11px
+}
+
+.vswarp .notiwarp table.noti a.cont {
+    color: #656565
+}
+
+.vswarp .notiwarp table.noti a.user {
+    color: #656565
+}
+
+.vswarp .vslistw table.vslist {
+    width: 100%;
+    margin: 10px 0 0 0;
+    border-bottom: 1px solid #646464;
+    table-layout: fixed
+}
+
+.vswarp .vslistw table.vslist th {
+    background: #f9f9f9;
+    border-bottom: 1px solid #646464;
+    border-top: 2px solid #646464;
+    font-weight: bold;
+    font-size: 11px;
+    color: #777777;
+    padding: 12px
+}
+
+.vswarp .vslistw table.vslist td.td03 {
+    overflow: hidden;
+    line-height: 130%
+}
+
+.vswarp .vslistw table.vslist td.td01 {
+    width: 40px
+}
+
+.vswarp .vslistw table.vslist td.td02 {
+    width: 80px
+}
+
+.vswarp .vslistw table.vslist td.td04 {
+    width: 120px
+}
+
+.vswarp .vslistw table.vslist td.td05 {
+    width: 50px
+}
+
+.vswarp .vslistw table.vslist td.td06 {
+    width: 60px
+}
+
+.vswarp .vslistw table.vslist td.td07 {
+    width: 40px
+}
+
+.vswarp .vslistw table.vslist td {
+    padding: 8px;
+    text-align: center
+}
+
+.vswarp .vslistw table.vslist td.td01 {
+    font-size: 11px;
+    color: #818181
+}
+
+.vswarp .vslistw table.vslist td.td02 {
+    font-size: 11px;
+    color: #319db6;
+    font-weight: bold
+}
+
+.vswarp .vslistw table.vslist td.td02 img {
+    width: width:18px;
+    height: 18px;
+    vertical-align: middle
+}
+
+.vswarp .vslistw table.vslist td.td03 {
+    text-align: left
+}
+
+.vswarp .vslistw table.vslist td.td03 a {
+    color: #656565
+}
+
+.vswarp .vslistw table.vslist td.td03 span.num {
+    color: #319db6;
+    font-size: 11px
+}
+
+.vswarp .vslistw table.vslist td.td03 span.rnum {
+    color: #ff6200;
+    font-size: 11px
+}
+
+.vswarp .vslistw table.vslist td.td04 {
+    text-align: left
+}
+
+.vswarp .vslistw table.vslist td.td04 a {
+    color: #656565
+}
+
+.vswarp .vslistw table.vslist td.td05,
+.vswarp .vslistw table.vslist td.td06 {
+    color: #656565;
+    font-size: 11px
+}
+
+.vswarp .vslistw table.vslist td.today {
+    color: #ff6200
+}
+
+.vswarp .vslistw table.vslist td.td07 {
+    font-size: 11px;
+    color: #818181
+}
+
+.vswarp .vslistw table.vslist td.td08 {
+    width: 25px
+}
+
+.vswarp .vslistw table.vslist td {
+    border-bottom: 1px solid #e5e5e5;
+    color: #656565;
+    text-align: center;
+    padding: 8px
+}
+
+.vswarp .bbs_btn {
+    width: 772px;
+    position: relative;
+    margin: 10px 0 10px 0;
+    float: left
+}
+
+.vswarp .bbs_btn a.bt_vssch {
+    display: inline-block;
+    width: 82px;
+    height: 29px;
+    margin: 0 0 0 0;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_gsearch.gif) no-repeat
+}
+
+.vswarp .bbs_btn a.bt_vsreg {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 125px;
+    height: 29px;
+    margin: 0 0 0 0;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_regvs.gif) no-repeat
+}
+
+.vswarp .bbs_btn a span {
+    display: none
+}
+
+.vswarp .vslistw table.vslisth {
+    width: 100%;
+    margin: 10px 0 0 0
+}
+
+.vswarp .vslistw table.vslisth th {
+    background: #f9f9f9;
+    border-bottom: 1px solid #646464;
+    border-top: 2px solid #646464;
+    font-weight: bold;
+    font-size: 11px;
+    color: #777777;
+    padding: 12px
+}
+
+.vswarp .vslistw table.vslisth th.th01 {
+    width: 50%
+}
+
+.vswarp .vslistw table.vslisth th.th02 {
+    width: 50%
+}
+
+.vswarp .vslistw ul.vslist02 {
+    width: 100%
+}
+
+.vswarp .vslistw ul.vslist02 li {
+    border-bottom: 2px solid #9d9d9d;
+    padding: 14px 0;
+    float: left;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_vertical.gif) repeat-y center 0px
+}
+
+.vswarp .vslistw ul.vslist02 li ul li {
+    background: none
+}
+
+.vswarp .vslistw ul.vslist02 li ul li {
+    padding: 0
+}
+
+.vswarp .vslistw ul.vslist02 li ul li {
+    border: none
+}
+
+.vswarp .vslistw ul.vslist02 li table.vslistt {
+    width: 280px;
+    margin: 0 auto;
+    table-layout: fixed
+}
+
+.vswarp .vslistw ul.vslist02 li table.vslistt td.td01 {
+    width: 100px;
+    text-align: center
+}
+
+.vswarp .vslistw ul.vslist02 li table.vslistt td.td01 span.appimg img {
+    width: 60px;
+    height: 60px
+}
+
+.vswarp .vslistw ul.vslist02 li table.vslistt td.td01 span.apptitle {
+    display: inline-block;
+    width: 100px;
+    height: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 8px 0 0 0
+}
+
+.vswarp .vslistw ul.vslist02 li .lf {
+    width: 386px;
+    float: left
+}
+
+.vswarp .vslistw ul.vslist02 li .rt {
+    width: 386px;
+    float: right
+}
+
+.vswarp .vslistw ul.vslist02 li .lf table.vslistt td.td01 span.apptitle a {
+    font-weight: bold;
+    color: #454545
+}
+
+.vswarp .vslistw ul.vslist02 li table.vslistt td.td02 {
+    width: 80px;
+    text-align: center;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_vs.gif) no-repeat center 8px;
+    font-size: 11px
+}
+
+.vswarp .vslistw ul.vslist02 li table.vslistt td.td02 span.pnum span.num {
+    color: #319db6
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul {
+    width: 100%;
+    position: relative;
+    float: left
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul li {
+    padding: 0 0 0 14px;
+    width: 366px;
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul li.vstitle span.rnum {
+    font-size: 11px;
+    color: #ff6200
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul li.vstitle span.num {
+    font-size: 11px;
+    color: #656565
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul li.vstitle span.plus {
+    color: #319db6
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul li.vsuser a {
+    font-weight: bold;
+    color: #454545
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul li.vstitle {
+    font-size: 14px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 10px 0 0 0
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul li.vnum {
+    border-top: 1px solid #dadada;
+    margin: 10px 0 0 0;
+    padding: 12px 10px 0 10px;
+    width: 367px;
+    font-size: 11px;
+    text-align: right;
+    color: #656565
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul li.vsday {
+    font-size: 11px;
+    color: #656565;
+    position: absolute;
+    left: 0px;
+    bottom: -9px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/ic_vs.png) no-repeat 10px 0px;
+    height: 20px;
+    padding: 5px 0 0 35px;
+}
+
+.vswarp .vslistw ul.vslist02 li .rt ul li.vsday span.dnum {
+    color: #ff6200;
+    font-weight: bold
+}
+
+/*게임vs게임 글보기*/
+
+.veiw_head ul.vh_list li.ctitle span.ct {
+    width: 672px;
+    overflow: hidden
+}
+
+.veiw_head ul.vh_list li.ctitle span.hbtn {
+    width: 100%;
+    font-size: 11px;
+    color: #828282;
+    padding: 0 0 5px 0;
+    margin: 5px 0 0 0
+}
+
+span.hbtn {
+    position: relative
+}
+
+span.hbtn span.vsinfo {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    text-align: left;
+    font-size: 11px
+}
+
+span.hbtn a.bt_pstop span {
+    width: 60px;
+    display: inline-block;
+    color: #828282;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline
+}
+
+.vsgamew {
+    float: left;
+    width: 740px;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+    margin: 10px 0 0 0;
+    background: #fffaee url(http://appdata.hungryapp.co.kr/images/bbs_/bg_vs.png) no-repeat center
+}
+
+.vsgamew .vs01 {
+    float: left;
+    width: 320px
+}
+
+.vsgamew table.vsg {
+    width: 100%
+}
+
+.vsgamew table.vsg td.appimgw {
+    width: 110px;
+    vertical-align: top
+}
+
+.vsgamew table.vsg td.appimgw img {
+    width: 100px;
+    height: 100px
+}
+
+.vsgamew table.vsg td.appinfw ul.appinf li.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0d0d0d
+}
+
+.vsgamew table.vsg td.appinfw ul.appinf li.genre,
+.vsgamew table.vsg td.appinfw ul.appinf li.dev {
+    color: #2c2c2c
+}
+
+.vsgamew table.vsg td.appinfw ul.appinf li.btn a.bt_down {
+    display: inline-block;
+    width: 108px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_download.gif) no-repeat;
+    vertical-align: middle
+}
+
+.vsgamew table.vsg td.appinfw ul.appinf li.btn a.bt_gobbs {
+    display: inline-block;
+    width: 84px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_gobbs.gif) no-repeat;
+    vertical-align: middle
+}
+
+.vsgamew table.vsg td.appinfw ul.appinf li.btn a span {
+    display: none
+}
+
+.vsgamew table.vsg td.appinfw ul.appinf li {
+    margin: 0 0 5px 0
+}
+
+.vsgamew table.vsg td.appinfw ul.appinf li.btn {
+    margin: 15px 0 0 0
+}
+
+.vsgamew .vs02 {
+    float: right;
+    width: 320px
+}
+
+.graf_bar {
+    clear: left;
+    float: left;
+    width: 752px;
+    height: 110px;
+    position: relative;
+    padding: 0 10px;
+    margin: 10px 0 0 0;
+    border-bottom: 1px solid #e1e1e1
+}
+
+.graf_bar .lf {
+    float: left;
+    width: 50%
+}
+
+.graf_bar p span.pcent {
+    font-size: 16px;
+    color: #3b3b3b;
+    font-weight: bold
+}
+
+.graf_bar p span.mnum {
+    color: #52a7be
+}
+
+.graf_bar p span.game {
+    font-weight: bold
+}
+
+.graf_bar p a.recomd01 {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    width: 62px;
+    height: 32px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_recom01.gif) no-repeat
+}
+
+.graf_bar .rt p a.recomd02 {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 62px;
+    height: 32px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_recom02.gif) no-repeat
+}
+
+.graf_bar .lf p a.recomd01 span,
+.graf_bar .rt p a.recomd02 span {
+    display: none
+}
+
+.graf_bar .rt {
+    float: right;
+    width: 50%;
+    text-align: right
+}
+
+.graf_bar .bar .barbg {
+    width: 757px;
+    height: 12px;
+    position: absolute;
+    top: 33px;
+    left: 10px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/img_vsbar.png);
+    z-index: 99
+}
+
+.graf_bar .bar .barlf {
+    width: 757px;
+    height: 12px;
+    position: absolute;
+    top: 33px;
+    left: 10px
+}
+
+.bt_chidden span.myf {
+    font-size: 11px;
+    color: #848484
+}
+
+/*게임vs게임 글등록*/
+
+.gselectw {
+    clear: left;
+    float: left;
+    width: 772px;
+    padding: 10px 0;
+    margin: 10px 0 0 0;
+    border: 1px solid #e1e1e1;
+    background: #fffaee
+}
+
+.gselectw .lf {
+    float: left;
+    width: 49%;
+    border-right: 1px solid #e1e1e1
+}
+
+.gselectw .rt {
+    float: right;
+    width: 50%
+}
+
+.gselectw table {
+    width: 100%
+}
+
+.gselectw table td p {
+    margin: 10px 0 0 0;
+    color: #656565
+}
+
+.gselectw table td {
+    text-align: center;
+    padding: 3px
+}
+
+.gselectw table td.td01 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0d0d0d
+}
+
+.gselectw table td.td02 input {}
+
+.gselectw table td.td02 button {
+    width: 50px;
+    height: 32px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_file.gif);
+    border: none;
+    vertical-align: middle
+}
+
+.gselectw table td.td02 button span {
+    display: none
+}
+
+.gselectw table td.td03 div.imgw {
+    width: 100px;
+    position: relative;
+    margin: 0 auto
+}
+
+.gselectw table td.td03 img {
+    width: 100px;
+    height: 100px
+}
+
+.gselectw table td.td03 span.del a {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_del.gif) no-repeat;
+    z-index: 99
+}
+
+.gselectw table td.td03 span.del a span {
+    display: none
+}
+
+.bbs_btn a.bt_vsreg {
+    position: absolute;
+    width: 125px;
+    height: 29px;
+    top: 10px;
+    right: 0px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_regvs.gif) no-repeat
+}
+
+table.wadd {
+    width: 100%;
+    border-bottom: 1px solid #646464
+}
+
+table.wadd th.th01 {
+    width: 100px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #717171
+}
+
+table.wadd td.td01 {
+    font-size: 11px;
+    color: #717171;
+    padding: 5px 0
+}
+
+span.hbtn span.pnum {
+    font-weight: bold;
+    position: absolute;
+    top: 13px;
+    left: 10px
+}
+
+/*테마게임 추천 글리스트*/
+
+.themwarp .notiwarp table.noti {
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    margin: 10px 0 0 0
+}
+
+.themwarp .notiwarp table.noti td {
+    background: #fffaee;
+    padding: 7px 20px
+}
+
+.themwarp .notiwarp table.noti td.td02 {
+    width: 100px
+}
+
+.themwarp .notiwarp table.noti td.td03 {
+    width: 60px
+}
+
+.themwarp .notiwarp table.noti span.num {
+    color: #319db6;
+    font-size: 11px
+}
+
+.themwarp .notiwarp table.noti span.rnum {
+    color: #ff6200;
+    font-size: 11px
+}
+
+.themwarp .notiwarp table.noti span.date {
+    color: #818181;
+    font-size: 11px
+}
+
+.themwarp .notiwarp table.noti span.today {
+    color: #ff6200;
+    font-size: 11px
+}
+
+.themwarp .notiwarp table.noti a.cont {
+    color: #656565
+}
+
+.themwarp .notiwarp table.noti a.user {
+    color: #656565
+}
+
+.themwarp .themlistw table.themlist {
+    width: 100%;
+    margin: 10px 0 0 0;
+    border-bottom: 1px solid #646464
+}
+
+.themwarp .themlistw table.themlist th {
+    background: #f9f9f9;
+    border-bottom: 1px solid #646464;
+    border-top: 2px solid #646464;
+    font-weight: bold;
+    font-size: 11px;
+    color: #777777;
+    padding: 8px
+}
+
+.themwarp .themlistw table.themlist th.th01 {
+    width: 60px
+}
+
+.themwarp .themlistw table.themlist th.th02 {
+    width: 80px
+}
+
+.themwarp .themlistw table.themlist th.th04 {
+    width: 100px
+}
+
+.themwarp .themlistw table.themlist th.th05 {
+    width: 60px
+}
+
+.themwarp .themlistw table.themlist th.th06 {
+    width: 70px
+}
+
+.themwarp .themlistw table.themlist th.th07 {
+    width: 40px
+}
+
+.themwarp .themlistw table.themlist td {
+    padding: 8px;
+    text-align: center
+}
+
+.themwarp .themlistw table.themlist td.td01 {
+    font-size: 11px;
+    color: #818181
+}
+
+.themwarp .themlistw table.themlist td.td02 {
+    font-size: 11px;
+    color: #319db6;
+    font-weight: bold
+}
+
+.themwarp .themlistw table.themlist td.td02 img {
+    width: width:18px;
+    height: 18px;
+    vertical-align: middle
+}
+
+.themwarp .themlistw table.themlist td.td03 {
+    text-align: left
+}
+
+.themwarp .themlistw table.themlist td.td03 a {
+    color: #656565
+}
+
+.themwarp .themlistw table.themlist td.td03 span.num {
+    color: #319db6;
+    font-size: 11px
+}
+
+.themwarp .themlistw table.themlist td.td03 span.rnum {
+    color: #ff6200;
+    font-size: 11px
+}
+
+.themwarp .themlistw table.themlist td.td04 a {
+    color: #656565
+}
+
+.themwarp .themlistw table.themlist td.td05,
+.themwarp .themlistw table.themlist td.td06 {
+    color: #656565;
+    font-size: 11px
+}
+
+.themwarp .themlistw table.themlist td.today {
+    color: #ff6200
+}
+
+.themwarp .themlistw table.themlist td.td07 {
+    font-size: 11px;
+    color: #818181
+}
+
+.themwarp .themlistw table.themlist td {
+    border-bottom: 1px solid #e5e5e5;
+    color: #656565;
+    text-align: center;
+    padding: 8px
+}
+
+.themwarp .bbs_btn {
+    position: relative;
+    margin: 10px 0 10px 0
+}
+
+.themwarp .bbs_btn a.bt_vssch {
+    display: inline-block;
+    width: 82px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_gsearch.gif) no-repeat
+}
+
+.themwarp .bbs_btn a.bt_regthem {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 169px;
+    height: 29px;
+    margin: 0 0 0 0;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_regthem.gif) no-repeat
+}
+
+.themwarp .bbs_btn a span {
+    display: none
+}
+
+/*테마게임 추천 글보기*/
+
+.vh_list02 {
+    position: relative;
+    border-top: 2px solid #676767;
+    border-bottom: 1px solid #676767;
+    padding: 8px 0 12px 90px
+}
+
+.vh_list02 li {
+    display: inline-block
+}
+
+.vh_list02 li.profile img {
+    position: absolute;
+    top: 5px;
+    left: 10px
+}
+
+.vh_list02 li.nick {
+    width: 100%;
+    margin: 6px 0 0 0
+}
+
+.vh_list02 li.nick span.wuser {
+    display: inline-block;
+    width: 30%
+}
+
+.vh_list02 li.nick span.wuser a {
+    font-weight: bold
+}
+
+.vh_list02 li.nick span.wdate {
+    display: inline-block;
+    width: 68%;
+    color: #828282;
+    text-align: right;
+    font-size: 11px
+}
+
+.vh_list02 li.ctitle {
+    width: 100%
+}
+
+.vh_list02 li.ctitle span.wuser {
+    display: inline-block;
+    width: 30%
+}
+
+.vh_list02 li.ctitle span.wuser a {
+    font-weight: bold
+}
+
+.vh_list02 li.ctitle {
+    margin: 15px 0 0 0
+}
+
+.vh_list02 li.ctitle span.ct {
+    display: inline-block;
+    width: 95%;
+    color: #454545;
+    font-size: 14px;
+    vertical-align: top;
+    font-weight: bold;
+    overflow: hidden
+}
+
+.vh_list02 li.ctitle span.pnum {
+    display: inline-block;
+    width: 19%;
+    font-size: 11px;
+    color: #666666;
+    text-align: right
+}
+
+.vh_list02 li.ctitle span.pnum span {
+    color: #3098be
+}
+
+.themwrap table.them_rank {
+    width: 100%;
+    margin: 3px 0 10px 0
+}
+
+.themwrap table.them_rank td {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.themwrap table.them_rank td.td01 {
+    width: 78px;
+    text-align: center
+}
+
+.themwrap table.them_rank td.td01 span.rank {
+    display: block;
+    width: 59px;
+    height: 30px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_theme_rank.png) no-repeat;
+    color: #f24209;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 48px 0 0 0;
+    margin: 0 auto
+}
+
+.themwrap table.them_rank td.td02 {
+    width: 110px;
+    text-align: center
+}
+
+.themwrap table.them_rank td.td02 img {
+    width: 60px;
+    height: 60px
+}
+
+.themwrap table.them_rank td.td03 p.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0d0d0d
+}
+
+.themwrap table.them_rank td.td03 p.btn {
+    margin: 8px 0 0 0
+}
+
+.themwrap table.them_rank td.td03 p.btn a.bt_down {
+    display: inline-block;
+    width: 108px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_download.gif) no-repeat;
+    vertical-align: middle
+}
+
+.themwrap table.them_rank td.td03 p.btn a.bt_gobbs {
+    display: inline-block;
+    width: 84px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_gobbs.gif) no-repeat;
+    vertical-align: middle
+}
+
+.themwrap table.them_rank td.td03 p.btn a span {
+    display: none
+}
+
+.themwrap table.them_rank td.td04 {
+    width: 110px
+}
+
+.themwrap table.them_rank td.td04 span {
+    display: block
+}
+
+.themwrap table.them_rank td.td04 span.recom {
+    width: 100px;
+    text-align: center;
+    font-size: 11px;
+    color: #fa6a25
+}
+
+.themwrap table.them_rank td.td04 span.rnum {
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3098be
+}
+
+.themwrap table.them_rank td.td04 span.bt_recom {
+    width: 100px;
+    text-align: center
+}
+
+.themwrap table.them_rank td.td04 span.bt_recom a {
+    font-size: 11px;
+    font-weight: bold;
+    color: #656565
+}
+
+.themwrap table.them_rank td.td05 {
+    width: 180px
+}
+
+.themwrap table.them_rank td.td05 span.user {
+    display: inline-block;
+    width: 98px;
+    font-size: 11px;
+    color: #656565;
+    vertical-align: middle
+}
+
+ul.recommend02 {
+    width: 364px;
+    margin: 0 auto
+}
+
+ul.recommend02 li.recomnum {
+    padding: 6px;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    background: #dde7f4
+}
+
+ul.recommend02 li.recomnum img {
+    vertical-align: middle;
+    margin: 0 5px 0 0
+}
+
+ul.recommend02 li.recomnum span.num {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f05526
+}
+
+ul.recommend02 li.recomnum a.bt_recom {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline
+}
+
+ul.recommend02 li.recommem {
+    padding: 6px;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    margin: -1px 0 0 0;
+    font-size: 11px;
+    color: #848484
+}
+
+ul.recommend02 li.recomsg {
+    padding: 10px;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    margin: -1px 0 0 0;
+    font-size: 11px;
+    color: #848484
+}
+
+ul.recommend02 li.recomsg span.sch {
+    display: block;
+    margin: 8px 0 0 0
+}
+
+ul.recommend02 li.recomsg span.sch input {
+    padding: 6px
+}
+
+/*테마게임 추천 글등록*/
+
+ul.wh_list li.theme_title input {
+    width: 520px
+}
+
+ul.wh_list li.theme_title span.desc {
+    display: block;
+    color: #7d7d7d;
+    font-size: 11px;
+    line-height: 130%
+}
+
+.bbs_btn a.bt_themeok {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 148px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_regthem_ok.gif) no-repeat
+}
+
+/*출석부*/
+
+p.lfmt span.title08 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -272px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt span.title09 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -299px;
+    border: 1px solid #da3b0b
+}
+
+.sgcwarp01 {
+    width: 100%
+}
+
+.sgcwarp01 p.aday {
+    position: absolute;
+    width: 200px;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+    color: #434343
+}
+
+.sgcwarp01 p.aday span {
+    font-weight: bold
+}
+
+.attendw p.date {
+    clear: left;
+    text-align: center;
+    line-height: 35px;
+    padding: 0 0 0 20px;
+    color: #727272;
+    margin: 10px 0 0 0
+}
+
+.attendw p.date a.bt_prev {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_spre.png);
+    vertical-align: middle
+}
+
+.attendw p.date a.bt_next {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_snext.png);
+    vertical-align: middle
+}
+
+.attendw p.date a.bt_prev span,
+.attendw p.date a.bt_next span {
+    display: none
+}
+
+.attendw p.date span.date {
+    display: inline-block;
+    font-size: 18px;
+    color: #3e3e3e;
+    font-weight: bold;
+    vertical-align: middle
+}
+
+.attendw .calwrap table.calendar {
+    width: 100%;
+    border-bottom: 1px solid #e3e3e3
+}
+
+.attendw .calwrap table.calendar th {
+    font-weight: bold;
+    color: #ffffff;
+    padding: 8px;
+    width: 14.29%
+}
+
+.attendw .calwrap table.calendar th {
+    background: #a0a5ab
+}
+
+.attendw .calwrap table.calendar th.th01 {
+    background: #fe960f
+}
+
+.attendw .calwrap table.calendar th.th07 {
+    background: #3098be
+}
+
+.attendw .calwrap table.calendar td {
+    position: relative;
+    height: 90px;
+    border-top: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    vertical-align: top;
+    padding: 8px
+}
+
+.attendw .calwrap table.calendar td.td01 {
+    border-left: 1px solid #e3e3e3
+}
+
+.attendw .calwrap table.calendar td p.day {
+    font-size: 12px;
+    font-weight: bold;
+    color: #878787;
+    font-family: Verdana
+}
+
+.attendw .calwrap table.calendar td.attend {
+    background: #fffaee url(http://appdata.hungryapp.co.kr/images/attend/bg_attend.png) no-repeat center
+}
+
+.attendw .calwrap table.calendar td.attend_ano {
+    background: #fffaee url(http://appdata.hungryapp.co.kr/images/attend/bg_attend_ano.png) no-repeat center
+}
+
+.attendw .calwrap table.calendar td.attend_sev {
+    background: #fffaee url(http://appdata.hungryapp.co.kr/images/attend/bg_attend_sev.png) no-repeat center
+}
+
+.attendw .calwrap table.calendar td.absence {
+    background: #fff url(http://appdata.hungryapp.co.kr/images/attend/bg_absence.png) no-repeat center
+}
+
+.attendw .calwrap table.calendar td.td01 p.day {
+    color: #fe960f
+}
+
+.attendw .calwrap table.calendar td.td07 p.day {
+    color: #3098be
+}
+
+.attendw .calwrap table.calendar td p.anum {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    font-size: 11px;
+    color: #fe7f0f;
+    text-align: right
+}
+
+.attendw .calwrap table.calendar td p.get {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    width: 100%;
+    font-size: 11px;
+    color: #6f6f6f;
+    text-align: center
+}
+
+.acomment_wrap {
+    border: 2px solid #e4e4e4;
+    padding: 15px;
+    margin: 10px 0 0 0
+}
+
+.acomment_wrap p.title {
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_dtitle.png) no-repeat 0px 2px;
+    padding: 0 0 0 15px;
+    color: #606060;
+    font-weight: bold;
+    height: 20px
+}
+
+.acomment_wrap p.desc {
+    display: none;
+    font-size: 11px;
+    color: #828282;
+    padding: 0 0 0 74px
+}
+
+.acomment_wrap table {
+    width: 100%;
+    margin: 10px 0 0 0
+}
+
+.acomment_wrap table td.td01 {
+    width: 70px;
+    text-align: center
+}
+
+.acomment_wrap table td.td02 {
+    width: 70px;
+    text-align: center
+}
+
+.acomment_wrap table td.td03 {
+    position: relative
+}
+
+.acomment_wrap table td.td03 textarea {
+    width: 95%;
+    height: 42px;
+    border: 1px solid #d9d9d9;
+    padding: 9px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_input.gif) repeat;
+    font-size: 12px
+}
+
+.acomment_wrap table td.td03 .layer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 512px;
+    border-bottom: 2px solid #c9c9c9
+}
+
+.acomment_wrap table td.td03 .layer p {
+    background: #fff url(http://appdata.hungryapp.co.kr/images/attend/bg_attend.png) no-repeat 10px 18px;
+    border: 2px solid #fe3c00;
+    padding: 22px 0 25px 90px;
+    font-size: 11px;
+    color: #565656
+}
+
+.acomment_wrap table td.td04 {
+    width: 79px
+}
+
+.acomment_wrap table td.td04 input {
+    width: 79px;
+    height: 60px;
+    background: url(http://appdata.hungryapp.co.kr/images/attend/bt_attend.gif);
+    border: none;
+    cursor: pointer
+}
+
+.timelinew {
+    float: left;
+    width: 208px;
+    margin: 0 0 14px 0
+}
+
+.timelinew p.title {
+    width: 170px;
+    font-size: 12px;
+    color: #ffffff;
+    padding: 15px 15px;
+    background: #676767;
+    font-weight: bold;
+    margin: 10px 0 0 0
+}
+
+.timelinew table {
+    width: 200px;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 2px solid #a8a8a8
+}
+
+.timelinew table td {
+    padding: 5px;
+    height: 18px;
+    border-bottom: 1px solid #e3e3e3
+}
+
+.timelinew table td.td01 {
+    width: 30px;
+    font-weight: bold;
+    color: #9c9c9c;
+    padding: 0 0 0 10px
+}
+
+.timelinew table td img {
+    margin: 0 5px 0 0
+}
+
+.acommentlistw {
+    float: right;
+    width: 564px
+}
+
+.acommentlistw p.date {}
+
+.acommentlistw p.date a.bt_aprev {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_apre.png) no-repeat center;
+    vertical-align: middle;
+    margin: 0 0 3px 0
+}
+
+.acommentlistw p.date a.bt_anext {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_anext.png) no-repeat center;
+    vertical-align: middle;
+    margin: 0 0 3px 0
+}
+
+.acommentlistw p.date a span {
+    display: none
+}
+
+.acommentlistw table.clist {
+    width: 100%;
+    margin: 8px 0 10px 0;
+    border-bottom: 1px solid #646464
+}
+
+.acommentlistw table.clist th {
+    background: #f9f9f9;
+    border-bottom: 1px solid #646464;
+    border-top: 2px solid #646464;
+    font-weight: bold;
+    font-size: 11px;
+    color: #777777;
+    padding: 8px
+}
+
+.acommentlistw table.clist td {
+    border-bottom: 1px solid #e5e5e5;
+    color: #656565;
+    text-align: center;
+    padding: 8px;
+    height: 76px
+}
+
+.acommentlistw table.clist td.td01 span.top {
+    display: block;
+    width: 67px;
+    height: 44px;
+    font-weight: bold;
+    color: #f24209;
+    font-size: 28px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_rank.png) no-repeat;
+    margin: 0 auto;
+    padding: 36px 0 0 0;
+    font-family: Arial
+}
+
+.acommentlistw table.clist td.td01 span.rank {
+    display: block;
+    width: 29px;
+    height: 18px;
+    font-weight: bold;
+    color: #f24209;
+    font-size: 11px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_rank02.png) no-repeat;
+    margin: 0 auto;
+    padding: 21px 0 0 0
+}
+
+.acommentlistw table.clist td.td02 {
+    width: 44px;
+    text-align: center
+}
+
+.acommentlistw table.clist td.td03 {
+    text-align: left;
+    vertical-align: top;
+    padding: 18px 0 0 0
+}
+
+.acommentlistw table.clist td.td03 span.uerw {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    vertical-align: middle
+}
+
+.acommentlistw table.clist td.td03 span.uerw a {
+    color: #454545;
+    font-weight: bold
+}
+
+.acommentlistw table.clist td.td03 span.get {
+    display: none;
+    font-size: 11px;
+    color: #828282;
+    padding: 0 5px 0 0
+}
+
+.acommentlistw table.clist td.td03 span.anum {
+    font-size: 11px;
+    color: #46a6bd;
+    padding: 0 5px 0 0
+}
+
+.acommentlistw table.clist td.td03 span.total {
+    font-size: 11px;
+    color: #828282;
+    padding: 0 5px 0 0
+}
+
+.acommentlistw table.clist td.td03 span.time {
+    font-size: 11px;
+    color: #828282
+}
+
+.acommentlistw table.clist td.td03 span.top3 {
+    font-size: 11px;
+    color: #f46000
+}
+
+.acommentlistw table.clist td.td03 span.comment {
+    display: block;
+    width: 400px;
+    height: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 8px 0 0 0
+}
+
+.acommentlistw .rankv table {
+    margin: 0 auto 10px auto
+}
+
+.acommentlistw .rankv table td.td01 {
+    width: 79px
+}
+
+.acommentlistw .rankv table td.td02 {
+    width: 103px;
+    position: relative
+}
+
+.acommentlistw .rankv table td.td02 input {
+    padding: 5px;
+    font-size: 11px;
+    color: #808080;
+    font-weight: bold
+}
+
+.acommentlistw .rankv table td.td03 {
+    width: 79px
+}
+
+.acommentlistw .rankv table td a.bt_prerank {
+    display: block;
+    width: 74px;
+    height: 26px;
+    background: url(http://appdata.hungryapp.co.kr/images/attend/bt_prerank.gif) no-repeat
+}
+
+.acommentlistw .rankv table td a.bt_nextrank {
+    display: block;
+    width: 74px;
+    height: 26px;
+    background: url(http://appdata.hungryapp.co.kr/images/attend/bt_nextrank.gif) no-repeat;
+    margin: 0 0 0 5px
+}
+
+.acommentlistw .rankv table td a span {
+    display: none
+}
+
+/*투표리스트*/
+
+p.lfmt span.title10 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -326px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt span.title11 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -353px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt span.title12 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -380px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt02 span.title05 {
+    display: block;
+    width: 200px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -407px;
+    border: 1px solid #cccccc;
+    border-bottom: none
+}
+
+p.lfmt02 span.title06 {
+    display: block;
+    width: 200px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -440px;
+    border: 1px solid #cccccc;
+    border-bottom: none
+}
+
+ul.lfmn03 li.lfst a.lfst04 {
+    display: block;
+    width: 200px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -473px;
+    border: 1px solid #dedede;
+    border-left: none;
+    border-right: none
+}
+
+ul.lfmn03 li.lfst a.lfst05 {
+    display: block;
+    width: 200px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -497px;
+    border: 1px solid #dedede;
+    border-left: none;
+    border-right: none
+}
+
+ul.lfmn03 li.lfst a.lfst06 {
+    display: block;
+    width: 200px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -523px;
+    border: 1px solid #dedede;
+    border-left: none;
+    border-right: none
+}
+
+.bbs_btn a.bt_admin {
+    display: inline-block;
+    width: 75px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bt_bbsadm.gif);
+    vertical-align: middle
+}
+
+.bbs_btn span.checkb {
+    width: 32px;
+    display: inline-block;
+    text-align: center
+}
+
+.bbs_btn a.bt_vssch {
+    display: inline;
+    width: 82px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_gsearch.gif) no-repeat;
+    margin: 8px 0 0 0;
+    vertical-align: middle
+}
+
+.bbs_btn a.bt_regpoll {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    display: inline-block;
+    width: 102px;
+    height: 29px;
+    margin: 0 0 0 0;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bt_regpoll.gif) no-repeat;
+    vertical-align: middle
+}
+
+/*투표상세보기*/
+
+span.hbtn span.pollbtn {
+    display: inline-block;
+    width: 130px;
+    vertical-align: middle
+}
+
+span.hbtn a.bt_pollmod {
+    display: inline-block;
+    width: 59px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bt_pollmod.gif) no-repeat;
+    vertical-align: middle
+}
+
+span.hbtn a.bt_pollstop {
+    width: 59px;
+    height: 20px;
+    display: inline-block;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bt_pollstop.gif) no-repeat;
+    vertical-align: middle
+}
+
+span.hbtn a.bt_pollres {
+    width: 59px;
+    height: 20px;
+    display: inline-block;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bt_pollres.gif) no-repeat;
+    vertical-align: middle
+}
+
+span.hbtn a.bt_pollres span {
+    display: none
+}
+
+span.hbtn a.bt_pollstop span {
+    display: none
+}
+
+span.hbtn a.bt_pollmod span {
+    display: none
+}
+
+.pollingw {
+    clear: left;
+    background: #fffcf4
+}
+
+.pollingw table.pollimgt {
+    width: 100%
+}
+
+.pollingw table.pollimgt td {
+    padding: 15px 10px 15px 10px
+}
+
+.pollingw table.pollimgt td.td01 {
+    width: 170px;
+    vertical-align: top;
+    font-size: 11px;
+    color: #434343
+}
+
+.pollingw table.pollimgt td.td01 span.polldate {
+    display: inline-block;
+    width: 59px;
+    height: 19px;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bg_pdate.png) no-repeat;
+    vertical-align: middle
+}
+
+.pollingw table.pollimgt td.td01 span.date {
+    color: #f05526;
+    font-weight: bold
+}
+
+.pollingw table.pollimgt td.td01 span.polldate span {
+    display: none
+}
+
+.pollingw table.pollimgt td.td02 {
+    vertical-align: top
+}
+
+.pollingw table.pollimgt td.td02 .bar_wrap {
+    width: 596px;
+    height: 12px;
+    position: relative
+}
+
+.pollingw table.pollimgt td.td02 .bar_wrap .bar_round {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 596px;
+    height: 12px;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bg_barround.png) no-repeat;
+    z-index: 99;
+}
+
+.pollingw table.pollimgt td.td02 .bar_wrap .prog_bar {
+    width: 596px;
+    height: 12px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_bar03.gif) repeat
+}
+
+.pollingw table.pollimgt td.td02 span.lf {
+    display: block;
+    #434343;
+    float: left;
+    margin: 8px 0 0 0;
+    font-size: 11px
+}
+
+.pollingw table.pollimgt td.td02 span.rt {
+    display: block;
+    #434343;
+    float: right;
+    margin: 8px 0 0 0;
+    font-size: 11px
+}
+
+.pollingw table.pollimgt td.td03 {
+    width: 150px;
+    vertical-align: top;
+    font-size: 11px;
+    color: #434343
+}
+
+.pollingw table.pollimgt td.td03 span.pollnum {
+    display: inline-block;
+    width: 59px;
+    height: 19px;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bg_num.png) no-repeat;
+    vertical-align: middle
+}
+
+.pollingw table.pollimgt td.td03 span.num {
+    color: #319db6;
+    font-weight: bold
+}
+
+.pollingw table.pollimgt td.td03 span.pollnum span {
+    display: none
+}
+
+.pollingw table.pollimgt td.td04 .bar_wrap {
+    width: 596px;
+    height: 12px;
+    position: relative
+}
+
+.pollingw table.pollimgt td.td04 .bar_wrap .bar_round {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 596px;
+    height: 12px;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bg_barround.png) no-repeat;
+    z-index: 99;
+}
+
+.pollingw table.pollimgt td.td04 .bar_wrap .prog_bar {
+    width: 596px;
+    height: 12px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_bar03.gif) repeat
+}
+
+.pollingw table.pollimgt td.td04 span.lf {
+    display: block;
+    #434343;
+    float: left;
+    margin: 8px 0 0 0;
+    font-size: 11px
+}
+
+.pollingw table.pollimgt td.td04 span.rt {
+    display: block;
+    #434343;
+    float: right;
+    margin: 8px 0 0 0;
+    font-size: 11px
+}
+
+.pollingw table.pollimgt td.td04 span.lf span {
+    font-weight: bold
+}
+
+.pollingw table.pollimgt td.td04 span.rt span {
+    font-weight: bold
+}
+
+.pollingw table.pollimgt td.td04 {
+    vertical-align: top
+}
+
+.pollrusultw {
+    float: left;
+    width: 772px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_vertical.gif) repeat-y center
+}
+
+.pollrusultw .requestwlf {
+    float: left;
+    width: 345px;
+    padding: 20px;
+}
+
+.pollrusultw .requestwlf p.title {
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bg_poll.gif) no-repeat 0px 0px;
+    height: 30px
+}
+
+.pollrusultw .requestwlf p span,
+.pollrusultw .resultw p span {
+    display: none
+}
+
+.pollrusultw .requestwlf ul {
+    background: #f6f6f6;
+    padding: 10px
+}
+
+.pollrusultw .requestwlf ul li {
+    margin: 0 0 8px 0
+}
+
+.pollrusultw .requestwlf ul li span {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.pollrusultw .requestwlf ul li span.item {
+    width: 40%
+}
+
+.pollrusultw .requestwlf p.btn {
+    text-align: right
+}
+
+.pollrusultw .requestwlf p.btn a.bt_poll {
+    display: inline-block;
+    width: 72px;
+    height: 28px;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bt_poll.gif) no-repeat;
+    margin: 8px 0 0 0
+}
+
+.pollrusultw .requestwlf p.btn a.bt_poll span {
+    display: none
+}
+
+.pollrusultw .requestwlf p.desc {
+    font-size: 11px;
+    color: #4f4f4f;
+    text-align: center;
+    margin: 18px 0 0 0
+}
+
+.pollrusultw .requestwlf p.thanks {
+    text-align: center;
+    margin: 60px 0 0 0
+}
+
+.pollrusultw .resultwrt {
+    float: right;
+    width: 345px;
+    padding: 20px
+}
+
+.pollrusultw .resultwrt p.title {
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bg_poll.gif) no-repeat 0px -32px;
+    height: 30px
+}
+
+.pollrusultw .resultwrt p.title span {
+    display: none
+}
+
+.pollrusultw .resultwrt p.grap {
+    text-align: center
+}
+
+.pollrusultw .resultwrt p.grap02 {
+    float: left
+}
+
+.pollrusultw .resultwrt p.grap02 img.lf {
+    float: left;
+    margin: 0 40px 0 0
+}
+
+.pollrusultw .resultwrt ul.result {
+    float: left;
+    background: #f6f6f6;
+    padding: 10px
+}
+
+.pollrusultw .resultwrt ul.result li {
+    margin: 0 0 3px 0;
+    font-size: 11px
+}
+
+.pollrusultw .resultwrt ul.result li span.percent {
+    font-weight: bold;
+    color: #4f4f4f
+}
+
+.pollrusultw .resultwrt ul.result li span.num {
+    color: #9d9d9d
+}
+
+.pollrusultw .resultwrt p.rdesc {
+    clear: both;
+    font-size: 11px;
+    color: #9d9d9d;
+    text-align: right;
+    margin: 18px 0 0 0
+}
+
+.pollrusultw .resultwrt p.rdesc span {
+    display: inline-block;
+    font-weight: bold
+}
+
+.pollrusultw .resultwrt p.desc {
+    font-size: 11px;
+    color: #4f4f4f;
+    text-align: center;
+    margin: 18px 0 0 0
+}
+
+/*투표글등록*/
+
+table.polladd {
+    width: 100%;
+    border-bottom: 1px solid #646464
+}
+
+table.polladd th,
+table.polladd td {
+    height: 45px;
+    border-bottom: 1px solid #e4e4e4
+}
+
+table.polladd th.th03,
+table.polladd th.th04,
+table.polladd th.th05,
+table.polladd th.th06 {
+    height: 40px;
+    border-bottom: none
+}
+
+table.polladd td.td03,
+table.polladd td.td04,
+table.polladd td.td05,
+table.polladd td.td06 {
+    height: 40px;
+    border-bottom: none
+}
+
+table.polladd th.th01,
+table.polladd th.th02,
+table.polladd th.th03 {
+    width: 100px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #717171;
+    text-align: left;
+    padding: 0 0 0 20px
+}
+
+table.polladd th.th04,
+table.polladd th.th05,
+table.polladd th.th06 {
+    color: #717171;
+    text-align: left;
+    padding: 0 0 0 20px
+}
+
+table.polladd td.td01 {
+    font-size: 11px;
+    color: #717171;
+    padding: 5px 0
+}
+
+table.polladd td.td04 input,
+table.polladd td.td05 input,
+table.polladd td.td06 input {
+    width: 95%
+}
+
+table.polladd td.td01 ul li span.pnum {
+    margin: 0 0 0 20px;
+    font-weight: bold
+}
+
+/*아이템교환 리스트*/
+
+p.lfmt span.title13 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -548px;
+    border: 1px solid #da3b0b
+}
+
+.bbs_cate {
+    clear: left;
+    with: 100%
+}
+
+.bbs_cate ul {
+    float: left;
+    margin: 0 0 0 1px
+}
+
+.bbs_cate ul.category02 li {
+    float: left
+}
+
+.bbs_cate ul.category02 li a {
+    display: block;
+    padding: 8px 15px;
+    border: 1px solid #dfdfe1;
+    margin: 0 0 0 -1px;
+    color: #777777;
+    font-weight: bold;
+    background: #f1f1f1;
+    border: 1px solid #a7a7a7;
+    border-bottom: none
+}
+
+.bbs_cate ul.category02 li a:hover,
+.bbs_cate ul.category02 li a.select {
+    color: #fff;
+    background: #676767;
+    border: 1px solid #676767;
+    border-bottom: none
+}
+
+.tradtabw {
+    width: 200px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc
+}
+
+.tradtabw ul {
+    float: left;
+    margin: 0 0 0 -1px;
+    padding: 8px 0 0 10px
+}
+
+.tradtabw ul.category02 {
+    width: 190px;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom: none
+}
+
+.tradtabw ul.category02 li {
+    width: 89px;
+    float: left;
+}
+
+.tradtabw ul.category02 li a {
+    display: block;
+    padding: 5px 0;
+    border: 1px solid #dfdfe1;
+    margin: 0 0 0 0;
+    color: #777777;
+    background: #f1f1f1;
+    border: 1px solid #cccccc;
+    border-bottom: 1px solid #f05526;
+    font-size: 11px;
+    text-align: center
+}
+
+.tradtabw ul.category02 li a.select {
+    color: #f05526;
+    background: #fff;
+    border: 1px solid #f05526;
+    border-bottom: 1px solid #fff;
+    margin: 0 0 0 0;
+    font-weight: bold
+}
+
+ul.applistw {
+    clear: left;
+    width: 200px;
+    padding: 6px 0;
+    border: 1px solid #cccccc;
+    border-top: none
+}
+
+ul.applistw li.lfmlist {
+    width: 176px;
+    padding: 0 10px 0 10px;
+    position: relative;
+    margin: 0 0 5px 0
+}
+
+ul.applistw li.lfmlist img {
+    width: 18px;
+    height: 18px
+}
+
+ul.applistw li.lfmlist a {
+    display: inline-block;
+    width: 172px;
+    text-decoration: none;
+    height: 20px;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+ul.applistw li.lfmlist a.bt_bbsw {
+    position: absolute;
+    top: 4px;
+    left: 130px;
+    width: 53px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_write_s.gif);
+    padding: 0;
+    z-index: 10
+}
+
+ul.applistw li.lfmlist {
+    width: 176px;
+    padding: 0 12px 0 12px
+}
+
+ul.applistw li.lfmlist a.bt_bbsw span {
+    display: none
+}
+
+ul.applistw li.set a {
+    display: inline-block;
+    width: 160px;
+    text-decoration: none;
+    padding: 8px 0 8px 16px;
+    background: #eeeeee;
+    font-size: 11px;
+    color: #7c7c7c
+}
+
+ul.applistw li.set a:hover {
+    background: #eeeeee;
+    color: #f65c00
+}
+
+.leftmn_warp p.btn {
+    width: 190px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-top: none;
+    background: #f2f2f2;
+    padding: 5px
+}
+
+.leftmn_warp p.btn input {
+    border: 1px solid #c8c8c8;
+    padding: 5px;
+    vertical-align: middle
+}
+
+.leftmn_warp p.btn button {
+    width: 25px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/trade/bt_sch.gif) no-repeat;
+    border: none;
+    cursor: pointer;
+    vertical-align: middle
+}
+
+.leftmn_warp p.btn button span {
+    display: none
+}
+
+/*이벤트존*/
+
+p.lfmt span.title14 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -575px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt span.title15 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -602px;
+    border: 1px solid #da3b0b
+}
+
+p.lfmt span.title16 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -629px;
+    border: 1px solid #da3b0b
+}
+
+/*뉴스센터 리스트*/
+
+.news_sch {
+    width: 100%
+}
+
+.news_sch ul.select_bbs {
+    float: left;
+    width: 778px;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0 0 0
+}
+
+.news_sch ul.select_bbs li.title {
+    width: 120px;
+    height: 20px;
+    float: left;
+    padding: 8px 0 0 0
+}
+
+.news_sch ul.select_bbs li.title {
+    color: #fa6a25;
+    font-weight: bold
+}
+
+.news_sch ul.select_bbs li {
+    width: 500px;
+    float: left;
+    position: relative
+}
+
+.news_sch ul.select_bbs li.select_box {
+    width: 115px;
+    padding: 0
+}
+
+.news_sch ul.select_bbs li.select_box input.select_sch {
+    width: 103px;
+    border: 1px solid #d9d9d9;
+    padding: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_input.gif) repeat;
+    margin: 0 0 0 0
+}
+
+.news_sch ul.select_bbs li.select_box img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer
+}
+
+.news_sch ul.select_bbs li input.input_sch {
+    border: 1px solid #d9d9d9;
+    padding: 6px;
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bg_input.gif) repeat;
+    width: 215px;
+    margin: 0 0 0 0
+}
+
+.news_sch ul.select_bbs li a.bt_sch {
+    display: inline-block;
+    width: 82px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_gsearch.gif) no-repeat;
+    vertical-align: middle
+}
+
+.news_sch ul.select_bbs li a.bt_cancel {
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_cancel.gif) no-repeat;
+    vertical-align: middle
+}
+
+.news_sch ul.select_bbs li a.bt_sch span,
+.bbs_sch ul.select_bbs li a.bt_cancel span {
+    display: none
+}
+
+.news_sch ul.select_bbs li span.desc {
+    font-size: 11px;
+    color: #808080;
+    padding: 0 0 0 10px
+}
+
+.news_sch ul.select_bbs li span.desc a.go {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #808080
+}
+
+.dlistw {
+    margin: 0 0 10px 0
+}
+
+.dlistw p.datew {
+    background: url(http://appdata.hungryapp.co.kr/images/common_/bu_arrow.gif) no-repeat 0px 12px;
+    padding: 8px 0 8px 10px;
+    line-height: 130%;
+    font-weight: bold;
+    color: #959595;
+    clear: left
+}
+
+.dlistw ul.list {
+    width: 100%;
+    border-top: 2px solid #646464
+}
+
+.dlistw ul.list li table.newlistt {
+    width: 100%
+}
+
+.dlistw ul.list li table.newlistt td {
+    padding: 12px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.dlistw ul.list li table.newlistt td.td01 {
+    width: 120px
+}
+
+.dlistw ul.list li table.newlistt td.td01 img {
+    width: 120px;
+    height: 90px
+}
+
+.dlistw ul.list li table.newlistt td.td02 p.title {
+    margin: 0 0 8px 0
+}
+
+.dlistw ul.list li table.newlistt td.td02 p.cont a {
+    font-size: 11px;
+    color: #6f6f6f;
+    line-height: 120%
+}
+
+.dlistw ul.list li table.newlistt td.td02 p.title a {
+    font-size: 14px;
+    color: #2c2c2c;
+    font-weight: bold;
+    line-height: 130%
+}
+
+.dlistw ul.list li table.newlistt td.td02 p.vieww {
+    position: relative;
+    height: 22px
+}
+
+.dlistw ul.list li table.newlistt td.td02 p.vieww span.view {
+    width: 200px;
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    color: #ff6200
+}
+
+.dlistw ul.list li table.newlistt td.td02 p.vieww span.writer {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #828282
+}
+
+.dlistw ul.list li table.newlistt td.td02 p.vieww span.writer span.today {
+    color: #ff6200
+}
+
+p.newbtn {
+    margin: 0 0 10px 0;
+    text-align: right
+}
+
+p.newbtn a.bt_regnews {
+    display: inline-block;
+    width: 75px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/newscenter/bt_regnews.gif) no-repeat
+}
+
+p.newbtn a.bt_regnews span {
+    display: none
+}
+
+/*뉴스센터 상세보기*/
+
+.newvh_list {
+    width: 100%;
+    clear: left;
+    position: relative;
+    border-top: 2px solid #676767;
+    border-bottom: 1px solid #676767;
+    padding: 0 0 9px 10px
+}
+
+.newvh_list li {
+    display: inline-block
+}
+
+.newvh_list li span.ct {
+    display: inline-block;
+    width: 95%;
+    color: #454545;
+    font-size: 14px;
+    vertical-align: top;
+    ;
+    line-height: 130%;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+    overflow: hidden
+}
+
+.newvh_list li span.hbtn {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    text-align: right;
+    margin: 8px 0 0 0
+}
+
+.newvh_list li.ctitle {
+    width: 100%
+}
+
+.newvh_list li.ctitle a.bt_cmodi {
+    display: inline-block;
+    width: 49px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_modify_s.gif) no-repeat;
+    vertical-align: top
+}
+
+.newvh_list li.ctitle a.bt_cdel {
+    display: inline-block;
+    width: 49px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_delete_s.gif) no-repeat;
+    vertical-align: middle
+}
+
+.newvh_list li.ctitle a span {
+    display: none
+}
+
+.newvh_list li.ctitle a {
+    font-size: 11px;
+    color: #777777
+}
+
+.newvh_list li.ctitle a.bt_blind,
+.newvh_list li.ctitle a.bt_secret,
+.newvh_list li.ctitle a.bt_police {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 3px
+}
+
+.newvh_list li.ctitle a.bt_police {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC
+}
+
+.newvh_list li.ctitle a.bt_blind span,
+.newvh_list li.ctitle a.bt_secret span,
+.newvh_list li.ctitle a.bt_police span {
+    display: block
+}
+
+.newvh_list li.nick {
+    width: 100%;
+    margin: 14px 0 0 0
+}
+
+.newvh_list li.nick span.wuser {
+    display: inline-block;
+    width: 30%
+}
+
+.newvh_list li.nick span.wuser a {
+    font-weight: bold
+}
+
+.newvh_list li.nick span.wdate {
+    display: inline-block;
+    width: 98%;
+    color: #828282;
+    text-align: right;
+    font-size: 11px
+}
+
+.newvh_list li span.wuser {
+    display: inline-block;
+    width: 30%
+}
+
+.newvh_list li span.wuser a {
+    font-weight: bold
+}
+
+/*아이템교환 상세보기*/
+
+/*게시글 헤더*/
+
+.veiw_head {
+    width: 100%;
+    clear: left;
+    padding: 0;
+    margin: 0
+}
+
+.itvh_list {
+    position: relative;
+    border-top: 2px solid #676767;
+    border-bottom: 1px solid #676767;
+    padding: 0 0 18px 90px;
+    margin: 0;
+}
+
+.itvh_list li {
+    display: inline-block
+}
+
+.itvh_list li.profile img {
+    position: absolute;
+    top: 5px;
+    left: 10px
+}
+
+.itvh_list li.nick {
+    width: 100%;
+    margin: 0 0 0 0
+}
+
+.itvh_list li.nick span.wuser {
+    display: inline-block;
+    width: 30%
+}
+
+.itvh_list li.nick span.wuser a {
+    font-weight: bold
+}
+
+.itvh_list li.nick span.wdate {
+    display: inline-block;
+    width: 68%;
+    color: #828282;
+    text-align: right;
+    font-size: 11px
+}
+
+.itvh_list li.ctitle {
+    width: 100%
+}
+
+.itvh_list li.ctitle span.wuser {
+    display: inline-block;
+    width: 30%
+}
+
+.itvh_list li.ctitle span.wuser a {
+    font-weight: bold
+}
+
+.itvh_list li.ctitle {
+    margin: 15px 0 0 0
+}
+
+.itvh_list li.ctitle span.ct {
+    display: inline-block;
+    width: 95%;
+    color: #454545;
+    font-size: 14px;
+    vertical-align: top;
+    margin: 0 0 0 0;
+    font-weight: bold;
+    overflow: hidden
+}
+
+.itvh_list li.ctitle span.hbtn {
+    display: inline-block;
+    width: 38%;
+    vertical-align: top;
+    text-align: right;
+    margin: 0 0 0 0
+}
+
+.itvh_list li.ctitle a.bt_cmodi {
+    display: inline-block;
+    width: 49px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_modify_s.gif) no-repeat;
+    vertical-align: top
+}
+
+.itvh_list li.ctitle a.bt_cdel {
+    display: inline-block;
+    width: 49px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_delete_s.gif) no-repeat;
+    vertical-align: middle
+}
+
+.itvh_list li.ctitle a span {
+    display: none
+}
+
+.itvh_list li.ctitle a {
+    font-size: 11px;
+    color: #777777
+}
+
+.itvh_list li.ctitle a.bt_blind,
+.itvh_list li.ctitle a.bt_secret,
+.itvh_list li.ctitle a.bt_police {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 3px
+}
+
+.itvh_list li.ctitle a.bt_police {
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC
+}
+
+.itvh_list li.ctitle a.bt_blind span,
+.itvh_list li.ctitle a.bt_secret span,
+.itvh_list li.ctitle a.bt_police span {
+    display: block
+}
+
+a.bt_secret {
+    width: 49px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_secret.gif) no-repeat
+}
+
+a.bt_police {
+    width: 49px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_police.gif) no-repeat
+}
+
+a.bt_blind {
+    width: 56px;
+    height: 20px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bt_blind.gif) no-repeat;
+    margin: 0 10px 0 0
+}
+
+span.hbtn a.bt_secret span {
+    display: none;
+}
+
+span.hbtn a.bt_police span {
+    display: none;
+}
+
+span.hbtn a.bt_blind span {
+    display: none;
+}
+
+/*단독게시판헤더*/
+
+.bbsb_menu {
+    padding: 15px 0 13px 0;
+    margin: 0 auto 0 auto;
+    border: none;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_bbsm.gif)
+}
+
+.bbsb_menu ul {
+    font-weight: bold;
+}
+
+.bbsb_menu ul li {
+    display: inline;
+    border-right: 1px solid #ff8e62;
+    padding: 0 5px 0 10px;
+}
+
+.bbsb_menu ul li.end {
+    display: inline;
+    border-right: none;
+    padding: 0 4px 0 10px;
+}
+
+.bbsb_menu ul li a {
+    color: #fff
+}
+
+.bbsb_menu02 {
+    padding: 10px 0 10px 0;
+    margin: 0 auto 0 auto;
+    border: none;
+    background: #828282;
+    border-bottom: 1px solid #dadada
+}
+
+.bbsb_menu02 ul {
+    width: 850px;
+    font-weight: normal;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.bbsb_menu02 ul li {
+    display: inline;
+    border-right: 1px solid #a7a7a7;
+    padding: 0 5px 0 10px;
+}
+
+.bbsb_menu02 ul li.end {
+    display: inline;
+    border-right: none;
+    padding: 0 0 0 10px;
+}
+
+.bbsb_menu02 ul li a {
+    color: #fff;
+    font-size: 11px
+}
+
+p.best_bbs {
+    margin: 0 0 4px 0
+}
+
+p.lfrank {
+    width: 200px;
+    position: relative;
+    margin: 12px 0 0 0
+}
+
+p.lfrank span.title {
+    display: block;
+    width: 200px;
+    height: 29px;
+    background: url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -658px;
+    border: 1px solid #cccccc;
+    border-bottom: none
+}
+
+p.lfrank span.title span {
+    display: none
+}
+
+.leftmn_warp .rankw ul.tab {
+    width: 200px;
+    height: 20px;
+    position: relative;
+    margin: 0;
+    padding: 0
+}
+
+.leftmn_warp .rankw ul.tab li {
+    float: left;
+    width: 100px;
+    border: 1px solid #cccccc;
+    border-bottom: 1px solid #f05526;
+    margin: 0 -1px 0 0;
+    background: #f1f1f1;
+    padding: 0
+}
+
+.leftmn_warp .rankw ul.tab li.tm01 {
+    position: absolute;
+    top: 0px;
+    left: 0px
+}
+
+.leftmn_warp .rankw ul.tab li.tm02 {
+    position: absolute;
+    top: 0px;
+    left: 100px
+}
+
+.leftmn_warp .rankw ul.tab li.tm03 {
+    position: absolute;
+    top: 0px;
+    right: 1px
+}
+
+.leftmn_warp .rankw ul.tab li a {
+    display: block;
+    color: #696a6a;
+    width: 58;
+    height: 11px;
+    text-align: center;
+    padding: 4px;
+    font-size: 11px
+}
+
+.leftmn_warp .rankw ul.tab li.select {
+    background: #f05526;
+    border: 1px solid #f05526
+}
+
+.leftmn_warp .rankw ul.tab li.select a {
+    display: block;
+    font-weight: bold;
+    color: #faf8f6;
+    width: 58;
+    height: 11px;
+    text-align: center;
+    padding: 4px;
+    font-size: 11px
+}
+
+.leftmn_warp .rankw .topw ul.tab02 {
+    width: 190px;
+    height: 26px;
+    position: relative;
+    margin: 0 auto 5px auto;
+    padding: 0;
+    background: #eee;
+}
+
+.leftmn_warp .rankw .topw ul.tab02 li {
+    height: 11px;
+    margin: 5px 0 0 0
+}
+
+.leftmn_warp .rankw .topw ul.tab02 li.tm01 {
+    position: absolute;
+    top: 3px;
+    left: 0px
+}
+
+.leftmn_warp .rankw .topw ul.tab02 li.tm02 {
+    position: absolute;
+    top: 3px;
+    left: 63px;
+}
+
+.leftmn_warp .rankw .topw ul.tab02 li.tm03 {
+    position: absolute;
+    top: 3px;
+    right: 0px
+}
+
+.leftmn_warp .rankw .topw ul.tab02 li a {
+    display: block;
+    color: #4e4e4e;
+    width: 63px;
+    height: 11px;
+    text-align: center;
+    padding: 0;
+    font-size: 11px;
+    margin: 0 0 0 0
+}
+
+.leftmn_warp .rankw .topw ul.tab02 li.tm02 a {
+    display: block;
+    color: #4e4e4e;
+    width: 63px;
+    height: 11px;
+    text-align: center;
+    padding: 0;
+    font-size: 11px;
+    margin: 0 0 0 0;
+    border-right: 1px solid #4e4e4e;
+    border-left: 1px solid #4e4e4e;
+}
+
+.leftmn_warp .rankw .topw ul.tab02 li.select a {
+    display: block;
+    font-weight: bold;
+    width: 63px;
+    height: 11px;
+    text-align: center;
+    padding: 0;
+    font-size: 11px;
+    margin: 0 0 0 0
+}
+
+.leftmn_warp .rankw .topw {
+    width: 200px;
+    border: 1px solid #f05526;
+    padding: 10px 0
+}
+
+.leftmn_warp .rankw .topw table {
+    width: 95%;
+    table-layout: fixed;
+    margin: 0 auto
+}
+
+.leftmn_warp .rankw .topw table td {
+    padding: 4px 0;
+    font-size: 11px
+}
+
+.leftmn_warp .rankw .topw table td.td01 {
+    width: 20px;
+    text-align: center
+}
+
+.leftmn_warp .rankw .topw table td.td02 {
+    width: *;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.leftmn_warp .rankw .topw table td.td03 {
+    width: 70px;
+    text-align: right;
+    padding: 0 5px 0 0;
+    color: #2a98b1;
+    font-weight: bold
+}
+
+.hrank {
+    position: relative
+}
+
+.hrank .hrank_list {
+    position: absolute;
+    width: 238px;
+    border: 1px solid #676767;
+    z-index: 99;
+    background: #FFF;
+    bottom: 0px;
+    left: 201px;
+    border-bottom: 2px solid #c9c9c9
+}
+
+.hrank p.thtitle {
+    position: relative;
+    text-align: center
+}
+
+.hrank p.thtitle a.bt_close {
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+
+.hrank ul.tab03 {
+    width: 218px;
+    height: 26px;
+    position: relative;
+    margin: 0 auto 5px auto;
+    padding: 0;
+    background: #eee;
+}
+
+.hrank ul.tab03 li {
+    height: 11px;
+    margin: 5px 0 0 0
+}
+
+.hrank ul.tab03 li.tm01 {
+    position: absolute;
+    top: 3px;
+    left: 0px
+}
+
+.hrank ul.tab03 li.tm02 {
+    position: absolute;
+    top: 3px;
+    left: 78px;
+}
+
+.hrank ul.tab03 li.tm03 {
+    position: absolute;
+    top: 3px;
+    right: 0px
+}
+
+.hrank ul.tab03 li a {
+    display: block;
+    color: #4e4e4e;
+    width: 63px;
+    height: 11px;
+    text-align: center;
+    padding: 0;
+    font-size: 11px;
+    margin: 0 0 0 0
+}
+
+.hrank ul.tab03 li.tm02 a {
+    display: block;
+    color: #4e4e4e;
+    width: 63px;
+    height: 11px;
+    text-align: center;
+    padding: 0;
+    font-size: 11px;
+    margin: 0 0 0 0;
+    border-right: 1px solid #4e4e4e;
+    border-left: 1px solid #4e4e4e;
+}
+
+.hrank ul.tab03 li.select a {
+    display: block;
+    font-weight: bold;
+    width: 63px;
+    height: 11px;
+    text-align: center;
+    padding: 0;
+    font-size: 11px;
+    margin: 0 0 0 0
+}
+
+.hrank .dayr {
+    text-align: center;
+    font-weight: bold;
+}
+
+.hrank .dayr span.hdate {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 14px 0
+}
+
+.hrank .dayr img {
+    margin: -2px 0 0 0
+}
+
+.hrank table {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #676767
+}
+
+.hrank table td.td01 {
+    width: 40px;
+    text-align: center
+}
+
+.hrank table td.td02 {
+    width: *
+}
+
+.hrank table td.td02 span {
+    display: block;
+}
+
+.hrank table td.td02 span.mnum {
+    display: inline;
+    font-size: 11px;
+    color: #595959;
+    padding: 0 0 0 20px
+}
+
+.hrank table td.td02 a {
+    font-weight: bold
+}
+
+.hrank table td.td02 span.nowm {
+    display: inline;
+    font-size: 11px;
+    color: #f05526
+}
+
+.hrank table td {
+    border-top: 1px solid #d7d7d7;
+    padding: 12px 0
+}
+
+/*게임다운로드 평가 목록 추가*/
+
+span.rankn {
+    font-size: 28px;
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #363636
+}
+
+span.updownn {
+    display: block;
+    text-align: center
+}
+
+span.updownn img {
+    vertical-align: middle;
+    margin: 0 0 5px 0
+}
+
+span.updownn span.upn {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #f94510
+}
+
+span.updownn span.downn {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #3d92d5
+}
+
+.lfmt03 {
+    width: 200px;
+    position: relative;
+    margin: 0 0 0 0;
+    border: 1px solid #da3b0b
+}
+
+span.rankn02 {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #363636
+}
+
+span.updownn02 {
+    display: block;
+    text-align: center
+}
+
+span.updownn02 img {
+    vertical-align: middle;
+    margin: 0 0 2px 0
+}
+
+span.updownn02 span.upn {
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #f94510
+}
+
+span.updownn02 span.downn {
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #3d92d5
+}
+
+span.updownn02 span.keepn {
+    font-size: 11px;
+    font-family: Tahoma;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    color: #999
+}
+
+/*공략팬사이트 더보기 페이지*/
+
+.sgsw {
+    float: left;
+    margin: 0 0 8px 0
+}
+
+.sgsw .sgsbox02 {
+    float: left;
+    position: relative;
+    width: 730px;
+    border: 1px solid #e0e0e2;
+    padding: 15px 20px;
+    height: 27px
+}
+
+.sgsw .sgsbox02 .sgsearch span {
+    display: inline-block
+}
+
+.sgsw .sgsbox02 .sgsearch span.select input {
+    padding: 6px 5px
+}
+
+.sgsw .sgsbox02 .sgsearch span.inputf {
+    padding: 0 0 0 10px
+}
+
+.sgsw .sgsbox02 .sgsearch span.inputf input {
+    width: 500px;
+    padding: 6px 5px
+}
+
+.sgsw .sgsbox02 .sgsearch span.select li.select {
+    width: 100px
+}
+
+.sgsw .sgsbox02 .sgsearch span.select li.select_box {
+    width: 120px;
+    position: relative
+}
+
+.sgsw .sgsbox02 .sgsearch span.select li.select_box input {
+    width: 100%
+}
+
+.sgsw .sgsbox02 .sgsearch span.select li.select_box span.select_bt {
+    position: absolute;
+    right: -10px;
+    top: 0px;
+    cursor: pointer
+}
+
+ul.lfmn_attack {
+    width: 200px;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    margin: 0 0 0 0
+}
+
+ul.lfmn_attack ul {
+    width: 100%
+}
+
+ul.lfmn_attack li {
+    background: #fff;
+    border-bottom: 1px solid #cccccc;
+    padding: 4px 10px
+}
+
+ul.lfmn_attack li img {
+    width: 18px;
+    height: 18px
+}
+
+ul.lfmn_attack li a {
+    color: #434343
+}
+
+/*게임뉴스*/
+
+.dlistw ul.list5 {
+    width: 100%;
+}
+
+.dlistw ul.list5 li table.newlistt02 {
+    width: 100%
+}
+
+.dlistw ul.list5 li table.newlistt02 {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.dlistw ul.list5 li table.newlistt02 td {
+    padding: 8px;
+}
+
+.dlistw ul.list5 li table.newlistt03 td {
+    padding: 0 8px;
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td01 {
+    width: 80px
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td01 img {
+    width: 80px;
+    height: 60px
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td02 {
+    vertical-align: top;
+    position: relative;
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td02 p.cont a {
+    display: block;
+    font-size: 12px;
+    color: #454545;
+    line-height: 160%;
+    font-family: Gulim;
+    overflow: hidden;
+    width: 630px;
+    vertical-align: middle
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td02 p.title a {
+    font-size: 14px;
+    color: #2c2c2c;
+    font-weight: bold;
+    line-height: 130%
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td02 p.vieww {
+    width: 200px;
+    height: 22px;
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    text-align: right
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td02 p.vieww span.view {
+    width: 200px;
+    color: #ff6200;
+    border: 1px solid #F00
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td02 p.vieww span.writer {
+    color: #828282
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td02 p.vieww span.writer span.today {
+    color: #828282;
+    font-size: 11px;
+    font-family: Tahoma
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td02 p.vieww span.writer span.today {
+    color: #ff6200
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td03 span.categ {
+    font-size: 11px;
+    color: #6a6a6a;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td03 span.title a {
+    font-size: 14px;
+    color: #024b93;
+    font-weight: bold;
+    line-height: 140%;
+    white-space: nowrap;
+    overflow: hidden
+}
+
+.dlistw ul.list5 li table.newlistt02 td.td03 span.rnum {
+    color: #ff652d;
+    font-size: 11px
+}
+
+.cntwrap table.gamenewstt {
+    width: 980px;
+    border-bottom: 2px solid #f35a26;
+    margin: 0 0 6px 2px
+}
+
+.cntwrap table.gamenewstt td {
+    position: relative;
+    padding: 0 0 6px 0
+}
+
+.cntwrap table.gamenewstt td .bbstitle {
+    position: absolute;
+    top: 0px;
+    right: 0px
+}
+
+/*13.03.22 마일리지 적용*/
+
+.m_go {
+    width: 100%
+}
+
+.m_go table {
+    width: 100%;
+}
+
+.m_go table td {
+    height: 26px;
+    background: url(http://appdata.hungryapp.co.kr/images/common/bg_m3.gif) repeat-x
+}
+
+.m_go table td.sd {
+    background: none;
+    width: 4px;
+    vertical-align: bottom
+}
+
+.m_go table td.cl {
+    width: 20px
+}
+
+.m_go table td.btm {
+    width: 70px
+}
+
+.m_go table td.ml {
+    color: #fff;
+    font-family: Gulim;
+    padding: 0 0 0 10px;
+    font-weight: bold
+}
+
+span.mlv {
+    display: inline-block;
+    position: relative;
+    color: #ff6000;
+    font-size: 11px;
+    margin: 0 0 0 5px
+}
+
+span.mlv img.mls {
+    vertical-align: middle;
+    margin: 0 0 5px 0
+}
+
+.m_rgo {
+    width: 140px;
+    position: absolute;
+    top: 0px;
+    left: -5px
+}
+
+.m_rgo table {
+    width: 100%;
+}
+
+.m_rgo table td {
+    height: 21px;
+    background: url(http://appdata.hungryapp.co.kr/images/common/bg_m2.png) repeat-x
+}
+
+.m_rgo table td.sd {
+    background: none;
+    width: 4px;
+    vertical-align: bottom
+}
+
+.m_rgo table td.cl {
+    width: 20px
+}
+
+.m_rgo table td.btm {
+    width: 70px
+}
+
+.m_rgo table td.ml {
+    color: #6a5700;
+    padding: 0 0 0 10px;
+    font-weight: normal;
+    font-size: 11px
+}
+
+/*13.03.22 데빌메이커*/
+
+table.devil_list {
+    clear: left;
+    width: 100%;
+}
+
+table.devil_list td {
+    padding: 5px;
+    border-bottom: 1px solid #fff;
+    background: #330e1e;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+}
+
+table.devil_list td.in {
+    padding: 5px;
+    background: #330e1e;
+    font-size: 11px;
+    color: #fff;
+    text-align: left;
+    border-bottom: 1px solid #330e1e;
+}
+
+table.devil_list td.btn {
+    padding-right: 10px;
+    text-align: center;
+}
+
+table.devil_list a.btn_devil {
+    background: url(http://appdata.hungryapp.co.kr/images/sim/devil/btn_bg01.jpg) 100%;
+    padding: 5px;
+    border: 1px solid #b23993;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+table.devil_list a span {
+    color: #ffffff;
+}
+
+table.devil_list_me {
+    clear: left;
+    width: 100%;
+    border: 3px solid #e2bb20;
+}
+
+table.devil_list_me td {
+    padding: 5px;
+    border-bottom: 1px solid #771f5e;
+    background: #330e1e;
+    font-size: 11px;
+    color: #fff;
+    text-align: center;
+}
+
+table.devil_list_me td.in {
+    padding: 5px;
+    background: #330e1e;
+    font-size: 11px;
+    color: #fff;
+    text-align: left;
+    border-bottom: 1px solid #330e1e;
+}
+
+table.devil_list_me td.btn {
+    padding-right: 10px;
+    text-align: center;
+}
+
+table.devil_list_me a.btn_devil {
+    background: url(http://appdata.hungryapp.co.kr/images/sim/devil/btn_bg01.jpg) 100%;
+    padding: 5px;
+    border: 1px solid #b23993;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+table.devil_list_me a span {
+    color: #ffffff;
+}
+
+table td.devil a.btn_devil01 {
+    background: url(http://appdata.hungryapp.co.kr/images/sim/devil/btn_bg02.jpg) 100%;
+    padding: 15px 20px;
+    border: 1px solid #771f5e;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+table td.devil a.btn_devil02 {
+    background: url(http://appdata.hungryapp.co.kr/images/sim/devil/btn_bg03.jpg) 100%;
+    padding: 15px 20px;
+    border: 1px solid #767676;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+table td.devil a span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* 마일리지샵 응모권구매 2013.05.27*/
+
+.info_box {
+    float: left;
+    margin: 10px 0 0 15px;
+    width: 366px;
+    height: 131px;
+    background: transparent url(http://appdata.hungryapp.co.kr/images/mileage/cupon_bg.gif) repeat;
+}
+
+.tab4_bk .select {
+    margin-top: 10px;
+}
+
+.tab4_bk .select select {
+    border: 1px solid #C5C5C5;
+    border-radius: 3px;
+}
+
+.ch_count {
+    width: 280px;
+    margin: 0 auto;
+    margin-top: -2px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.ch_count input {
+    border: 1px solid #CECECE;
+    padding: 2px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myEvent {
+    width: 100%;
+    font-size: 14px;
+    background: #EDEDED;
+    padding: 10px 0 15px 0;
+    line-height: 32px;
+    border-top: 1px solid #D1D1D1;
+    border-bottom: 1px solid #D1D1D1;
+    float: left;
+    text-align: center;
+}
+
+.myEvent b {
+    color: #FF2300;
+}
+
+.eventgoods_tb .bphoto img {
+    width: 145px;
+    margin: 0 5px;
+    border: 1px solid #E0E0E0;
+}
+
+/* 장수 */
+
+.info_box .apply {
+    padding: 28px 0 0 50px;
+    float: left;
+    width: 170px;
+    text-align: center;
+}
+
+.info_box .apply span {
+    float: left;
+    background: transparent url(http://appdata.hungryapp.co.kr/images/mileage/nember.png) no-repeat;
+    height: 15px;
+    width: 9px;
+    display: block;
+}
+
+.info_box .apply .zero {
+    background-position: -90px -94px;
+}
+
+.info_box .apply .one {
+    background-position: -9px -94px;
+}
+
+.info_box .apply .two {
+    background-position: -18px -94px;
+}
+
+.info_box .apply .three {
+    background-position: -27px -94px;
+}
+
+.info_box .apply .four {
+    background-position: -36px -94px;
+}
+
+.info_box .apply .five {
+    background-position: -45px -94px;
+}
+
+.info_box .apply .six {
+    background-position: -54px -94px;
+}
+
+.info_box .apply .seven {
+    background-position: -63px -94px;
+}
+
+.info_box .apply .eight {
+    background-position: -72px -94px;
+}
+
+.info_box .apply .nine {
+    background-position: -81px -94px;
+}
+
+.info_box .apply .dot {
+    background-position: -101px -96px;
+    width: 5px;
+}
+
+.info_box .apply .unit {
+    background-position: -11px -118px;
+    width: 60px;
+}
+
+.info_box .apply .unit2 {
+    background-position: -77px -118px;
+    width: 14px;
+}
+
+/* 마일리지 */
+
+.info_box .mileage {
+    padding: 30px 0 0 25px;
+    float: left;
+    width: 195px;
+}
+
+.info_box .mileage span {
+    float: left;
+    background: transparent url(http://appdata.hungryapp.co.kr/images/mileage/nember.png) no-repeat;
+    height: 30px;
+    width: 20px;
+    display: block;
+}
+
+.info_box .mileage .zero {
+    background-position: -192px -53px;
+}
+
+.info_box .mileage .one {
+    background-position: -9px -53px;
+}
+
+.info_box .mileage .two {
+    background-position: -27px -53px;
+}
+
+.info_box .mileage .three {
+    background-position: -48px -53px;
+}
+
+.info_box .mileage .four {
+    background-position: -68px -53px;
+}
+
+.info_box .mileage .five {
+    background-position: -88px -53px;
+}
+
+.info_box .mileage .six {
+    background-position: -108px -53px;
+}
+
+.info_box .mileage .seven {
+    background-position: -132px -53px;
+}
+
+.info_box .mileage .eight {
+    background-position: -152px -53px;
+}
+
+.info_box .mileage .nine {
+    background-position: -173px -53px;
+}
+
+.info_box .mileage .dot {
+    background-position: -214px -57px;
+    width: 10px;
+}
+
+.info_box .mileage .unit {
+    background-position: -116px -84px;
+    width: 60px;
+}
+
+/* 할인률 */
+
+.info_box .discount {
+    padding: 25px 0 0 25px;
+    float: right;
+    width: 115px;
+}
+
+.info_box .discount span {
+    float: left;
+    background: transparent url(http://appdata.hungryapp.co.kr/images/mileage/nember.png) no-repeat;
+    height: 33px;
+    width: 22px;
+    display: block;
+}
+
+.info_box .discount .zero {
+    background-position: -208px -10px;
+}
+
+.info_box .discount .one {
+    background-position: -6px -10px;
+}
+
+.info_box .discount .two {
+    background-position: -26px -10px;
+}
+
+.info_box .discount .three {
+    background-position: -48px -10px;
+}
+
+.info_box .discount .four {
+    background-position: -71px -10px;
+}
+
+.info_box .discount .five {
+    background-position: -95px -10px;
+}
+
+.info_box .discount .six {
+    background-position: -118px -10px;
+}
+
+.info_box .discount .seven {
+    background-position: -140px -10px;
+}
+
+.info_box .discount .eight {
+    background-position: -162px -10px;
+}
+
+.info_box .discount .nine {
+    background-position: -184px -10px;
+}
+
+.info_box .discount .dot {
+    background-position: -214px -57px;
+    width: 10px;
+    height: 30px;
+}
+
+.info_box .discount .unit {
+    background-position: -95px -115px;
+    width: 50px;
+    height: 20px;
+    margin-top: 13px;
+}
+
+p.lfmt span.title200 {
+    display: block;
+    width: 200px;
+    height: 27px;
+    background: #f66125 url(http://appdata.hungryapp.co.kr/images/bbs_/bg_leftmn.gif) no-repeat 0px -690px;
+    border: 1px solid #da3b0b
+}

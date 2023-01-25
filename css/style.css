@@ -1,0 +1,246 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{ margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;	vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block;}
+body { line-height: 1;}
+ol, ul { list-style: none;}
+blockquote, q {	quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none;}
+table {	border-collapse: collapse; border-spacing: 0;}
+a { text-decoration: none;}
+img { width: 100%; height: auto; vertical-align: middle;}
+
+
+/* 시뮬 본문 css */
+body { background: url('../images/bg.jpg')no-repeat; font-size: 14px;}
+
+input.sim_input { width: 100%; height: 24px; text-indent: 10px; line-height: 40px;
+    border: 0;
+    background: none; color: #fff;}
+
+textarea.sim_txt { padding-top: 10px; width: 100%; max-width:475px; min-height: 60px; max-height: 100px; text-indent: 10px; overflow: hidden;
+    border: 0;
+    background: none; color: #fff;}
+
+
+/*color*/
+.col_yellow { color: #f0cb02;}
+.col_ivory { color: #ffdea4;}
+.col_sky { color: #00ffff;}
+.col_orange { color: #ff0000;}
+
+
+div.sim_wrap { width: 618px; margin: 0 auto;}
+
+div.sim_title { padding: 20px 0 10px 0;}
+
+div.uma_list {background: #f2f2f2; border-radius: 7px; height: 100%; display: block; overflow: hidden; margin: 0 auto; margin-bottom: 10px; width: 618px}
+.uma_list_t {background: url('../images/ch_bar.png')no-repeat; height: 42px; }
+.list_icon ul{margin: 0 auto;text-align: center; margin: 5px 0 20px 0}
+.list_icon li{width: 13%; display: inline-block}
+#simul_list li img{
+    width: 72.737px;
+    height: 79.275px;
+    /*width: 80.338px;
+    height: 87.563px;*/
+}
+div.uma_boast {background: #f2f2f2; border-radius: 7px; height: 100%; display: block; overflow: hidden; margin: 0 auto; margin-bottom: 60px; width: 618px}
+.uma_boast_t {background: url('../images/result_bar.png')no-repeat; height: 42px; }
+
+/* 시뮬레이터 매인 : 왼쪽 */
+div.sim_simul { position: relative; float: left; width: 49%; }
+div.sim_simul img { width: 100%;}
+.uma_1ro {position: absolute; left: 35%; top: 35%; width: 100px;}
+#small_list img { width: 100px; height: 109px;}
+.uma_10ro {position: absolute; z-index: 1; left: 9%; top: 4%; display: none}
+.uma_10ro ul{display: inline-block; text-align: center; width: 88%; }
+.uma_10ro li{ display: inline-block; width: 30%}
+#big_list ul li img { width: 72.737px; height: 79.275px;}
+/*ul.summ_child { position: absolute; top: 0; left: 0; width: 100%; z-index: 9;}
+ul.summ_iconS { position: absolute; top: 40%; left: 0; width: 100%; z-index: 99;}
+ul.summ_iconS li { margin: 0 auto;}
+ul.summ_iconS li:first-child { width: 30%;}
+ul.summ_iconS li:last-child { text-align: center;}
+ul.summ_iconS li:last-child button { font-size: 12px; padding: 2px 7px 3px 7px; min-width: 10%; text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    border: 1px solid #000;
+    border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;}
+
+div.summ_iconD { position: absolute; top: 67%; left: 5%; width: 92%; z-index: 99;}
+div.summ_iconD a { display: block; float: left; width: 14.5%; margin: 0 2% 10px 0;}
+div.summ_iconD a:first-child { margin-left: 8%;}
+div.summ_iconD a:right-child { margin-right: 0;}*/
+
+
+/* 시뮬레이터 매인 > 오른쪽 > 공지 및 소환 버튼 */
+div.sim_right { float: right; width: 50%;}
+ul.sim_btn { margin-bottom: 10px; overflow: hidden;}
+ul.sim_btn li img { width: 100%;}
+ul.sim_btn li.sim_banner { position: relative; margin-bottom: 6px; }
+ul.sim_btn li.sim_banner img { width: 309px; height: 114.06px; }
+ul.sim_btn li { float: left;}
+ul.sim_btn li a { display: block;}
+ul.sim_btn li.btnLeft, ul.sim_btn li.btnRight { width: 50%; margin-bottom: 5px;}
+ul.sim_btn li.btnLeft a { margin-right: 5px;}
+ul.sim_btn li.btnRight a { margin-left: 5px;}
+ul.sim_btn li.btnMiddle { 
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+ul.sim_btn li.btnMiddle a { 
+    margin-right: 0;
+}
+ul.sim_btn li.btnReset { width: 100%;}
+
+
+/* 시뮬레이터 매인 > 오른쪽 > 소환결과 */
+.sim_select {margin-bottom: 7px;}
+.sim_right tr,td,th {height: 42px; font-size: 12px; text-align: center; border: 1px solid #84da8e; vertical-align: middle}
+.sim_right .th_1 {color: #855f40; background: #bff7bb; height: 42px; }
+table.sim_result { width: 100%; margin-bottom: 10px}
+table.sim_result tr td { border: 1px solid #84da8e;}
+table.sim_result tr td:last-child { border-right: 0;}
+table.sim_result th, table.sim_result td { text-align: center; font-size: 12px; vertical-align: middle; height: 42px; color: #000;}
+table.sim_result th { height: 42px; font-size: 12px;
+    color: #f0cb02;
+    background: #fff;
+    border-bottom: 1px solid #84da8e;}
+table.sim_result td.td_result {
+    background: #fff;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #84da8e;}
+table.sim_result td.td_st01 { background: #fff;}
+
+
+div.box_tt { padding-left: 10px; margin-bottom: 10px; height: 33px; line-height: 30px; font-size: 13px; font-weight: bold; overflow: hidden;
+    color: #f0cb02;
+    background: left top url('../images/ghost_simul_20.png') repeat-y;
+    border-radius: 4px 0 0 4px;
+    -o-border-radius: 4px 0 0 4px;
+    -ms-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;}
+
+
+/* 소환된 차일드 */
+table.sim_tb td.overInfo { position: relative; padding: 3px 0;}
+table.sim_tb td.overInfo img { width: 96%; cursor: pointer;}
+
+/* 오버 뷰 */
+div.overView { 
+    position: absolute; padding: 0 10px 5px 10px; top: -150px; left: -311px; width: 280px;  z-index: 99;
+    background: rgba(0,0,0,0.6);
+}
+div.overView table { width: 100%; margin-bottom: 5px;
+    border: 1px solid #ffe8b7;}
+div.overView table td, div.overView table th { height: 31px; font-size: 11px; text-align: center; vertical-align: middle;
+    border-bottom: 1px solid #ffe8b7;}
+div.overView table th {
+    color: #ffc400;
+    background: #1a1b22;
+    border-right: 1px solid #ffe8b7;}
+div.overView table td {
+    color: #000;
+    background: #26272c;}
+div.overView table td.child_name { 
+    height: 45px;
+    font-weight: bold;
+    color: #ffc400;
+}
+div.overView table td.child_name img { width: auto; height: 20px;}
+a.overView_close { display: block; float: right; margin-top: 5px; width: 50px; height: 20px; line-height: 20px; text-align: center; font-weight: bold;
+    color: #ffc400;}
+table.sim_tb td:first-child img.list_char { width: 58px; height: 58px; margin: 5px; cursor: pointer;}
+
+div.overView table td.td_left { text-align: left; padding-left: 10px;}
+td.img_child img { width: 58px; height: 58px;}
+
+
+/* 저장하기 */
+div.sim_save { float: left; width: 50%;}
+div.sim_save table { width: 100%;}
+div.sim_save table tr th, div.sim_save table tr td { font-size: 12px; text-align: center; vertical-align: middle;
+    background: rgba(0,0,0,0.5);
+    border-right: 1px solid #555;
+    border-bottom: 1px solid #555;}
+div.sim_save table tr th { height: 30px; color: #f0cb02;}
+div.sim_save table tr td { color: #000;}
+div.sim_save table tr td:last-child { border-right: 0;}
+
+div.sim_save table td.td_result {
+    background: rgba(66,255,255,0.1);
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #555;}
+div.sim_save table td.td_st01 { background: rgba(255,255,255,0.05);}
+.boast_btn {text-align: center}
+.boast_btn ul{display: inline-block; vertical-align: middle; margin: 15px 0}
+
+
+a.sim_txtAsk { display: block; margin: 10px auto; width: 80%;}
+a.sim_btnComm { display: block; margin: 0 auto; margin-bottom: 12px;}
+
+/*관리자 페이지*/
+.manager_page {width: 618px; margin: 0 auto;}
+.manager_page th,td,tr{height: 33px; font-size: 12px; text-align: center; border: 1px solid #575757; vertical-align: middle}
+.sim_right .th_1 {color: #855f40; background: #bff7bb; height: 42px; }
+.manager_grey {background-color: #d5d5d5; color: #575757}
+.manager_l_grey {
+    background-color: #efefef;
+    /* #575757 */
+}
+.manager_btn {
+    width: 100px;
+    height: 40px;
+    background-color: #d5d5d5;
+    border: 1px solid #575757;
+}
+.star1 {
+    display: inline-block;
+    position: relative;
+    top: -6px;
+    width: 45px;
+    height: 13px;
+    background:
+    url('../images/utx_ico_strong_star_00.png') 0px 0px no-repeat,
+    url('../images/utx_ico_strong_star_01.png') 8px 0px no-repeat,
+    url('../images/utx_ico_strong_star_01.png') 16px 0px no-repeat,
+    url('../images/utx_ico_strong_star_01.png') 24px 0px no-repeat,
+    url('../images/utx_ico_strong_star_01.png') 32px 0px no-repeat;
+    background-size: contain;
+}
+.star2 {
+    display: inline-block;
+    position: relative;
+    top: -6px;
+    width: 45px;
+    height: 13px;
+    background:
+    url('../images/utx_ico_strong_star_00.png') 0px 0px no-repeat,
+    url('../images/utx_ico_strong_star_00.png') 8px 0px no-repeat,
+    url('../images/utx_ico_strong_star_01.png') 16px 0px no-repeat,
+    url('../images/utx_ico_strong_star_01.png') 24px 0px no-repeat,
+    url('../images/utx_ico_strong_star_01.png') 32px 0px no-repeat;
+    background-size: contain;
+}
+.star3 {
+    display: inline-block;
+    position: relative;
+    top: -6px;
+    width: 45px;
+    height: 13px;
+    background:
+    url('../images/utx_ico_strong_star_00.png') 0px 0px no-repeat,
+    url('../images/utx_ico_strong_star_00.png') 8px 0px no-repeat,
+    url('../images/utx_ico_strong_star_00.png') 16px 0px no-repeat,
+    url('../images/utx_ico_strong_star_01.png') 24px 0px no-repeat,
+    url('../images/utx_ico_strong_star_01.png') 32px 0px no-repeat;
+    background-size: contain;
+}

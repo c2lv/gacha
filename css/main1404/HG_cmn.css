@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------------------------
+hungryapp style Sheet
+
+version: 1.1
+author: Jojunghee
+email: jjh@monawa.com
+website: http://www.hungryapp.co.kr/
+--------------------------------*/
+
+.hg_TopbnrL {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 414px;
+    height: auto;
+    vertical-align: top;
+    padding: 0 0 0 4px;
+    margin: 0;
+}
+
+.hg_TopbnrR {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 557px;
+    height: auto;
+    vertical-align: top;
+    padding: 0 0 0 4px;
+    margin: 0;
+}
+
+/*--즐겨찾기--*/
+
+.bookmark {
+    position: relative;
+    float: left;
+    width: 120px;
+    height: auto;
+    padding: 0 0 2px 0;
+    margin: 4px 0 0 0;
+    ;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/common/bookmark_bg.jpg') repeat-y;
+    border-bottom: solid 1px #585858;
+}
+
+.bookPlus {
+    position: relative;
+    float: left;
+    display: inline-block;
+    width: 120px;
+    padding: 3px 0 0 4px;
+}
+
+ul.bookmarkCell {
+    position: relative;
+    float: left;
+    width: 112px;
+    height: auto;
+    margin: 0 3px 0 3px;
+    border: solid 1px #282b2c;
+    background: #ffffff;
+}
+
+ul.bookmarkCell li {
+    position: relative;
+    display: inline-block;
+    width: 108px;
+    height: 20px;
+    padding: 3px;
+    text-align: left;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+ul.bookmarkCell li img {
+    position: relative;
+    display: inline-block;
+    width: 21px;
+    padding: 0 5px 0 0;
+}
+
+ul.bookmarkCell li a {
+    position: relative;
+    display: inline-block;
+    width: 81px;
+    height: 15px;
+    color: #5d5d5d;
+    font: normal 11px dotum;
+    text-decoration: none;
+    overflow: hidden;
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+ul.bookmarkCell li a:hover {
+    position: relative;
+    width: 81px;
+    height: 15px;
+    color: #5d5d5d;
+    font: normal 11px dotum;
+    text-decoration: underline;
+    overflow: hidden;
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+/*--추천퀵메뉴--*/
+
+.RightQiuck {
+    position: relative;
+    float: left;
+    width: 120px;
+    height: auto;
+    padding: 0 0 2px 0;
+    margin: 4px 0 0 0;
+    ;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/common/quick_bg.jpg') repeat-y;
+    border-bottom: solid 1px #fe400a;
+}
+
+ul.QuickCell {
+    position: relative;
+    float: left;
+    width: 112px;
+    height: auto;
+    margin: 0 3px 0 3px;
+    border: solid 1px #fe400a;
+    background: #ffffff;
+}
+
+ul.QuickCell li {
+    position: relative;
+    display: inline-block;
+    width: 108px;
+    height: 20px;
+    padding: 3px;
+    text-align: left;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+ul.QuickCell li img {
+    position: relative;
+    display: inline-block;
+    width: 21px;
+    padding: 0 5px 0 0;
+}
+
+ul.QuickCell li a {
+    position: relative;
+    display: inline-block;
+    width: 81px;
+    height: 15px;
+    color: #5d5d5d;
+    font: normal 11px dotum;
+    text-decoration: none;
+    overflow: hidden;
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+ul.QuickCell li a:hover {
+    position: relative;
+    width: 81px;
+    height: 15px;
+    color: #5d5d5d;
+    font: normal 11px dotum;
+    text-decoration: underline;
+    overflow: hidden;
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+.RightBnr {
+    position: relative;
+    display: inline-block;
+    padding: 4px 0 0 0;
+}
+
+/*--자주쓰는 컬러--*/
+
+.pointBLUE {
+    font: bold 11px dotum;
+    color: #066bb8;
+    overflow: hidden;
+}
+
+.pointORG {
+    font: bold 11px dotum;
+    color: #ff5a00;
+    overflow: hidden;
+}
+
+.txBLUE {
+    font: normal 11px dotum;
+    color: #066bb8;
+    overflow: hidden;
+}
+
+.txORG {
+    font: normal 11px dotum;
+    color: #ff5a00;
+    overflow: hidden;
+}
+
+/*--Make icon--*/
+
+.iconMake1 {
+    position: relative;
+    width: 38px;
+    height: 22px;
+    overflow: hidden;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/common/icon_make.jpg) 0px 0px no-repeat;
+}
+
+.iconMake2 {
+    position: relative;
+    width: 38px;
+    height: 22px;
+    overflow: hidden;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/common/icon_make.jpg) 0px 0px no-repeat;
+    background-position: left -22px;
+}
+
+.iconMake3 {
+    position: relative;
+    width: 38px;
+    height: 22px;
+    overflow: hidden;
+    background: url(http://appdata.hungryapp.co.kr/images/main1404/common/icon_make.jpg) 0px 0px no-repeat;
+    background-position: left -44px;
+}
+
+/*--코스프레--*/
+
+.cnt_Costum {
+    position: relative;
+    width: 204px;
+    height: 261px;
+    padding: 0 0 0 0;
+    background: url('http://appdata.hungryapp.co.kr/images/main1404/common/costume_bg.png') no-repeat;
+}
+
+.cnt_Costum li {
+    position: relative;
+    display: inline-block;
+    width: 204px;
+    paddin: 0 0 0 0;
+    text-align: center;
+    font: normal 11px dotum;
+    color: #a8b7be;
+}
+
+.cnt_Costum li span {
+    position: relative;
+    display: inline-block;
+    width: 204px;
+    paddin: 0 0 0 0;
+    text-align: center;
+    font: bold 11px dotum;
+    color: #a8b7be;
+}
+
+.cnt_Costum li img {
+    padding: 0 0 0 0;
+    margin: 35px 0 5px 0;
+    border-top: solid 1px #8d8d8d;
+    border-left: solid 1px #8d8d8d;
+    border-right: solid 1px #000000;
+    border-bottom: solid 1px #000000;
+}

@@ -1,0 +1,623 @@
+.board-view {
+    width: 765px;
+    margin: 0 auto
+}
+
+.board-view h1,
+.board-view h2,
+.board-view h3,
+.board-view p,
+.board-view ul,
+.board-view li,
+.board-view em {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    list-style: none
+}
+
+.board-view button,
+.board-view label {
+    cursor: pointer
+}
+
+.board-view img {
+    border: 0
+}
+
+.board-view div.header {
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 15px 10px 15px 10px;
+    position: relative;
+    height: 65px
+}
+
+.board-view div.header h3 {
+    font-family: Gulim, êµ´ë¦¼;
+    font-size: 15px;
+    color: #333;
+    float: left;
+    margin-bottom: 15px
+}
+
+.board-view div.header li {
+    display: inline;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_li.gif) no-repeat right 50%;
+    padding-right: 10px;
+    margin-right: 10px
+}
+
+.board-view div.header ul.info01 {
+    position: absolute;
+    right: 0;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px
+}
+
+.board-view div.header ul.info01 em {
+    display: none
+}
+
+.board-view div.header li.last {
+    background: none
+}
+
+.board-view div.header div.info-area {
+    float: left;
+    margin-left: 15px
+}
+
+.board-view div.header ul.info01 li {
+    border: 0;
+    text-align: center;
+    padding-top: 15px;
+    height: 41px;
+    float: left
+}
+
+.board-view div.header ul.info01 li.like {
+    color: #ff4600;
+    margin-right: -10px;
+    width: 65px;
+    height: 66px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_header01.gif) no-repeat;
+}
+
+.board-view div.header ul.info01 li.re {
+    color: #009924;
+    width: 64px;
+    height: 66px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_header02.gif) no-repeat;
+}
+
+.board-view div.header ul.info02,
+.board-view div.header ul.info03 {
+    clear: left;
+    float: left;
+    font-family: Dotum, ë‹ì›€;
+    font-size: 12px
+}
+
+.board-view div.header ul.info02 li,
+.board-view div.header ul.info03 li {
+    padding-right: 10px;
+    margin-right: 10px;
+    color: #888
+}
+
+.board-view div.header ul.info02 {
+    margin-bottom: 5px
+}
+
+.board-view div.header ul.info03 li.user {
+    color: #444;
+    font-weight: bold
+}
+
+.board-view em.lv {
+    font-family: Tahoma;
+    font-size: 10px;
+    background: #25b948;
+    color: #fff;
+    padding: 1px 5px 1px 5px;
+    border-top: 1px solid #1f9b3c;
+    border-left: 1px solid #1f9b3c;
+    margin-right: 4px;
+    font-weight: normal
+}
+
+.board-view div.view {
+    padding: 20px 10px 20px 10px
+}
+
+.board-view div.contents {
+    font-family: Dotum, ë‹ì›€;
+    font-size: 12px;
+    color: #444;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.board-view div.view div.btn {
+    text-align: center;
+    margin-top: 50px
+}
+
+.board-view div.view button.like {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn08_1.gif) no-repeat;
+    width: 170px;
+    height: 61px;
+    border: 0
+}
+
+.board-view div.view button.like em {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn08_2.gif) no-repeat left 50%;
+    padding-left: 30px;
+    font-weight: bold;
+    color: #222;
+    font-family: Arial;
+    font-size: 20px
+}
+
+.board-view div.view button.hkin_ask {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn_hkin02.gif) no-repeat;
+    width: 170px;
+    height: 61px;
+    border: 0;
+    text-align: center;
+}
+
+.board-view div.view button.hkin_ask em {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.board-view div.view button.hkin_ask strong {
+    display: block;
+    color: #f35a26;
+    font-size: 16px;
+    font-family: Dotum;
+}
+
+.board-view div.view button.report {
+    width: 104px;
+    height: 12px;
+    font-size: 0;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn09.gif) no-repeat;
+    border: 0;
+    margin-top: 10px
+}
+
+.board-view div.share {
+    margin: 30px -10px 0 -10px;
+    background: #f9f9f9;
+    overflow: hidden;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 10px
+}
+
+.board-view div.share label.url {
+    float: left;
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #aaa;
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    padding-right: 5px
+}
+
+.board-view div.share label.url span {
+    position: relative;
+    top: 4px
+}
+
+.board-view div.share button.copy {
+    width: 51px;
+    height: 23px;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn10.gif) no-repeat;
+    border: 0;
+    font-size: 0
+}
+
+.board-view div.share ul {
+    float: right
+}
+
+.board-view div.share li {
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer
+}
+
+.board-view div.comment {
+    margin-top: 20px;
+    position: relative
+}
+
+.board-view div.comment ul.tabs {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #b5b5b5
+}
+
+.board-view div.comment ul.tabs li {
+    display: inline;
+    float: left;
+    font-family: Dotum, ë‹ì›€;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #b5b5b5;
+    border-bottom: 0;
+    margin-right: -1px;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer
+}
+
+.board-view div.comment ul.tabs li.active {
+    font-weight: bold;
+    color: #333;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_tab.gif) repeat-x bottom
+}
+
+.board-view div.comment p.total {
+    position: absolute;
+    right: 0;
+    top: 12px;
+    font-family: Dotum;
+    font-size: 12px;
+    color: #333
+}
+
+.board-view div.comment p.total strong {
+    color: #ff4600
+}
+
+.board-view div.comment ul.list {
+    clear: both;
+    font-family: Dotum, ë‹ì›€;
+    font-size: 12px
+}
+
+.board-view div.comment span.pf {
+    float: left
+}
+
+.board-view div.comment span.txt {
+    float: left;
+    width: 655px;
+    margin-left: 15px
+}
+
+.board-view div.comment strong.user {
+    color: #333;
+    float: left;
+    margin-bottom: 10px
+}
+
+.board-view div.comment span.text {
+    clear: left;
+    float: left;
+    line-height: 18px;
+    color: #555
+}
+
+.board-view div.comment span.btn {
+    clear: left;
+    float: left;
+    margin-top: 12px;
+}
+
+.board-view div.comment span.btn button {
+    border: 1px solid #c4c4c4;
+    font-family: Dotum, ë‹ì›€;
+    font-size: 11px;
+    padding: 5px 10px 5px 10px
+}
+
+.board-view div.comment span.btn button.re-open {
+    color: #ff4600;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn01_1.gif) no-repeat right 50% #fff;
+    padding-right: 20px
+}
+
+.board-view div.comment span.btn button.re-close {
+    color: #ff4600;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn01_2.gif) no-repeat right 50% #fff;
+    padding-right: 20px
+}
+
+.board-view div.comment span.btn button.like {
+    margin-left: 330px;
+    color: #3652ad;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn02.gif) no-repeat 10px 50% #fff;
+    padding-left: 28px
+}
+
+.board-view div.comment span.btn button.dislike {
+    color: #676767;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn03.gif) no-repeat 10px 50% #fff;
+    padding-left: 28px
+}
+
+.board-view div.comment span.time,
+.board-view div.comment span.report,
+.board-view div.comment span.etc {
+    float: left;
+    font-size: 11px;
+    color: #999;
+    margin-top: 5px
+}
+
+.board-view div.comment span.time {
+    clear: left;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_li.gif) no-repeat right 50%;
+    padding-right: 10px;
+    margin-right: 10px
+}
+
+.board-view div.comment span.etc {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_li.gif) no-repeat left 50%;
+    padding-left: 10px;
+    margin-left: 10px
+}
+
+.board-view div.re01 {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 10px 20px 10px;
+    position: relative;
+    min-height: 84px;
+    overflow: hidden
+}
+
+.board-view div.re02 {
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 10px 20px 110px;
+    position: relative;
+    min-height: 84px;
+    overflow: hidden;
+    background: #f9f9f9
+}
+
+.board-view div.comment strong.user {
+    font-size: 11px;
+    color: #333;
+    float: left;
+    font-family: Dotum
+}
+
+.board-view div.comment strong.user em.name {
+    color: #ff4600
+}
+
+.board-view div.comment button.emo {
+    width: 62px;
+    height: 12px;
+    border: 0;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn04.gif) no-repeat;
+    font-size: 0;
+    position: absolute;
+    right: 115px
+}
+
+.board-view div.comment label.secret {
+    font-size: 11px;
+    color: #999;
+    position: absolute;
+    right: 10px
+}
+
+.board-view div.comment label.secret input {
+    margin: -2px 2px 0 0;
+    padding: 0;
+    vertical-align: middle
+}
+
+.board-view div.re02 span.txt {
+    width: 545px
+}
+
+.board-view div.re02 span.txt button.like {
+    margin-left: 321px
+}
+
+.board-view div.re02 textarea.comment {
+    clear: left;
+    border: 1px solid #c4c4c4;
+    background: #fff;
+    width: 564px;
+    height: 33px;
+    padding: 10px;
+    resize: none
+}
+
+.board-view div.re02 button.send {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn05.gif) no-repeat;
+    border: 0;
+    font-size: 0;
+    width: 60px;
+    height: 55px;
+    position: absolute;
+    right: 10px
+}
+
+.board-view div.re01 textarea.comment {
+    clear: left;
+    border: 1px solid #c4c4c4;
+    background: #fff;
+    width: 664px;
+    height: 33px;
+    padding: 10px;
+    resize: none
+}
+
+.board-view div.re01 button.send {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn05.gif) no-repeat;
+    border: 0;
+    font-size: 0;
+    width: 60px;
+    height: 55px;
+    position: absolute;
+    right: 10px
+}
+
+@media \0screen {
+    .board-view div.comment label.secret,
+    .board-view div.comment button.emo {
+        margin-top: -20px
+    }
+}
+
+.board-view div.btm-btn {
+    text-align: right;
+    border-top: 1px solid #c4c4c4;
+    padding-top: 10px
+}
+
+.board-view div.page {
+    text-align: center;
+    padding: 10px 0 20px 0
+}
+
+.board-view div.btm-btn button {
+    width: 100px;
+    height: 35px;
+    border: 0;
+    font-size: 0
+}
+
+.board-view div.btm-btn button.list {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn06.gif) no-repeat
+}
+
+.board-view div.btm-btn button.write {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn07.gif) no-repeat
+}
+
+/* ì‹ ê³ í•˜ê¸° ë ˆì´ì–´íŒì—… */
+
+.board-view div.report {
+    width: 154px;
+    background: #fff;
+    border: 1px solid #666;
+    font-size: 11px;
+    font-family: Dotum, ë‹ì›€;
+    color: #333
+}
+
+.board-view div.report ul {
+    margin: 0;
+    padding: 0
+}
+
+.board-view div.report input {
+    vertical-align: middle;
+    margin: -1px 5px 0 0
+}
+
+.board-view div.report li {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #d6d6d6
+}
+
+.board-view div.report div.btn {
+    text-align: center;
+    padding: 10px
+}
+
+.board-view div.report div.btn button {
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn11.gif) no-repeat;
+    width: 42px;
+    height: 25px;
+    font-family: Dotum, ë‹ì›€;
+    font-size: 11px;
+    border: 0
+}
+
+/* /ì‹ ê³ í•˜ê¸° ë ˆì´ì–´íŒì—… */
+
+/* ëŒ“ê¸€ ìƒë‹¨ íƒ­ */
+
+div.comment141014 {
+    width: 765px;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    border-bottom: 1px solid #b5b5b5;
+    overflow: hidden;
+}
+
+div.comment141014 li {
+    cursor: pointer
+}
+
+div.comment141014 ul.tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left
+}
+
+div.comment141014 ul.tabs li {
+    display: inline;
+    float: left;
+    font: 12px Dotum, ë‹ì›€;
+    color: #666;
+    border: 1px solid #b5b5b5;
+    border-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    margin-right: 1px
+}
+
+div.comment141014 ul.tabs em {
+    color: #ff6400;
+    margin-left: 4px;
+    font-style: normal
+}
+
+div.comment141014 ul.tabs li.active {
+    font-weight: bold;
+    color: #333;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_tab.gif) repeat-x bottom
+}
+
+div.comment141014 p.Rmenu {
+    float: right;
+    margin: 10px 0 0 0;
+    font: 12px Dotum, ë‹ì›€;
+    color: #333;
+    border: 0;
+    text-align: right;
+    padding: 0;
+    list-style: none
+}
+
+div.comment141014 p.Rmenu span {
+    display: inline;
+    font-size: 11px;
+    color: #999;
+    margin: 0 10px 0 10px;
+    cursor: pointer
+}
+
+div.comment141014 p.Rmenu span.active {
+    font-weight: bold;
+    color: #444;
+    background: url(http://appdata.hungryapp.co.kr/images/main1408/skin/board/bg_btn01_2.gif) no-repeat 0 50%;
+    padding-left: 10px
+}
+
+/* ëŒ“ê¸€ ìƒë‹¨ íƒ­ */
+
+.hidBtn {
+    display: none;
+}
