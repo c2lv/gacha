@@ -611,6 +611,6 @@ function onReset(){
 // 픽업 선택시 배너 이미지 변경
 $(function(){
     $('#lineUp').change(function(){
-        $('.sim_banner img').attr('src', "../images/banner/banner"+$("#lineUp option:selected").data("idx")+".png");
+        $('.sim_banner img').attr('src', "images/banner/banner"+$("#lineUp option:selected").data("idx")+".png");
     })
 })
